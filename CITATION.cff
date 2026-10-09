@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite them as below."
+title: "Tracing public AI commitments in corporate annual reports: replication materials"
+authors:
+  - family-names: Yesmagambetov
+    given-names: Issabay
+    orcid: "https://orcid.org/0009-0000-4277-9524"
+  - family-names: Arynova
+    given-names: Zulfiya A.
+    orcid: "https://orcid.org/0000-0003-0123-6667"
+  - family-names: Błoński
+    given-names: Paweł
+    orcid: "https://orcid.org/0000-0003-4764-6995"
+license: CC-BY-4.0
+version: 0.9.0
+date-released: 2026-10-09

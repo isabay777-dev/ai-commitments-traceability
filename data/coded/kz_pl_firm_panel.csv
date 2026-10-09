@@ -1,0 +1,558 @@
+file,country,firm,year,chars,ai_sentences,board_size,n_independent,bios,dig,dig_narrow,cdo_exec,state,foreign_parent,total_assets_raw,currency,sector_label,sector_group,ai_any,log_assets
+PL_ING_Bank_Śląski_2025.txt,PL,ING_Bank_Śląski,2025,5052466,48,7,3,yes,1,0,yes,NA,yes,282025000000.0,PLN,banking,finance,1,26.3653
+PL_PZU_2023.txt,PL,PZU,2023,4752003,53,9,8,partial,0,0,yes,yes,no,467893000000.0,PLN,insurance,finance,1,26.8715
+PL_ING_Bank_Śląski_2021.txt,PL,ING_Bank_Śląski,2021,4735475,9,7,3,yes,1,0,yes,NA,yes,201654200000.0,PLN,banking,finance,1,26.0298
+PL_PZU_2025.txt,PL,PZU,2025,3695651,55,11,9,yes,1,0,yes,yes,no,535483000000.0,PLN,insurance,finance,1,27.0064
+KZ_Национальная_компания_Қазақстан_темір_жолы_2025.txt,KZ,Национальная_компания_Қазақстан_темір_жолы,2025,2843566,2,NA,NA,no,NA,NA,NA,NA,NA,,NA,transport,other,1,
+PL_Tauron_Polska_Energia_2025.txt,PL,Tauron_Polska_Energia,2025,2571082,4,9,8,yes,0,0,NA,yes,no,48717000000.0,PLN,utilities,resources_energy,1,24.6093
+PL_Allegro_eu_2025.txt,PL,Allegro_eu,2025,2565276,54,10,6,yes,2,1,NA,NA,NA,19721200000.0,PLN,e-commerce platform,tech_telecom,1,23.705
+KZ_Казахтелеком_2025.txt,KZ,Казахтелеком,2025,2494797,174,7,3,yes,1,1,NA,yes,no,1404675000000.0,KZT,telecom,tech_telecom,1,27.9708
+KZ_Kazatomprom_2025.txt,KZ,Kazatomprom,2025,2463709,12,7,3,yes,0,0,yes,yes,no,4027236000000.0,KZT,mining,resources_energy,1,29.0241
+KZ_KazTransOil_2023.txt,KZ,KazTransOil,2023,2453289,0,6,3,yes,0,0,NA,yes,no,1358382110000.0,KZT,transport,other,0,27.9373
+PL_mBank_2023.txt,PL,mBank,2023,2448553,5,8,4,yes,1,0,yes,NA,yes,226980516000.0,PLN,banking,finance,1,26.1481
+PL_mBank_2024.txt,PL,mBank,2024,2420101,15,8,4,yes,1,0,yes,NA,yes,245957400000.0,PLN,banking,finance,1,26.2284
+PL_Bank_Millennium_2023.txt,PL,Bank_Millennium,2023,2379961,7,12,5,yes,1,0,yes,NA,yes,125520004000.0,PLN,banking,finance,1,25.5557
+KZ_KazTransOil_2025.txt,KZ,KazTransOil,2025,2376272,6,6,2,yes,1,0,NA,yes,no,1551388199000.0,KZT,transport,other,1,28.0702
+KZ_КазТрансОйл_2022.txt,KZ,КазТрансОйл,2022,2371917,0,6,3,yes,1,0,no,yes,no,1235417960000.0,KZT,transport,other,0,27.8424
+KZ_Самрук_Энерго_2024.txt,KZ,Самрук_Энерго,2024,2346999,8,7,3,partial,1,1,yes,yes,no,1414286399000.0,KZT,utilities,resources_energy,1,27.9776
+KZ_Самрук_Энерго_2025.txt,KZ,Самрук_Энерго,2025,2317350,38,7,3,yes,0,0,yes,yes,no,1823896040000.0,KZT,utilities,resources_energy,1,28.232
+PL_Bank_Millennium_2024.txt,PL,Bank_Millennium,2024,2314793,6,12,5,yes,0,0,yes,no,yes,139152000000.0,PLN,banking,finance,1,25.6588
+KZ_Банк_Развития_Казахстана_2024.txt,KZ,Банк_Развития_Казахстана,2024,2254048,0,5,2,partial,0,0,NA,yes,no,5648208726000.0,KZT,banking,finance,0,29.3624
+KZ_KazMunayGas_2023.txt,KZ,KazMunayGas,2023,2249957,2,9,5,yes,1,0,NA,yes,no,16942712000000.0,KZT,oil&gas,resources_energy,1,30.4609
+PL_mBank_2025.txt,PL,mBank,2025,2245364,44,10,5,yes,1,0,yes,NA,yes,280253227000.0,PLN,banking,finance,1,26.359
+PL_Erste_Bank_Polska_2021.txt,PL,Erste_Bank_Polska,2021,2198864,4,10,5,yes,3,2,yes,NA,yes,244876340000.0,PLN,banking,finance,1,26.224
+KZ_КазТрансОйл_2024.txt,KZ,КазТрансОйл,2024,2184460,0,7,3,yes,1,0,NA,yes,no,1380081152000.0,KZT,transport,other,0,27.9532
+PL_Allegro_eu_2023.txt,PL,Allegro_eu,2023,2181289,36,11,5,yes,4,1,no,no,NA,18538803000.0,PLN,online marketplace,other,1,23.6431
+KZ_Фонд_национального_благосостояния_Самрук_Қазына_2023.txt,KZ,Фонд_национального_благосостояния_Самрук_Қазына,2023,2167229,3,7,3,partial,0,0,NA,yes,no,36926344000000.0,KZT,other finance,finance,1,31.2399
+PL_Bank_Millennium_2025.txt,PL,Bank_Millennium,2025,2150670,6,12,7,yes,1,0,yes,no,yes,155673331000.0,PLN,banking,finance,1,25.771
+KZ_Halyk_Bank_2025.txt,KZ,Halyk_Bank,2025,2093291,31,7,5,yes,2,1,yes,no,no,20908456000000.0,KZT,banking,finance,1,30.6712
+PL_ORLEN_2025.txt,PL,ORLEN,2025,2093215,2,9,7,yes,0,0,yes,yes,no,265048000000.0,PLN,oil&gas,resources_energy,1,26.3032
+KZ_Казатомпром_2024.txt,KZ,Казатомпром,2024,2082754,1,7,3,yes,1,0,NA,yes,no,3821881000000.0,KZT,mining,resources_energy,1,28.9718
+PL_BNP_Paribas_Bank_Polska_2023.txt,PL,BNP_Paribas_Bank_Polska,2023,1995177,14,12,5,yes,4,0,yes,NA,yes,161026000000.0,PLN,banking,finance,1,25.8048
+KZ_KazTransOil_2021.txt,KZ,KazTransOil,2021,1978006,0,6,3,yes,1,0,NA,yes,no,983162521000.0,KZT,transport,other,0,27.614
+PL_Allegro_eu_2021.txt,PL,Allegro_eu,2021,1960561,13,8,2,yes,2,1,yes,no,NA,16869877000.0,PLN,e-commerce platform,tech_telecom,1,23.5488
+KZ_Kazatomprom_2021.txt,KZ,Kazatomprom,2021,1946544,8,8,4,yes,0,0,yes,yes,no,1951504000000.0,KZT,mining,resources_energy,1,28.2996
+PL_ORLEN_2021.txt,PL,ORLEN,2021,1913080,0,9,6,yes,0,0,yes,yes,no,106754000000.0,PLN,oil&gas,resources_energy,0,25.3938
+PL_BNP_Paribas_Bank_Polska_2022.txt,PL,BNP_Paribas_Bank_Polska,2022,1909405,5,12,5,yes,1,0,yes,NA,yes,151517069000.0,PLN,banking,finance,1,25.744
+PL_mBank_2021.txt,PL,mBank,2021,1902812,8,8,4,yes,1,0,yes,NA,yes,199538885000.0,PLN,banking,finance,1,26.0193
+KZ_Kazatomprom_2023.txt,KZ,Kazatomprom,2023,1887830,0,7,3,yes,1,0,NA,yes,no,2599292000000.0,KZT,mining,resources_energy,0,28.5863
+PL_Bank_Millennium_2022.txt,PL,Bank_Millennium,2022,1870346,5,12,5,yes,0,0,yes,NA,yes,110941969000.0,PLN,banking,finance,1,25.4323
+PL_mBank_2022.txt,PL,mBank,2022,1849030,6,8,4,no,NA,NA,yes,NA,yes,209892113000.0,PLN,banking,finance,1,26.0699
+KZ_Казахтелеком_2021.txt,KZ,Казахтелеком,2021,1835841,1,9,4,yes,1,0,yes,yes,no,1234585295000.0,KZT,telecom,tech_telecom,1,27.8418
+PL_Jastrzębska_Spółka_Węglowa_2025.txt,PL,Jastrzębska_Spółka_Węglowa,2025,1825828,0,11,6,yes,0,0,NA,yes,no,13452600000.0,PLN,mining,resources_energy,0,23.3224
+PL_KGHM_2025.txt,PL,KGHM,2025,1824284,4,10,6,partial,0,0,NA,yes,no,58240000000.0,PLN,mining,resources_energy,1,24.7878
+KZ_Фонд_национального_благосостояния_Самрук_Қазына_2025.txt,KZ,Фонд_национального_благосостояния_Самрук_Қазына,2025,1795555,41,8,4,yes,0,0,yes,yes,no,44242913000000.0,KZT,other finance,finance,1,31.4207
+KZ_Банк_Развития_Казахстана_2023.txt,KZ,Банк_Развития_Казахстана,2023,1785119,1,6,2,yes,0,0,NA,yes,no,4310684840000.0,KZT,banking,finance,1,29.0921
+PL_KRUK_2024.txt,PL,KRUK,2024,1730062,19,7,5,yes,1,0,yes,no,no,11648879000.0,PLN,other finance,finance,1,23.1785
+PL_LPP_2025.txt,PL,LPP,2025,1726794,9,5,2,yes,0,0,yes,no,NA,19183000000.0,PLN,retail,other,1,23.6773
+KZ_КазАгроФинанс_2024.txt,KZ,КазАгроФинанс,2024,1711116,3,6,2,yes,0,0,yes,yes,no,644247205000.0,KZT,other finance,finance,1,27.1913
+KZ_Казпочта_2024.txt,KZ,Казпочта,2024,1710606,11,6,3,yes,2,1,NA,yes,no,403052697000.0,KZT,transport,other,1,26.7223
+KZ_Solidcore_Resources_plc_2024.txt,KZ,Solidcore_Resources_plc,2024,1709630,0,7,5,yes,0,0,NA,NA,NA,2069000000.0,USD,mining,resources_energy,0,21.4503
+PL_XTB_2024.txt,PL,XTB,2024,1701367,7,5,4,yes,0,0,yes,no,yes,6645632000.0,PLN,other finance,finance,1,22.6172
+PL_Bank_Millennium_2021.txt,PL,Bank_Millennium,2021,1690857,4,12,5,yes,1,0,yes,NA,yes,103913900000.0,PLN,banking,finance,1,25.3668
+PL_PZU_2021.txt,PL,PZU,2021,1675693,24,11,7,yes,0,0,yes,yes,no,402129000000.0,PLN,insurance,finance,1,26.72
+PL_Pepco_Group_2025.txt,PL,Pepco_Group,2025,1643112,1,5,3,yes,1,0,yes,no,yes,3037000000.0,EUR,retail,other,1,21.8341
+PL_Orange_Polska_2021.txt,PL,Orange_Polska,2021,1629597,18,14,5,no,NA,NA,yes,NA,yes,26157000000.0,PLN,telecom,tech_telecom,1,23.9874
+PL_Żabka_Group_2025.txt,PL,Żabka_Group,2025,1592325,15,7,3,yes,0,0,yes,no,yes,19513699000.0,PLN,retail,other,1,23.6944
+KZ_Отбасы_банк_2025.txt,KZ,Отбасы_банк,2025,1585903,14,5,3,yes,0,0,yes,yes,no,5199339903000.0,KZT,banking,finance,1,29.2796
+KZ_Фонд_национального_благосостояния_Самрук_Қазына_2022.txt,KZ,Фонд_национального_благосостояния_Самрук_Қазына,2022,1569845,2,6,3,partial,0,0,NA,yes,no,33574995000000.0,KZT,other finance,finance,1,31.1448
+KZ_Фонд_национального_благосостояния_Самрук_Қазына_2024.txt,KZ,Фонд_национального_благосостояния_Самрук_Қазына,2024,1541826,11,7,4,partial,0,0,NA,yes,no,41099656000000.0,KZT,other finance,finance,1,31.347
+KZ_Air_Astana_2024.txt,KZ,Air_Astana,2024,1536196,4,9,5,yes,1,0,yes,no,no,952063811000.0,KZT,transport,other,1,27.5819
+KZ_ForteBank_2023.txt,KZ,ForteBank,2023,1526490,1,6,2,yes,0,0,NA,no,no,3253175000000.0,KZT,banking,finance,1,28.8107
+KZ_Halyk_Bank_2024.txt,KZ,Halyk_Bank,2024,1523036,10,8,6,no,NA,NA,yes,no,no,18548414000000.0,KZT,banking,finance,1,30.5514
+KZ_Казпочта_2023.txt,KZ,Казпочта,2023,1495143,6,6,3,yes,2,1,no,yes,no,328102000000.0,KZT,transport,other,1,26.5166
+KZ_Air_Astana_2023.txt,KZ,Air_Astana,2023,1488091,1,9,4,yes,0,0,yes,yes,no,1362444000.0,USD,transport,other,1,21.0325
+PL_Tauron_Polska_Energia_2023.txt,PL,Tauron_Polska_Energia,2023,1480555,7,7,7,partial,0,0,NA,yes,no,49798000000.0,PLN,utilities,resources_energy,1,24.6312
+KZ_KEGOC_2021.txt,KZ,KEGOC,2021,1467524,0,7,3,yes,1,0,yes,yes,no,1093217334000.0,KZT,utilities,resources_energy,0,27.7201
+KZ_КазАгроФинанс_2025.txt,KZ,КазАгроФинанс,2025,1451412,10,6,2,yes,1,0,yes,yes,no,854538157000.0,KZT,other finance,finance,1,27.4738
+KZ_ForteBank_2021.txt,KZ,ForteBank,2021,1443938,2,6,2,yes,0,0,NA,no,no,2425789000000.0,KZT,banking,finance,1,28.5172
+PL_PKO_Bank_Polski_2025.txt,PL,PKO_Bank_Polski,2025,1386786,24,10,9,yes,2,0,yes,yes,no,583079000000.0,PLN,banking,finance,1,27.0916
+PL_Neuca_2024.txt,PL,Neuca,2024,1370777,3,6,NA,yes,0,0,yes,no,no,5510182000.0,PLN,retail,other,1,22.4299
+PL_KGHM_2023.txt,PL,KGHM,2023,1359560,2,10,6,partial,0,0,yes,yes,no,51383000000.0,PLN,mining,resources_energy,1,24.6626
+KZ_Halyk_Bank_2023.txt,KZ,Halyk_Bank,2023,1350631,3,8,6,yes,1,1,yes,no,no,15494368000000.0,KZT,banking,finance,1,30.3715
+KZ_Казпочта_2022.txt,KZ,Казпочта,2022,1342771,0,6,3,yes,1,1,yes,yes,no,311019480000.0,KZT,transport,other,0,26.4631
+PL_Bank_Handlowy_2024.txt,PL,Bank_Handlowy,2024,1297216,7,8,3,yes,1,0,yes,no,yes,72478103000.0,PLN,banking,finance,1,25.0066
+PL_Asseco_Poland_2025.txt,PL,Asseco_Poland,2025,1276177,71,8,3,yes,5,2,yes,no,NA,23100000000.0,PLN,IT/software,tech_telecom,1,23.8631
+KZ_Отбасы_банк_2024.txt,KZ,Отбасы_банк,2024,1274209,10,5,3,yes,0,0,yes,yes,no,4279621314000.0,KZT,banking,finance,1,29.0849
+KZ_Air_Astana_2025.txt,KZ,Air_Astana,2025,1271791,262,NA,NA,no,NA,NA,NA,yes,no,,NA,transport,other,1,
+KZ_Казатомпром_2022.txt,KZ,Казатомпром,2022,1271439,0,7,3,yes,1,0,yes,yes,no,2222533000000.0,KZT,mining,resources_energy,0,28.4297
+KZ_Отбасы_банк_2022.txt,KZ,Отбасы_банк,2022,1229735,2,7,3,yes,0,0,yes,yes,no,3440021590000.0,KZT,banking,finance,1,28.8665
+PL_PKO_Bank_Polski_2023.txt,PL,PKO_Bank_Polski,2023,1228641,12,10,8,yes,0,0,yes,yes,no,501516000000.0,PLN,banking,finance,1,26.9409
+KZ_Отбасы_банк_2023.txt,KZ,Отбасы_банк,2023,1222208,3,5,3,yes,0,0,yes,yes,no,3996059390000.0,KZT,banking,finance,1,29.0163
+KZ_Национальный_инвестиционный_холдинг_Байтерек_2021.txt,KZ,Национальный_инвестиционный_холдинг_Байтерек,2021,1202881,0,10,3,yes,1,0,yes,yes,no,9869875361000.0,KZT,other finance,finance,0,29.9205
+KZ_Частная_компания_BI_Development_Ltd_2024.txt,KZ,Частная_компания_BI_Development_Ltd,2024,1192445,3,3,1,yes,0,0,no,no,no,1202604382000.0,KZT,construction,other,1,27.8155
+PL_Comp_2023.txt,PL,Comp,2023,1190066,0,6,NA,no,NA,NA,NA,NA,NA,918497000.0,PLN,IT/software,tech_telecom,0,20.6382
+KZ_Halyk_Bank_2022.txt,KZ,Halyk_Bank,2022,1187021,1,7,5,yes,0,0,yes,no,no,14311372000000.0,KZT,banking,finance,1,30.2921
+KZ_Halyk_Bank_2021.txt,KZ,Halyk_Bank,2021,1177297,1,7,5,yes,1,1,NA,no,no,12091370000000.0,KZT,banking,finance,1,30.1235
+KZ_Самрук_Энерго_2022.txt,KZ,Самрук_Энерго,2022,1152961,0,7,3,yes,0,0,yes,yes,no,965846026000.0,KZT,utilities,resources_energy,0,27.5963
+KZ_Частная_компания_BI_Development_Ltd_2025.txt,KZ,Частная_компания_BI_Development_Ltd,2025,1149792,2,3,1,yes,0,0,no,no,no,1974122609000.0,KZT,construction,other,1,28.3111
+KZ_Казпочта_2025.txt,KZ,Казпочта,2025,1144054,5,NA,NA,no,NA,NA,NA,yes,no,,KZT,transport,other,1,
+KZ_Alatau_City_Bank_2025.txt,KZ,Alatau_City_Bank,2025,1132179,3,5,3,yes,1,0,no,no,no,3852639000000.0,KZT,banking,finance,1,28.9798
+PL_Dom_Development_2025.txt,PL,Dom_Development,2025,1129594,0,8,3,partial,0,0,NA,NA,yes,5981342000.0,PLN,real estate,other,0,22.5119
+KZ_KEGOC_2025.txt,KZ,KEGOC,2025,1123802,24,7,3,yes,0,0,yes,yes,no,1137021000000.0,KZT,utilities,resources_energy,1,27.7594
+KZ_Национальный_инвестиционный_холдинг_Байтерек_2022.txt,KZ,Национальный_инвестиционный_холдинг_Байтерек,2022,1114804,0,10,3,yes,0,0,NA,yes,no,12232131677000.0,KZT,other finance,finance,0,30.1351
+KZ_Транснациональная_компания_Казхром_2023.txt,KZ,Транснациональная_компания_Казхром,2023,1097486,0,5,2,yes,0,0,no,NA,yes,1699303310000.0,KZT,manufacturing,other,0,28.1612
+KZ_Аграрная_кредитная_корпорация_2022.txt,KZ,Аграрная_кредитная_корпорация,2022,1075819,2,7,3,yes,1,0,NA,yes,no,1013590518000.0,KZT,other finance,finance,1,27.6445
+KZ_ForteBank_2022.txt,KZ,ForteBank,2022,1073964,0,6,2,yes,0,0,NA,no,no,2789386000000.0,KZT,banking,finance,0,28.6568
+KZ_Национальная_компания_QazaqGaz_2022.txt,KZ,Национальная_компания_QazaqGaz,2022,1067632,0,6,3,yes,1,0,NA,yes,no,3169367138000.0,KZT,utilities,resources_energy,0,28.7846
+KZ_Национальная_компания_QazaqGaz_2025.txt,KZ,Национальная_компания_QazaqGaz,2025,1061786,28,8,4,yes,1,0,NA,yes,no,4666325000000.0,KZT,oil&gas,resources_energy,1,29.1714
+KZ_Национальная_компания_Қазақстан_темір_жолы_2021.txt,KZ,Национальная_компания_Қазақстан_темір_жолы,2021,1059886,0,9,4,yes,0,0,yes,yes,no,,KZT,transport,other,0,
+KZ_Национальный_инвестиционный_холдинг_Байтерек_2023.txt,KZ,Национальный_инвестиционный_холдинг_Байтерек,2023,1052876,0,10,3,yes,0,0,NA,yes,no,13620419993000.0,KZT,other finance,finance,0,30.2426
+KZ_Kaspi_kz_2023.txt,KZ,Kaspi_kz,2023,1042817,16,6,3,yes,0,0,NA,no,no,6821932000000.0,KZT,other finance,finance,1,29.5512
+KZ_Национальная_компания_Қазақстан_темір_жолы_2024.txt,KZ,Национальная_компания_Қазақстан_темір_жолы,2024,1041806,6,9,4,yes,1,0,NA,yes,no,,KZT,transport,other,1,
+PL_Comp_2022.txt,PL,Comp,2022,1032362,0,6,NA,no,NA,NA,NA,no,no,1042748000.0,PLN,IT/software,tech_telecom,0,20.7651
+KZ_Самрук_Энерго_2021.txt,KZ,Самрук_Энерго,2021,1027577,0,5,2,partial,0,0,NA,yes,no,939820011000.0,KZT,utilities,resources_energy,0,27.569
+KZ_Фонд_развития_промышленности_2023.txt,KZ,Фонд_развития_промышленности,2023,1020078,0,6,3,yes,0,0,NA,yes,no,1702419366000.0,KZT,other finance,finance,0,28.1631
+PL_Dom_Development_2024.txt,PL,Dom_Development,2024,1008921,0,7,3,yes,0,0,NA,no,yes,5288518000.0,PLN,real estate,other,0,22.3888
+KZ_Национальный_инвестиционный_холдинг_Байтерек_2025.txt,KZ,Национальный_инвестиционный_холдинг_Байтерек,2025,1005794,13,9,3,yes,0,0,NA,yes,no,19047636988000.0,KZT,other finance,finance,1,30.578
+KZ_Самрук_Энерго_2023.txt,KZ,Самрук_Энерго,2023,1004609,1,7,3,yes,1,1,yes,yes,no,1088095831000.0,KZT,utilities,resources_energy,1,27.7155
+KZ_Kaspi_kz_2025.txt,KZ,Kaspi_kz,2025,982228,16,6,4,yes,1,0,NA,no,no,11081748000000.0,KZT,other finance,finance,1,30.0363
+KZ_Национальный_инвестиционный_холдинг_Байтерек_2024.txt,KZ,Национальный_инвестиционный_холдинг_Байтерек,2024,982105,4,10,3,yes,0,0,NA,yes,no,14438236555000.0,KZT,other finance,finance,1,30.3009
+PL_Budimex_2025.txt,PL,Budimex,2025,981180,6,9,2,partial,0,0,NA,no,yes,8155329000.0,PLN,construction,other,1,22.8219
+PL_Boryszew_2025.txt,PL,Boryszew,2025,955010,2,6,NA,yes,0,0,NA,no,no,3430600000.0,PLN,manufacturing,other,1,21.956
+KZ_Kcell_2022.txt,KZ,Kcell,2022,934699,3,7,4,yes,1,1,yes,yes,no,272416000000.0,KZT,telecom,tech_telecom,1,26.3306
+KZ_Фонд_развития_промышленности_2022.txt,KZ,Фонд_развития_промышленности,2022,933044,0,5,2,yes,0,0,NA,yes,no,1356517045000.0,KZT,other finance,finance,0,27.9359
+KZ_Транснациональная_компания_Казхром_2022.txt,KZ,Транснациональная_компания_Казхром,2022,923933,0,5,2,yes,0,0,no,NA,yes,1538028830000.0,KZT,manufacturing,other,0,28.0615
+KZ_Транснациональная_компания_Казхром_2021.txt,KZ,Транснациональная_компания_Казхром,2021,916443,0,5,2,partial,0,0,NA,NA,yes,1669742011000.0,KZT,manufacturing,other,0,28.1437
+PL_BNP_Paribas_Bank_Polska_2021.txt,PL,BNP_Paribas_Bank_Polska,2021,915562,4,12,5,yes,2,1,yes,NA,yes,131777481000.0,PLN,banking,finance,1,25.6044
+KZ_Национальная_компания_Қазақстан_темір_жолы_2023.txt,KZ,Национальная_компания_Қазақстан_темір_жолы,2023,913201,1,8,3,yes,1,0,NA,yes,no,,KZT,transport,other,1,
+KZ_ForteBank_2024.txt,KZ,ForteBank,2024,911835,0,4,2,yes,0,0,NA,no,no,4090936000000.0,KZT,banking,finance,0,29.0398
+PL_Pepco_Group_2024.txt,PL,Pepco_Group,2024,902825,0,10,4,yes,2,0,NA,no,yes,3997740000.0,EUR,retail,other,0,22.109
+KZ_Kaspi_kz_2024.txt,KZ,Kaspi_kz,2024,892548,7,6,4,yes,1,0,NA,no,no,8377101000000.0,KZT,other finance,finance,1,29.7565
+KZ_Продкорпорация_2022.txt,KZ,Продкорпорация,2022,890853,0,7,4,yes,0,0,NA,yes,no,268580113000.0,KZT,wholesale,other,0,26.3164
+KZ_КазАгроФинанс_2021.txt,KZ,КазАгроФинанс,2021,870850,0,NA,NA,no,NA,NA,NA,yes,NA,,NA,NA,NA,0,
+KZ_КазАзот_2025.txt,KZ,КазАзот,2025,864555,0,5,2,yes,0,0,no,NA,no,214960000000.0,KZT,manufacturing,other,0,26.0937
+PL_Grupa_Kęty_2024.txt,PL,Grupa_Kęty,2024,859006,0,6,6,yes,0,0,NA,no,no,4221000000.0,PLN,manufacturing,other,0,22.1633
+KZ_Фонд_развития_промышленности_2024.txt,KZ,Фонд_развития_промышленности,2024,856649,0,7,3,yes,1,0,NA,yes,no,2358160590000.0,KZT,other finance,finance,0,28.4889
+KZ_Евразийский_банк_2025.txt,KZ,Евразийский_банк,2025,844911,2,4,2,yes,1,1,NA,no,no,2986361793000.0,KZT,banking,finance,1,28.7251
+KZ_КазАзот_2024.txt,KZ,КазАзот,2024,832450,0,5,2,yes,0,0,no,NA,NA,,KZT,manufacturing,other,0,
+KZ_АК_Алтыналмас_2022.txt,KZ,АК_Алтыналмас,2022,829663,1,4,2,yes,0,0,NA,no,NA,749478361000.0,KZT,mining,resources_energy,1,27.3426
+KZ_Freedom_Life_2024.txt,KZ,Freedom_Life,2024,826747,0,3,1,partial,0,0,NA,no,NA,242742000000.0,KZT,insurance,finance,0,26.2153
+KZ_Фонд_развития_промышленности_2021.txt,KZ,Фонд_развития_промышленности,2021,824672,0,7,3,yes,1,0,NA,yes,no,889527699000.0,KZT,other finance,finance,0,27.514
+PL_Unibep_2024.txt,PL,Unibep,2024,820163,2,6,3,no,NA,NA,NA,no,no,1975487000.0,PLN,construction,other,1,21.4041
+KZ_Freedom_Life_2025.txt,KZ,Freedom_Life,2025,809362,1,3,1,partial,0,0,NA,no,NA,296378000000.0,KZT,insurance,finance,1,26.4149
+KZ_КазАгроФинанс_2023.txt,KZ,КазАгроФинанс,2023,800500,0,6,2,yes,0,0,yes,yes,no,523303451000.0,KZT,other finance,finance,0,26.9834
+KZ_Евразийский_банк_2021.txt,KZ,Евразийский_банк,2021,795539,1,5,3,yes,0,0,NA,no,no,1413344071000.0,KZT,banking,finance,1,27.977
+PL_KGHM_2021.txt,PL,KGHM,2021,792359,1,9,4,yes,1,1,NA,yes,no,48027000000.0,PLN,mining,resources_energy,1,24.595
+KZ_Air_Astana_2022.txt,KZ,Air_Astana,2022,790852,0,9,4,yes,0,0,NA,yes,no,1250875000.0,USD,transport,other,0,20.9471
+KZ_Евразийский_банк_2023.txt,KZ,Евразийский_банк,2023,789914,1,4,2,yes,0,0,yes,no,no,2696806803000.0,KZT,banking,finance,1,28.6231
+KZ_KMF_Банк_2021.txt,KZ,KMF_Банк,2021,789506,0,5,1,yes,0,0,NA,no,no,182925128000.0,KZT,other finance,finance,0,25.9323
+KZ_СевКазЭнерго_2023.txt,KZ,СевКазЭнерго,2023,782760,0,NA,NA,partial,0,0,no,NA,no,127368000000.0,KZT,utilities,resources_energy,0,25.5703
+KZ_Национальная_компания_Қазақстан_темір_жолы_2022.txt,KZ,Национальная_компания_Қазақстан_темір_жолы,2022,780175,0,9,3,yes,1,0,yes,yes,no,,KZT,transport,other,0,
+KZ_Bereke_Bank_2025.txt,KZ,Bereke_Bank,2025,777276,3,3,2,yes,1,0,NA,NA,yes,2786600000000.0,KZT,banking,finance,1,28.6558
+PL_Cyfrowy_Polsat_2023.txt,PL,Cyfrowy_Polsat,2023,776966,0,8,2,partial,0,0,NA,no,NA,19732900000.0,PLN,telecom,tech_telecom,0,23.7056
+PL_Boryszew_2024.txt,PL,Boryszew,2024,775536,1,6,NA,yes,0,0,no,no,no,3633600000.0,PLN,manufacturing,other,1,22.0135
+KZ_Евразийский_банк_2024.txt,KZ,Евразийский_банк,2024,773882,0,4,2,yes,1,1,NA,no,no,3123337591000.0,KZT,banking,finance,0,28.7699
+KZ_Kcell_2021.txt,KZ,Kcell,2021,772694,1,9,5,yes,2,0,yes,yes,no,239716000000.0,KZT,telecom,tech_telecom,1,26.2027
+KZ_Казахстанская_Жилищная_Компания_2024.txt,KZ,Казахстанская_Жилищная_Компания,2024,768967,5,6,2,yes,1,1,no,yes,no,1573235695000.0,KZT,other finance,finance,1,28.0842
+KZ_Национальная_компания_QazaqGaz_2024.txt,KZ,Национальная_компания_QazaqGaz,2024,768761,7,8,4,yes,1,0,NA,yes,no,,KZT,oil&gas,resources_energy,1,
+PL_Wirtualna_Polska_Holding_2025.txt,PL,Wirtualna_Polska_Holding,2025,760656,21,6,4,yes,1,0,yes,no,no,3841873000.0,PLN,online travel,other,1,22.0692
+KZ_СевКазЭнерго_2024.txt,KZ,СевКазЭнерго,2024,757832,0,6,2,partial,0,0,no,no,no,122175000000.0,KZT,utilities,resources_energy,0,25.5287
+KZ_Евразийский_банк_2022.txt,KZ,Евразийский_банк,2022,757259,1,5,3,yes,0,0,yes,no,no,2356180650000.0,KZT,banking,finance,1,28.4881
+PL_Newag_2025.txt,PL,Newag,2025,755199,0,5,2,yes,0,0,yes,no,no,2105150000.0,PLN,manufacturing,other,0,21.4677
+KZ_Фонд_национального_благосостояния_Самрук_Қазына_2021.txt,KZ,Фонд_национального_благосостояния_Самрук_Қазына,2021,753778,0,8,4,partial,0,0,yes,yes,no,30310000000000.0,KZT,other finance,finance,0,31.0425
+KZ_Отбасы_банк_2021.txt,KZ,Отбасы_банк,2021,748452,0,7,3,yes,0,0,yes,yes,no,2804119983000.0,KZT,banking,finance,0,28.6621
+PL_Grupa_Pracuj_2025.txt,PL,Grupa_Pracuj,2025,742426,32,7,5,yes,1,0,NA,no,no,1040721000.0,PLN,IT/software,tech_telecom,1,20.7632
+KZ_КазАзот_2022.txt,KZ,КазАзот,2022,735383,0,5,2,partial,0,0,NA,NA,no,,KZT,manufacturing,other,0,
+PL_KRUK_2022.txt,PL,KRUK,2022,735287,2,7,5,yes,0,0,yes,NA,NA,7681082000.0,PLN,other finance,finance,1,22.762
+KZ_СевКазЭнерго_2021.txt,KZ,СевКазЭнерго,2021,733447,0,NA,NA,partial,0,0,no,NA,no,137476000000.0,KZT,utilities,resources_energy,0,25.6467
+KZ_Kcell_2025.txt,KZ,Kcell,2025,731277,6,7,4,yes,2,0,yes,yes,no,526150000000.0,KZT,telecom,tech_telecom,1,26.9889
+KZ_Air_Astana_2021.txt,KZ,Air_Astana,2021,729908,0,9,4,yes,0,0,yes,yes,no,1102193000.0,USD,transport,other,0,20.8206
+KZ_Казахстанская_Жилищная_Компания_2022.txt,KZ,Казахстанская_Жилищная_Компания,2022,724981,3,5,2,yes,0,0,yes,yes,no,1449148441000.0,KZT,other finance,finance,1,28.002
+PL_CD_PROJEKT_2025.txt,PL,CD_PROJEKT,2025,724491,6,5,3,partial,0,0,yes,no,no,3503320000.0,PLN,IT/software,tech_telecom,1,21.977
+KZ_МРЭК_2024.txt,KZ,МРЭК,2024,721991,0,6,2,yes,0,0,NA,no,no,,KZT,utilities,resources_energy,0,
+KZ_КазАзот_2023.txt,KZ,КазАзот,2023,715200,0,5,2,partial,0,0,NA,NA,no,,KZT,manufacturing,other,0,
+KZ_Bereke_Bank_2024.txt,KZ,Bereke_Bank,2024,714993,2,4,3,yes,0,0,NA,no,yes,2443000000000.0,KZT,banking,finance,1,28.5242
+PL_Comp_2024.txt,PL,Comp,2024,704464,1,6,6,yes,0,0,NA,no,no,1005914000.0,PLN,IT/software,tech_telecom,1,20.7292
+KZ_Kaspi_kz_2022.txt,KZ,Kaspi_kz,2022,703469,6,6,3,yes,1,0,yes,no,no,5121647000000.0,KZT,other finance,finance,1,29.2645
+KZ_СевКазЭнерго_2022.txt,KZ,СевКазЭнерго,2022,696321,0,NA,NA,partial,0,0,no,NA,no,127335000000.0,KZT,utilities,resources_energy,0,25.5701
+PL_Grupa_Pracuj_2024.txt,PL,Grupa_Pracuj,2024,686931,9,7,4,yes,0,0,yes,no,no,1043792000.0,PLN,IT/software,tech_telecom,1,20.7661
+KZ_Freedom_Life_2023.txt,KZ,Freedom_Life,2023,682134,0,4,2,partial,0,0,NA,no,NA,131544000000.0,KZT,insurance,finance,0,25.6026
+KZ_Kaspi_kz_2021.txt,KZ,Kaspi_kz,2021,681346,10,6,3,yes,1,0,NA,no,NA,3607924000000.0,KZT,other finance,finance,1,28.9142
+KZ_Kcell_2023.txt,KZ,Kcell,2023,675937,1,7,4,yes,3,1,yes,yes,no,391260000000.0,KZT,telecom,tech_telecom,1,26.6926
+KZ_KMF_Банк_2024.txt,KZ,KMF_Банк,2024,673309,0,6,2,yes,1,0,NA,no,no,336300000000.0,KZT,other finance,finance,0,26.5413
+KZ_KMF_Банк_2023.txt,KZ,KMF_Банк,2023,664921,0,5,1,yes,1,0,NA,no,no,288300000000.0,KZT,other finance,finance,0,26.3873
+KZ_МФО_Тойота_Файнаншл_Сервисез_Казахстан_2025.txt,KZ,МФО_Тойота_Файнаншл_Сервисез_Казахстан,2025,662210,0,3,NA,yes,0,0,no,no,yes,320869767000.0,KZT,other finance,finance,0,26.4943
+KZ_Казпочта_2021.txt,KZ,Казпочта,2021,661078,1,6,3,yes,0,0,NA,yes,no,,KZT,transport,other,1,
+KZ_Фонд_развития_промышленности_2025.txt,KZ,Фонд_развития_промышленности,2025,652879,13,6,3,yes,1,0,NA,yes,no,3458753282000.0,KZT,other finance,finance,1,28.8719
+KZ_Teniz_Capital_Investment_Banking_2025.txt,KZ,Teniz_Capital_Investment_Banking,2025,650956,0,4,2,yes,1,0,NA,no,no,15257962000.0,KZT,other finance,finance,0,23.4484
+KZ_МФО_Азиатский_Кредитный_Фонд_2025.txt,KZ,МФО_Азиатский_Кредитный_Фонд,2025,646955,0,7,6,yes,3,0,NA,NA,yes,52341430000.0,KZT,other finance,finance,0,24.6811
+PL_ASBISc_Enterprises_2025.txt,PL,ASBISc_Enterprises,2025,638945,9,8,3,yes,0,0,yes,no,NA,1499808000.0,USD,IT distribution,tech_telecom,1,21.1286
+PL_Bank_Handlowy_2022.txt,PL,Bank_Handlowy,2022,638755,4,8,3,yes,1,0,yes,no,yes,69801402000.0,PLN,banking,finance,1,24.9689
+KZ_АК_Алтыналмас_2025.txt,KZ,АК_Алтыналмас,2025,632561,4,4,2,yes,0,0,yes,NA,NA,1082076076000.0,KZT,mining,resources_energy,1,27.7099
+PL_Erste_Bank_Polska_2024.txt,PL,Erste_Bank_Polska,2024,630137,7,NA,NA,no,NA,NA,NA,NA,yes,304373900000.0,PLN,banking,finance,1,26.4415
+PL_Bank_Handlowy_2021.txt,PL,Bank_Handlowy,2021,622214,0,8,3,yes,2,1,yes,no,yes,61862800000.0,PLN,banking,finance,0,24.8482
+KZ_Qazaqstan_Investment_Corporation_2023.txt,KZ,Qazaqstan_Investment_Corporation,2023,619374,2,5,3,yes,0,0,NA,yes,no,267311939000.0,KZT,other finance,finance,1,26.3117
+PL_11_bit_studios_2023.txt,PL,11_bit_studios,2023,614314,0,5,5,yes,2,0,NA,NA,NA,258328148.0,PLN,IT/software,tech_telecom,0,19.3697
+PL_Bank_Handlowy_2023.txt,PL,Bank_Handlowy,2023,609652,4,7,3,yes,1,0,yes,no,yes,73392520000.0,PLN,banking,finance,1,25.0191
+PL_Boryszew_2023.txt,PL,Boryszew,2023,607427,0,6,2,partial,0,0,NA,no,no,3758300000.0,PLN,manufacturing,other,0,22.0472
+KZ_KMF_Банк_2025.txt,KZ,KMF_Банк,2025,606205,2,6,2,yes,0,0,NA,no,no,403900000000.0,KZT,banking,finance,1,26.7244
+KZ_KMF_Банк_2022.txt,KZ,KMF_Банк,2022,601873,0,5,1,yes,1,0,yes,no,no,233600000000.0,KZT,other finance,finance,0,26.1769
+PL_11_bit_studios_2022.txt,PL,11_bit_studios,2022,599036,0,5,5,yes,3,0,NA,no,no,244197441.0,PLN,IT/software,tech_telecom,0,19.3135
+PL_Pepco_Group_2021.txt,PL,Pepco_Group,2021,596338,0,10,5,yes,2,0,NA,no,yes,3581776000.0,EUR,retail,other,0,21.9991
+KZ_Транстелеком_2021.txt,KZ,Транстелеком,2021,588827,3,6,3,partial,1,0,yes,yes,no,198903000000.0,KZT,telecom,tech_telecom,1,26.0161
+KZ_Казахстанская_Жилищная_Компания_2025.txt,KZ,Казахстанская_Жилищная_Компания,2025,588199,8,6,2,yes,1,1,yes,yes,no,1871756270000.0,KZT,other finance,finance,1,28.2579
+KZ_Транстелеком_2022.txt,KZ,Транстелеком,2022,587216,3,NA,NA,no,NA,NA,NA,no,no,220037000000.0,KZT,telecom,tech_telecom,1,26.1171
+KZ_МФО_Азиатский_Кредитный_Фонд_2024.txt,KZ,МФО_Азиатский_Кредитный_Фонд,2024,586054,0,7,6,yes,1,1,NA,NA,yes,40301503000.0,KZT,other finance,finance,0,24.4197
+KZ_Home_Credit_Bank_2021.txt,KZ,Home_Credit_Bank,2021,586024,0,4,2,yes,0,0,NA,NA,yes,475366799000.0,KZT,banking,finance,0,26.8874
+PL_Inter_Cars_2024.txt,PL,Inter_Cars,2024,585635,1,5,2,partial,0,0,NA,no,no,10765893000.0,PLN,wholesale,other,1,23.0996
+PL_KRUK_2021.txt,PL,KRUK,2021,582806,2,7,5,yes,0,0,yes,no,no,5909400000.0,PLN,other finance,finance,1,22.4998
+PL_Unibep_2021.txt,PL,Unibep,2021,580705,0,7,4,partial,0,0,NA,no,no,1528336000.0,PLN,construction,other,0,21.1474
+KZ_Продкорпорация_2021.txt,KZ,Продкорпорация,2021,574062,0,7,4,yes,0,0,NA,yes,no,159715519000.0,KZT,grain wholesale,other,0,25.7967
+KZ_АК_Алтыналмас_2021.txt,KZ,АК_Алтыналмас,2021,571641,2,4,2,yes,0,0,NA,no,yes,741104018000.0,KZT,mining,resources_energy,1,27.3314
+KZ_Фонд_Даму_2025.txt,KZ,Фонд_Даму,2025,570906,7,7,3,yes,0,0,yes,yes,no,526360641000.0,KZT,other finance,finance,1,26.9893
+KZ_КазАгроФинанс_2022.txt,KZ,КазАгроФинанс,2022,563581,1,6,2,yes,0,0,yes,yes,no,485259000000.0,KZT,other finance,finance,1,26.9079
+PL_KRUK_2023.txt,PL,KRUK,2023,561741,1,7,5,yes,0,0,yes,no,no,9928505000.0,PLN,other finance,finance,1,23.0187
+PL_Auto_Partner_2025.txt,PL,Auto_Partner,2025,558826,0,5,4,partial,0,0,NA,no,no,2330602000.0,PLN,auto parts wholesale,other,0,21.5694
+KZ_Home_Credit_Bank_2024.txt,KZ,Home_Credit_Bank,2024,555356,1,3,1,yes,0,0,no,no,yes,1029884007000.0,KZT,banking,finance,1,27.6605
+PL_Auto_Partner_2024.txt,PL,Auto_Partner,2024,553406,0,5,4,partial,0,0,yes,no,no,2025927000.0,PLN,retail,other,0,21.4293
+KZ_Казахстанская_Жилищная_Компания_2021.txt,KZ,Казахстанская_Жилищная_Компания,2021,552551,0,8,4,yes,0,0,NA,yes,no,1424636554000.0,KZT,other finance,finance,0,27.9849
+KZ_Транстелеком_2025.txt,KZ,Транстелеком,2025,550582,23,7,3,no,NA,NA,NA,no,no,124057467000.0,KZT,telecom,tech_telecom,1,25.544
+KZ_Home_Credit_Bank_2022.txt,KZ,Home_Credit_Bank,2022,550005,2,4,2,yes,0,0,no,no,no,542689538000.0,KZT,banking,finance,1,27.0198
+KZ_Teniz_Capital_Investment_Banking_2024.txt,KZ,Teniz_Capital_Investment_Banking,2024,547483,0,3,1,yes,1,0,NA,no,no,9872301000.0,KZT,other finance,finance,0,23.013
+KZ_Home_Credit_Bank_2023.txt,KZ,Home_Credit_Bank,2023,532488,2,5,2,yes,0,0,NA,no,NA,792951520000.0,KZT,banking,finance,1,27.399
+KZ_ForteBank_2025.txt,KZ,ForteBank,2025,532438,4,5,2,yes,1,1,yes,no,no,6102100000000.0,KZT,banking,finance,1,29.4397
+KZ_Национальная_компания_QazaqGaz_2023.txt,KZ,Национальная_компания_QazaqGaz,2023,524836,0,8,4,yes,1,0,NA,yes,no,,KZT,oil&gas,resources_energy,0,
+KZ_Каражыра_2021.txt,KZ,Каражыра,2021,523138,0,3,1,yes,0,0,NA,no,no,51941763000.0,KZT,mining,resources_energy,0,24.6734
+PL_Modivo_2023.txt,PL,Modivo,2023,522282,0,NA,NA,no,NA,NA,NA,no,no,7346000000.0,PLN,retail,other,0,22.7174
+KZ_Kcell_2024.txt,KZ,Kcell,2024,520955,1,7,4,yes,3,0,yes,yes,no,424574000000.0,KZT,telecom,tech_telecom,1,26.7744
+KZ_МРЭК_2025.txt,KZ,МРЭК,2025,519351,12,7,3,yes,0,0,NA,no,no,,KZT,utilities,resources_energy,1,
+PL_Alior_Bank_2021.txt,PL,Alior_Bank,2021,518792,4,8,4,yes,0,0,yes,NA,no,83048372000.0,PLN,banking,finance,1,25.1427
+KZ_Freedom_Life_2022.txt,KZ,Freedom_Life,2022,516815,0,4,2,partial,0,0,NA,no,NA,107095000000.0,KZT,insurance,finance,0,25.397
+PL_Grupa_Pracuj_2023.txt,PL,Grupa_Pracuj,2023,511920,5,7,4,yes,0,0,NA,no,no,1028709000.0,PLN,IT/software,tech_telecom,1,20.7516
+KZ_Институт_космической_техники_и_технологий_2025.txt,KZ,Институт_космической_техники_и_технологий,2025,509466,19,3,1,partial,0,0,NA,yes,no,1943107000.0,KZT,IT/software,tech_telecom,1,21.3876
+KZ_Standard_Life_2023.txt,KZ,Standard_Life,2023,504351,0,5,2,yes,1,1,NA,no,no,47687023000.0,KZT,insurance,finance,0,24.5879
+KZ_Фридом_Финанс_2025.txt,KZ,Фридом_Финанс,2025,501067,0,3,1,yes,0,0,yes,no,yes,205551752000.0,KZT,other finance,finance,0,26.049
+PL_Modivo_2022.txt,PL,Modivo,2022,500582,1,NA,NA,partial,0,0,NA,no,no,,NA,retail,other,1,
+KZ_Институт_космической_техники_и_технологий_2024.txt,KZ,Институт_космической_техники_и_технологий,2024,499749,15,3,1,yes,1,0,no,yes,no,1195992000.0,KZT,IT/software,tech_telecom,1,20.9022
+PL_Dino_Polska_2025.txt,PL,Dino_Polska,2025,499696,0,5,2,yes,0,0,NA,no,no,15171280000.0,PLN,retail,other,0,23.4427
+KZ_Банк_Развития_Казахстана_2022.txt,KZ,Банк_Развития_Казахстана,2022,493629,0,NA,NA,no,NA,NA,NA,yes,no,3942910480000.0,KZT,banking,finance,0,29.0029
+KZ_Атамекен_Агро_2022.txt,KZ,Атамекен_Агро,2022,493301,0,5,3,yes,0,0,NA,no,no,111896169000.0,KZT,agriculture,other,0,25.4408
+KZ_Standard_Life_2025.txt,KZ,Standard_Life,2025,489371,0,6,2,yes,1,0,NA,no,no,81116646000.0,KZT,insurance,finance,0,25.1192
+KZ_Bank_RBK_2024.txt,KZ,Bank_RBK,2024,489138,0,4,2,yes,0,0,NA,no,no,2452419000000.0,KZT,banking,finance,0,28.5281
+KZ_Bank_RBK_2023.txt,KZ,Bank_RBK,2023,487140,0,4,2,yes,0,0,NA,no,no,2044268000000.0,KZT,banking,finance,0,28.3461
+PL_Alior_Bank_2023.txt,PL,Alior_Bank,2023,483663,5,7,4,yes,2,1,yes,NA,no,90134134000.0,PLN,banking,finance,1,25.2246
+PL_Unibep_2022.txt,PL,Unibep,2022,482776,0,7,4,partial,0,0,NA,no,no,1813203000.0,PLN,construction,other,0,21.3184
+KZ_Продкорпорация_2023.txt,KZ,Продкорпорация,2023,481637,0,7,4,yes,0,0,NA,yes,no,275715238000.0,KZT,wholesale,other,0,26.3426
+PL_Alior_Bank_2022.txt,PL,Alior_Bank,2022,477615,5,8,5,yes,1,0,yes,NA,no,82877172000.0,PLN,banking,finance,1,25.1406
+KZ_Фридом_Финанс_2024.txt,KZ,Фридом_Финанс,2024,477318,0,3,1,yes,0,0,NA,no,yes,285665667000.0,KZT,other finance,finance,0,26.3781
+KZ_Продкорпорация_2024.txt,KZ,Продкорпорация,2024,473073,0,6,3,yes,0,0,NA,yes,no,270814282000.0,KZT,wholesale,other,0,26.3247
+KZ_Транстелеком_2023.txt,KZ,Транстелеком,2023,473066,2,7,3,no,NA,NA,NA,no,no,190161684000.0,KZT,telecom,tech_telecom,1,25.9711
+PL_Grupa_Pracuj_2022.txt,PL,Grupa_Pracuj,2022,469694,1,6,3,partial,0,0,NA,no,no,1022673000.0,PLN,IT/software,tech_telecom,1,20.7457
+KZ_МРЭК_2023.txt,KZ,МРЭК,2023,465738,0,6,2,yes,0,0,NA,no,no,,KZT,utilities,resources_energy,0,
+KZ_Qazaqstan_Investment_Corporation_2024.txt,KZ,Qazaqstan_Investment_Corporation,2024,463421,3,6,3,yes,0,0,NA,yes,no,317627427000.0,KZT,other finance,finance,1,26.4841
+KZ_Атамекен_Агро_2021.txt,KZ,Атамекен_Агро,2021,461963,0,6,3,yes,0,0,NA,NA,NA,,KZT,agriculture,other,0,
+PL_Asseco_Business_Solutions_2025.txt,PL,Asseco_Business_Solutions,2025,453251,12,6,2,partial,0,0,yes,NA,NA,553072000.0,PLN,IT/software,tech_telecom,1,20.131
+PL_Diagnostyka_2025.txt,PL,Diagnostyka,2025,452266,14,8,2,yes,2,1,yes,no,no,2069538000.0,PLN,healthcare,other,1,21.4506
+KZ_Каражыра_2023.txt,KZ,Каражыра,2023,448006,0,3,1,yes,0,0,no,no,no,67812069000.0,KZT,mining,resources_energy,0,24.94
+KZ_Алтай_Ресорсиз_2024.txt,KZ,Алтай_Ресорсиз,2024,443492,0,3,1,no,NA,NA,no,NA,no,75256777000.0,KZT,oil&gas,resources_energy,0,25.0442
+KZ_Каражыра_2024.txt,KZ,Каражыра,2024,440459,0,3,1,yes,0,0,NA,no,no,81027893000.0,KZT,mining,resources_energy,0,25.1181
+KZ_Атамекен_Агро_2023.txt,KZ,Атамекен_Агро,2023,435552,0,5,3,yes,0,0,NA,no,NA,107794763000.0,KZT,agriculture,other,0,25.4035
+KZ_Qazaqstan_Investment_Corporation_2022.txt,KZ,Qazaqstan_Investment_Corporation,2022,429854,2,5,2,yes,0,0,NA,yes,no,230732160000.0,KZT,other finance,finance,1,26.1645
+KZ_Qazaqstan_Investment_Corporation_2025.txt,KZ,Qazaqstan_Investment_Corporation,2025,428978,1,6,3,yes,0,0,NA,yes,no,1283506415000.0,KZT,other finance,finance,1,27.8806
+KZ_Bank_CenterCredit_2021.txt,KZ,Bank_CenterCredit,2021,426591,1,NA,2,partial,0,0,yes,no,no,2079304000000.0,KZT,banking,finance,1,28.3631
+KZ_МРЭК_2021.txt,KZ,МРЭК,2021,426394,0,6,2,yes,0,0,NA,no,no,,KZT,utilities,resources_energy,0,
+KZ_Каражыра_2025.txt,KZ,Каражыра,2025,420075,0,3,1,yes,0,0,NA,no,no,64118788000.0,KZT,mining,resources_energy,0,24.884
+KZ_Казахстанская_Жилищная_Компания_2023.txt,KZ,Казахстанская_Жилищная_Компания,2023,418118,1,5,2,yes,1,1,yes,yes,no,1486195017000.0,KZT,other finance,finance,1,28.0272
+PL_Unibep_2023.txt,PL,Unibep,2023,408686,0,7,4,partial,0,0,NA,no,no,1807317000.0,PLN,construction,other,0,21.3151
+KZ_Каражыра_2022.txt,KZ,Каражыра,2022,408324,0,3,1,yes,0,0,NA,no,no,64063453000.0,KZT,mining,resources_energy,0,24.8831
+PL_Polenergia_2024.txt,PL,Polenergia,2024,405453,0,NA,NA,no,NA,NA,NA,no,NA,,PLN,utilities,resources_energy,0,
+PL_11_bit_studios_2021.txt,PL,11_bit_studios,2021,405003,0,5,5,yes,2,0,yes,no,no,219512964.0,PLN,IT/software,tech_telecom,0,19.2069
+KZ_Sinoasia_B_R_2025.txt,KZ,Sinoasia_B_R,2025,404638,1,4,2,no,NA,NA,NA,no,no,64845442000.0,KZT,insurance,finance,1,24.8953
+KZ_АК_Алтыналмас_2024.txt,KZ,АК_Алтыналмас,2024,403041,1,4,2,yes,0,0,yes,no,NA,784751021000.0,KZT,mining,resources_energy,1,27.3886
+KZ_Национальные_информационные_технологии_2025.txt,KZ,Национальные_информационные_технологии,2025,395526,19,6,3,yes,4,2,NA,yes,no,220574238000.0,KZT,IT/software,tech_telecom,1,26.1195
+PL_Dino_Polska_2023.txt,PL,Dino_Polska,2023,393437,0,4,NA,partial,0,0,NA,no,no,10377715000.0,PLN,retail,other,0,23.0629
+KZ_Qazaqstan_Investment_Corporation_2021.txt,KZ,Qazaqstan_Investment_Corporation,2021,390625,2,5,2,yes,0,0,NA,yes,no,214227226000.0,KZT,other finance,finance,1,26.0903
+KZ_Транснациональная_компания_Казхром_2025.txt,KZ,Транснациональная_компания_Казхром,2025,383786,3,5,2,partial,0,0,no,NA,yes,,KZT,manufacturing,other,1,
+KZ_Фонд_Даму_2023.txt,KZ,Фонд_Даму,2023,379951,0,7,3,yes,0,0,yes,yes,no,422135502000.0,KZT,other finance,finance,0,26.7686
+KZ_МФО_ОнлайнКазФинанс_2025.txt,KZ,МФО_ОнлайнКазФинанс,2025,379153,0,3,1,yes,0,0,no,NA,no,151961150000.0,KZT,other finance,finance,0,25.7469
+KZ_Интергаз_Центральная_Азия_2024.txt,KZ,Интергаз_Центральная_Азия,2024,379131,0,6,2,yes,0,0,NA,yes,no,,KZT,transport,other,0,
+PL_CD_PROJEKT_2023.txt,PL,CD_PROJEKT,2023,374478,2,5,2,partial,0,0,yes,NA,NA,2613438000.0,PLN,IT/software,tech_telecom,1,21.6839
+KZ_Standard_Life_2022.txt,KZ,Standard_Life,2022,370527,0,5,2,yes,1,0,NA,no,no,48727078000.0,KZT,insurance,finance,0,24.6095
+PL_Boryszew_2022.txt,PL,Boryszew,2022,370422,0,5,NA,partial,0,0,NA,no,no,3985700000.0,PLN,manufacturing,other,0,22.106
+KZ_Каспий_нефть_2021.txt,KZ,Каспий_нефть,2021,370210,1,3,NA,no,NA,NA,NA,no,no,168678568000.0,KZT,oil&gas,resources_energy,1,25.8513
+PL_Boryszew_2021.txt,PL,Boryszew,2021,368414,0,5,2,partial,0,0,NA,no,no,4220600000.0000005,PLN,manufacturing,other,0,22.1632
+KZ_BASS_Gold_2024.txt,KZ,BASS_Gold,2024,366788,1,NA,NA,no,NA,NA,no,NA,NA,,KZT,mining,resources_energy,1,
+KZ_Интергаз_Центральная_Азия_2025.txt,KZ,Интергаз_Центральная_Азия,2025,360865,2,6,2,yes,0,0,NA,yes,no,,KZT,transport,other,1,
+KZ_Каспий_нефть_2022.txt,KZ,Каспий_нефть,2022,354447,2,3,NA,no,NA,NA,no,no,no,75083310000.0,KZT,oil&gas,resources_energy,1,25.0419
+KZ_BRBAPK_2025.txt,KZ,BRBAPK,2025,354037,2,3,1,yes,0,0,no,no,no,8331400000.0,KZT,agriculture,other,1,22.8433
+PL_Polenergia_2025.txt,PL,Polenergia,2025,350412,0,NA,NA,no,NA,NA,NA,no,NA,,PLN,utilities,resources_energy,0,
+KZ_Аскер_Мунай_Эксплорэйшн_2024.txt,KZ,Аскер_Мунай_Эксплорэйшн,2024,350173,0,NA,1,no,NA,NA,NA,no,yes,32172445000.0,KZT,oil&gas,resources_energy,0,24.1944
+PL_Apator_2022.txt,PL,Apator,2022,350129,0,7,2,partial,0,0,NA,NA,NA,,PLN,manufacturing,other,0,
+PL_Dom_Development_2021.txt,PL,Dom_Development,2021,344833,0,7,3,partial,0,0,NA,NA,yes,3877643000.0,PLN,construction,other,0,22.0785
+KZ_Bank_CenterCredit_2023.txt,KZ,Bank_CenterCredit,2023,344363,0,6,3,yes,0,0,NA,no,no,5291039000000.0,KZT,banking,finance,0,29.297
+PL_CD_PROJEKT_2021.txt,PL,CD_PROJEKT,2021,342974,0,5,2,no,NA,NA,yes,no,no,2158735000.0,PLN,IT/software,tech_telecom,0,21.4928
+KZ_Аграрная_кредитная_корпорация_2025.txt,KZ,Аграрная_кредитная_корпорация,2025,341456,2,7,3,yes,1,0,NA,yes,no,2514539062000.0,KZT,other finance,finance,1,28.5531
+PL_Asseco_Business_Solutions_2024.txt,PL,Asseco_Business_Solutions,2024,340401,9,6,NA,no,NA,NA,NA,NA,NA,502773000.0,PLN,IT/software,tech_telecom,1,20.0356
+PL_Dino_Polska_2021.txt,PL,Dino_Polska,2021,336652,0,5,2,partial,0,0,NA,no,no,7168531000.0,PLN,retail,other,0,22.693
+PL_Grupa_Pracuj_2021.txt,PL,Grupa_Pracuj,2021,335682,5,6,3,no,NA,NA,NA,no,no,499705000.0,PLN,online recruitment,other,1,20.0295
+PL_Polenergia_2021.txt,PL,Polenergia,2021,332921,0,8,2,partial,0,0,NA,no,NA,,PLN,utilities,resources_energy,0,
+PL_Dom_Development_2022.txt,PL,Dom_Development,2022,332903,0,7,3,partial,0,0,NA,no,yes,4111956000.0,PLN,construction,other,0,22.1372
+KZ_Фонд_Даму_2022.txt,KZ,Фонд_Даму,2022,332701,0,7,3,yes,0,0,yes,yes,no,427480978000.0,KZT,other finance,finance,0,26.7812
+KZ_ЛОГИКОМ_2023.txt,KZ,ЛОГИКОМ,2023,329860,11,3,1,partial,1,0,NA,NA,yes,54785019000.0,KZT,manufacturing,other,1,24.7267
+KZ_МРЭК_2022.txt,KZ,МРЭК,2022,323907,0,6,2,yes,0,0,NA,no,no,,KZT,utilities,resources_energy,0,
+KZ_KazAzot_2021.txt,KZ,KazAzot,2021,322358,0,5,2,yes,0,0,no,NA,no,,KZT,manufacturing,other,0,
+PL_Polenergia_2023.txt,PL,Polenergia,2023,322297,0,NA,NA,no,NA,NA,NA,no,NA,,PLN,utilities,resources_energy,0,
+KZ_Банк_ЦентрКредит_2024.txt,KZ,Банк_ЦентрКредит,2024,321454,6,6,2,yes,0,0,NA,no,no,7067889000000.0,KZT,banking,finance,1,29.5866
+KZ_Аграрная_кредитная_корпорация_2024.txt,KZ,Аграрная_кредитная_корпорация,2024,320742,3,7,3,yes,1,0,NA,yes,no,1991240430000.0,KZT,other finance,finance,1,28.3198
+KZ_Атамекен_Агро_2024.txt,KZ,Атамекен_Агро,2024,320110,0,5,2,no,NA,NA,NA,no,no,119615616000.0,KZT,agriculture,other,0,25.5075
+KZ_ЛОГИКОМ_2024.txt,KZ,ЛОГИКОМ,2024,318729,14,3,1,partial,1,0,NA,NA,yes,56933649000.0,KZT,manufacturing,other,1,24.7652
+KZ_Bereke_Bank_2021.txt,KZ,Bereke_Bank,2021,318521,3,10,3,yes,1,0,NA,NA,yes,4191356000000.0,KZT,banking,finance,1,29.064
+KZ_Каспий_нефть_2023.txt,KZ,Каспий_нефть,2023,317485,1,3,NA,no,NA,NA,no,no,no,84551711000.0,KZT,oil&gas,resources_energy,1,25.1606
+KZ_BRBAPK_2024.txt,KZ,BRBAPK,2024,313189,2,3,1,yes,0,0,no,no,no,8254700000.000001,KZT,agriculture,other,1,22.834
+KZ_Аграрная_кредитная_корпорация_2021.txt,KZ,Аграрная_кредитная_корпорация,2021,309939,0,6,3,partial,0,0,NA,yes,no,806484978000.0,KZT,other finance,finance,0,27.416
+KZ_АК_Алтыналмас_2023.txt,KZ,АК_Алтыналмас,2023,309144,0,4,2,yes,0,0,NA,NA,NA,731849706000.0,KZT,mining,resources_energy,0,27.3188
+KZ_Alatau_City_Bank_2022.txt,KZ,Alatau_City_Bank,2022,306279,6,3,1,yes,0,0,NA,no,yes,3123000000000.0,KZT,banking,finance,1,28.7698
+PL_Selvita_2024.txt,PL,Selvita,2024,305732,22,6,3,no,NA,NA,NA,no,no,642089000.0,PLN,biotech research,tech_telecom,1,20.2802
+KZ_Оптово_розничное_предприятие_торговли_2024.txt,KZ,Оптово_розничное_предприятие_торговли,2024,303731,0,3,1,yes,0,0,no,no,yes,25685603000.0,KZT,real estate,other,0,23.9692
+KZ_Матен_Петролеум_2025.txt,KZ,Матен_Петролеум,2025,302054,0,3,1,no,NA,NA,no,NA,yes,251859000000.0,KZT,oil&gas,resources_energy,0,26.2521
+KZ_Мангистаумунайгаз_2021.txt,KZ,Мангистаумунайгаз,2021,299181,0,6,2,partial,0,0,NA,yes,NA,519216876000.0,KZT,oil&gas,resources_energy,0,26.9756
+KZ_QMobile_2024.txt,KZ,QMobile,2024,298619,1,NA,NA,partial,0,0,NA,NA,no,33884850000.0,KZT,telecom,tech_telecom,1,24.2462
+KZ_МФО_Арнур_Кредит_2025.txt,KZ,МФО_Арнур_Кредит,2025,294841,0,7,2,yes,1,0,yes,no,no,79467000000.0,KZT,other finance,finance,0,25.0986
+KZ_Оптово_розничное_предприятие_торговли_2025.txt,KZ,Оптово_розничное_предприятие_торговли,2025,292752,0,3,1,partial,0,0,no,NA,yes,25607192000.0,KZT,real estate,other,0,23.9661
+PL_Polenergia_2022.txt,PL,Polenergia,2022,291923,0,NA,NA,no,NA,NA,NA,no,NA,,PLN,utilities,resources_energy,0,
+KZ_Матен_Петролеум_2024.txt,KZ,Матен_Петролеум,2024,291200,0,3,1,partial,0,0,no,NA,yes,246159000000.0,KZT,oil&gas,resources_energy,0,26.2292
+KZ_АлмаТел_Казахстан_2025.txt,KZ,АлмаТел_Казахстан,2025,285709,7,5,2,yes,0,0,NA,NA,NA,30789918000.0,KZT,telecom,tech_telecom,1,24.1505
+KZ_Sozak_Oil_and_Gas_2024.txt,KZ,Sozak_Oil_and_Gas,2024,284982,0,5,3,yes,0,0,no,no,yes,68524624000.0,KZT,oil&gas,resources_energy,0,24.9505
+KZ_Шубарколь_Премиум_2023.txt,KZ,Шубарколь_Премиум,2023,280608,1,3,2,partial,0,0,NA,no,no,78097592000.0,KZT,mining,resources_energy,1,25.0812
+KZ_Транстелеком_2024.txt,KZ,Транстелеком,2024,280440,2,7,3,no,NA,NA,NA,yes,no,124296321000.0,KZT,telecom,tech_telecom,1,25.5459
+KZ_Аграрная_кредитная_корпорация_2023.txt,KZ,Аграрная_кредитная_корпорация,2023,280341,1,7,3,yes,1,0,NA,yes,no,1072750661000.0,KZT,other finance,finance,1,27.7012
+KZ_МФО_ЮНИКРЕДО_2024.txt,KZ,МФО_ЮНИКРЕДО,2024,277324,0,NA,NA,no,NA,NA,no,no,no,3923090000.0,KZT,other finance,finance,0,22.0901
+KZ_BASS_Gold_2022.txt,KZ,BASS_Gold,2022,275323,0,NA,NA,no,NA,NA,NA,NA,NA,992011000.0,KZT,mining,resources_energy,0,20.7152
+PL_Comp_2025.txt,PL,Comp,2025,275321,1,7,NA,no,NA,NA,NA,no,no,,PLN,IT/software,tech_telecom,1,
+KZ_Продкорпорация_2025.txt,KZ,Продкорпорация,2025,271028,0,5,2,yes,0,0,NA,yes,no,278187313000.0,KZT,wholesale,other,0,26.3516
+KZ_Шубарколь_Премиум_2022.txt,KZ,Шубарколь_Премиум,2022,270027,0,3,2,partial,0,0,no,no,no,69827366000.0,KZT,mining,resources_energy,0,24.9693
+PL_Asseco_Poland_2023.txt,PL,Asseco_Poland,2023,270027,0,NA,NA,no,NA,NA,NA,NA,NA,,NA,NA,NA,0,
+KZ_АстанаГаз_КМГ_2022.txt,KZ,АстанаГаз_КМГ,2022,268342,0,4,1,yes,0,0,NA,yes,no,255349000000.0,KZT,construction,other,0,26.2659
+KZ_Alatau_City_Bank_2023.txt,KZ,Alatau_City_Bank,2023,267897,0,NA,NA,partial,0,0,NA,no,no,3152000000000.0,KZT,banking,finance,0,28.7791
+KZ_Шубарколь_Премиум_2021.txt,KZ,Шубарколь_Премиум,2021,266200,0,3,2,yes,0,0,no,no,no,26428621000.0,KZT,mining,resources_energy,0,23.9977
+KZ_Майкубен_Вест_2021.txt,KZ,Майкубен_Вест,2021,264590,0,3,1,yes,0,0,no,no,no,,KZT,mining,resources_energy,0,
+PL_cyber_Folks_2022.txt,PL,cyber_Folks,2022,264503,8,5,3,yes,3,2,no,no,no,865600000.0,PLN,IT/software,tech_telecom,1,20.5789
+KZ_Фридом_Банк_Казахстан_2024.txt,KZ,Фридом_Банк_Казахстан,2024,264446,3,5,2,yes,0,0,NA,NA,NA,2542500000000.0,KZT,banking,finance,1,28.5642
+KZ_Матен_Петролеум_2021.txt,KZ,Матен_Петролеум,2021,263823,0,3,1,yes,0,0,no,NA,yes,189391411000.0,KZT,oil&gas,resources_energy,0,25.9671
+KZ_Sinoasia_B_R_2024.txt,KZ,Sinoasia_B_R,2024,260906,0,NA,NA,no,NA,NA,NA,NA,no,48129920000.0,KZT,insurance,finance,0,24.5972
+KZ_BASS_Gold_2025.txt,KZ,BASS_Gold,2025,260423,2,NA,NA,no,NA,NA,NA,no,no,14905640000.0,KZT,mining,resources_energy,1,23.425
+PL_Creotech_Instruments_2022.txt,PL,Creotech_Instruments,2022,258976,3,5,NA,no,NA,NA,NA,NA,no,76682000.0,PLN,manufacturing,other,1,18.1552
+KZ_Матен_Петролеум_2022.txt,KZ,Матен_Петролеум,2022,257709,0,3,1,yes,0,0,no,no,yes,212884000000.0,KZT,oil&gas,resources_energy,0,26.084
+PL_cyber_Folks_2021.txt,PL,cyber_Folks,2021,256918,0,5,3,yes,3,1,NA,no,no,579276000.0,PLN,IT/software,tech_telecom,0,20.1773
+KZ_АлмаТел_Казахстан_2024.txt,KZ,АлмаТел_Казахстан,2024,255894,2,5,2,yes,0,0,no,NA,no,31696567000.0,KZT,telecom,tech_telecom,1,24.1795
+PL_Elektrotim_2025.txt,PL,Elektrotim,2025,255637,1,5,3,no,NA,NA,NA,NA,NA,319909000.0,PLN,construction,other,1,19.5835
+KZ_Alatau_City_Bank_2021.txt,KZ,Alatau_City_Bank,2021,254914,2,5,2,yes,0,0,no,no,yes,2996000000000.0,KZT,banking,finance,1,28.7283
+KZ_Шубарколь_Премиум_2025.txt,KZ,Шубарколь_Премиум,2025,254524,0,3,1,partial,0,0,NA,no,no,,KZT,mining,resources_energy,0,
+KZ_АстанаГаз_КМГ_2025.txt,KZ,АстанаГаз_КМГ,2025,254251,0,5,2,yes,0,0,NA,yes,no,232849000000.0,KZT,construction,other,0,26.1737
+KZ_Алтай_Ресорсиз_2025.txt,KZ,Алтай_Ресорсиз,2025,253988,0,3,NA,no,NA,NA,no,NA,NA,59558168000.0,KZT,oil&gas,resources_energy,0,24.8102
+KZ_KM_GOLD_2024.txt,KZ,KM_GOLD,2024,251814,0,3,1,no,NA,NA,NA,NA,no,6922200000.0,KZT,mining,resources_energy,0,22.658
+KZ_БАСТ_2025.txt,KZ,БАСТ,2025,250208,1,3,1,no,NA,NA,no,no,no,12669000000.0,KZT,mining,resources_energy,1,23.2624
+PL_Inter_Cars_2023.txt,PL,Inter_Cars,2023,246137,0,6,NA,partial,0,0,NA,no,NA,9271136000.0,PLN,automotive distribution,other,0,22.9502
+PL_Budimex_2023.txt,PL,Budimex,2023,244593,0,9,NA,partial,0,0,no,NA,NA,8418241000.0,PLN,construction,other,0,22.8537
+KZ_АстанаГаз_КМГ_2024.txt,KZ,АстанаГаз_КМГ,2024,242256,0,5,2,yes,0,0,NA,yes,no,242122000000.0,KZT,construction,other,0,26.2127
+KZ_Bank_CenterCredit_2025.txt,KZ,Bank_CenterCredit,2025,241943,34,6,2,yes,0,0,NA,no,no,8520954000000.0,KZT,banking,finance,1,29.7735
+KZ_Bereke_Bank_2023.txt,KZ,Bereke_Bank,2023,241443,1,6,3,yes,2,1,NA,yes,no,2057000000000.0,KZT,banking,finance,1,28.3523
+KZ_Fincraft_Group_2024.txt,KZ,Fincraft_Group,2024,240271,0,NA,NA,no,NA,NA,no,no,no,215942000000.0,KZT,other finance,finance,0,26.0983
+KZ_КоЖаН_2025.txt,KZ,КоЖаН,2025,239454,0,3,1,partial,0,0,no,no,no,79398000000.0,KZT,oil&gas,resources_energy,0,25.0977
+KZ_KM_GOLD_2025.txt,KZ,KM_GOLD,2025,239251,0,3,1,no,NA,NA,NA,NA,NA,11549041000.0,KZT,mining,resources_energy,0,23.1699
+KZ_АстанаГаз_КМГ_2023.txt,KZ,АстанаГаз_КМГ,2023,238726,0,5,2,yes,0,0,NA,yes,no,249127000000.0,KZT,construction,other,0,26.2412
+PL_Budimex_2021.txt,PL,Budimex,2021,238375,0,10,NA,partial,0,0,NA,NA,yes,6863318000.0,PLN,construction,other,0,22.6495
+KZ_Каспий_нефть_2025.txt,KZ,Каспий_нефть,2025,238327,1,3,1,no,NA,NA,no,no,no,168361761000.0,KZT,oil&gas,resources_energy,1,25.8494
+KZ_АстанаГаз_КМГ_2021.txt,KZ,АстанаГаз_КМГ,2021,237765,0,5,2,yes,1,0,no,yes,no,268806225000.0,KZT,construction,other,0,26.3173
+KZ_КоЖаН_2021.txt,KZ,КоЖаН,2021,237235,0,3,1,yes,0,0,no,no,NA,126439000000.0,KZT,oil&gas,resources_energy,0,25.563
+KZ_КоЖаН_2023.txt,KZ,КоЖаН,2023,236036,0,3,1,yes,0,0,no,no,NA,87724000000.0,KZT,oil&gas,resources_energy,0,25.1975
+PL_ASBISc_Enterprises_2024.txt,PL,ASBISc_Enterprises,2024,234066,2,8,NA,yes,1,0,yes,no,NA,1200811000.0,USD,IT distribution,tech_telecom,1,20.9063
+KZ_КоЖаН_2024.txt,KZ,КоЖаН,2024,232620,0,3,1,partial,0,0,no,no,no,96729000000.0,KZT,oil&gas,resources_energy,0,25.2952
+KZ_КоЖаН_2022.txt,KZ,КоЖаН,2022,232193,0,NA,NA,no,NA,NA,no,no,NA,64946000000.0,KZT,oil&gas,resources_energy,0,24.8968
+PL_Synektik_2024.txt,PL,Synektik,2024,231520,1,5,2,partial,0,0,NA,NA,NA,489111690.0,PLN,medical equipment,other,1,20.0081
+PL_cyber_Folks_2024.txt,PL,cyber_Folks,2024,229726,13,5,3,yes,3,1,no,no,no,942660000.0,PLN,IT/software,tech_telecom,1,20.6642
+PL_Creotech_Instruments_2023.txt,PL,Creotech_Instruments,2023,226580,1,5,2,no,NA,NA,NA,NA,no,172536000.0,PLN,manufacturing,other,1,18.9661
+KZ_BCC_Invest_2021.txt,KZ,BCC_Invest,2021,221927,0,5,2,yes,1,0,NA,NA,no,37610244000.0,KZT,other finance,finance,0,24.3505
+PL_Newag_2021.txt,PL,Newag,2021,220534,0,5,NA,no,NA,NA,NA,NA,NA,1440689000.0,PLN,manufacturing,other,0,21.0884
+PL_Text_2021.txt,PL,Text,2021,220371,4,5,2,yes,2,0,NA,no,no,137752000.0,PLN,IT/software,tech_telecom,1,18.741
+KZ_АлмаТел_Казахстан_2021.txt,KZ,АлмаТел_Казахстан,2021,220014,0,5,2,partial,0,0,no,no,no,25721659000.0,KZT,telecom,tech_telecom,0,23.9706
+KZ_АлмаТел_Казахстан_2023.txt,KZ,АлмаТел_Казахстан,2023,216228,2,5,2,yes,0,0,yes,NA,NA,29304284000.0,KZT,telecom,tech_telecom,1,24.101
+PL_Text_2022.txt,PL,Text,2022,214928,16,5,2,yes,1,0,NA,no,no,197331000.0,PLN,IT/software,tech_telecom,1,19.1004
+KZ_Ломбард_GoldFinMarket_2025.txt,KZ,Ломбард_GoldFinMarket,2025,213662,0,0,NA,no,NA,NA,no,NA,no,12243391000.0,KZT,other finance,finance,0,23.2283
+KZ_Каспий_нефть_2024.txt,KZ,Каспий_нефть,2024,213190,1,3,1,no,NA,NA,no,no,no,115466271000.0,KZT,oil&gas,resources_energy,1,25.4722
+PL_Auto_Partner_2023.txt,PL,Auto_Partner,2023,211702,0,5,4,partial,0,0,NA,no,no,1793923000.0,PLN,retail,other,0,21.3077
+PL_Synektik_2022.txt,PL,Synektik,2022,211139,1,5,NA,partial,0,0,NA,NA,NA,299915360.0,PLN,medical equipment distribution,other,1,19.519
+KZ_Fincraft_Group_2025.txt,KZ,Fincraft_Group,2025,209567,2,NA,NA,no,NA,NA,no,no,no,286909000000.0,KZT,oil&gas,resources_energy,1,26.3824
+KZ_Sinoasia_B_R_2021.txt,KZ,Sinoasia_B_R,2021,206464,0,3,1,partial,0,0,NA,no,no,6006827000.0,KZT,insurance,finance,0,22.5162
+KZ_Ломбард_GoldFinMarket_2024.txt,KZ,Ломбард_GoldFinMarket,2024,204569,0,NA,NA,no,NA,NA,no,no,no,8343228000.0,KZT,other finance,finance,0,22.8447
+KZ_Orbis_Leasing_2024.txt,KZ,Orbis_Leasing,2024,204191,0,NA,NA,no,NA,NA,no,NA,NA,6878268000.0,KZT,other finance,finance,0,22.6516
+PL_Text_2025.txt,PL,Text,2025,201458,21,5,2,yes,2,0,NA,no,no,195923000.0,PLN,IT/software,tech_telecom,1,19.0932
+KZ_Home_Credit_Bank_2025.txt,KZ,Home_Credit_Bank,2025,201077,4,3,1,yes,0,0,NA,NA,no,1252775446000.0,KZT,banking,finance,1,27.8564
+KZ_МФО_ОнлайнКазФинанс_2024.txt,KZ,МФО_ОнлайнКазФинанс,2024,200545,0,3,2,yes,1,0,NA,NA,NA,129856097000.0,KZT,other finance,finance,0,25.5897
+KZ_Нурбанк_2025.txt,KZ,Нурбанк,2025,199739,1,5,4,partial,1,0,NA,no,no,565285319000.0,KZT,banking,finance,1,27.0606
+KZ_Аскер_Мунай_Эксплорэйшн_2025.txt,KZ,Аскер_Мунай_Эксплорэйшн,2025,199694,0,NA,1,no,NA,NA,no,no,yes,34695151000.0,KZT,oil&gas,resources_energy,0,24.2699
+KZ_Dosjan_temir_joly_2025.txt,KZ,Dosjan_temir_joly,2025,199572,0,6,3,yes,0,0,no,yes,no,7420683000.0,KZT,transport,other,0,22.7275
+PL_Synektik_2023.txt,PL,Synektik,2023,199256,1,4,1,partial,0,0,NA,no,no,375258440.0,PLN,medical equipment,other,1,19.7431
+PL_Text_2024.txt,PL,Text,2024,196162,18,5,2,yes,2,0,NA,no,no,210139000.0,PLN,IT/software,tech_telecom,1,19.1633
+KZ_МФО_ОнлайнКазФинанс_2023.txt,KZ,МФО_ОнлайнКазФинанс,2023,195233,0,5,3,yes,1,0,NA,NA,no,115310691000.0,KZT,other finance,finance,0,25.4709
+KZ_Ай_Карааул_2024.txt,KZ,Ай_Карааул,2024,194859,0,3,1,no,NA,NA,no,no,no,3100400000.0,KZT,mining,resources_energy,0,21.8548
+KZ_BCC_Invest_2022.txt,KZ,BCC_Invest,2022,194404,0,5,2,yes,1,0,NA,NA,no,38968505000.0,KZT,other finance,finance,0,24.386
+PL_Ten_Square_Games_2025.txt,PL,Ten_Square_Games,2025,191958,6,6,NA,no,NA,NA,NA,no,no,373042899.0,PLN,IT/software,tech_telecom,1,19.7372
+KZ_Кредитное_Товарищество_AgroBusiness_KZ_2025.txt,KZ,Кредитное_Товарищество_AgroBusiness_KZ,2025,191895,0,NA,NA,no,NA,NA,no,no,no,134477604000.0,KZT,other finance,finance,0,25.6247
+KZ_АлмаТел_Казахстан_2022.txt,KZ,АлмаТел_Казахстан,2022,190448,2,5,2,yes,0,0,yes,NA,NA,25925759000.0,KZT,telecom,tech_telecom,1,23.9785
+KZ_Capital_Leasing_Group_Капитал_Лизинг_Груп_2024.txt,KZ,Capital_Leasing_Group_Капитал_Лизинг_Груп,2024,189752,0,NA,NA,no,NA,NA,no,no,no,14151760000.0,KZT,other finance,finance,0,23.3731
+KZ_МФО_Капиталинвест_2024.txt,KZ,МФО_Капиталинвест,2024,188927,0,NA,NA,no,NA,NA,no,no,no,1810996000.0,KZT,other finance,finance,0,21.3171
+PL_Lubawa_2025.txt,PL,Lubawa,2025,188409,1,5,2,partial,0,0,NA,no,NA,798549000.0,PLN,manufacturing,other,1,20.4983
+KZ_Национальная_компания_QazaqGaz_2021.txt,KZ,Национальная_компания_QazaqGaz,2021,186374,0,5,2,yes,0,0,no,yes,no,,KZT,oil&gas,resources_energy,0,
+KZ_МФО_TAS_FINANCE_GROUP_ТАС_ФИНАНС_ГРУПП_2024.txt,KZ,МФО_TAS_FINANCE_GROUP_ТАС_ФИНАНС_ГРУПП,2024,180022,0,3,1,yes,0,0,no,no,no,63400000000.0,KZT,other finance,finance,0,24.8727
+KZ_ШалкияЦинк_2024.txt,KZ,ШалкияЦинк,2024,179823,0,NA,NA,no,NA,NA,NA,yes,no,,KZT,mining,resources_energy,0,
+KZ_KMK_Мунай_2024.txt,KZ,KMK_Мунай,2024,177192,0,NA,NA,no,NA,NA,NA,yes,yes,100264812000.0,KZT,oil&gas,resources_energy,0,25.3311
+KZ_Нурбанк_2024.txt,KZ,Нурбанк,2024,177135,0,5,3,partial,1,0,NA,no,no,531804000000.0,KZT,banking,finance,0,26.9995
+PL_Ryvu_Therapeutics_2023.txt,PL,Ryvu_Therapeutics,2023,176966,0,8,NA,no,NA,NA,NA,no,no,403202000.0,PLN,biotechnology R&D,tech_telecom,0,19.8149
+KZ_Fincraft_Group_2023.txt,KZ,Fincraft_Group,2023,175567,0,NA,NA,no,NA,NA,no,no,no,218028000000.0,KZT,other finance,finance,0,26.1079
+PL_Vercom_2025.txt,PL,Vercom,2025,173216,6,5,NA,yes,3,1,yes,no,no,595387000.0,PLN,IT/software,tech_telecom,1,20.2047
+KZ_ASTEL_2025.txt,KZ,ASTEL,2025,172384,1,3,NA,no,NA,NA,no,no,yes,,KZT,telecom,tech_telecom,1,
+KZ_Казахстанский_фонд_устойчивости_2025.txt,KZ,Казахстанский_фонд_устойчивости,2025,171540,1,4,2,yes,0,0,NA,yes,no,3738492603000.0,KZT,other finance,finance,1,28.9497
+PL_Ten_Square_Games_2024.txt,PL,Ten_Square_Games,2024,170682,3,6,NA,no,NA,NA,NA,no,no,,PLN,IT/software,tech_telecom,1,
+KZ_Сейф_Ломбард_2024.txt,KZ,Сейф_Ломбард,2024,170217,0,3,2,partial,0,0,no,no,no,33753745000.0,KZT,other finance,finance,0,24.2424
+KZ_Сентрас_Секьюритиз_2021.txt,KZ,Сентрас_Секьюритиз,2021,169854,0,3,1,partial,0,0,yes,no,no,4283154000.0,KZT,other finance,finance,0,22.178
+KZ_Казахстанский_фонд_устойчивости_2023.txt,KZ,Казахстанский_фонд_устойчивости,2023,169656,0,3,1,yes,0,0,NA,yes,no,3975469322000.0,KZT,other finance,finance,0,29.0112
+KZ_Скулбас_2025.txt,KZ,Скулбас,2025,169578,0,0,NA,no,NA,NA,no,no,no,2306790000.0,KZT,transport,other,0,21.5591
+KZ_Скулбас_2024.txt,KZ,Скулбас,2024,169267,0,NA,NA,no,NA,NA,no,no,no,1139047000.0,KZT,transport,other,0,20.8535
+KZ_Bereke_Bank_2022.txt,KZ,Bereke_Bank,2022,167872,0,NA,NA,partial,1,0,NA,yes,no,,KZT,banking,finance,0,
+KZ_Сентрас_Секьюритиз_2022.txt,KZ,Сентрас_Секьюритиз,2022,167302,0,3,1,yes,0,0,yes,no,no,4784121000.0,KZT,other finance,finance,0,22.2886
+KZ_Атамекен_Агро_2025.txt,KZ,Атамекен_Агро,2025,166714,0,6,5,yes,0,0,NA,NA,NA,137100000000.0,KZT,agriculture,other,0,25.644
+KZ_Bank_RBK_2025.txt,KZ,Bank_RBK,2025,166218,3,3,1,yes,0,0,NA,no,no,2718394000000.0,KZT,banking,finance,1,28.6311
+KZ_Казахстанский_фонд_устойчивости_2024.txt,KZ,Казахстанский_фонд_устойчивости,2024,165417,1,4,2,yes,0,0,NA,yes,no,4010556492000.0,KZT,other finance,finance,1,29.02
+KZ_Актюбинский_завод_нефтяного_оборудования_2025.txt,KZ,Актюбинский_завод_нефтяного_оборудования,2025,162363,0,3,1,no,NA,NA,no,NA,NA,,KZT,manufacturing,other,0,
+KZ_МФО_ЭКО_Финанс_2024.txt,KZ,МФО_ЭКО_Финанс,2024,161187,1,0,NA,no,NA,NA,no,no,no,927899000.0,KZT,other finance,finance,1,20.6484
+KZ_ForteLeasing_2025.txt,KZ,ForteLeasing,2025,161160,2,3,1,yes,0,0,NA,no,no,51931000000.0,KZT,other finance,finance,1,24.6732
+KZ_BCC_Invest_2025.txt,KZ,BCC_Invest,2025,161134,1,5,2,yes,1,0,NA,NA,no,145659000000.0,KZT,other finance,finance,1,25.7045
+KZ_Нурбанк_2023.txt,KZ,Нурбанк,2023,160484,0,3,1,partial,1,1,NA,no,no,461397000000.0,KZT,banking,finance,0,26.8575
+KZ_МФО_Арнур_Кредит_2024.txt,KZ,МФО_Арнур_Кредит,2024,159652,0,7,1,no,NA,NA,yes,NA,NA,,NA,other finance,finance,0,
+KZ_ForteLeasing_2024.txt,KZ,ForteLeasing,2024,158804,2,3,1,yes,0,0,NA,no,no,34200000000.0,KZT,other finance,finance,1,24.2555
+KZ_Birinshi_Lombard_2025.txt,KZ,Birinshi_Lombard,2025,158524,1,NA,NA,no,NA,NA,no,NA,NA,46820271000.0,KZT,other finance,finance,1,24.5696
+KZ_Казахстанский_электролизный_завод_2024.txt,KZ,Казахстанский_электролизный_завод,2024,157370,0,5,2,partial,0,0,no,NA,NA,,KZT,manufacturing,other,0,
+KZ_Alatau_City_Bank_2024.txt,KZ,Alatau_City_Bank,2024,156892,0,NA,NA,no,NA,NA,NA,NA,NA,3792000000000.0,KZT,banking,finance,0,28.9639
+KZ_Сентрас_Секьюритиз_2023.txt,KZ,Сентрас_Секьюритиз,2023,153894,0,3,1,yes,0,0,no,no,no,5486041000.0,KZT,other finance,finance,0,22.4255
+KZ_МФО_R_Finance_2025.txt,KZ,МФО_R_Finance,2025,153333,0,3,NA,yes,1,0,no,NA,yes,57415000000.0,KZT,other finance,finance,0,24.7736
+KZ_ЛОГИКОМ_2021.txt,KZ,ЛОГИКОМ,2021,153286,2,NA,NA,no,NA,NA,NA,NA,yes,49364494000.0,KZT,IT/software,tech_telecom,1,24.6225
+KZ_Black_Biotechnology_Блэк_Биотехнолоджи_2024.txt,KZ,Black_Biotechnology_Блэк_Биотехнолоджи,2024,152673,0,NA,NA,no,NA,NA,NA,no,no,2359270000.0,KZT,manufacturing,other,0,21.5816
+KZ_ЛОГИКОМ_2022.txt,KZ,ЛОГИКОМ,2022,149596,3,NA,NA,no,NA,NA,NA,NA,yes,55419737000.0,KZT,IT equipment wholesale,tech_telecom,1,24.7382
+KZ_Bank_RBK_2022.txt,KZ,Bank_RBK,2022,149449,0,4,2,yes,0,0,NA,NA,no,1983930000000.0,KZT,banking,finance,0,28.3161
+KZ_МФО_R_Finance_2024.txt,KZ,МФО_R_Finance,2024,148971,0,3,NA,yes,0,0,no,no,yes,41843000000.0,KZT,other finance,finance,0,24.4572
+KZ_МФО_Береке_2025.txt,KZ,МФО_Береке,2025,148933,1,3,2,yes,0,0,NA,no,no,7562134000.0,KZT,other finance,finance,1,22.7464
+KZ_BCC_Invest_2023.txt,KZ,BCC_Invest,2023,148403,1,5,2,yes,1,0,NA,NA,no,59593501000.0,KZT,other finance,finance,1,24.8108
+KZ_Казахстанский_электролизный_завод_2025.txt,KZ,Казахстанский_электролизный_завод,2025,146426,3,5,2,partial,0,0,no,NA,yes,,KZT,manufacturing,other,1,
+KZ_Birinshi_Lombard_2024.txt,KZ,Birinshi_Lombard,2024,146108,0,NA,NA,no,NA,NA,no,NA,NA,28068863000.0,KZT,other finance,finance,0,24.0579
+KZ_С_А_С_2025.txt,KZ,С_А_С,2025,145887,0,3,1,partial,0,0,no,NA,NA,2225433000000.0,KZT,real estate,other,0,28.431
+KZ_С_А_С_2024.txt,KZ,С_А_С,2024,145830,0,3,1,partial,0,0,no,NA,NA,3258521000000.0,KZT,real estate,other,0,28.8123
+KZ_Bank_RBK_2021.txt,KZ,Bank_RBK,2021,145632,0,5,3,yes,0,0,NA,no,no,1269181000000.0,KZT,banking,finance,0,27.8694
+KZ_Сентрас_Секьюритиз_2024.txt,KZ,Сентрас_Секьюритиз,2024,144381,0,3,1,partial,0,0,yes,NA,no,7178614000.0,KZT,other finance,finance,0,22.6944
+KZ_BCC_Invest_2024.txt,KZ,BCC_Invest,2024,141805,0,5,2,yes,1,0,yes,NA,no,104618000000.0,KZT,other finance,finance,0,25.3736
+KZ_Частная_школа_имени_Шокана_Уалиханова_2025.txt,KZ,Частная_школа_имени_Шокана_Уалиханова,2025,141324,1,NA,NA,no,NA,NA,no,no,no,17809000000.0,KZT,education,other,1,23.603
+KZ_МФО_Робокэш_кз_2024.txt,KZ,МФО_Робокэш_кз,2024,141140,1,0,NA,no,NA,NA,NA,NA,NA,29622884000.0,KZT,other finance,finance,1,24.1118
+KZ_Сейф_Ломбард_2025.txt,KZ,Сейф_Ломбард,2025,140621,0,3,2,yes,0,0,NA,no,no,55457401000.0,KZT,other finance,finance,0,24.7389
+KZ_МФО_Робокэш_кз_2025.txt,KZ,МФО_Робокэш_кз,2025,140077,1,0,NA,no,NA,NA,no,no,yes,29181785000.0,KZT,other finance,finance,1,24.0968
+KZ_МФО_TAS_FINANCE_GROUP_ТАС_ФИНАНС_ГРУПП_2025.txt,KZ,МФО_TAS_FINANCE_GROUP_ТАС_ФИНАНС_ГРУПП,2025,139909,1,3,NA,no,NA,NA,no,no,no,94300000000.0,KZT,other finance,finance,1,25.2697
+KZ_Сентрас_Секьюритиз_2025.txt,KZ,Сентрас_Секьюритиз,2025,139850,0,3,1,partial,0,0,NA,no,no,9313816000.0,KZT,other finance,finance,0,22.9548
+PL_Vercom_2021.txt,PL,Vercom,2021,139748,0,5,2,yes,2,2,yes,no,no,295948000.0,PLN,IT/software,tech_telecom,0,19.5057
+KZ_ASTEL_2022.txt,KZ,ASTEL,2022,139497,0,3,1,partial,0,0,no,no,no,,KZT,telecom,tech_telecom,0,
+KZ_ASTEL_2024.txt,KZ,ASTEL,2024,139339,0,3,1,no,NA,NA,no,no,no,,KZT,telecom,tech_telecom,0,
+KZ_Казахстанский_фонд_устойчивости_2021.txt,KZ,Казахстанский_фонд_устойчивости,2021,139211,0,5,2,yes,0,0,NA,yes,no,3705782901000.0,KZT,other finance,finance,0,28.9409
+KZ_Нурбанк_2022.txt,KZ,Нурбанк,2022,137739,0,4,2,yes,1,1,NA,no,no,465199000000.0,KZT,banking,finance,0,26.8657
+KZ_ЛОТТЕ_Рахат_2022.txt,KZ,ЛОТТЕ_Рахат,2022,137612,0,NA,NA,partial,0,0,NA,no,yes,,KZT,manufacturing,other,0,
+KZ_ТССП_Групп_2025.txt,KZ,ТССП_Групп,2025,136942,0,0,NA,no,NA,NA,no,no,no,18354000000.0,KZT,retail,other,0,23.6331
+KZ_Актюбинский_завод_нефтяного_оборудования_2024.txt,KZ,Актюбинский_завод_нефтяного_оборудования,2024,134381,0,3,1,partial,0,0,no,NA,NA,,KZT,manufacturing,other,0,
+KZ_ASTEL_2023.txt,KZ,ASTEL,2023,134243,0,3,1,partial,0,0,no,no,no,,KZT,telecom,tech_telecom,0,
+KZ_KazWind_Energy_КазВинд_Энерджи_2024.txt,KZ,KazWind_Energy_КазВинд_Энерджи,2024,133638,0,NA,NA,no,NA,NA,no,no,yes,26416000000.0,KZT,utilities,resources_energy,0,23.9972
+KZ_Казахстанский_фонд_устойчивости_2022.txt,KZ,Казахстанский_фонд_устойчивости,2022,133516,0,5,2,yes,0,0,NA,yes,no,3818412352000.0,KZT,other finance,finance,0,28.9709
+KZ_AltynEx_Company_2024.txt,KZ,AltynEx_Company,2024,133312,0,3,1,partial,0,0,NA,no,no,43978839000.0,KZT,mining,resources_energy,0,24.507
+KZ_Нурбанк_2021.txt,KZ,Нурбанк,2021,132258,0,4,2,yes,1,1,NA,no,no,457773000000.0,KZT,banking,finance,0,26.8496
+PL_Voxel_2021.txt,PL,Voxel,2021,131306,0,5,2,no,NA,NA,NA,NA,yes,,PLN,healthcare,other,0,
+KZ_МФО_Rangeld_Finance_2024.txt,KZ,МФО_Rangeld_Finance,2024,130763,0,NA,NA,no,NA,NA,no,no,no,1702047000.0,KZT,other finance,finance,0,21.2551
+KZ_БАСТ_2024.txt,KZ,БАСТ,2024,130308,0,3,1,no,NA,NA,no,no,no,13225000000.0,KZT,mining,resources_energy,0,23.3054
+KZ_МФО_Rangeld_Finance_2025.txt,KZ,МФО_Rangeld_Finance,2025,128791,0,NA,NA,no,NA,NA,no,no,no,2555224000.0,KZT,other finance,finance,0,21.6614
+KZ_МФО_TAS_FINANCE_GROUP_ТАС_ФИНАНС_ГРУПП_2023.txt,KZ,МФО_TAS_FINANCE_GROUP_ТАС_ФИНАНС_ГРУПП,2023,128382,0,3,1,yes,0,0,no,no,no,52700000000.0,KZT,other finance,finance,0,24.6879
+KZ_Orbis_Leasing_2025.txt,KZ,Orbis_Leasing,2025,127857,0,0,NA,no,NA,NA,no,NA,no,10815890000.0,KZT,other finance,finance,0,23.1043
+KZ_AltynEx_Company_2022.txt,KZ,AltynEx_Company,2022,125277,0,3,1,partial,0,0,NA,no,no,29649394000.0,KZT,mining,resources_energy,0,24.1127
+KZ_Dosjan_temir_joly_2024.txt,KZ,Dosjan_temir_joly,2024,123491,0,5,3,yes,0,0,no,NA,no,,KZT,transport,other,0,
+KZ_Tencor_Securities_2024.txt,KZ,Tencor_Securities,2024,122895,0,3,2,partial,0,0,NA,NA,no,1336155000.0,KZT,other finance,finance,0,21.0131
+KZ_AltynEx_Company_2021.txt,KZ,AltynEx_Company,2021,121964,0,3,1,partial,0,0,NA,no,no,35238670000.0,KZT,mining,resources_energy,0,24.2854
+KZ_RG_Brands_2021.txt,KZ,RG_Brands,2021,121647,0,6,3,yes,0,0,NA,no,NA,93852000000.0,KZT,manufacturing,other,0,25.265
+KZ_Tencor_Securities_2025.txt,KZ,Tencor_Securities,2025,121531,0,NA,NA,partial,0,0,NA,NA,no,1605432000.0,KZT,other finance,finance,0,21.1967
+KZ_Баян_Сулу_2025.txt,KZ,Баян_Сулу,2025,118180,0,5,2,yes,0,0,NA,no,no,,KZT,manufacturing,other,0,
+KZ_МеталлИнвестАтырау_2022.txt,KZ,МеталлИнвестАтырау,2022,117509,0,NA,NA,no,NA,NA,no,no,no,21793700000.0,KZT,wholesale,other,0,23.8049
+KZ_Национальные_информационные_технологии_2024.txt,KZ,Национальные_информационные_технологии,2024,117166,11,6,3,yes,3,2,yes,yes,no,,KZT,IT/software,tech_telecom,1,
+KZ_МФО_Береке_2024.txt,KZ,МФО_Береке,2024,117021,0,3,2,yes,0,0,no,no,no,5801015000.0,KZT,other finance,finance,0,22.4813
+KZ_Финансовый_холдинг_Республика_2025.txt,KZ,Финансовый_холдинг_Республика,2025,114976,0,3,1,yes,0,0,no,no,no,13385345000.0,KZT,other finance,finance,0,23.3174
+KZ_RG_Brands_2022.txt,KZ,RG_Brands,2022,114209,0,6,3,yes,0,0,NA,NA,NA,120275000000.0,KZT,manufacturing,other,0,25.513
+KZ_Garanti_Leasing_2025.txt,KZ,Garanti_Leasing,2025,112610,0,NA,NA,no,NA,NA,no,no,no,,KZT,other finance,finance,0,
+KZ_МФО_MyCar_Finance_2025.txt,KZ,МФО_MyCar_Finance,2025,112428,2,NA,NA,no,NA,NA,no,NA,no,184900000000.0,KZT,other finance,finance,1,25.9431
+KZ_Финансовый_холдинг_Республика_2024.txt,KZ,Финансовый_холдинг_Республика,2024,112220,0,3,1,yes,0,0,no,no,no,18684413000.0,KZT,other finance,finance,0,23.651
+KZ_ЛОГИКОМ_2025.txt,KZ,ЛОГИКОМ,2025,112085,17,3,1,partial,0,0,no,NA,yes,51646823000.0,KZT,IT equipment wholesale,tech_telecom,1,24.6677
+KZ_Баян_Сулу_2023.txt,KZ,Баян_Сулу,2023,111893,0,5,2,yes,0,0,NA,no,no,,NA,manufacturing,other,0,
+KZ_Баян_Сулу_2022.txt,KZ,Баян_Сулу,2022,111747,0,5,2,yes,0,0,no,no,no,,KZT,manufacturing,other,0,
+KZ_Баян_Сулу_2024.txt,KZ,Баян_Сулу,2024,111008,0,5,2,yes,0,0,no,no,no,,KZT,manufacturing,other,0,
+KZ_RG_Brands_2023.txt,KZ,RG_Brands,2023,110297,0,6,3,yes,0,0,NA,NA,NA,92926000000.0,KZT,manufacturing,other,0,25.2551
+KZ_Ай_Карааул_2025.txt,KZ,Ай_Карааул,2025,109712,2,3,1,no,NA,NA,NA,NA,NA,3235400000.0,KZT,mining,resources_energy,1,21.8974
+KZ_ЛОТТЕ_Рахат_2025.txt,KZ,ЛОТТЕ_Рахат,2025,108064,0,NA,NA,partial,0,0,NA,no,yes,,KZT,manufacturing,other,0,
+KZ_МФО_ЮНИКРЕДО_2025.txt,KZ,МФО_ЮНИКРЕДО,2025,106731,0,NA,NA,no,NA,NA,no,NA,no,5749732000.0,KZT,other finance,finance,0,22.4724
+KZ_Кристалл_Менеджмент_2025.txt,KZ,Кристалл_Менеджмент,2025,106693,0,6,3,no,NA,NA,no,NA,NA,,KZT,utilities,resources_energy,0,
+KZ_Актюбинский_завод_металлоконструкций_2024.txt,KZ,Актюбинский_завод_металлоконструкций,2024,106643,0,3,1,no,NA,NA,no,no,no,1615201000.0,KZT,manufacturing,other,0,21.2027
+KZ_Баян_Сулу_2021.txt,KZ,Баян_Сулу,2021,106462,0,5,2,yes,0,0,no,no,no,,KZT,manufacturing,other,0,
+KZ_Шубарколь_Премиум_2024.txt,KZ,Шубарколь_Премиум,2024,105945,0,3,1,yes,0,0,no,no,no,,KZT,mining,resources_energy,0,
+KZ_МФО_Деньги_говорят_2025.txt,KZ,МФО_Деньги_говорят,2025,102094,3,NA,NA,no,NA,NA,no,no,NA,6342155000.0,KZT,other finance,finance,1,22.5705
+KZ_Ломбард_Прогресс_2025.txt,KZ,Ломбард_Прогресс,2025,102082,0,0,NA,no,NA,NA,no,no,no,1186892000.0,KZT,other finance,finance,0,20.8946
+KZ_МеталлИнвестАтырау_2025.txt,KZ,МеталлИнвестАтырау,2025,101779,0,0,NA,no,NA,NA,no,no,no,35173000000.0,KZT,wholesale,other,0,24.2835
+KZ_УКТМК_2022.txt,KZ,УКТМК,2022,101658,1,5,2,yes,0,0,yes,NA,NA,180796558000.0,KZT,manufacturing,other,1,25.9206
+KZ_МеталлИнвестАтырау_2021.txt,KZ,МеталлИнвестАтырау,2021,101374,0,NA,NA,no,NA,NA,no,no,no,19681100000.0,KZT,wholesale,other,0,23.7029
+KZ_УКТМК_2021.txt,KZ,УКТМК,2021,101001,1,5,2,yes,0,0,yes,NA,NA,152993274000.0,KZT,manufacturing,other,1,25.7537
+KZ_ЛОТТЕ_Рахат_2024.txt,KZ,ЛОТТЕ_Рахат,2024,100889,0,NA,NA,no,NA,NA,NA,NA,yes,,KZT,manufacturing,other,0,
+KZ_Кристалл_Менеджмент_2024.txt,KZ,Кристалл_Менеджмент,2024,99710,0,NA,NA,no,NA,NA,no,NA,no,,KZT,utilities,resources_energy,0,
+KZ_АзияАгроФуд_2025.txt,KZ,АзияАгроФуд,2025,98250,0,5,2,partial,0,0,NA,NA,NA,,NA,manufacturing,other,0,
+KZ_МФО_Капиталинвест_2025.txt,KZ,МФО_Капиталинвест,2025,97924,0,0,NA,no,NA,NA,no,no,no,2160018000.0,KZT,other finance,finance,0,21.4934
+KZ_Майкубен_Вест_2023.txt,KZ,Майкубен_Вест,2023,97104,0,3,1,yes,0,0,no,no,no,,KZT,mining,resources_energy,0,
+KZ_МФО_Деньги_говорят_2024.txt,KZ,МФО_Деньги_говорят,2024,96806,2,NA,NA,no,NA,NA,no,no,no,4161968000.0,KZT,other finance,finance,1,22.1493
+KZ_АзияАгроФуд_2023.txt,KZ,АзияАгроФуд,2023,96233,0,3,1,yes,0,0,NA,NA,NA,,KZT,manufacturing,other,0,
+KZ_АзияАгроФуд_2024.txt,KZ,АзияАгроФуд,2024,95977,0,5,2,partial,0,0,NA,NA,NA,,NA,manufacturing,other,0,
+KZ_Майкубен_Вест_2022.txt,KZ,Майкубен_Вест,2022,95758,0,3,1,partial,0,0,no,NA,no,,KZT,mining,resources_energy,0,
+PL_PKO_Bank_Polski_2021.txt,PL,PKO_Bank_Polski,2021,95586,1,NA,NA,no,NA,NA,NA,NA,NA,418086000000.0,PLN,banking,finance,1,26.759
+KZ_МФО_ЭКО_Финанс_2025.txt,KZ,МФО_ЭКО_Финанс,2025,95093,0,NA,NA,no,NA,NA,no,no,no,1452830000.0,KZT,other finance,finance,0,21.0968
+KZ_RG_Brands_Kazakhstan_2021.txt,KZ,RG_Brands_Kazakhstan,2021,95009,0,0,NA,no,NA,NA,no,NA,NA,94084000000.0,KZT,manufacturing,other,0,25.2675
+KZ_Матен_Петролеум_2023.txt,KZ,Матен_Петролеум,2023,94691,0,3,1,partial,0,0,no,NA,yes,250717000000.0,KZT,oil&gas,resources_energy,0,26.2476
+KZ_Sinoasia_B_R_2023.txt,KZ,Sinoasia_B_R,2023,93845,0,3,1,no,NA,NA,NA,NA,no,29197420000.0,KZT,insurance,finance,0,24.0973
+KZ_УКТМК_2023.txt,KZ,УКТМК,2023,93121,1,5,2,yes,0,0,yes,NA,NA,,KZT,manufacturing,other,1,
+KZ_RG_Brands_Kazakhstan_2022.txt,KZ,RG_Brands_Kazakhstan,2022,92982,0,0,NA,no,NA,NA,no,NA,no,128079000000.0,KZT,manufacturing,other,0,25.5759
+KZ_МФО_Тойота_Файнаншл_Сервисез_Казахстан_2022.txt,KZ,МФО_Тойота_Файнаншл_Сервисез_Казахстан,2022,91982,0,NA,NA,partial,0,0,no,NA,yes,153200000000.0,KZT,other finance,finance,0,25.755
+KZ_Capital_Leasing_Group_Капитал_Лизинг_Груп_2025.txt,KZ,Capital_Leasing_Group_Капитал_Лизинг_Груп,2025,91003,0,NA,NA,no,NA,NA,no,no,no,26050805000.0,KZT,other finance,finance,0,23.9833
+KZ_Fincraft_Group_2021.txt,KZ,Fincraft_Group,2021,90855,0,NA,NA,no,NA,NA,no,no,no,288731000000.0,KZT,other finance,finance,0,26.3888
+KZ_АзияАгроФуд_2022.txt,KZ,АзияАгроФуд,2022,89819,0,3,1,partial,0,0,no,no,NA,,NA,manufacturing,other,0,
+KZ_МеталлИнвестАтырау_2023.txt,KZ,МеталлИнвестАтырау,2023,89422,0,NA,NA,no,NA,NA,no,no,no,25927000000.0,KZT,wholesale,other,0,23.9786
+KZ_Евразийский_Капитал_2024.txt,KZ,Евразийский_Капитал,2024,89263,0,3,1,yes,1,0,NA,NA,no,5534284000.0,KZT,other finance,finance,0,22.4342
+KZ_Лизинг_Групп_2024.txt,KZ,Лизинг_Групп,2024,88944,0,NA,NA,no,NA,NA,NA,NA,NA,22600000000.0,KZT,other finance,finance,0,23.8412
+KZ_Майкубен_Вест_2024.txt,KZ,Майкубен_Вест,2024,86241,1,3,1,partial,0,0,no,NA,NA,,KZT,mining,resources_energy,1,
+KZ_ЛОТТЕ_Рахат_2023.txt,KZ,ЛОТТЕ_Рахат,2023,85720,0,NA,NA,no,NA,NA,NA,NA,yes,,KZT,manufacturing,other,0,
+KZ_Мангистаумунайгаз_2022.txt,KZ,Мангистаумунайгаз,2022,83283,0,6,2,partial,0,0,no,NA,NA,546533898000.0,KZT,oil&gas,resources_energy,0,27.0269
+KZ_Компания_Фаэтон_2025.txt,KZ,Компания_Фаэтон,2025,80195,0,NA,NA,no,NA,NA,no,NA,NA,30964931000.0,KZT,real estate,other,0,24.1561
+KZ_Phystech_II_2023.txt,KZ,Phystech_II,2023,80154,0,NA,NA,no,NA,NA,NA,yes,no,,KZT,oil&gas,resources_energy,0,
+KZ_Fincraft_Group_2022.txt,KZ,Fincraft_Group,2022,79755,0,NA,NA,no,NA,NA,no,no,no,308485000000.0,KZT,other finance,finance,0,26.4549
+KZ_АзияАгроФуд_2021.txt,KZ,АзияАгроФуд,2021,77930,0,3,1,partial,0,0,NA,NA,NA,,NA,manufacturing,other,0,
+PL_Asseco_Business_Solutions_2021.txt,PL,Asseco_Business_Solutions,2021,77789,3,5,NA,no,NA,NA,NA,NA,NA,455965000.0,PLN,IT/software,tech_telecom,1,19.9379
+PL_Asseco_Business_Solutions_2023.txt,PL,Asseco_Business_Solutions,2023,77477,4,6,NA,no,NA,NA,NA,NA,NA,493219000.0,PLN,IT/software,tech_telecom,1,20.0165
+KZ_МеталлИнвестАтырау_2024.txt,KZ,МеталлИнвестАтырау,2024,77050,0,0,NA,no,NA,NA,no,no,no,35979000000.0,KZT,wholesale,other,0,24.3062
+KZ_Компания_Фаэтон_2024.txt,KZ,Компания_Фаэтон,2024,72443,0,NA,NA,no,NA,NA,no,no,no,36054988000.0,KZT,real estate,other,0,24.3083
+KZ_Мангистаумунайгаз_2025.txt,KZ,Мангистаумунайгаз,2025,71643,4,6,2,no,NA,NA,NA,yes,yes,694083673000.0,KZT,oil&gas,resources_energy,1,27.2659
+KZ_A_cars_2024.txt,KZ,A_cars,2024,71237,0,NA,NA,no,NA,NA,no,no,no,4440101000.0,KZT,transport,other,0,22.2139
+KZ_RG_Brands_Kazakhstan_2023.txt,KZ,RG_Brands_Kazakhstan,2023,70801,0,0,NA,no,NA,NA,no,NA,no,92779000000.0,KZT,manufacturing,other,0,25.2535
+KZ_Phystech_II_2024.txt,KZ,Phystech_II,2024,70650,0,3,1,no,NA,NA,no,yes,no,,KZT,oil&gas,resources_energy,0,
+KZ_A_cars_2025.txt,KZ,A_cars,2025,70211,0,NA,NA,no,NA,NA,no,no,no,4884944000.0,KZT,car rental,other,0,22.3094
+KZ_ALTYN_SAMRUK_QAZAQSTAN_2025.txt,KZ,ALTYN_SAMRUK_QAZAQSTAN,2025,69892,0,3,1,partial,0,0,no,no,no,3597912000.0,KZT,mining,resources_energy,0,22.0036
+KZ_МФО_МиГ_Кредит_Астана_2025.txt,KZ,МФО_МиГ_Кредит_Астана,2025,69817,4,0,NA,no,NA,NA,no,no,no,6080572000.0,KZT,other finance,finance,1,22.5284
+KZ_Акжал_Голд_Ресорсиз_2024.txt,KZ,Акжал_Голд_Ресорсиз,2024,65305,0,3,NA,yes,0,0,NA,NA,yes,39761746000.0,KZT,mining,resources_energy,0,24.4062
+KZ_Sinoasia_B_R_2022.txt,KZ,Sinoasia_B_R,2022,64880,0,3,1,partial,0,0,NA,NA,NA,10926975000.0,KZT,insurance,finance,0,23.1145
+KZ_Товарная_биржа_Каспий_2025.txt,KZ,Товарная_биржа_Каспий,2025,63957,6,5,3,no,NA,NA,NA,no,no,,KZT,other finance,finance,1,
+KZ_Ломбард_Прогресс_2024.txt,KZ,Ломбард_Прогресс,2024,63801,0,NA,NA,no,NA,NA,no,no,no,956700000.0,KZT,other finance,finance,0,20.679
+KZ_Эксперт_Лизинг_2025.txt,KZ,Эксперт_Лизинг,2025,62881,0,NA,NA,no,NA,NA,no,NA,no,3792348000.0,KZT,other finance,finance,0,22.0563
+KZ_МФО_НИЕТ_Кредит_2024.txt,KZ,МФО_НИЕТ_Кредит,2024,62571,0,3,NA,yes,0,0,no,NA,no,1324525000.0,KZT,other finance,finance,0,21.0043
+KZ_ULMUS_BESSHOKY_2025.txt,KZ,ULMUS_BESSHOKY,2025,61941,0,3,1,partial,0,0,no,NA,no,,KZT,mineral exploration,other,0,
+KZ_МФО_НИЕТ_Кредит_2025.txt,KZ,МФО_НИЕТ_Кредит,2025,61426,0,3,0,yes,0,0,NA,NA,no,2717566000.0,KZT,other finance,finance,0,21.723
+KZ_Акжал_Голд_Ресорсиз_2025.txt,KZ,Акжал_Голд_Ресорсиз,2025,61059,0,3,NA,yes,0,0,NA,NA,yes,31903390000.0,KZT,mining,resources_energy,0,24.186
+KZ_ULMUS_BESSHOKY_2024.txt,KZ,ULMUS_BESSHOKY,2024,59111,0,3,1,yes,0,0,no,NA,NA,,KZT,geological exploration,other,0,
+KZ_МФО_МиГ_Кредит_Астана_2024.txt,KZ,МФО_МиГ_Кредит_Астана,2024,55630,1,0,NA,no,NA,NA,no,no,no,3276305000.0,KZT,other finance,finance,1,21.91
+KZ_ЭКОТОН_2024.txt,KZ,ЭКОТОН,2024,54766,0,3,2,partial,0,0,no,no,no,24074000000.0,KZT,manufacturing,other,0,23.9044
+KZ_Евразийский_Капитал_2025.txt,KZ,Евразийский_Капитал,2025,54434,0,3,1,yes,1,0,NA,no,no,3483755000.0,KZT,other finance,finance,0,21.9714
+KZ_МФО_Swiss_Capital_Свисс_Капитал_2024.txt,KZ,МФО_Swiss_Capital_Свисс_Капитал,2024,52411,0,5,NA,no,NA,NA,no,NA,yes,10608144000.0,KZT,other finance,finance,0,23.0849
+KZ_ЭКОТОН_2025.txt,KZ,ЭКОТОН,2025,52026,0,3,2,partial,0,0,no,no,no,22079000000.0,KZT,manufacturing,other,0,23.8179
+KZ_RETAM_2024.txt,KZ,RETAM,2024,50095,0,3,NA,partial,0,0,no,no,no,,KZT,real estate,other,0,

@@ -1,0 +1,326 @@
+country;company;ticker;sector;year;language;doc_type;url;status;note
+KZ;АзияАгроФуд;AAFD;Food;2021;ru;Annual report PDF;https://kase.kz/files/emitters/AAFD/aafdp_2021_rus.pdf;FOUND;49 стр. Текст извлекается
+KZ;АзияАгроФуд;AAFD;Food;2022;ru;Annual report PDF;https://kase.kz/files/emitters/AAFD/aafdp_2022_rus.pdf;FOUND;56 стр. Текст извлекается
+KZ;АзияАгроФуд;AAFD;Food;2023;ru;Annual report PDF;https://kase.kz/files/emitters/AAFD/aafdp_2023_rus.pdf;FOUND;58 стр. Текст извлекается
+KZ;АзияАгроФуд;AAFD;Food;2024;ru;Annual report PDF;https://kase.kz/files/emitters/AAFD/aafdp_2024_rus.pdf;FOUND;58 стр. Текст извлекается
+KZ;АзияАгроФуд;AAFD;Food;2025;;IR;https://kase.kz/ru/listing/issuers/AAFD;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Айдала Мунай;ADLA;Oil and gas;2021;;IR;https://kase.kz/ru/listing/issuers/ADLA;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Айдала Мунай;ADLA;Oil and gas;2022;;IR;https://kase.kz/ru/listing/issuers/ADLA;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Айдала Мунай;ADLA;Oil and gas;2023;;IR;https://kase.kz/ru/listing/issuers/ADLA;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Айдала Мунай;ADLA;Oil and gas;2024;;IR;https://kase.kz/ru/listing/issuers/ADLA;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Айдала Мунай;ADLA;Oil and gas;2025;;IR;https://kase.kz/ru/listing/issuers/ADLA;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Air Astana;AIRA;Airlines;2021;;IR;https://ir.airastana.com/en/disclosure-center/annual-reports/;NOT_FOUND;В архиве указан отчёт за 2021 год. Рабочий текстовый файл не подтверждён
+KZ;Air Astana;AIRA;Airlines;2022;;IR;https://ir.airastana.com/en/disclosure-center/annual-reports/;NOT_FOUND;Прямой PDF найден в индексе. При открытии HTTP 402
+KZ;Air Astana;AIRA;Airlines;2024;;IR;https://ir.airastana.com/en/disclosure-center/annual-reports/;NOT_FOUND;Прямой PDF найден в индексе. При открытии HTTP 402
+KZ;Air Astana;AIRA;Airlines;2025;;IR;https://ir.airastana.com/en/disclosure-center/annual-reports/;NOT_FOUND;Отчёт опубликован и индексируется. Прямой PDF возвращает HTTP 402
+KZ;Акжал Голд Ресорсиз;AKGR;Mining;2021;;IR;https://kase.kz/ru/listing/issuers/AKGR;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Акжал Голд Ресорсиз;AKGR;Mining;2022;;IR;https://kase.kz/ru/listing/issuers/AKGR;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Акжал Голд Ресорсиз;AKGR;Mining;2023;;IR;https://kase.kz/ru/listing/issuers/AKGR;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Акжал Голд Ресорсиз;AKGR;Mining;2024;;IR;https://kase.kz/ru/listing/issuers/AKGR;NOT_FOUND;PDF существует. Текст повествовательной части не проверен из-за лимита размера
+KZ;Акжал Голд Ресорсиз;AKGR;Mining;2025;;IR;https://kase.kz/ru/listing/issuers/AKGR;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Ай Карааул;AKRL;Mining;2021;;IR;https://kase.kz/ru/listing/issuers/AKRL;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Ай Карааул;AKRL;Mining;2022;;IR;https://kase.kz/ru/listing/issuers/AKRL;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Ай Карааул;AKRL;Mining;2023;;IR;https://kase.kz/ru/listing/issuers/AKRL;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Ай Карааул;AKRL;Mining;2024;ru;Annual report PDF;https://kase.kz/files/emitters/AKRL/akrlp_2024_rus.pdf;FOUND;78 стр. Текст извлекается
+KZ;Ай Карааул;AKRL;Mining;2025;;IR;https://kase.kz/ru/listing/issuers/AKRL;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Актюбинский завод металлоконструкций;AKZM;Manufacturing;2021;;IR;https://kase.kz/ru/listing/issuers/AKZM;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Актюбинский завод металлоконструкций;AKZM;Manufacturing;2022;;IR;https://kase.kz/ru/listing/issuers/AKZM;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Актюбинский завод металлоконструкций;AKZM;Manufacturing;2023;;IR;https://kase.kz/ru/listing/issuers/AKZM;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Актюбинский завод металлоконструкций;AKZM;Manufacturing;2024;;IR;https://kase.kz/ru/listing/issuers/AKZM;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Актюбинский завод металлоконструкций;AKZM;Manufacturing;2025;;IR;https://kase.kz/ru/listing/issuers/AKZM;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;АК Алтыналмас;ALMS;Mining;2021;ru;Annual report PDF;https://kase.kz/files/emitters/ALMS/almsp_2021_rus.pdf;FOUND_INDEXED;Текст подтверждён поисковым индексом. Полная загрузка ограничена размером
+KZ;АК Алтыналмас;ALMS;Mining;2022;ru;Annual report PDF;https://kase.kz/files/emitters/ALMS/almsp_2022_rus.pdf;FOUND_INDEXED;Текст подтверждён поисковым индексом. Полная загрузка ограничена размером
+KZ;АК Алтыналмас;ALMS;Mining;2023;ru;Annual report PDF;https://kase.kz/files/emitters/ALMS/almsp_2023_rus.pdf;FOUND;117 стр. Текст извлекается
+KZ;АК Алтыналмас;ALMS;Mining;2024;;IR;https://kase.kz/ru/listing/issuers/ALMS;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;АК Алтыналмас;ALMS;Mining;2025;;IR;https://kase.kz/ru/listing/issuers/ALMS;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;AltaMet Minerals;ALMT;Mining;2021;;IR;https://kase.kz/ru/listing/issuers/ALMT;NOT_FOUND;Отчёт не подтверждён. Листинг акций с 2026 года
+KZ;AltaMet Minerals;ALMT;Mining;2022;;IR;https://kase.kz/ru/listing/issuers/ALMT;NOT_FOUND;Отчёт не подтверждён. Листинг акций с 2026 года
+KZ;AltaMet Minerals;ALMT;Mining;2023;;IR;https://kase.kz/ru/listing/issuers/ALMT;NOT_FOUND;Отчёт не подтверждён. Листинг акций с 2026 года
+KZ;AltaMet Minerals;ALMT;Mining;2024;;IR;https://kase.kz/ru/listing/issuers/ALMT;NOT_FOUND;Отчёт не подтверждён. Листинг акций с 2026 года
+KZ;AltaMet Minerals;ALMT;Mining;2025;;IR;https://kase.kz/ru/listing/issuers/ALMT;NOT_FOUND;Отчёт не подтверждён. Листинг акций с 2026 года
+KZ;АлмаТел Казахстан;ALTV;Telecom;2021;;IR;https://kase.kz/ru/listing/issuers/ALTV;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;АлмаТел Казахстан;ALTV;Telecom;2022;;IR;https://kase.kz/ru/listing/issuers/ALTV;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;АлмаТел Казахстан;ALTV;Telecom;2023;;IR;https://kase.kz/ru/listing/issuers/ALTV;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;АлмаТел Казахстан;ALTV;Telecom;2024;;IR;https://kase.kz/ru/listing/issuers/ALTV;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;АлмаТел Казахстан;ALTV;Telecom;2025;;IR;https://kase.kz/ru/listing/issuers/ALTV;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Алтай Ресорсиз;AMAN;Mining;2021;;IR;https://kase.kz/ru/listing/issuers/AMAN;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Алтай Ресорсиз;AMAN;Mining;2022;;IR;https://kase.kz/ru/listing/issuers/AMAN;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Алтай Ресорсиз;AMAN;Mining;2023;;IR;https://kase.kz/ru/listing/issuers/AMAN;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Алтай Ресорсиз;AMAN;Mining;2024;ru;Annual report PDF;https://kase.kz/files/emitters/AMAN/amanp_2024_rus.pdf;FOUND;44 стр. Текст извлекается
+KZ;Алтай Ресорсиз;AMAN;Mining;2025;;IR;https://kase.kz/ru/listing/issuers/AMAN;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Аскер Мунай Эксплорэйшн;AMXP;Oil and gas;2021;;IR;https://kase.kz/ru/listing/issuers/AMXP;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Аскер Мунай Эксплорэйшн;AMXP;Oil and gas;2022;;IR;https://kase.kz/ru/listing/issuers/AMXP;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Аскер Мунай Эксплорэйшн;AMXP;Oil and gas;2023;;IR;https://kase.kz/ru/listing/issuers/AMXP;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Аскер Мунай Эксплорэйшн;AMXP;Oil and gas;2024;ru;Annual report PDF;https://kase.kz/files/emitters/AMXP/amxpp_2024_rus.pdf;FOUND;38 стр. Текст извлекается
+KZ;Аскер Мунай Эксплорэйшн;AMXP;Oil and gas;2025;;IR;https://kase.kz/ru/listing/issuers/AMXP;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;ForteBank;ASBN;Banking;2021;en;Annual report PDF;https://main.storage-object.pscloud.io/Annual_report_2021_EN_2308e1738f.pdf;FOUND_INDEXED;Ссылка из IR. Текст управления подтверждён индексом. Полная загрузка ограничена размером
+KZ;ForteBank;ASBN;Banking;2022;en;Annual report PDF;https://main.storage-object.pscloud.io/Forte_Bank_AR_2022_f7b1d4d07e.pdf;FOUND_INDEXED;Ссылка из IR. Текст управления подтверждён индексом. Полная загрузка ограничена размером
+KZ;ForteBank;ASBN;Banking;2023;ru;Annual report PDF;https://main.storage-object.pscloud.io/Forte_Bank_AR_2023_rus_smart_last_f6939900b4.pdf;FOUND_INDEXED;Текст управления подтверждён индексом. Полная загрузка ограничена размером
+KZ;ForteBank;ASBN;Banking;2024;;IR;https://ir.forte.kz/investors/annual-reports;NOT_FOUND;Ссылка в архиве есть. Содержание PDF не проверено из-за лимита размера
+KZ;ForteBank;ASBN;Banking;2025;;IR;https://ir.forte.kz/investors/annual-reports;NOT_FOUND;В проверенном архиве последний годовой отчёт обозначен 2024
+KZ;ALTYN SAMRUK QAZAQSTAN;ASKQ;Metals;2021;;IR;https://kase.kz/ru/listing/issuers/ASKQ;NOT_FOUND;Компания зарегистрирована в 2023 году
+KZ;ALTYN SAMRUK QAZAQSTAN;ASKQ;Metals;2022;;IR;https://kase.kz/ru/listing/issuers/ASKQ;NOT_FOUND;Компания зарегистрирована в 2023 году
+KZ;ALTYN SAMRUK QAZAQSTAN;ASKQ;Metals;2023;;IR;https://kase.kz/ru/listing/issuers/ASKQ;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ALTYN SAMRUK QAZAQSTAN;ASKQ;Metals;2024;;IR;https://kase.kz/ru/listing/issuers/ASKQ;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ALTYN SAMRUK QAZAQSTAN;ASKQ;Metals;2025;ru;Annual report PDF;https://kase.kz/files/emitters/ASKQ/askqp_2025_rus.pdf;FOUND;23 стр. Текст извлекается
+KZ;Freedom Life;ASLF;Insurance;2021;;IR;https://kase.kz/ru/listing/issuers/ASLF;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Freedom Life;ASLF;Insurance;2022;ru;Annual report PDF;https://kase.kz/files/emitters/ASLF/aslfp_2022_rus.pdf;FOUND;130 стр. Текст извлекается
+KZ;Freedom Life;ASLF;Insurance;2023;ru;Annual report PDF;https://kase.kz/files/emitters/ASLF/aslfp_2023_rus.pdf;FOUND;153 стр. Текст извлекается
+KZ;Freedom Life;ASLF;Insurance;2024;;IR;https://kase.kz/ru/listing/issuers/ASLF;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Freedom Life;ASLF;Insurance;2025;;IR;https://kase.kz/ru/listing/issuers/ASLF;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;ASTEL;ASTL;Telecom;2021;;IR;https://kase.kz/ru/listing/issuers/ASTL;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ASTEL;ASTL;Telecom;2022;;IR;https://kase.kz/ru/listing/issuers/ASTL;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ASTEL;ASTL;Telecom;2023;ru;Annual report PDF;https://kase.kz/files/emitters/ASTL/astlp_2023_rus.pdf;FOUND;91 стр. Текст извлекается
+KZ;ASTEL;ASTL;Telecom;2024;;IR;https://kase.kz/ru/listing/issuers/ASTL;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ASTEL;ASTL;Telecom;2025;;IR;https://kase.kz/ru/listing/issuers/ASTL;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;AltynEx Company;ATEC;Mining;2021;ru;Annual report PDF;https://kase.kz/files/emitters/ATEC/atecp_2021_rus.pdf;FOUND;49 стр. Текст извлекается
+KZ;AltynEx Company;ATEC;Mining;2022;ru;Annual report PDF;https://kase.kz/files/emitters/ATEC/atecp_2022_rus.pdf;FOUND;50 стр. Текст извлекается
+KZ;AltynEx Company;ATEC;Mining;2023;;IR;https://kase.kz/ru/listing/issuers/ATEC;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;AltynEx Company;ATEC;Mining;2024;ru;Annual report PDF;https://kase.kz/files/emitters/ATEC/atecp_2024_rus.pdf;FOUND;58 стр. Текст извлекается
+KZ;AltynEx Company;ATEC;Mining;2025;;IR;https://kase.kz/ru/listing/issuers/ATEC;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Актюбинский завод нефтяного оборудования;AZNO;Manufacturing;2021;;IR;https://kase.kz/ru/listing/issuers/AZNO;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Актюбинский завод нефтяного оборудования;AZNO;Manufacturing;2022;;IR;https://kase.kz/ru/listing/issuers/AZNO;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Актюбинский завод нефтяного оборудования;AZNO;Manufacturing;2023;;IR;https://kase.kz/ru/listing/issuers/AZNO;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Актюбинский завод нефтяного оборудования;AZNO;Manufacturing;2024;;IR;https://kase.kz/ru/listing/issuers/AZNO;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Актюбинский завод нефтяного оборудования;AZNO;Manufacturing;2025;;IR;https://kase.kz/ru/listing/issuers/AZNO;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;БАСТ;BAST;Mining;2021;;IR;https://kase.kz/ru/listing/issuers/BAST;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;БАСТ;BAST;Mining;2022;;IR;https://kase.kz/ru/listing/issuers/BAST;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;БАСТ;BAST;Mining;2023;;IR;https://kase.kz/ru/listing/issuers/BAST;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;БАСТ;BAST;Mining;2024;ru;Annual report PDF;https://kase.kz/files/emitters/BAST/bastp_2024_rus.pdf;FOUND;100 стр. Текст извлекается
+KZ;БАСТ;BAST;Mining;2025;;IR;https://kase.kz/ru/listing/issuers/BAST;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Баян Сулу;BSUL;Food;2021;;IR;https://kase.kz/ru/listing/issuers/BSUL;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Баян Сулу;BSUL;Food;2022;;IR;https://kase.kz/ru/listing/issuers/BSUL;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Баян Сулу;BSUL;Food;2023;;IR;https://kase.kz/ru/listing/issuers/BSUL;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Баян Сулу;BSUL;Food;2024;;IR;https://kase.kz/ru/listing/issuers/BSUL;NOT_FOUND;PDF найден в индексе old.kase.kz. При открытии HTTP 502
+KZ;Баян Сулу;BSUL;Food;2025;;IR;https://kase.kz/ru/listing/issuers/BSUL;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Банк ЦентрКредит;CCBN;Banking;2022;;IR;https://www.bcc.kz/about/financial-results/;NOT_FOUND;Прямая ссылка из IR существует. Повествовательный текст PDF не проверен из-за размера
+KZ;Банк ЦентрКредит;CCBN;Banking;2024;;IR;https://www.bcc.kz/about/financial-results/;NOT_FOUND;Прямая ссылка из IR существует. PDF около 88 МБ не удалось проверить
+KZ;Solidcore Resources plc;CORE_KZ;Mining;2021;;IR;https://www.solidcore-resources.com/en/investors-and-media/reports-and-results/annual-reports/;NOT_FOUND;Историческое название Polymetal. Рабочий PDF не подтверждён
+KZ;Solidcore Resources plc;CORE_KZ;Mining;2022;;IR;https://www.solidcore-resources.com/en/investors-and-media/reports-and-results/annual-reports/;NOT_FOUND;Историческое название Polymetal. Рабочий PDF не подтверждён
+KZ;Solidcore Resources plc;CORE_KZ;Mining;2023;;IR;https://www.solidcore-resources.com/en/investors-and-media/reports-and-results/annual-reports/;NOT_FOUND;Отчёт Polymetal найден в индексе. Прямая загрузка не подтверждена
+KZ;Solidcore Resources plc;CORE_KZ;Mining;2024;en;Integrated annual report PDF;https://www.solidcore-resources.com/upload/ib/696602/Solidcore_integrated_report_2024_en.pdf;FOUND;108 PDF-страниц со спредами. Текст извлекается. Казахстанская регистрация после редомициляции
+KZ;Solidcore Resources plc;CORE_KZ;Mining;2025;;IR;https://www.solidcore-resources.com/en/investors-and-media/reports-and-results/annual-reports/;NOT_FOUND;Отчёт опубликован. Одна индексируемая ссылка возвращает 404. Рабочая замена не подтверждена
+KZ;Кристалл Менеджмент;CRMG;Energy;2021;;IR;https://kase.kz/ru/listing/issuers/CRMG;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Кристалл Менеджмент;CRMG;Energy;2022;;IR;https://kase.kz/ru/listing/issuers/CRMG;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Кристалл Менеджмент;CRMG;Energy;2023;;IR;https://kase.kz/ru/listing/issuers/CRMG;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Кристалл Менеджмент;CRMG;Energy;2024;;IR;https://kase.kz/ru/listing/issuers/CRMG;NOT_FOUND;В файле с суффиксом rus извлечена казахская повествовательная часть. Версия en или ru не подтверждена
+KZ;Кристалл Менеджмент;CRMG;Energy;2025;;IR;https://kase.kz/ru/listing/issuers/CRMG;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Сентрас Секьюритиз;CSEC;Financial services;2021;;IR;https://cesec.kz/finansovaya-otchetnost/;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Сентрас Секьюритиз;CSEC;Financial services;2022;ru;Annual report PDF;https://kase.kz/files/emitters/CSEC/csecp_2022_rus.pdf;FOUND_INDEXED;Годовой отчёт индексируется. Полная загрузка ограничена размером
+KZ;Сентрас Секьюритиз;CSEC;Financial services;2023;;IR;https://cesec.kz/finansovaya-otchetnost/;NOT_FOUND;Годовой отчёт найден в индексе. Рабочий прямой файл не подтверждён
+KZ;Сентрас Секьюритиз;CSEC;Financial services;2024;;IR;https://cesec.kz/finansovaya-otchetnost/;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Сентрас Секьюритиз;CSEC;Financial services;2025;;IR;https://cesec.kz/finansovaya-otchetnost/;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;ЭКОТОН+;EKTN;Building materials;2021;;IR;https://kase.kz/ru/listing/issuers/EKTN;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ЭКОТОН+;EKTN;Building materials;2022;;IR;https://kase.kz/ru/listing/issuers/EKTN;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ЭКОТОН+;EKTN;Building materials;2023;;IR;https://kase.kz/ru/listing/issuers/EKTN;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ЭКОТОН+;EKTN;Building materials;2024;ru;Annual report PDF;https://kase.kz/files/emitters/EKTN/ektnp_2024_rus.pdf;FOUND;28 стр. Текст извлекается
+KZ;ЭКОТОН+;EKTN;Building materials;2025;ru;Annual report PDF;https://kase.kz/files/emitters/EKTN/ektnp_2025_rus.pdf;FOUND;33 стр. Текст извлекается
+KZ;Товарная биржа Каспий;EXCS;Financial services;2021;;IR;https://kase.kz/ru/listing/issuers/EXCS;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Товарная биржа Каспий;EXCS;Financial services;2022;;IR;https://kase.kz/ru/listing/issuers/EXCS;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Товарная биржа Каспий;EXCS;Financial services;2023;;IR;https://kase.kz/ru/listing/issuers/EXCS;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Товарная биржа Каспий;EXCS;Financial services;2024;;IR;https://kase.kz/ru/listing/issuers/EXCS;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Товарная биржа Каспий;EXCS;Financial services;2025;;IR;https://kase.kz/ru/listing/issuers/EXCS;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Green Power Generation;EXPA;Energy;2021;;IR;https://kase.kz/ru/listing/issuers/EXPA;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Green Power Generation;EXPA;Energy;2022;;IR;https://kase.kz/ru/listing/issuers/EXPA;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Green Power Generation;EXPA;Energy;2023;;IR;https://kase.kz/ru/listing/issuers/EXPA;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Green Power Generation;EXPA;Energy;2024;ru;Annual report PDF;https://kase.kz/files/emitters/EXPA/expap_2024_rus.pdf;FOUND;12 стр. Повествовательная часть и сведения об управлении
+KZ;Green Power Generation;EXPA;Energy;2025;;IR;https://kase.kz/ru/listing/issuers/EXPA;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Фридом Финанс;FFIN;Financial services;2021;;IR;https://kase.kz/ru/listing/issuers/FFIN;NOT_FOUND;Текстовый годовой отчёт казахстанского АО не подтверждён
+KZ;Фридом Финанс;FFIN;Financial services;2022;;IR;https://kase.kz/ru/listing/issuers/FFIN;NOT_FOUND;Текстовый годовой отчёт казахстанского АО не подтверждён
+KZ;Фридом Финанс;FFIN;Financial services;2023;;IR;https://kase.kz/ru/listing/issuers/FFIN;NOT_FOUND;Текстовый годовой отчёт казахстанского АО не подтверждён
+KZ;Фридом Финанс;FFIN;Financial services;2024;ru;Annual report PDF;https://kase.kz/files/emitters/FFIN/ffinp_2024_rus.pdf;FOUND;109 стр. Казахстанское АО Фридом Финанс
+KZ;Фридом Финанс;FFIN;Financial services;2025;;IR;https://kase.kz/ru/listing/issuers/FFIN;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Финансовый холдинг Республика;FHRP;Financial services;2021;;IR;https://kase.kz/ru/listing/issuers/FHRP;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Финансовый холдинг Республика;FHRP;Financial services;2022;;IR;https://kase.kz/ru/listing/issuers/FHRP;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Финансовый холдинг Республика;FHRP;Financial services;2023;;IR;https://kase.kz/ru/listing/issuers/FHRP;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Финансовый холдинг Республика;FHRP;Financial services;2024;ru;Annual report PDF;https://kase.kz/files/emitters/FHRP/fhrpp_2024_rus.pdf;FOUND;43 стр. Текст извлекается
+KZ;Финансовый холдинг Республика;FHRP;Financial services;2025;;IR;https://kase.kz/ru/listing/issuers/FHRP;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Halyk Bank;HSBK;Banking;2021;;IR;https://halykbank.com/results-and-presentations?tab=annual-reports;NOT_FOUND;PDF на KASE существует. Текст повествовательной части не удалось проверить
+KZ;Halyk Bank;HSBK;Banking;2022;en;Annual report PDF;https://halykbank.kz/storage/app/media/Investoram/2023/2022_Annual%20Report_ENG.pdf;FOUND;195 стр. Повествовательная часть и корпоративное управление
+KZ;Halyk Bank;HSBK;Banking;2024;;IR;https://halykbank.com/results-and-presentations?tab=annual-reports;NOT_FOUND;Отчёт опубликован. Проверенные прямые адреса дали таймаут или HTTP 502
+KZ;Halyk Bank;HSBK;Banking;2025;en;Annual report PDF;https://halykbank.kz/storage/app/media/Investoram/2026/Halykbank_AR_2025.pdf;FOUND_INDEXED;Повествовательный текст и управление подтверждены индексом. Полная загрузка ограничена размером
+KZ;Teniz Capital Investment Banking;IFDR;Financial services;2021;;IR;https://kase.kz/ru/listing/issuers/TCIB;NOT_FOUND;Код эмитента TCIB. Текстовый годовой отчёт не подтверждён
+KZ;Teniz Capital Investment Banking;IFDR;Financial services;2022;;IR;https://kase.kz/ru/listing/issuers/TCIB;NOT_FOUND;Код эмитента TCIB. Текстовый годовой отчёт не подтверждён
+KZ;Teniz Capital Investment Banking;IFDR;Financial services;2023;;IR;https://kase.kz/ru/listing/issuers/TCIB;NOT_FOUND;Код эмитента TCIB. Текстовый годовой отчёт не подтверждён
+KZ;Teniz Capital Investment Banking;IFDR;Financial services;2024;ru;Annual report PDF;https://kase.kz/files/emitters/TCIB/tcibp_2024_rus.pdf;FOUND;61 стр. Код эмитента TCIB отличается от тикера IFDR
+KZ;Teniz Capital Investment Banking;IFDR;Financial services;2025;;IR;https://kase.kz/ru/listing/issuers/TCIB;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Bank RBK;INBNp;Banking;2021;ru;Annual report PDF;https://kase.kz/files/emitters/INBN/inbnp_2021_rus.pdf;FOUND;36 стр. Текст извлекается
+KZ;Bank RBK;INBNp;Banking;2022;ru;Annual report PDF;https://kase.kz/files/emitters/INBN/inbnp_2022_rus.pdf;FOUND;52 стр. Текст извлекается
+KZ;Bank RBK;INBNp;Banking;2023;ru;Annual report PDF;https://kase.kz/files/emitters/INBN/inbnp_2023_rus.pdf;FOUND;140 стр. Текст извлекается
+KZ;Bank RBK;INBNp;Banking;2024;ru;Annual report PDF;https://kase.kz/files/emitters/INBN/inbnp_2024_rus.pdf;FOUND;155 стр. Текст извлекается
+KZ;Bank RBK;INBNp;Banking;2025;;IR;https://kase.kz/ru/listing/issuers/INBN;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Атамекен-Агро;KATR;Agriculture;2021;ru;Annual report PDF;https://kase.kz/files/emitters/KATR/katrp_2021_rus.pdf;FOUND;153 стр. Текст извлекается
+KZ;Атамекен-Агро;KATR;Agriculture;2022;ru;Annual report PDF;https://kase.kz/files/emitters/KATR/katrp_2022_rus.pdf;FOUND;157 стр. Текст извлекается
+KZ;Атамекен-Агро;KATR;Agriculture;2023;ru;Annual report PDF;https://kase.kz/files/emitters/KATR/katrp_2023_rus.pdf;FOUND;151 стр. Текст извлекается
+KZ;Атамекен-Агро;KATR;Agriculture;2024;ru;Annual report PDF;https://kase.kz/files/emitters/KATR/katrp_2024_rus.pdf;FOUND;113 стр. Текст извлекается
+KZ;Атамекен-Агро;KATR;Agriculture;2025;;IR;https://kase.kz/ru/listing/issuers/KATR;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Kcell;KCEL;Telecom;2022;en;Annual report PDF;https://static.kcell.kz/files/new_investors/annualreport2022.pdf;FOUND_INDEXED;Ссылка из IR. Текст и раздел управления подтверждены индексом. Полная загрузка ограничена размером
+KZ;Kcell;KCEL;Telecom;2024;en;Annual report PDF;https://static.kcell.kz/files/new_investors/KCell_AR_2025_EN.pdf;FOUND_INDEXED;Содержание за 2024 несмотря на 2025 в имени файла. Текст проверен по индексу
+KZ;KEGOC;KEGC;Electric utilities;2022;en;Annual report HTML;https://ar2022.kegoc.kz/en/about-the-company.html;FOUND;Вход через раздел отчёта с навигацией по главам включая корпоративное управление
+KZ;KEGOC;KEGC;Electric utilities;2023;en;Annual report HTML;https://ar2023.kegoc.kz/en;FOUND;Полный HTML-отчёт за 2023. Год проверен по содержанию
+KZ;KEGOC;KEGC;Electric utilities;2024;en;Annual report HTML;https://ar2024.kegoc.kz/en;FOUND;Полный HTML-отчёт
+KZ;KM GOLD;KMGD;Mining;2021;;IR;https://kase.kz/ru/listing/issuers/KMGD;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;KM GOLD;KMGD;Mining;2022;;IR;https://kase.kz/ru/listing/issuers/KMGD;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;KM GOLD;KMGD;Mining;2023;;IR;https://kase.kz/ru/listing/issuers/KMGD;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;KM GOLD;KMGD;Mining;2024;ru;Annual report PDF;https://kase.kz/files/emitters/KMGD/kmgdp_2024_rus.pdf;FOUND;70 стр. Текст извлекается
+KZ;KM GOLD;KMGD;Mining;2025;;IR;https://kase.kz/ru/listing/issuers/KMGD;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;КазМунайГаз;KMGZ;Oil and gas;2021;en;Annual report HTML;https://ar2021.kmg.kz/en;FOUND;Полный HTML-отчёт с корпоративным управлением
+KZ;КазМунайГаз;KMGZ;Oil and gas;2022;en;Annual report HTML;https://ar2022.kmg.kz/en;FOUND;Полный HTML-отчёт
+KZ;КазМунайГаз;KMGZ;Oil and gas;2024;en;Annual report HTML;https://ar2024.kmg.kz/en;FOUND;Полный HTML-отчёт с корпоративным управлением
+KZ;КазМунайГаз;KMGZ;Oil and gas;2025;en;Annual report HTML;https://ar2025.kmg.kz/en;FOUND;Полный HTML-отчёт опубликован
+KZ;КоЖаН;KOZN;Oil and gas;2021;;IR;https://kase.kz/ru/listing/issuers/KOZN;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;КоЖаН;KOZN;Oil and gas;2022;ru;Annual report PDF;https://kase.kz/files/emitters/KOZN/koznp_2022_rus.pdf;FOUND;83 стр. Текст извлекается
+KZ;КоЖаН;KOZN;Oil and gas;2023;;IR;https://kase.kz/ru/listing/issuers/KOZN;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;КоЖаН;KOZN;Oil and gas;2024;ru;Annual report PDF;https://kase.kz/files/emitters/KOZN/koznp_2024_rus.pdf;FOUND;83 стр. Текст извлекается
+KZ;КоЖаН;KOZN;Oil and gas;2025;;IR;https://kase.kz/ru/listing/issuers/KOZN;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Каспий нефть;KSNF;Oil and gas;2021;ru;Annual report PDF;https://kase.kz/files/emitters/KSNF/ksnfp_2021_rus.pdf;FOUND;104 стр. Текст извлекается
+KZ;Каспий нефть;KSNF;Oil and gas;2022;ru;Annual report PDF;https://kase.kz/files/emitters/KSNF/ksnfp_2022_rus.pdf;FOUND;102 стр. Текст извлекается
+KZ;Каспий нефть;KSNF;Oil and gas;2023;ru;Annual report PDF;https://kase.kz/files/emitters/KSNF/ksnfp_2023_rus.pdf;FOUND;92 стр. Текст извлекается
+KZ;Каспий нефть;KSNF;Oil and gas;2024;ru;Annual report PDF;https://kase.kz/files/emitters/KSNF/ksnfp_2024_rus.pdf;FOUND;83 стр. Текст извлекается
+KZ;Каспий нефть;KSNF;Oil and gas;2025;;IR;https://kase.kz/ru/listing/issuers/KSNF;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Kaspi.kz;KSPI;Financial technology;2022;;IR;https://ir.kaspi.kz/financial-information/;NOT_FOUND;Прямой годовой PDF из IR существует. Файл около 47 МБ не удалось проверить
+KZ;Kaspi.kz;KSPI;Financial technology;2024;en;Annual report 20-F PDF;https://ir.kaspi.kz/media/Form_20-F_2024.pdf;FOUND;223 стр. Повествовательная часть и корпоративное управление
+KZ;Казатомпром;KZAP;Uranium mining;2022;;IR;https://www.kazatomprom.kz/en/investors/godovie_otcheti;NOT_FOUND;Годовой PDF найден в индексе. Прямая загрузка не подтверждена
+KZ;Казатомпром;KZAP;Uranium mining;2024;en;Integrated annual report PDF;https://www.kazatomprom.kz/storage/cb/eng_kap_ar2024_07_14.pdf;FOUND_INDEXED;Повествовательный текст и управление подтверждены индексом. Полная загрузка ограничена размером
+KZ;КазАзот;KZAZ;Chemicals;2022;;IR;https://kase.kz/ru/listing/issuers/KZAZ;NOT_FOUND;Годовой отчёт не подтверждён. Отчёт об устойчивом развитии не подставлялся
+KZ;КазАзот;KZAZ;Chemicals;2023;;IR;https://kase.kz/ru/listing/issuers/KZAZ;NOT_FOUND;Годовой отчёт не подтверждён. Отчёт об устойчивом развитии не подставлялся
+KZ;КазАзот;KZAZ;Chemicals;2024;ru;Annual report PDF;https://kase.kz/files/emitters/KZAZ/kzazp_2024_rus.pdf;FOUND_INDEXED;Годовой повествовательный отчёт индексируется. Полная загрузка ограничена размером
+KZ;КазАзот;KZAZ;Chemicals;2025;;IR;https://kase.kz/ru/listing/issuers/KZAZ;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Каражыра;KZHR;Coal mining;2021;;IR;https://kase.kz/ru/listing/issuers/KZHR;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Каражыра;KZHR;Coal mining;2022;ru;Annual report PDF;https://kase.kz/files/emitters/KZHR/kzhrp_2022_rus.pdf;FOUND_INDEXED;Годовой отчёт индексируется. Полная загрузка ограничена размером
+KZ;Каражыра;KZHR;Coal mining;2023;ru;Annual report PDF;https://kase.kz/files/emitters/KZHR/kzhrp_2023_rus.pdf;FOUND;51 стр. Текст извлекается
+KZ;Каражыра;KZHR;Coal mining;2024;ru;Annual report PDF;https://kase.kz/files/emitters/KZHR/kzhrp_2024_rus.pdf;FOUND;49 стр. Текст извлекается
+KZ;Каражыра;KZHR;Coal mining;2025;;IR;https://kase.kz/ru/listing/issuers/KZHR;NOT_FOUND;KASE сообщает о раскрытии 29.09.2026. Рабочий прямой файл не подтверждён
+KZ;Казахстанская Жилищная Компания;KZIK;Housing finance;2021;;IR;https://kase.kz/ru/listing/issuers/KZIK;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Казахстанская Жилищная Компания;KZIK;Housing finance;2022;;IR;https://kase.kz/ru/listing/issuers/KZIK;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Казахстанская Жилищная Компания;KZIK;Housing finance;2023;ru;Annual report PDF;https://kase.kz/files/emitters/KZIK/kzikp_2023_rus.pdf;FOUND;136 стр. Текст извлекается
+KZ;Казахстанская Жилищная Компания;KZIK;Housing finance;2024;ru;Annual report PDF;https://kase.kz/files/emitters/KZIK/kzikp_2024_rus.pdf;FOUND;91 стр. Текст извлекается
+KZ;Казахстанская Жилищная Компания;KZIK;Housing finance;2025;;IR;https://kase.kz/ru/listing/issuers/KZIK;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Казахтелеком;KZTK;Telecom;2021;en;Integrated annual report PDF;https://sustainability.telecom.kz/wp-content/uploads/2024/05/2021.pdf;FOUND;162 PDF-страницы. Текст извлекается
+KZ;Казахтелеком;KZTK;Telecom;2022;en;Integrated annual report HTML;https://ar2022.telecom.kz/en/;FOUND;HTML-отчёт с разделами корпоративного управления
+KZ;Казахтелеком;KZTK;Telecom;2023;en;Integrated annual report HTML;https://ar2023.telecom.kz/en/;FOUND;Проверен текст главы corporate-governance-report.html. Главная страница использует JavaScript
+KZ;Казахтелеком;KZTK;Telecom;2024;en;Integrated annual report HTML;https://ar2024.telecom.kz/en/;FOUND;Полный HTML-отчёт
+KZ;Казахтелеком;KZTK;Telecom;2025;;IR;https://sustainability.telecom.kz/?page_id=1002&lang=en;NOT_FOUND;Отчёт опубликован и указан в IR. Текст прямого PDF не удалось проверить
+KZ;КазТрансОйл;KZTO;Oil transportation;2022;en;Annual report PDF;https://kaztransoil.kz/en/to_shareholders_and_investors/annual_reports/?doc=2085&sc=ART;FOUND_INDEXED;Адрес отдаёт PDF. Текст проверен по индексу. Полная загрузка ограничена размером
+KZ;КазТрансОйл;KZTO;Oil transportation;2024;en;Annual report PDF;https://kaztransoil.kz/en/to_shareholders_and_investors/annual_reports/?doc=2617&sc=ART;FOUND_INDEXED;Адрес отдаёт PDF. Текст проверен по индексу. Полная загрузка ограничена размером
+KZ;KMK Мунай;LNPT;Oil and gas;2021;;IR;https://kase.kz/ru/listing/issuers/LNPT;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;KMK Мунай;LNPT;Oil and gas;2022;;IR;https://kase.kz/ru/listing/issuers/LNPT;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;KMK Мунай;LNPT;Oil and gas;2023;;IR;https://kase.kz/ru/listing/issuers/LNPT;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;KMK Мунай;LNPT;Oil and gas;2024;;IR;https://kase.kz/ru/listing/issuers/LNPT;NOT_FOUND;Найден PDF на 171 стр. Текст извлекается только из финансового приложения начиная с PDF-страницы 127
+KZ;KMK Мунай;LNPT;Oil and gas;2025;;IR;https://kase.kz/ru/listing/issuers/LNPT;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;ЛОГИКОМ;LOGC;IT distribution;2021;ru;Annual report PDF;https://kase.kz/files/emitters/LOGC/logcp_2021_rus.pdf;FOUND;74 стр. Текст извлекается
+KZ;ЛОГИКОМ;LOGC;IT distribution;2022;ru;Annual report PDF;https://kase.kz/files/emitters/LOGC/logcp_2022_rus.pdf;FOUND;66 стр. Текст извлекается
+KZ;ЛОГИКОМ;LOGC;IT distribution;2023;ru;Annual report PDF;https://kase.kz/files/emitters/LOGC/logcp_2023_rus.pdf;FOUND;115 стр. Текст извлекается
+KZ;ЛОГИКОМ;LOGC;IT distribution;2024;ru;Annual report PDF;https://kase.kz/files/emitters/LOGC/logcp_2024_rus.pdf;FOUND;107 стр. Текст извлекается
+KZ;ЛОГИКОМ;LOGC;IT distribution;2025;;IR;https://kase.kz/ru/listing/issuers/LOGC;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Лизинг Групп;LZGR;Leasing;2021;;IR;https://kase.kz/ru/listing/issuers/LZGR;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Лизинг Групп;LZGR;Leasing;2022;;IR;https://kase.kz/ru/listing/issuers/LZGR;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Лизинг Групп;LZGR;Leasing;2023;;IR;https://kase.kz/ru/listing/issuers/LZGR;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Лизинг Групп;LZGR;Leasing;2024;ru;Annual report PDF;https://kase.kz/files/emitters/LZGR/lzgrp_2024_rus.pdf;FOUND;53 стр. Текст извлекается
+KZ;Лизинг Групп;LZGR;Leasing;2025;;IR;https://kase.kz/ru/listing/issuers/LZGR;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Матен Петролеум;MATN;Oil and gas;2021;ru;Annual report PDF;https://kase.kz/files/emitters/MATN/matnp_2021_rus.pdf;FOUND;81 стр. Текст извлекается
+KZ;Матен Петролеум;MATN;Oil and gas;2022;ru;Annual report PDF;https://kase.kz/files/emitters/MATN/matnp_2022_rus.pdf;FOUND;91 стр. Текст извлекается
+KZ;Матен Петролеум;MATN;Oil and gas;2023;ru;Annual report PDF;https://kase.kz/files/emitters/MATN/matnp_2023_rus.pdf;FOUND;93 стр. Повествовательная часть текстовая. Финансовое приложение частично сканировано
+KZ;Матен Петролеум;MATN;Oil and gas;2024;ru;Annual report PDF;https://kase.kz/files/emitters/MATN/matnp_2024_rus.pdf;FOUND;92 стр. Текст извлекается
+KZ;Матен Петролеум;MATN;Oil and gas;2025;;IR;https://kase.kz/ru/listing/issuers/MATN;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Майкубен-Вест;MKBW;Coal mining;2021;ru;Annual report PDF;https://kase.kz/files/emitters/MKBW/mkbwp_2021_rus.pdf;FOUND;82 стр. Текст извлекается
+KZ;Майкубен-Вест;MKBW;Coal mining;2022;;IR;https://kase.kz/ru/listing/issuers/MKBW;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Майкубен-Вест;MKBW;Coal mining;2023;;IR;https://kase.kz/ru/listing/issuers/MKBW;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Майкубен-Вест;MKBW;Coal mining;2024;ru;Annual report PDF;https://kase.kz/files/emitters/MKBW/mkbwp_2024_rus.pdf;FOUND;64 стр. Текст повествовательной части извлекается
+KZ;Майкубен-Вест;MKBW;Coal mining;2025;ru;Annual report PDF;https://kase.kz/files/emitters/MKBW/mkbwp_2025_rus.pdf;FOUND;69 стр. Текст извлекается
+KZ;Мангистаумунайгаз;MMGZ;Oil and gas;2021;ru;Annual report PDF;https://kase.kz/files/emitters/MMGZ/mmgzp_2021_rus.pdf;FOUND;90 стр. Текст извлекается
+KZ;Мангистаумунайгаз;MMGZ;Oil and gas;2022;;IR;https://kase.kz/ru/listing/issuers/MMGZ;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Мангистаумунайгаз;MMGZ;Oil and gas;2023;ru;Annual report PDF;https://kase.kz/files/emitters/MMGZ/mmgzp_2023_rus.pdf;FOUND;94 стр. Текст повествовательной части извлекается
+KZ;Мангистаумунайгаз;MMGZ;Oil and gas;2024;ru;Annual report PDF;https://kase.kz/files/emitters/MMGZ/mmgzp_2024_rus.pdf;FOUND;95 стр. Текст повествовательной части извлекается
+KZ;Мангистаумунайгаз;MMGZ;Oil and gas;2025;;IR;https://kase.kz/ru/listing/issuers/MMGZ;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;МРЭК;MREK;Electric utilities;2021;ru;Annual report PDF;https://kase.kz/files/emitters/MREK/mrekp_2021_rus.pdf;FOUND;53 стр. Текст извлекается
+KZ;МРЭК;MREK;Electric utilities;2022;ru;Annual report PDF;https://kase.kz/files/emitters/MREK/mrekp_2022_rus.pdf;FOUND;106 стр. Текст извлекается
+KZ;МРЭК;MREK;Electric utilities;2023;;IR;https://kase.kz/ru/listing/issuers/MREK;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;МРЭК;MREK;Electric utilities;2024;;IR;https://kase.kz/ru/listing/issuers/MREK;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;МРЭК;MREK;Electric utilities;2025;;IR;https://kase.kz/ru/listing/issuers/MREK;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Нурбанк;NRBN;Banking;2021;ru;Annual report PDF;https://kase.kz/files/emitters/NRBN/nrbnp_2021_rus.pdf;FOUND;55 стр. Текст извлекается
+KZ;Нурбанк;NRBN;Banking;2022;ru;Annual report PDF;https://kase.kz/files/emitters/NRBN/nrbnp_2022_rus.pdf;FOUND;51 стр. Текст извлекается
+KZ;Нурбанк;NRBN;Banking;2023;ru;Annual report PDF;https://kase.kz/files/emitters/NRBN/nrbnp_2023_rus.pdf;FOUND;59 стр. Текст извлекается
+KZ;Нурбанк;NRBN;Banking;2024;ru;Annual report PDF;https://kase.kz/files/emitters/NRBN/nrbnp_2024_rus.pdf;FOUND;65 стр. Текст извлекается
+KZ;Нурбанк;NRBN;Banking;2025;;IR;https://kase.kz/ru/listing/issuers/NRBN;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Phystech II;PHYS;Oil and gas;2021;;IR;https://kase.kz/ru/listing/issuers/PHYS;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Phystech II;PHYS;Oil and gas;2022;;IR;https://kase.kz/ru/listing/issuers/PHYS;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Phystech II;PHYS;Oil and gas;2023;ru;Annual report PDF;https://kase.kz/files/emitters/PHYS/physp_2023_rus.pdf;FOUND;23 стр. Стратегия и сведения о совете директоров и управляющей команде
+KZ;Phystech II;PHYS;Oil and gas;2024;ru;Annual report PDF;https://kase.kz/files/emitters/PHYS/physp_2024_rus.pdf;FOUND;30 стр. Текст извлекается
+KZ;Phystech II;PHYS;Oil and gas;2025;;IR;https://kase.kz/ru/listing/issuers/PHYS;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;ЛОТТЕ Рахат;RAHT;Food;2021;;IR;https://kase.kz/ru/listing/issuers/RAHT;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ЛОТТЕ Рахат;RAHT;Food;2022;;IR;https://kase.kz/ru/listing/issuers/RAHT;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ЛОТТЕ Рахат;RAHT;Food;2023;ru;Annual report PDF;https://kase.kz/files/emitters/RAHT/rahtp_2023_rus.pdf;FOUND;72 стр. Текст извлекается
+KZ;ЛОТТЕ Рахат;RAHT;Food;2024;;IR;https://kase.kz/ru/listing/issuers/RAHT;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ЛОТТЕ Рахат;RAHT;Food;2025;;IR;https://kase.kz/ru/listing/issuers/RAHT;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;RG Brands;RGBR;Food and beverages;2022;;IR;https://kase.kz/ru/listing/issuers/RGBR;NOT_FOUND;Годовой PDF существует. Текст повествовательной части не проверен из-за размера
+KZ;RG Brands;RGBR;Food and beverages;2024;;IR;https://kase.kz/ru/listing/issuers/RGBR;NOT_FOUND;Отчёт АО не подтверждён. Отчёт дочернего ТОО RG Brands Kazakhstan не подставлялся
+KZ;RG Brands;RGBR;Food and beverages;2025;;IR;https://kase.kz/ru/listing/issuers/RGBR;NOT_FOUND;PDF существует. Содержание файла около 36 МБ не удалось проверить
+KZ;Sinoasia B&R;SABR;Insurance;2021;;IR;https://kase.kz/ru/listing/issuers/SABR;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Sinoasia B&R;SABR;Insurance;2022;;IR;https://kase.kz/ru/listing/issuers/SABR;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Sinoasia B&R;SABR;Insurance;2023;ru;Annual report PDF;https://kase.kz/files/emitters/SABR/sabrp_2023_rus.pdf;FOUND;52 стр. Текст извлекается
+KZ;Sinoasia B&R;SABR;Insurance;2024;;IR;https://kase.kz/ru/listing/issuers/SABR;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Sinoasia B&R;SABR;Insurance;2025;;IR;https://kase.kz/ru/listing/issuers/SABR;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;С.А.С.;SAS_;Real estate;2021;;IR;https://kase.kz/ru/listing/issuers/SAS_;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;С.А.С.;SAS_;Real estate;2022;;IR;https://kase.kz/ru/listing/issuers/SAS_;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;С.А.С.;SAS_;Real estate;2023;;IR;https://kase.kz/ru/listing/issuers/SAS_;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;С.А.С.;SAS_;Real estate;2024;;IR;https://kase.kz/ru/listing/issuers/SAS_;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;С.А.С.;SAS_;Real estate;2025;;IR;https://kase.kz/ru/listing/issuers/SAS_;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Fincraft Resources;SATC;Mining;2021;;IR;https://kase.kz/ru/listing/issuers/SATC;NOT_FOUND;Отчёт эмитента SATC не подтверждён. Fincraft Group не подставлялся
+KZ;Fincraft Resources;SATC;Mining;2022;;IR;https://kase.kz/ru/listing/issuers/SATC;NOT_FOUND;Отчёт эмитента SATC не подтверждён. Fincraft Group не подставлялся
+KZ;Fincraft Resources;SATC;Mining;2023;;IR;https://kase.kz/ru/listing/issuers/SATC;NOT_FOUND;Отчёт эмитента SATC не подтверждён. Fincraft Group не подставлялся
+KZ;Fincraft Resources;SATC;Mining;2024;;IR;https://kase.kz/ru/listing/issuers/SATC;NOT_FOUND;Отчёт эмитента SATC не подтверждён. Fincraft Group не подставлялся
+KZ;Fincraft Resources;SATC;Mining;2025;;IR;https://kase.kz/ru/listing/issuers/SATC;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Шубарколь Премиум;SHUP;Coal mining;2021;ru;Annual report PDF;https://kase.kz/files/emitters/SHUP/shupp_2021_rus.pdf;FOUND;78 стр. Текст извлекается
+KZ;Шубарколь Премиум;SHUP;Coal mining;2022;ru;Annual report PDF;https://kase.kz/files/emitters/SHUP/shupp_2022_rus.pdf;FOUND;90 стр. Текст извлекается
+KZ;Шубарколь Премиум;SHUP;Coal mining;2023;ru;Annual report PDF;https://kase.kz/files/emitters/SHUP/shupp_2023_rus.pdf;FOUND;91 стр. Текст извлекается
+KZ;Шубарколь Премиум;SHUP;Coal mining;2024;;IR;https://kase.kz/ru/listing/issuers/SHUP;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Шубарколь Премиум;SHUP;Coal mining;2025;ru;Annual report PDF;https://kase.kz/files/emitters/SHUP/shupp_2025_rus.pdf;FOUND;96 стр. Текст извлекается
+KZ;ШалкияЦинк;SHZN;Mining;2021;;IR;https://kase.kz/ru/listing/issuers/SHZN;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ШалкияЦинк;SHZN;Mining;2022;;IR;https://kase.kz/ru/listing/issuers/SHZN;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ШалкияЦинк;SHZN;Mining;2023;;IR;https://kase.kz/ru/listing/issuers/SHZN;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ШалкияЦинк;SHZN;Mining;2024;;IR;https://kase.kz/ru/listing/issuers/SHZN;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ШалкияЦинк;SHZN;Mining;2025;;IR;https://kase.kz/ru/listing/issuers/SHZN;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Standard Life;SKSL;Insurance;2021;;IR;https://kase.kz/ru/listing/issuers/SKSL;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Standard Life;SKSL;Insurance;2022;;IR;https://kase.kz/ru/listing/issuers/SKSL;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Standard Life;SKSL;Insurance;2023;;IR;https://kase.kz/ru/listing/issuers/SKSL;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Standard Life;SKSL;Insurance;2024;;IR;https://kase.kz/ru/listing/issuers/SKSL;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Standard Life;SKSL;Insurance;2025;;IR;https://kase.kz/ru/listing/issuers/SKSL;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;ForteLeasing;TMLZ;Leasing;2021;;IR;https://kase.kz/ru/listing/issuers/TMLZ;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ForteLeasing;TMLZ;Leasing;2022;;IR;https://kase.kz/ru/listing/issuers/TMLZ;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ForteLeasing;TMLZ;Leasing;2023;;IR;https://kase.kz/ru/listing/issuers/TMLZ;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ForteLeasing;TMLZ;Leasing;2024;ru;Annual report PDF;https://kase.kz/files/emitters/TMLZ/tmlzp_2024_rus.pdf;FOUND;53 стр. Текст извлекается
+KZ;ForteLeasing;TMLZ;Leasing;2025;ru;Annual report PDF;https://kase.kz/files/emitters/TMLZ/tmlzp_2025_rus.pdf;FOUND;52 стр. Текст извлекается
+KZ;Tencor Securities;TPIB;Financial services;2021;;IR;https://kase.kz/ru/listing/issuers/TPIB;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Tencor Securities;TPIB;Financial services;2022;;IR;https://kase.kz/ru/listing/issuers/TPIB;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Tencor Securities;TPIB;Financial services;2023;;IR;https://kase.kz/ru/listing/issuers/TPIB;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Tencor Securities;TPIB;Financial services;2024;;IR;https://kase.kz/ru/listing/issuers/TPIB;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Tencor Securities;TPIB;Financial services;2025;;IR;https://kase.kz/ru/listing/issuers/TPIB;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Terrox Metals;TRRX;Mining;2021;;IR;https://kase.kz/ru/listing/issuers/TRRX;NOT_FOUND;Отчёт не подтверждён. Листинг акций с 2026 года
+KZ;Terrox Metals;TRRX;Mining;2022;;IR;https://kase.kz/ru/listing/issuers/TRRX;NOT_FOUND;Отчёт не подтверждён. Листинг акций с 2026 года
+KZ;Terrox Metals;TRRX;Mining;2023;;IR;https://kase.kz/ru/listing/issuers/TRRX;NOT_FOUND;Отчёт не подтверждён. Листинг акций с 2026 года
+KZ;Terrox Metals;TRRX;Mining;2024;;IR;https://kase.kz/ru/listing/issuers/TRRX;NOT_FOUND;Отчёт не подтверждён. Листинг акций с 2026 года
+KZ;Terrox Metals;TRRX;Mining;2025;;IR;https://kase.kz/ru/listing/issuers/TRRX;NOT_FOUND;Отчёт не подтверждён. Листинг акций с 2026 года
+KZ;Alatau City Bank;TSBN;Banking;2021;;IR;https://kase.kz/ru/listing/issuers/TSBN;NOT_FOUND;Историческое название First Heartland Jusan Bank. Текстовый отчёт не подтверждён
+KZ;Alatau City Bank;TSBN;Banking;2022;;IR;https://kase.kz/ru/listing/issuers/TSBN;NOT_FOUND;Историческое название First Heartland Jusan Bank. Текстовый отчёт не подтверждён
+KZ;Alatau City Bank;TSBN;Banking;2023;;IR;https://kase.kz/ru/listing/issuers/TSBN;NOT_FOUND;Историческое название First Heartland Jusan Bank. Текстовый отчёт не подтверждён
+KZ;Alatau City Bank;TSBN;Banking;2024;ru;Annual report PDF;https://kase.kz/files/emitters/TSBN/tsbnp_2024_rus.pdf;FOUND;146 стр. Отчёт First Heartland Jusan Bank
+KZ;Alatau City Bank;TSBN;Banking;2025;;IR;https://kase.kz/ru/listing/issuers/TSBN;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;ULMUS BESSHOKY;ULBS;Mining;2021;;IR;https://kase.kz/ru/listing/issuers/ULBS;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ULMUS BESSHOKY;ULBS;Mining;2022;;IR;https://kase.kz/ru/listing/issuers/ULBS;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ULMUS BESSHOKY;ULBS;Mining;2023;;IR;https://kase.kz/ru/listing/issuers/ULBS;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ULMUS BESSHOKY;ULBS;Mining;2024;;IR;https://kase.kz/ru/listing/issuers/ULBS;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;ULMUS BESSHOKY;ULBS;Mining;2025;ru;Annual report PDF;https://kase.kz/files/emitters/ULBS/ulbsp_2025_rus.pdf;FOUND;82 стр. Повествовательная часть текстовая. Финансовое приложение сканировано
+KZ;УКТМК;UTMK;Metals;2021;;IR;https://kase.kz/ru/listing/issuers/UTMK;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;УКТМК;UTMK;Metals;2022;;IR;https://kase.kz/ru/listing/issuers/UTMK;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;УКТМК;UTMK;Metals;2023;ru;Annual report PDF;https://kase.kz/files/emitters/UTMK/utmkp_2023_rus.pdf;FOUND;34 стр. Текст извлекается
+KZ;УКТМК;UTMK;Metals;2024;;IR;https://kase.kz/ru/listing/issuers/UTMK;NOT_FOUND;Найден PDF на 35 стр. Извлекаемого текста нет
+KZ;УКТМК;UTMK;Metals;2025;;IR;https://kase.kz/ru/listing/issuers/UTMK;NOT_FOUND;Публикация подходящего отчёта не установлена
+KZ;Sozak Oil and Gas;SOG;Oil and gas;2021;;IR;https://sog.kz/?page_id=85;NOT_FOUND;Текстовый годовой отчёт не подтверждён
+KZ;Sozak Oil and Gas;SOG;Oil and gas;2022;;IR;https://sog.kz/?page_id=85;NOT_FOUND;Найдена финансовая отчётность. Подходящий повествовательный отчёт не подтверждён
+KZ;Sozak Oil and Gas;SOG;Oil and gas;2023;;IR;https://sog.kz/?page_id=85;NOT_FOUND;Найдена финансовая отчётность. Подходящий повествовательный отчёт не подтверждён
+KZ;Sozak Oil and Gas;SOG;Oil and gas;2024;en;Annual report PDF;https://sog.kz/wp-content/uploads/2025/05/SOG_Annual_Report_2024.pdf;FOUND;74 стр. Повествовательная часть и корпоративное управление. Эмитент AIX
+KZ;Sozak Oil and Gas;SOG;Oil and gas;2025;;IR;https://sog.kz/?page_id=85;NOT_FOUND;Публикация подходящего отчёта не установлена
+SUMMARY;KASE_SCOPE;;;2021-2025;;Issuer universe;https://kase.kz/ru/investors/instruments/shares;CHECKED;68 казахстанских эмитентов по текущему списку на 30.09.2026. Исключены иностранные эмитенты и внесписочные KASE и AMGZp. Удалены 23 уже собранные пары
+SUMMARY;AIX_SCOPE;;;2021-2025;;Coverage;https://www.aixkz.com/en/pages/news/view/total-traded-value-on-aix-in-may-reached-us1966-mln-or-kzt-921-bln;PARTIAL;Добавлен Sozak Oil and Gas. Полный список 18 эмитентов AIX не сверён. Операция доступа браузером была отклонена проверкой разрешений. Выборку нельзя считать исчерпывающей по AIX
+SUMMARY;RESULTS;;;2021-2025;;Validation;;PARTIAL;322 строки для 69 компаний: FOUND 90 и FOUND_INDEXED 14 и NOT_FOUND 218. FOUND_INDEXED означает проверку текста по поисковому индексу без полной загрузки PDF. NOT_FOUND не доказывает отсутствие публикации. NOT_YET без такого подтверждения не присваивался. IR включает страницы раскрытия KASE

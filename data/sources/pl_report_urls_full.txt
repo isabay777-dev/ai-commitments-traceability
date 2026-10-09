@@ -1,0 +1,365 @@
+country;company;ticker;sector;year;language;doc_type;url;status;note
+Poland;Alior Bank;ALR;Banking;2021;EN;MB_REPORT_PDF;https://www.aliorbank.pl/dam/jcr:97d9a1f4-55ad-4ce8-bc51-ff734475c107/Management%20Board%20Report_Alior%20Bank%20Capital%20Group_FY2021_new%20layout.pdf;VERIFIED;WIG20
+Poland;Alior Bank;ALR;Banking;2022;EN;MB_REPORT_PDF;https://www.aliorbank.pl/dam/jcr:aa583329-e353-4468-8be2-678b44860016/Management%20Board%20Report%20of%20Alior%20Bank%20Group%20for%202022.pdf;VERIFIED;WIG20
+Poland;Alior Bank;ALR;Banking;2023;EN;MB_REPORT_PDF;https://www.aliorbank.pl/dam/jcr:187d23d7-a84a-4e4c-a80c-52b56441a61a/Management%20Board%20Report%20of%20Alior%20Bank%20Group%20for%202023.pdf;VERIFIED;WIG20
+Poland;Alior Bank;ALR;Banking;2024;;IR_PAGE;https://www.aliorbank.pl/en/investor-relations/financial-results.html;NOT_FOUND;Прямой файл не подтверждён
+Poland;Alior Bank;ALR;Banking;2025;;IR_PAGE;https://www.aliorbank.pl/en/investor-relations/financial-results.html;NOT_FOUND;Прямой файл не подтверждён
+Poland;Erste Bank Polska;EBP;Banking;2021;EN;ANNUAL_REPORT_PDF;https://www.santander.com/content/dam/santander-com/en/contenido-paginas/nuestro-compromiso/reports/doc-informe-annual-report-polonia-2021.pdf;VERIFIED_LINK;Santander Bank Polska / PDF превышает лимит чтения
+Poland;Erste Bank Polska;EBP;Banking;2022;;IR_PAGE;https://www.erste.pl/en/investor-relations/financial-statement?sr=1;NOT_FOUND;Santander Bank Polska / Прямой файл не подтверждён
+Poland;Erste Bank Polska;EBP;Banking;2023;;IR_PAGE;https://www.erste.pl/en/investor-relations/financial-statement?sr=1;NOT_FOUND;Santander Bank Polska / Прямой файл не подтверждён
+Poland;Erste Bank Polska;EBP;Banking;2024;EN;MB_REPORT_PDF;https://www.erste.pl/regulation_file_server/time20250307134205/download?id=168031&lang=en_US;VERIFIED;Отчёт Santander Bank Polska
+Poland;Erste Bank Polska;EBP;Banking;2025;;IR_PAGE;https://www.erste.pl/en/investor-relations/financial-statement?sr=1;NOT_FOUND;Santander Bank Polska / Прямой файл не подтверждён
+Poland;KRUK;KRU;Debt collection;2021;EN;MB_REPORT_PDF;https://en.kruk.eu/media/article/file/enkrukgroup2021.pdf;VERIFIED;WIG20
+Poland;KRUK;KRU;Debt collection;2022;EN;MB_REPORT_PDF;https://en.kruk.eu/media/article/file/krukdirectorsreportonoperations_2022_.pdf;VERIFIED;WIG20
+Poland;KRUK;KRU;Debt collection;2023;EN;MB_REPORT_PDF;https://en.kruk.eu/media/article/file/cgkrukdro2023p3.pdf;VERIFIED;WIG20
+Poland;KRUK;KRU;Debt collection;2024;EN;MB_REPORT_PDF;https://en.kruk.eu/media/article/file/cgkruk2024dro-27-03-2025-v4.pdf;VERIFIED;WIG20
+Poland;KRUK;KRU;Debt collection;2025;;IR_PAGE;https://en.kruk.eu/investor-relations;NOT_FOUND;Прямой файл не подтверждён
+Poland;Grupa Kęty;KTY;Aluminium;2021;;IR_PAGE;https://grupakety.com/relacje-inwestorskie/grupa-kety-na-gpw/raporty-okresowe-i-prezentacje/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Grupa Kęty;KTY;Aluminium;2022;;IR_PAGE;https://grupakety.com/relacje-inwestorskie/grupa-kety-na-gpw/raporty-okresowe-i-prezentacje/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Grupa Kęty;KTY;Aluminium;2023;;IR_PAGE;https://grupakety.com/relacje-inwestorskie/grupa-kety-na-gpw/raporty-okresowe-i-prezentacje/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Grupa Kęty;KTY;Aluminium;2024;EN;MB_REPORT_PDF;https://grupakety.com/wp-content/uploads/2025/03/SprawozdanieZarzaduzdzialalnosci2024_ANG.pdf;VERIFIED;WIG20
+Poland;Grupa Kęty;KTY;Aluminium;2025;;IR_PAGE;https://grupakety.com/relacje-inwestorskie/grupa-kety-na-gpw/raporty-okresowe-i-prezentacje/;NOT_FOUND;Прямой файл не подтверждён
+Poland;LPP;LPP;Apparel retail;2021;;IR_PAGE;https://www.lpp.com/en/investor-relations/reports/financial-reports?pg=4;NOT_FOUND;Альтернативный PDF не открылся / FY2021-2022
+Poland;LPP;LPP;Apparel retail;2022;EN;ANNUAL_REPORT_PDF;https://wwwlpp62711ea95a.blob.core.windows.net/blobwwwlpp62711ea95a/wp-content/uploads/2023/04/Consolidated-annual-report-of-LPP-SA-Group-for-2022-23-Correction.pdf;VERIFIED_LINK;PDF превышает лимит чтения / FY2022-2023
+Poland;LPP;LPP;Apparel retail;2023;;IR_PAGE;https://www.lpp.com/en/investor-relations/reports/financial-reports?pg=4;NOT_FOUND;Альтернативный PDF не открылся
+Poland;LPP;LPP;Apparel retail;2024;;IR_PAGE;https://www.lpp.com/en/investor-relations/reports/financial-reports?pg=4;NOT_FOUND;Прямой файл не подтверждён
+Poland;mBank;MBK;Banking;2021;EN;ANNUAL_REPORT_ZIP;https://www.mbank.pl/pdf/relacje-inwestorskie/raport-roczny/2021/mbank-group-consolidated-fiancial-report-pdf.zip;VERIFIED_LINK;ZIP отвечает / содержимое не распаковано
+Poland;mBank;MBK;Banking;2022;EN;ANNUAL_REPORT_ZIP;https://www.mbank.pl/pdf/relacje-inwestorskie/raport-roczny/2022/mbank-group-consolidated-financial-report-pdf.zip;VERIFIED_LINK;ZIP отвечает / содержимое не распаковано
+Poland;mBank;MBK;Banking;2023;EN;ANNUAL_REPORT_ZIP;https://www.mbank.pl/pdf/relacje-inwestorskie/raport-roczny/2023/mbank-group-consolidated-financial-report-pdf.zip;VERIFIED_LINK;ZIP отвечает / содержимое не распаковано
+Poland;mBank;MBK;Banking;2024;EN;ANNUAL_REPORT_ZIP;https://www.mbank.pl/pdf/relacje-inwestorskie/raport-roczny/2024/mbank-group-consolidated-financial-report-pdf.zip;VERIFIED_LINK;ZIP отвечает / содержимое не распаковано
+Poland;mBank;MBK;Banking;2025;EN;ANNUAL_REPORT_ZIP;https://www.mbank.pl/pdf/relacje-inwestorskie/raport-roczny/2025/mbank-group-consolidated-financial-report-pdf.zip;VERIFIED_LINK;ZIP отвечает / содержимое не распаковано
+Poland;Modivo;MDV;Footwear retail;2021;;IR_PAGE;https://modivoplatform.com/en/reports;NOT_FOUND;Бывшая CCC / FY2021-2022 / Файл не подтверждён
+Poland;Modivo;MDV;Footwear retail;2022;EN;MB_REPORT_PDF;https://modivoplatform.com/en/download/pobierz-zalacznik/consolidated-directors-report-of-the-ccc-group-1;VERIFIED;CCC / FY2022-2023
+Poland;Modivo;MDV;Footwear retail;2023;EN;MB_REPORT_PDF;https://modivoplatform.com/en/download/pobierz-zalacznik/consolidated-directors-report-of-the-ccc-group-2;VERIFIED;CCC / FY2023-2024
+Poland;Modivo;MDV;Footwear retail;2024;;IR_PAGE;https://modivoplatform.com/en/reports;NOT_FOUND;Бывшая CCC / FY2024-2025 / Файл не подтверждён
+Poland;Modivo;MDV;Footwear retail;2025;;IR_PAGE;https://modivoplatform.com/en/reports;NOT_FOUND;Бывшая CCC / FY2025-2026 / Файл не подтверждён
+Poland;Pepco Group;PCO;Retail;2021;EN;ANNUAL_REPORT_PDF;https://www.pepcogroup.eu/wp-content/uploads/2023/10/Annual_Report_Final_Unsigned-1.pdf;VERIFIED;Отчёт директоров внутри
+Poland;Pepco Group;PCO;Retail;2022;;IR_PAGE;https://www.pepcogroup.eu/investors/financial-reports-presentations-amp-videos/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Pepco Group;PCO;Retail;2023;;IR_PAGE;https://www.pepcogroup.eu/investors/financial-reports-presentations-amp-videos/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Pepco Group;PCO;Retail;2024;EN;ANNUAL_REPORT_PDF;https://www.pepcogroup.eu/wp-content/uploads/2024/12/2024.12.20_PCO-2024-Annual-Report.pdf;VERIFIED;Отчёт директоров внутри
+Poland;Pepco Group;PCO;Retail;2025;EN;ANNUAL_REPORT_PDF;https://www.pepcogroup.eu/wp-content/uploads/2026/01/2026.01.15_PCO-2025-Annual-Report-and-Accounts-vF.pdf;VERIFIED;Отчёт директоров внутри
+Poland;Bank Pekao;PEO;Banking;2021;;IR_PAGE;https://www.pekao.com.pl/en/investors-relations/reports/reports.html;NOT_FOUND;Прямой файл не подтверждён
+Poland;Bank Pekao;PEO;Banking;2022;;IR_PAGE;https://www.pekao.com.pl/en/investors-relations/reports/reports.html;NOT_FOUND;Прямой файл не подтверждён
+Poland;Bank Pekao;PEO;Banking;2023;;IR_PAGE;https://www.pekao.com.pl/en/investors-relations/reports/reports.html;NOT_FOUND;Прямой файл не подтверждён
+Poland;Bank Pekao;PEO;Banking;2024;;IR_PAGE;https://www.pekao.com.pl/en/investors-relations/reports/reports.html;NOT_FOUND;Прямой файл не подтверждён
+Poland;Bank Pekao;PEO;Banking;2025;;IR_PAGE;https://www.pekao.com.pl/en/investors-relations/reports/reports.html;NOT_FOUND;Прямой файл не подтверждён
+Poland;PGE;PGE;Electric utilities;2021;;IR_PAGE;https://www.gkpge.pl/en/for-investors;NOT_FOUND;Прямой файл не подтверждён
+Poland;PGE;PGE;Electric utilities;2022;;IR_PAGE;https://www.gkpge.pl/en/for-investors;NOT_FOUND;Прямой файл не подтверждён
+Poland;PGE;PGE;Electric utilities;2023;;IR_PAGE;https://www.gkpge.pl/en/for-investors;NOT_FOUND;Прямой файл не подтверждён
+Poland;PGE;PGE;Electric utilities;2024;;IR_PAGE;https://www.gkpge.pl/en/for-investors;NOT_FOUND;Прямой файл не подтверждён
+Poland;PGE;PGE;Electric utilities;2025;;IR_PAGE;https://www.gkpge.pl/en/for-investors;NOT_FOUND;Прямой файл не подтверждён
+Poland;ORLEN;PKN;Oil and gas;2021;EN;ANNUAL_REPORT_ZIP;https://www.orlen.pl/content/dam/internet/orlen/pl/en/investor-relations/reports-and-publications/financial-results/2021/fy2021/SKONSOLIDOWANY_RAPORT_2021_PDF_ENG.zip.coredownload.zip;VERIFIED_LINK;Альтернативный ZIP отвечает / содержимое не распаковано
+Poland;ORLEN;PKN;Oil and gas;2022;;IR_PAGE;https://www.orlen.pl/en/investor-relations/reports-and-publications/financial-results;NOT_FOUND;Прямой файл не подтверждён
+Poland;ORLEN;PKN;Oil and gas;2023;PL;ANNUAL_REPORT_ZIP;https://www.orlen.pl/content/dam/internet/orlen/pl/pl/relacje-inwestorskie/raporty-i-publikacje/sprawozdania/2023/fy2023/GRUPA_ORLEN_FY23_Skonsolidowane_ESEF.zip.coredownload.zip;VERIFIED_LINK;Альтернативный ESEF ZIP отвечает / содержимое не распаковано
+Poland;ORLEN;PKN;Oil and gas;2024;;IR_PAGE;https://www.orlen.pl/en/investor-relations/reports-and-publications/financial-results;NOT_FOUND;Прямой файл не подтверждён
+Poland;Tauron Polska Energia;TPE;Electric utilities;2021;;IR_PAGE;https://www.tauron.pl/tauron/o-tauronie/raportowanie-esg;NOT_FOUND;Прямой файл не подтверждён
+Poland;Tauron Polska Energia;TPE;Electric utilities;2022;;IR_PAGE;https://www.tauron.pl/tauron/o-tauronie/raportowanie-esg;NOT_FOUND;Прямой файл не подтверждён
+Poland;Tauron Polska Energia;TPE;Electric utilities;2023;EN;MB_REPORT_PDF;https://en.tauron.pl/-/media/offer-documents/english/general-meetings/2024/documents-presented/report-of-the-management-board-on-the-operatios-of-tauron-and-tauron-capital-group-for-2023.ashx;VERIFIED;WIG20
+Poland;Tauron Polska Energia;TPE;Electric utilities;2024;;IR_PAGE;https://www.tauron.pl/tauron/o-tauronie/raportowanie-esg;NOT_FOUND;Прямой файл не подтверждён
+Poland;Tauron Polska Energia;TPE;Electric utilities;2025;EN;MB_REPORT_PDF;https://www.tauron.pl/-/media/tauron/o-tauronie/esg/dokumenty/report-of-the-management-board-on-the-operations-of-tauron-polska-energia-sa-and-tauron-capital-group-for-2025.ashx;VERIFIED_LINK;Файл отвечает / размер превышает лимит чтения
+Poland;Żabka Group;ZAB;Food retail;2021;;IR_PAGE;https://zabkagroup.com/investors/results-center/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Żabka Group;ZAB;Food retail;2022;;IR_PAGE;https://zabkagroup.com/investors/results-center/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Żabka Group;ZAB;Food retail;2023;;IR_PAGE;https://zabkagroup.com/investors/results-center/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Żabka Group;ZAB;Food retail;2024;;IR_PAGE;https://zabkagroup.com/investors/results-center/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Żabka Group;ZAB;Food retail;2025;EN;ANNUAL_REPORT_PDF;https://zabkagroup.azureedge.net/wp-content/uploads/2026/03/Zabka-Group-2025-Annual-Report.pdf?t=1774431476;VERIFIED_LINK;Файл отвечает / размер превышает лимит чтения
+Poland;AB;ABE;IT distribution;2021;;IR_PAGE;https://www.ab.pl/dla-inwestorow/raporty/;NOT_FOUND;Прямой файл не подтверждён
+Poland;AB;ABE;IT distribution;2022;;IR_PAGE;https://www.ab.pl/dla-inwestorow/raporty/;NOT_FOUND;Прямой файл не подтверждён
+Poland;AB;ABE;IT distribution;2023;;IR_PAGE;https://www.ab.pl/dla-inwestorow/raporty/;NOT_FOUND;Прямой файл не подтверждён
+Poland;AB;ABE;IT distribution;2024;;IR_PAGE;https://www.ab.pl/dla-inwestorow/raporty/;NOT_FOUND;Прямой файл не подтверждён
+Poland;AB;ABE;IT distribution;2025;;IR_PAGE;https://www.ab.pl/dla-inwestorow/raporty/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Asseco Poland;ACP;IT;2021;EN;MB_REPORT_PDF;https://inwestor.asseco.com/files/investor/uploads/Management_Board_s_report_on_operations_of_the_Asseco_Group_and_Asseco_Poland_S.A._2021.pdf;VERIFIED;PDF доступен при проверке
+Poland;Asseco Poland;ACP;IT;2022;EN;MB_REPORT_PDF;https://inwestor.asseco.com/files/investor/uploads/Management_Board_s_report_on_operations_of_the_Asseco_Group_and_Asseco_Poland_S.A._2022.pdf;VERIFIED;mWIG40
+Poland;Asseco Poland;ACP;IT;2023;EN;MB_REPORT_PDF;https://see.asseco.com/files/investor/documents/Management_Board_s_report_on_operations_of_the_Asseco_Group_and_Asseco_Poland_S.A._2023.pdf;VERIFIED;Альтернативный домен Asseco
+Poland;Asseco Poland;ACP;IT;2024;;IR_PAGE;https://inwestor.asseco.com/en/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Auto Partner;APR;Automotive distribution;2021;;IR_PAGE;https://ir.autopartner.com/en/annual-general-meeting/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Auto Partner;APR;Automotive distribution;2022;;IR_PAGE;https://ir.autopartner.com/en/annual-general-meeting/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Auto Partner;APR;Automotive distribution;2023;EN;MB_REPORT_PDF;https://autopartner.com/wp-content/uploads/2024/04/Directors-Report-on-the-operations-of-Auto-Partner-S.A.-and-the-Auto-Partner-Group.pdf;VERIFIED;mWIG40
+Poland;Auto Partner;APR;Automotive distribution;2024;EN;MB_REPORT_PDF;https://autopartner.com/wp-content/uploads/2025/04/Directors-Report_ESG_2024_EN.pdf;VERIFIED;mWIG40
+Poland;Auto Partner;APR;Automotive distribution;2025;EN;MB_REPORT_PDF;https://autopartner.com/wp-content/uploads/2026/04/Sprawozdanie_Zarzadu_plus_ESG_2025_EN.pdf;VERIFIED;mWIG40
+Poland;ASBISc Enterprises;ASB;IT distribution;2021;EN;ANNUAL_REPORT_PDF;https://investor.asbis.com/download/Annual_Report_2021_SIGNED.pdf;VERIFIED_LINK;Скан PDF / текст не извлечён
+Poland;ASBISc Enterprises;ASB;IT distribution;2022;EN;ANNUAL_REPORT_PDF;https://investor.asbis.com/download/Annual_Report_2022_ENG_signed.pdf;VERIFIED_LINK;Скан PDF / текст не извлечён
+Poland;ASBISc Enterprises;ASB;IT distribution;2023;;IR_PAGE;https://investor.asbis.com/financial-reports-archive;NOT_FOUND;Прямой файл не подтверждён
+Poland;ASBISc Enterprises;ASB;IT distribution;2024;EN;ANNUAL_REPORT_PDF;https://investor.asbis.com/download/Consolidated_annual_report_2024.pdf;VERIFIED;Отчёт директоров внутри
+Poland;ASBISc Enterprises;ASB;IT distribution;2025;EN;ANNUAL_REPORT_PDF;https://investor.asbis.com/download/ASBIS_annual_report-2025_final_-_with_assurance_and_signatures.pdf;VERIFIED;Отчёт директоров внутри
+Poland;Asseco South Eastern Europe;ASE;IT;2021;;IR_PAGE;https://asee.io/investor-relations/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Asseco South Eastern Europe;ASE;IT;2022;;IR_PAGE;https://asee.io/investor-relations/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Asseco South Eastern Europe;ASE;IT;2023;;IR_PAGE;https://asee.io/investor-relations/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Asseco South Eastern Europe;ASE;IT;2024;;IR_PAGE;https://asee.io/investor-relations/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Asseco South Eastern Europe;ASE;IT;2025;;IR_PAGE;https://asee.io/investor-relations/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Grupa Azoty;ATT;Chemicals;2021;;IR_PAGE;https://tarnow.grupaazoty.com/relacje-inwestorskie/raporty-okresowe;NOT_FOUND;IR 403 / рабочая альтернатива не подтверждена
+Poland;Grupa Azoty;ATT;Chemicals;2022;;IR_PAGE;https://tarnow.grupaazoty.com/relacje-inwestorskie/raporty-okresowe;NOT_FOUND;IR 403 / рабочая альтернатива не подтверждена
+Poland;Grupa Azoty;ATT;Chemicals;2023;;IR_PAGE;https://tarnow.grupaazoty.com/relacje-inwestorskie/raporty-okresowe;NOT_FOUND;IR 403 / альтернативное вложение не открылось
+Poland;Grupa Azoty;ATT;Chemicals;2024;;IR_PAGE;https://tarnow.grupaazoty.com/relacje-inwestorskie/raporty-okresowe;NOT_FOUND;IR 403 / альтернативное вложение не открылось
+Poland;Grupa Azoty;ATT;Chemicals;2025;;IR_PAGE;https://tarnow.grupaazoty.com/relacje-inwestorskie/raporty-okresowe;NOT_FOUND;IR 403 / рабочая альтернатива не подтверждена
+Poland;Benefit Systems;BFT;Fitness services;2021;;IR_PAGE;https://corp.benefitsystems.pl/en/for-investors/reports/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Benefit Systems;BFT;Fitness services;2022;;IR_PAGE;https://corp.benefitsystems.pl/en/for-investors/reports/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Benefit Systems;BFT;Fitness services;2023;;IR_PAGE;https://corp.benefitsystems.pl/en/for-investors/reports/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Benefit Systems;BFT;Fitness services;2024;;IR_PAGE;https://corp.benefitsystems.pl/en/for-investors/reports/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Benefit Systems;BFT;Fitness services;2025;;IR_PAGE;https://corp.benefitsystems.pl/en/for-investors/reports/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Bank Handlowy;BHW;Banking;2021;EN;MB_REPORT_PDF;https://www.citibank.pl/poland/homepage/raport_roczny_2021/english/files/report_on_activities_2021.pdf;VERIFIED;mWIG40
+Poland;Bank Handlowy;BHW;Banking;2022;EN;MB_REPORT_PDF;https://www.citibank.pl/poland/homepage/raport_roczny_2022/english/files/report_on_activities_2022.pdf;VERIFIED;mWIG40
+Poland;Bank Handlowy;BHW;Banking;2023;EN;MB_REPORT_PDF;https://www.citibank.pl/poland/homepage/raport_roczny_2023/english/files/report_on_activities_2023.pdf;VERIFIED;mWIG40
+Poland;Bank Handlowy;BHW;Banking;2024;EN;MB_REPORT_PDF;https://www.citibank.pl/poland/homepage/raport-roczny-2024/4_report-on-activities_csrd_2024.pdf;VERIFIED;mWIG40
+Poland;Bank Handlowy;BHW;Banking;2025;;IR_PAGE;https://www.citibank.pl/poland/homepage/english/investor-relations.htm;NOT_FOUND;Прямой файл не подтверждён
+Poland;BNP Paribas Bank Polska;BNP;Banking;2021;EN;MB_REPORT_PDF;https://www.bnpparibas.pl/_fileserver/item/1536870;VERIFIED;mWIG40
+Poland;BNP Paribas Bank Polska;BNP;Banking;2022;EN;MB_REPORT_PDF;https://www.bnpparibas.pl/_fileserver/item/1540876;VERIFIED;mWIG40
+Poland;BNP Paribas Bank Polska;BNP;Banking;2023;EN;MB_REPORT_PDF;https://www.bnpparibas.pl/_fileserver/item/1544154;VERIFIED;mWIG40
+Poland;BNP Paribas Bank Polska;BNP;Banking;2024;;IR_PAGE;https://www.bnpparibas.pl/en/investor-relations/stock-exchange-reports/periodic-reports;NOT_FOUND;Прямой файл не подтверждён
+Poland;BNP Paribas Bank Polska;BNP;Banking;2025;;IR_PAGE;https://www.bnpparibas.pl/en/investor-relations/stock-exchange-reports/periodic-reports;NOT_FOUND;Прямой файл не подтверждён
+Poland;Inter Cars;CAR;Automotive distribution;2021;;IR_PAGE;https://inwestor.intercars.com/en/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Inter Cars;CAR;Automotive distribution;2022;;IR_PAGE;https://inwestor.intercars.com/en/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Inter Cars;CAR;Automotive distribution;2023;EN;MB_REPORT_PDF;https://inwestor.intercars.com/wp-content/uploads/2024/04/IC_2023_MANAGEMENT_BOARD_REPORT_ON_THE_ACTIVITIES.pdf;VERIFIED;mWIG40
+Poland;Inter Cars;CAR;Automotive distribution;2024;EN;MB_REPORT_PDF;https://inwestor.intercars.com/wp-content/uploads/2025/05/MANAGEMENTBOARDSREPORTONTHEACTIVITIES2024.pdf;VERIFIED;mWIG40
+Poland;Inter Cars;CAR;Automotive distribution;2025;;IR_PAGE;https://inwestor.intercars.com/en/;NOT_FOUND;Прямой файл не подтверждён
+Poland;cyber_Folks;CBF;IT;2021;PL;MB_REPORT_PDF;https://investors.cyberfolks.pl/wp-content/uploads/2026/05/R22_2021Q4_Raport_roczny.pdf;VERIFIED;Бывшая R22
+Poland;cyber_Folks;CBF;IT;2022;EN;MB_REPORT_PDF;https://investors.cyberfolks.pl/wp-content/uploads/2026/05/R22_Annual_report_2022__28.03.2023-1.pdf;VERIFIED;Бывшая R22
+Poland;cyber_Folks;CBF;IT;2023;;IR_PAGE;https://investors.cyberfolks.pl/raporty/;NOT_FOUND;Прямой файл не подтверждён
+Poland;cyber_Folks;CBF;IT;2024;EN;MB_REPORT_PDF;https://investors.cyberfolks.pl/wp-content/uploads/2026/05/CBF_Annual_Report_2024-1.pdf;VERIFIED;mWIG40
+Poland;cyber_Folks;CBF;IT;2025;;IR_PAGE;https://investors.cyberfolks.pl/raporty/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Cyfrowy Polsat;CPS;Telecom and media;2021;;IR_PAGE;https://grupapolsatplus.pl/en;NOT_FOUND;Прямой файл не подтверждён
+Poland;Cyfrowy Polsat;CPS;Telecom and media;2022;;IR_PAGE;https://grupapolsatplus.pl/en;NOT_FOUND;Прямой файл не подтверждён
+Poland;Cyfrowy Polsat;CPS;Telecom and media;2023;EN;ANNUAL_REPORT_PDF;https://grupapolsatplus.pl/sites/default/files/documents/2021/cp_fy2023_eng.pdf;VERIFIED;Отчёт правления внутри
+Poland;Cyfrowy Polsat;CPS;Telecom and media;2024;;IR_PAGE;https://grupapolsatplus.pl/en;NOT_FOUND;Прямой файл не подтверждён
+Poland;Cyfrowy Polsat;CPS;Telecom and media;2025;;IR_PAGE;https://grupapolsatplus.pl/en;NOT_FOUND;Прямой файл не подтверждён
+Poland;Creotech Instruments;CRI;Space technology;2021;;IR_PAGE;https://creotech.pl/pl/relacje-inwestorskie/raporty/okresowe/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Creotech Instruments;CRI;Space technology;2022;PL;MB_REPORT_PDF;https://creotech.pl/wp-content/uploads/2023/04/sprawozdanie-zarzadu-z-dzialalnosci_2022.pdf;VERIFIED;mWIG40
+Poland;Creotech Instruments;CRI;Space technology;2023;PL;MB_REPORT_PDF;https://creotech.pl/wp-content/uploads/2024/04/creotech-instruments_szd-2023_mssf_20240430_final.pdf;VERIFIED;mWIG40
+Poland;Creotech Instruments;CRI;Space technology;2024;;IR_PAGE;https://creotech.pl/pl/relacje-inwestorskie/raporty/okresowe/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Creotech Instruments;CRI;Space technology;2025;;IR_PAGE;https://creotech.pl/pl/relacje-inwestorskie/raporty/okresowe/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Diagnostyka;DIA;Healthcare;2021;;IR_PAGE;https://grupadiagnostyka.pl/en/for-the-investors/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Diagnostyka;DIA;Healthcare;2022;;IR_PAGE;https://grupadiagnostyka.pl/en/for-the-investors/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Diagnostyka;DIA;Healthcare;2023;;IR_PAGE;https://grupadiagnostyka.pl/en/for-the-investors/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Diagnostyka;DIA;Healthcare;2024;;IR_PAGE;https://grupadiagnostyka.pl/en/for-the-investors/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Diagnostyka;DIA;Healthcare;2025;EN;MB_REPORT_PDF;https://grupadiagnostyka.pl/app/uploads/2026/04/Management-Board-report-Diagnostyka-Group-2025.pdf;VERIFIED;mWIG40
+Poland;Dom Development;DOM;Real estate;2021;EN;MB_REPORT_PDF;https://inwestor.domd.pl/en/file/DOMDEV_Management%20Board%20Report_2021.pdf;VERIFIED;mWIG40
+Poland;Dom Development;DOM;Real estate;2022;EN;MB_REPORT_PDF;https://inwestor.domd.pl/en/file/MANAGEMENT%20BOARDS%20REPORT%20OF%20ACTIVITIES%20IN%202022.pdf;VERIFIED;mWIG40
+Poland;Dom Development;DOM;Real estate;2023;;IR_PAGE;https://inwestor.domd.pl/en/annual-reports/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Dom Development;DOM;Real estate;2024;EN;MB_REPORT_PDF;https://inwestor.domd.pl/en/file/DOMDEV_Management%20Boards%20Report_2024_EN.pdf;VERIFIED;mWIG40
+Poland;Dom Development;DOM;Real estate;2025;EN;MB_REPORT_PDF;https://inwestor.domd.pl/en/file/DOMDEV_SprawozdanieZarzadu_2025%20EN.pdf;VERIFIED;mWIG40
+Poland;Develia;DVL;Real estate;2021;;IR_PAGE;https://develia.pl/en/investor-relations/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Develia;DVL;Real estate;2022;;IR_PAGE;https://develia.pl/en/investor-relations/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Develia;DVL;Real estate;2023;;IR_PAGE;https://develia.pl/en/investor-relations/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Develia;DVL;Real estate;2024;;IR_PAGE;https://develia.pl/en/investor-relations/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Develia;DVL;Real estate;2025;;IR_PAGE;https://develia.pl/en/investor-relations/;NOT_FOUND;Прямой файл не подтверждён
+Poland;AmRest;EAT;Restaurants;2021;;IR_PAGE;https://www.amrest.eu/en/investors/financial-results;NOT_FOUND;Прямой файл не подтверждён
+Poland;AmRest;EAT;Restaurants;2022;;IR_PAGE;https://www.amrest.eu/en/investors/financial-results;NOT_FOUND;Прямой файл не подтверждён
+Poland;AmRest;EAT;Restaurants;2023;;IR_PAGE;https://www.amrest.eu/en/investors/financial-results;NOT_FOUND;Прямой файл не подтверждён
+Poland;AmRest;EAT;Restaurants;2024;;IR_PAGE;https://www.amrest.eu/en/investors/financial-results;NOT_FOUND;Прямой файл не подтверждён
+Poland;AmRest;EAT;Restaurants;2025;;IR_PAGE;https://www.amrest.eu/en/investors/financial-results;NOT_FOUND;Прямой файл не подтверждён
+Poland;Enea;ENA;Electric utilities;2021;;IR_PAGE;https://ir.enea.pl/en/report-list;NOT_FOUND;Прямой файл не подтверждён
+Poland;Enea;ENA;Electric utilities;2022;;IR_PAGE;https://ir.enea.pl/en/report-list;NOT_FOUND;Прямой файл не подтверждён
+Poland;Enea;ENA;Electric utilities;2023;;IR_PAGE;https://ir.enea.pl/en/report-list;NOT_FOUND;Прямой файл не подтверждён
+Poland;Enea;ENA;Electric utilities;2024;;IR_PAGE;https://ir.enea.pl/en/report-list;NOT_FOUND;Прямой файл не подтверждён
+Poland;Enea;ENA;Electric utilities;2025;;IR_PAGE;https://ir.enea.pl/en/report-list;NOT_FOUND;Прямой файл не подтверждён
+Poland;Grupa Pracuj;GPP;Online recruitment;2021;EN;MB_REPORT_PDF;https://ir.grupapracuj.pl/media/336/download/Management-Board-Report-on-activities-Grupa-Pracuj-S.A.-and-Group-2021.pdf?inline=1&v=1;VERIFIED;mWIG40
+Poland;Grupa Pracuj;GPP;Online recruitment;2022;EN;MB_REPORT_PDF;https://ir.grupapracuj.pl/media/326/download/Sprawozdanie%20Zarza%CC%A8du%20z%20dzia%C5%82alnos%CC%81ci%20spo%CC%81%C5%82ki%20Grupa%20Pracuj%20SA%20i%20Grupy%20Kapita%C5%82owej%20Grupy%20Pracuj%20SA%202.pdf?inline=1&v=1;VERIFIED;Английский текст при польском имени файла
+Poland;Grupa Pracuj;GPP;Online recruitment;2023;EN;MB_REPORT_PDF;https://ir.grupapracuj.pl/media/315/download/Sprawozdanie%20Zarzadu%20z%20dzialalnosci%20spolki%20Grupa%20Pracuj%20SA%20i%20Grupy%20Kapitalowej%20Grupy%20Pracuj%20SA%202.pdf?inline=1&v=1;VERIFIED;Английский текст при польском имени файла
+Poland;Grupa Pracuj;GPP;Online recruitment;2024;EN;MB_REPORT_PDF;https://ir.grupapracuj.pl/media/304/download/Sprawozdanie%20Zarza%CC%A8du%20z%20dzia%C5%82alnos%CC%81ci%20spo%CC%81%C5%82ki%20Grupa%20Pracuj%20SA%20i%20Grupy%20Kapita%C5%82owej%20Grupy%20Pracuj%20SA%202.pdf?inline=1&v=1;VERIFIED;Английский текст при польском имени файла
+Poland;Grupa Pracuj;GPP;Online recruitment;2025;EN;MB_REPORT_PDF;https://ir.grupapracuj.pl/media/809/download/Management_Boards_Report_on_the_activities_of_Grupa_Pracuj_SA_and_Grupa_Pracuj_SA_Group_2025.pdf?inline=1&v=1;VERIFIED;mWIG40
+Poland;Warsaw Stock Exchange;GPW;Financial services;2021;;IR_PAGE;https://www.gpw.pl/investor-relations;NOT_FOUND;Прямой файл не подтверждён
+Poland;Warsaw Stock Exchange;GPW;Financial services;2022;;IR_PAGE;https://www.gpw.pl/investor-relations;NOT_FOUND;Прямой файл не подтверждён
+Poland;Warsaw Stock Exchange;GPW;Financial services;2023;;IR_PAGE;https://www.gpw.pl/investor-relations;NOT_FOUND;Прямой файл не подтверждён
+Poland;Warsaw Stock Exchange;GPW;Financial services;2024;;IR_PAGE;https://www.gpw.pl/investor-relations;NOT_FOUND;Прямой файл не подтверждён
+Poland;Warsaw Stock Exchange;GPW;Financial services;2025;;IR_PAGE;https://www.gpw.pl/investor-relations;NOT_FOUND;Прямой файл не подтверждён
+Poland;ING Bank Śląski;ING;Banking;2021;EN;ANNUAL_REPORT_ZIP;https://en.ing.pl/_fileserver/item/2frrxdc.93e135a544cab36f724b6d250ce4f09a7d53ca055033cb26304c69eaefd72d0c;VERIFIED_LINK;ZIP отвечает / содержимое не распаковано
+Poland;ING Bank Śląski;ING;Banking;2022;;IR_PAGE;https://en.ing.pl/company-profile/investor-relations/financial-results;NOT_FOUND;Циклическое перенаправление файловой ссылки
+Poland;ING Bank Śląski;ING;Banking;2023;;IR_PAGE;https://en.ing.pl/company-profile/investor-relations/financial-results;NOT_FOUND;Циклическое перенаправление файловой ссылки
+Poland;ING Bank Śląski;ING;Banking;2024;;IR_PAGE;https://en.ing.pl/company-profile/investor-relations/financial-results;NOT_FOUND;Циклическое перенаправление файловой ссылки
+Poland;ING Bank Śląski;ING;Banking;2025;EN;ANNUAL_REPORT_ZIP;https://en.ing.pl/_fileserver/item/8x9usbm.cb7e0efda39821a4ae8455c3dd7eb4a7af2a524ef5ed2298a681a20e37bdb4e4;VERIFIED_LINK;ZIP отвечает / содержимое не распаковано
+Poland;Jastrzębska Spółka Węglowa;JSW;Coal mining;2021;;IR_PAGE;https://www.jsw.pl/relacje-inwestorskie/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Jastrzębska Spółka Węglowa;JSW;Coal mining;2022;;IR_PAGE;https://www.jsw.pl/relacje-inwestorskie/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Jastrzębska Spółka Węglowa;JSW;Coal mining;2023;;IR_PAGE;https://www.jsw.pl/relacje-inwestorskie/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Jastrzębska Spółka Węglowa;JSW;Coal mining;2024;;IR_PAGE;https://www.jsw.pl/relacje-inwestorskie/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Jastrzębska Spółka Węglowa;JSW;Coal mining;2025;PL;MB_REPORT_PDF;https://www.jsw.pl/fileadmin/user_files_ri/raporty-okresowe/pl/2025/1y/skonsolidowany/Sprawozdanie_Zarz%C4%85du_z_dzia%C5%82alno%C5%9Bci_JSW_S.A._oraz_Grupy_Kapita%C5%82owej_JSW_S.A._za_2025_r.__pdf_.pdf;VERIFIED_LINK;Файл отвечает / размер превышает лимит чтения
+Poland;Lubawa;LBW;Defence manufacturing;2021;;IR_PAGE;https://lubawagroup.com/raporty_okresowe/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Lubawa;LBW;Defence manufacturing;2022;;IR_PAGE;https://lubawagroup.com/raporty_okresowe/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Lubawa;LBW;Defence manufacturing;2023;;IR_PAGE;https://lubawagroup.com/raporty_okresowe/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Lubawa;LBW;Defence manufacturing;2024;;IR_PAGE;https://lubawagroup.com/raporty_okresowe/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Lubawa;LBW;Defence manufacturing;2025;PL;MB_REPORT_XHTML;https://lubawagroup.com/wp-content/uploads/2026/04/zal01_Sprawozdanie_Zarzadu_z_Dzialalnosci_Grupy_Lubawa-2025-12-31-1-pl.xhtml;VERIFIED_LINK;Файловый ответ XHTML / содержимое не прочитано
+Poland;Mo-Bruk;MBR;Waste management;2021;;IR_PAGE;https://mobruk.pl/gielda/raporty-okresowe/;NOT_FOUND;IR возвращает 502 / файл не подтверждён
+Poland;Mo-Bruk;MBR;Waste management;2022;;IR_PAGE;https://mobruk.pl/gielda/raporty-okresowe/;NOT_FOUND;IR возвращает 502 / файл не подтверждён
+Poland;Mo-Bruk;MBR;Waste management;2023;;IR_PAGE;https://mobruk.pl/gielda/raporty-okresowe/;NOT_FOUND;IR возвращает 502 / файл не подтверждён
+Poland;Mo-Bruk;MBR;Waste management;2024;;IR_PAGE;https://mobruk.pl/gielda/raporty-okresowe/;NOT_FOUND;IR возвращает 502 / файл не подтверждён
+Poland;Mo-Bruk;MBR;Waste management;2025;;IR_PAGE;https://mobruk.pl/gielda/raporty-okresowe/;NOT_FOUND;IR возвращает 502 / файл не подтверждён
+Poland;Bank Millennium;MIL;Banking;2021;EN;ANNUAL_REPORT_ZIP;https://www.bankmillennium.pl/documents/10184/30701655/Consolidated-Annual-Report-of-Bank-Millennium-Group-for-202_pdf.zip/4fbd3cd6-02c9-e07c-3e41-18f46feababf?t=1645467900517;VERIFIED_LINK;ZIP отвечает / содержимое не распаковано
+Poland;Bank Millennium;MIL;Banking;2022;EN;ANNUAL_REPORT_ZIP;https://www.bankmillennium.pl/documents/10184/31801723/Consolidated-Annual-Report-of-Bank-Millennium-Group-for-2022_pdf.zip/1f1ce2a3-2bd3-adfc-58f8-a69803825cad?t=1676483344300;VERIFIED_LINK;ZIP отвечает / содержимое не распаковано
+Poland;Bank Millennium;MIL;Banking;2023;EN;ANNUAL_REPORT_ZIP;https://www.bankmillennium.pl/documents/10184/32257776/Consolidated-Annual-Report-of-Bank-Millennium-Group-for-2023_pdf.zip/7d0efb5f-5156-7e41-33c4-354d5a430f59?t=1709301519702;VERIFIED_LINK;ZIP отвечает / содержимое не распаковано
+Poland;Bank Millennium;MIL;Banking;2024;EN;ANNUAL_REPORT_ZIP;https://www.bankmillennium.pl/documents/10184/33276917/Consolidated-Annual-Report-of-Bank-Millennium-Group-for-2024_pdf.zip/9a09500a-60ba-c07b-1226-9f79c8874ea6?t=1740417867523;VERIFIED_LINK;ZIP отвечает / содержимое не распаковано
+Poland;Bank Millennium;MIL;Banking;2025;EN;ANNUAL_REPORT_ZIP;https://www.bankmillennium.pl/documents/10184/34859019/Consolidated-Annual-Report-of-Bank-Millennium-Group-for-2025_pdf.zip/c0f3d74d-c3a4-a0f2-fc91-5836387901fb?t=1772217195592;VERIFIED_LINK;ZIP отвечает / содержимое не распаковано
+Poland;Mirbud;MRB;Construction;2021;;IR_PAGE;https://relacje.mirbud.pl/raporty-okresowe;NOT_FOUND;Прямой файл не подтверждён
+Poland;Mirbud;MRB;Construction;2022;;IR_PAGE;https://relacje.mirbud.pl/raporty-okresowe;NOT_FOUND;Прямой файл не подтверждён
+Poland;Mirbud;MRB;Construction;2023;;IR_PAGE;https://relacje.mirbud.pl/raporty-okresowe;NOT_FOUND;Прямой файл не подтверждён
+Poland;Mirbud;MRB;Construction;2024;;IR_PAGE;https://relacje.mirbud.pl/raporty-okresowe;NOT_FOUND;Прямой файл не подтверждён
+Poland;Mirbud;MRB;Construction;2025;;IR_PAGE;https://relacje.mirbud.pl/raporty-okresowe;NOT_FOUND;Прямой файл не подтверждён
+Poland;Murapol;MUR;Real estate;2021;;IR_PAGE;https://murapol.pl/relacje-inwestorskie/raporty-okresowe/raporty-roczne;NOT_FOUND;Прямой файл не подтверждён
+Poland;Murapol;MUR;Real estate;2022;;IR_PAGE;https://murapol.pl/relacje-inwestorskie/raporty-okresowe/raporty-roczne;NOT_FOUND;Прямой файл не подтверждён
+Poland;Murapol;MUR;Real estate;2023;;IR_PAGE;https://murapol.pl/relacje-inwestorskie/raporty-okresowe/raporty-roczne;NOT_FOUND;Прямой файл не подтверждён
+Poland;Murapol;MUR;Real estate;2024;;IR_PAGE;https://murapol.pl/relacje-inwestorskie/raporty-okresowe/raporty-roczne;NOT_FOUND;Прямой файл не подтверждён
+Poland;Murapol;MUR;Real estate;2025;;IR_PAGE;https://murapol.pl/relacje-inwestorskie/raporty-okresowe/raporty-roczne;NOT_FOUND;Прямой файл не подтверждён
+Poland;Neuca;NEU;Pharmaceutical distribution;2021;;IR_PAGE;https://inwestor.neuca.pl/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Neuca;NEU;Pharmaceutical distribution;2022;;IR_PAGE;https://inwestor.neuca.pl/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Neuca;NEU;Pharmaceutical distribution;2023;;IR_PAGE;https://inwestor.neuca.pl/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Neuca;NEU;Pharmaceutical distribution;2024;PL;ANNUAL_REPORT_PDF;https://inwestor.neuca.pl/upload/media/default/0001/03/74cf6d916f4afe0481a79cc67d42d4842e6ed790.pdf;VERIFIED;Отчёт о деятельности внутри
+Poland;Neuca;NEU;Pharmaceutical distribution;2025;;IR_PAGE;https://inwestor.neuca.pl/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Newag;NWG;Railway manufacturing;2021;PL;MB_REPORT_PDF;https://www.newag.pl/wp-content/uploads/2025/01/Sprawozdanie_dzialanosci_NEWAG_GK_2021.pdf;VERIFIED;mWIG40
+Poland;Newag;NWG;Railway manufacturing;2022;;IR_PAGE;https://www.newag.pl/raporty/raporty-roczne/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Newag;NWG;Railway manufacturing;2023;;IR_PAGE;https://www.newag.pl/raporty/raporty-roczne/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Newag;NWG;Railway manufacturing;2024;;IR_PAGE;https://www.newag.pl/raporty/raporty-roczne/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Newag;NWG;Railway manufacturing;2025;PL;MB_REPORT_PDF;https://www.newag.pl/wp-content/uploads/2026/04/SZ-2025.pdf;VERIFIED;mWIG40
+Poland;Orange Polska;OPL;Telecommunications;2022;;IR_PAGE;https://www.orange-ir.pl/results-center/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Orange Polska;OPL;Telecommunications;2023;EN;ANNUAL_REPORT_PDF;https://www.orange-ir.pl/wp-content/uploads/2024/02/financial-report-FY2023.pdf;VERIFIED;Альтернативный общий PDF / отчёт правления с PDF-страницы 82
+Poland;Orange Polska;OPL;Telecommunications;2024;;IR_PAGE;https://www.orange-ir.pl/results-center/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Orange Polska;OPL;Telecommunications;2025;;IR_PAGE;https://www.orange-ir.pl/results-center/;NOT_FOUND;Повторный тайм-аут PDF / рабочая альтернатива не подтверждена
+Poland;Polenergia;PEP;Renewable energy;2021;EN;MB_REPORT_PDF;https://www.polenergia.pl/wp-content/uploads/2022/04/EY21GrupaPOLSASprawozdanieZarzaduENG.pdf;VERIFIED;mWIG40
+Poland;Polenergia;PEP;Renewable energy;2022;EN;MB_REPORT_PDF;https://www.polenergia.pl/wp-content/uploads/2023/03/EY22GrupaPOLSASprawozdanieZarzaduENG.pdf;VERIFIED;mWIG40
+Poland;Polenergia;PEP;Renewable energy;2023;EN;MB_REPORT_PDF;https://www.polenergia.pl/wp-content/uploads/2024/03/PolenergiaGroupConsolidatedReportontheoperationsfor2023.pdf;VERIFIED;mWIG40
+Poland;Polenergia;PEP;Renewable energy;2024;EN;MB_REPORT_PDF;https://www.polenergia.pl/wp-content/uploads/2025/03/EY24PolenergiaGroupConsolidatedReportontheoperations.pdf;VERIFIED;mWIG40
+Poland;Polenergia;PEP;Renewable energy;2025;EN;MB_REPORT_PDF;https://www.polenergia.pl/wp-content/uploads/2026/03/EY25PolenergiaGroupConsolidatedRaportontheoperations.pdf;VERIFIED;mWIG40
+Poland;Polimex Mostostal;PXM;Construction;2021;;IR_PAGE;https://www.polimex-mostostal.pl/reports/raporty-roczne;NOT_FOUND;Прямой файл не подтверждён
+Poland;Polimex Mostostal;PXM;Construction;2022;;IR_PAGE;https://www.polimex-mostostal.pl/reports/raporty-roczne;NOT_FOUND;Прямой файл не подтверждён
+Poland;Polimex Mostostal;PXM;Construction;2023;;IR_PAGE;https://www.polimex-mostostal.pl/reports/raporty-roczne;NOT_FOUND;Прямой файл не подтверждён
+Poland;Polimex Mostostal;PXM;Construction;2024;;IR_PAGE;https://www.polimex-mostostal.pl/reports/raporty-roczne;NOT_FOUND;Прямой файл не подтверждён
+Poland;Polimex Mostostal;PXM;Construction;2025;;IR_PAGE;https://www.polimex-mostostal.pl/reports/raporty-roczne;NOT_FOUND;Прямой файл не подтверждён
+Poland;Rainbow Tours;RBW;Tourism;2021;;IR_PAGE;https://ir.r.pl/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Rainbow Tours;RBW;Tourism;2022;;IR_PAGE;https://ir.r.pl/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Rainbow Tours;RBW;Tourism;2023;;IR_PAGE;https://ir.r.pl/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Rainbow Tours;RBW;Tourism;2024;;IR_PAGE;https://ir.r.pl/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Rainbow Tours;RBW;Tourism;2025;;IR_PAGE;https://ir.r.pl/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Synektik;SNT;Medical technology;2021;;IR_PAGE;https://synektik.com.pl/en/investor-centre/financial-reports/;NOT_FOUND;FY2021-2022 / Прямой файл не подтверждён
+Poland;Synektik;SNT;Medical technology;2022;EN;MB_REPORT_PDF;https://synektik.com.pl/wp-content/uploads/2024/02/Sprawozdanie_z_dzialalnosci_Synektik_FY2022-EN_m2.pdf;VERIFIED;FY2022-2023
+Poland;Synektik;SNT;Medical technology;2023;EN;MB_REPORT_PDF;https://synektik.com.pl/wp-content/uploads/2025/01/Sprawozdanie_z_dzialalnosci_Synektik_FY2023_ENG.pdf;VERIFIED;FY2023-2024
+Poland;Synektik;SNT;Medical technology;2024;EN;MB_REPORT_PDF;https://synektik.com.pl/wp-content/uploads/2026/02/SzD_FY2024_Synektik_SA_i_GK_Synektik-30.09.2025-EN.pdf;VERIFIED;FY2024-2025
+Poland;Synektik;SNT;Medical technology;2025;;IR_PAGE;https://synektik.com.pl/en/investor-centre/financial-reports/;NOT_FOUND;FY2025-2026 заканчивается 30.09.2026 / годовой отчёт ещё не опубликован
+Poland;Ten Square Games;TEN;Video games;2021;;IR_PAGE;https://tensquaregames.com/report-category/periodic/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Ten Square Games;TEN;Video games;2022;;IR_PAGE;https://tensquaregames.com/report-category/periodic/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Ten Square Games;TEN;Video games;2023;;IR_PAGE;https://tensquaregames.com/report-category/periodic/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Ten Square Games;TEN;Video games;2024;EN;MB_REPORT_PDF;https://tensquaregames.com/wp-content/uploads/2025/03/TSG-Raport-Roczny-SzD-2024-ENG-final.pdf;VERIFIED;mWIG40
+Poland;Ten Square Games;TEN;Video games;2025;EN;MB_REPORT_PDF;https://tensquaregames.com/wp-content/uploads/2026/03/TSG-Raport-Roczny-SzD-2025-ENG-final.pdf;VERIFIED;mWIG40
+Poland;Text;TXT;IT;2021;EN;MB_REPORT_PDF;https://investor.text.com/uploads/2022-06-lvc-management-report.pdf;VERIFIED;Бывшая LiveChat Software / FY2021-2022
+Poland;Text;TXT;IT;2022;EN;MB_REPORT_PDF;https://investor.text.com/uploads/2023-07-lvc-management-report.pdf;VERIFIED;Бывшая LiveChat Software / FY2022-2023
+Poland;Text;TXT;IT;2023;;IR_PAGE;https://investor.text.com/financial-reports;NOT_FOUND;FY2023-2024 / Прямой файл не подтверждён
+Poland;Text;TXT;IT;2024;EN;MB_REPORT_PDF;https://investor.text.com/uploads/2025reporten.pdf;VERIFIED_LINK;FY2024-2025 / PDF превышает лимит чтения
+Poland;Text;TXT;IT;2025;EN;MB_REPORT_PDF;https://investor.text.com/uploads/2026-06-management-report-en.pdf;VERIFIED_LINK;FY2025-2026 / PDF превышает лимит чтения
+Poland;Voxel;VOX;Healthcare;2021;PL;MB_REPORT_PDF;https://voxel.pl/wp-content/uploads/2022/05/21-YE-Voxel-Sprawozdanie-Zarzadu-FINAL-WERSJA-NIEOFICJALNA.pdf;VERIFIED;Неофициальная PDF-копия отчёта
+Poland;Voxel;VOX;Healthcare;2022;;IR_PAGE;https://voxel.pl/relacje-inwestorskie/strefa-inwestora/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Voxel;VOX;Healthcare;2023;;IR_PAGE;https://voxel.pl/relacje-inwestorskie/strefa-inwestora/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Voxel;VOX;Healthcare;2024;;IR_PAGE;https://voxel.pl/relacje-inwestorskie/strefa-inwestora/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Voxel;VOX;Healthcare;2025;;IR_PAGE;https://voxel.pl/relacje-inwestorskie/strefa-inwestora/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Vercom;VRC;IT;2021;PL;MB_REPORT_PDF;https://espiebi.pap.pl/download/attachment/499756/Vercom_raport_2021_PL.pdf;VERIFIED;Зеркало PAP
+Poland;Vercom;VRC;IT;2022;;IR_PAGE;https://vercom.pl/raporty-okresowe/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Vercom;VRC;IT;2023;;IR_PAGE;https://vercom.pl/raporty-okresowe/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Vercom;VRC;IT;2024;;IR_PAGE;https://vercom.pl/raporty-okresowe/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Vercom;VRC;IT;2025;PL;MB_REPORT_PDF;https://vercom.pl/wp-content/uploads/2026/08/DOC.20260318.53788045.zal08_Sprawozdanie_Zarzadu_Vercom_2025.pdf;VERIFIED;mWIG40
+Poland;Wirtualna Polska Holding;WPL;Digital media;2021;;IR_PAGE;https://holding.wp.pl/inwestor/raporty/okresowe/annual-report-2025-7267825064372320;NOT_FOUND;Прямой файл не подтверждён / страница IR содержит переход к архиву
+Poland;Wirtualna Polska Holding;WPL;Digital media;2022;;IR_PAGE;https://holding.wp.pl/inwestor/raporty/okresowe/annual-report-2025-7267825064372320;NOT_FOUND;Прямой файл не подтверждён / страница IR содержит переход к архиву
+Poland;Wirtualna Polska Holding;WPL;Digital media;2023;;IR_PAGE;https://holding.wp.pl/inwestor/raporty/okresowe/annual-report-2025-7267825064372320;NOT_FOUND;Прямой файл не подтверждён / страница IR содержит переход к архиву
+Poland;Wirtualna Polska Holding;WPL;Digital media;2024;;IR_PAGE;https://holding.wp.pl/inwestor/raporty/okresowe/annual-report-2025-7267825064372320;NOT_FOUND;Прямой файл не подтверждён / страница IR содержит переход к архиву
+Poland;Wirtualna Polska Holding;WPL;Digital media;2025;EN;MB_REPORT_PDF;https://holding.wpcdn.pl/uploader/Management%C3%A2%C2%80%C2%99s_report_FY2025_FINAL.pdf;VERIFIED;mWIG40
+Poland;XTB;XTB;Brokerage;2021;;IR_PAGE;https://ir.xtb.com/en/financial-reports/;NOT_FOUND;Прямой файл не подтверждён
+Poland;XTB;XTB;Brokerage;2022;;IR_PAGE;https://ir.xtb.com/en/financial-reports/;NOT_FOUND;Прямой файл не подтверждён
+Poland;XTB;XTB;Brokerage;2023;;IR_PAGE;https://ir.xtb.com/en/financial-reports/;NOT_FOUND;Прямой файл не подтверждён
+Poland;XTB;XTB;Brokerage;2024;EN;ANNUAL_REPORT_PDF;https://ir.xtb.com/wp-content/uploads/2025/06/StandaloneAnnualReport2024.pdf;VERIFIED_LINK;PDF превышает лимит чтения / отдельная отчётность компании
+Poland;XTB;XTB;Brokerage;2025;;IR_PAGE;https://ir.xtb.com/en/financial-reports/;NOT_FOUND;Прямой файл не подтверждён
+Poland;Amica;AMC;Household appliances;2021;;IR_PAGE;https://ir.amica.pl/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Amica;AMC;Household appliances;2022;;IR_PAGE;https://ir.amica.pl/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Amica;AMC;Household appliances;2023;;IR_PAGE;https://ir.amica.pl/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Amica;AMC;Household appliances;2024;;IR_PAGE;https://ir.amica.pl/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Amica;AMC;Household appliances;2025;;IR_PAGE;https://ir.amica.pl/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Apator;APT;Electrical equipment;2021;;IR_PAGE;https://www.apator.com/en/investors/periodic-reports?page=1;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Apator;APT;Electrical equipment;2022;EN;MB_REPORT_PDF;https://www.apator.com/sites/default/files/report-of-the-executive-board-on-acitivity-of-apator-group-in-2022.pdf;VERIFIED;sWIG80
+Poland;Apator;APT;Electrical equipment;2023;;IR_PAGE;https://www.apator.com/en/investors/periodic-reports?page=1;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Apator;APT;Electrical equipment;2024;;IR_PAGE;https://www.apator.com/en/investors/periodic-reports?page=1;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Apator;APT;Electrical equipment;2025;;IR_PAGE;https://www.apator.com/en/investors/periodic-reports?page=1;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Boryszew;BRS;Industrial manufacturing;2021;EN;MB_REPORT_PDF;https://www.boryszew.com.pl/wp-content/uploads/2022/05/Sprawozdanie-z-dzia%C5%82alno%C5%9Bci-BRS-i-GKB-za-2021__eng-GB.pdf;VERIFIED;sWIG80
+Poland;Boryszew;BRS;Industrial manufacturing;2022;EN;MB_REPORT_PDF;https://www.boryszew.com.pl/wp-content/uploads/2023/05/Sprawozdanie-z-dzia%C5%82alno%C5%9Bci-BRS-i-GKB-za-2022_eng-GB.pdf;VERIFIED;sWIG80
+Poland;Boryszew;BRS;Industrial manufacturing;2023;EN;MB_REPORT_PDF;https://www.boryszew.com.pl/wp-content/uploads/2024/05/Report-on-activities-in-2023.pdf;VERIFIED;sWIG80
+Poland;Boryszew;BRS;Industrial manufacturing;2024;EN;MB_REPORT_PDF;https://www.boryszew.com.pl/wp-content/uploads/2025/04/REPORT-OF-THE-MANAGEMENT-BOARD-ON-ACTIVITIES-OF-BORYSZEW-CAPITAL-GROUP-FOR-THE-FINANICAL-YEAR-2024.pdf;VERIFIED;sWIG80
+Poland;Boryszew;BRS;Industrial manufacturing;2025;EN;MB_REPORT_PDF;https://www.boryszew.com.pl/wp-content/uploads/2026/04/REPORT-OF-THE-MANAGEMENT-BOARD-ON-ACTIVITIES-OF-BORYSZEW-CAPITAL-GROUP-FOR-THE-FINANICAL-YEAR-2025.pdf;VERIFIED;sWIG80
+Poland;Stalprodukt;STP;Steel manufacturing;2021;;IR_PAGE;https://www.stalprodukt.com.pl/en/investor-relation/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Stalprodukt;STP;Steel manufacturing;2022;;IR_PAGE;https://www.stalprodukt.com.pl/en/investor-relation/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Stalprodukt;STP;Steel manufacturing;2023;;IR_PAGE;https://www.stalprodukt.com.pl/en/investor-relation/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Stalprodukt;STP;Steel manufacturing;2024;;IR_PAGE;https://www.stalprodukt.com.pl/en/investor-relation/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Stalprodukt;STP;Steel manufacturing;2025;;IR_PAGE;https://www.stalprodukt.com.pl/en/investor-relation/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Asseco Business Solutions;ABS;IT;2021;EN;MB_REPORT_PDF;https://assecobs.pl/wp-content/uploads/2023/03/board_report_abs_2021.pdf;VERIFIED;sWIG80 / Год проверен по тексту
+Poland;Asseco Business Solutions;ABS;IT;2022;;IR_PAGE;https://assecobs.pl/investor-relations/reports/?lang=en;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Asseco Business Solutions;ABS;IT;2023;EN;MB_REPORT_PDF;https://assecobs.pl/wp-content/uploads/2023/06/MB_Report_on_Operations_2023.pdf;VERIFIED;sWIG80 / Год проверен по тексту
+Poland;Asseco Business Solutions;ABS;IT;2024;EN;MB_REPORT_PDF;https://assecobs.pl/wp-content/uploads/2024/07/5_Management-Report_2024.pdf;VERIFIED;sWIG80 / Год проверен по тексту
+Poland;Asseco Business Solutions;ABS;IT;2025;EN;MB_REPORT_PDF;https://assecobs.pl/wp-content/uploads/2025/06/Management-Report_Group_2025.pdf;VERIFIED;sWIG80 / Год проверен по тексту
+Poland;Comp;CMP;IT;2021;;IR_PAGE;https://www.comp.com.pl/relacje-inwestorskie/raporty/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Comp;CMP;IT;2022;EN;ANNUAL_REPORT_PDF;https://www.comp.com.pl/wp-content/uploads/2023/04/RS2022-Grupa-Comp-S.A_EN_AKT-06-04-2023_EN.pdf;VERIFIED;sWIG80 / Отчёт правления внутри
+Poland;Comp;CMP;IT;2023;EN;ANNUAL_REPORT_PDF;https://www.comp.com.pl/wp-content/uploads/2024/04/RS2023-Grupa-Comp-S.A._-EN.pdf;VERIFIED;sWIG80 / Отчёт правления внутри
+Poland;Comp;CMP;IT;2024;EN;MB_REPORT_PDF;https://www.comp.com.pl/wp-content/uploads/2025/04/comp-sz-s-2024-12-31-0-en.pdf;VERIFIED;sWIG80
+Poland;Comp;CMP;IT;2025;EN;MB_REPORT_PDF;https://www.comp.com.pl/wp-content/uploads/2026/04/RS2025-Management-Board-Report-en.pdf;VERIFIED;sWIG80
+Poland;Sygnity;SGN;IT;2021;;IR_PAGE;https://www.sygnity.pl/dla-inwestorow/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Sygnity;SGN;IT;2022;;IR_PAGE;https://www.sygnity.pl/dla-inwestorow/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Sygnity;SGN;IT;2023;;IR_PAGE;https://www.sygnity.pl/dla-inwestorow/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Sygnity;SGN;IT;2024;;IR_PAGE;https://www.sygnity.pl/dla-inwestorow/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Sygnity;SGN;IT;2025;;IR_PAGE;https://www.sygnity.pl/dla-inwestorow/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;11 bit studios;11B;Video games;2021;EN;ANNUAL_REPORT_PDF;https://ir.11bitstudios.com/wp-content/uploads/2025/01/Annual-Report-of-11-bit-studios-for-2021.pdf;VERIFIED;sWIG80 / Directors’ Report внутри
+Poland;11 bit studios;11B;Video games;2022;EN;ANNUAL_REPORT_PDF;https://ir.11bitstudios.com/wp-content/uploads/2025/01/Annual-Report-of-11-bit-studios-S.A.-for-2022.pdf;VERIFIED;sWIG80 / Directors’ Report внутри
+Poland;11 bit studios;11B;Video games;2023;EN;ANNUAL_REPORT_PDF;https://ir.11bitstudios.com/wp-content/uploads/2025/01/Annual-Report-of-11-bit-studios-S.A.-for-2023-1.pdf;VERIFIED;sWIG80 / Directors’ Report внутри
+Poland;11 bit studios;11B;Video games;2024;;IR_PAGE;https://ir.11bitstudios.com/en/financial-data/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;11 bit studios;11B;Video games;2025;;IR_PAGE;https://ir.11bitstudios.com/en/financial-data/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Eurocash;EUR;Food distribution;2021;;IR_PAGE;https://www.grupaeurocash.pl/en/investor/stock-reports;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Eurocash;EUR;Food distribution;2022;;IR_PAGE;https://www.grupaeurocash.pl/en/investor/stock-reports;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Eurocash;EUR;Food distribution;2023;;IR_PAGE;https://www.grupaeurocash.pl/en/investor/stock-reports;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Eurocash;EUR;Food distribution;2024;;IR_PAGE;https://www.grupaeurocash.pl/en/investor/stock-reports;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Eurocash;EUR;Food distribution;2025;;IR_PAGE;https://www.grupaeurocash.pl/en/investor/stock-reports;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Oponeo.pl;OPN;Automotive e-commerce;2021;;IR_PAGE;https://www.ir.oponeo.pl/relacje-inwestorskie/raporty/okresowe/roczne/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Oponeo.pl;OPN;Automotive e-commerce;2022;;IR_PAGE;https://www.ir.oponeo.pl/relacje-inwestorskie/raporty/okresowe/roczne/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Oponeo.pl;OPN;Automotive e-commerce;2023;;IR_PAGE;https://www.ir.oponeo.pl/relacje-inwestorskie/raporty/okresowe/roczne/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Oponeo.pl;OPN;Automotive e-commerce;2024;;IR_PAGE;https://www.ir.oponeo.pl/relacje-inwestorskie/raporty/okresowe/roczne/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Oponeo.pl;OPN;Automotive e-commerce;2025;;IR_PAGE;https://www.ir.oponeo.pl/relacje-inwestorskie/raporty/okresowe/roczne/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Answear.com;ANR;Fashion e-commerce;2021;;IR_PAGE;https://answear.com/relacje-inwestorskie/en/reports;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Answear.com;ANR;Fashion e-commerce;2022;;IR_PAGE;https://answear.com/relacje-inwestorskie/en/reports;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Answear.com;ANR;Fashion e-commerce;2023;;IR_PAGE;https://answear.com/relacje-inwestorskie/en/reports;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Answear.com;ANR;Fashion e-commerce;2024;;IR_PAGE;https://answear.com/relacje-inwestorskie/en/reports;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Answear.com;ANR;Fashion e-commerce;2025;;IR_PAGE;https://answear.com/relacje-inwestorskie/en/reports;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;VRG;VRG;Apparel retail;2021;;IR_PAGE;https://www.vrg.pl/en/for-investors/periodical-reports;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;VRG;VRG;Apparel retail;2022;;IR_PAGE;https://www.vrg.pl/en/for-investors/periodical-reports;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;VRG;VRG;Apparel retail;2023;;IR_PAGE;https://www.vrg.pl/en/for-investors/periodical-reports;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;VRG;VRG;Apparel retail;2024;;IR_PAGE;https://www.vrg.pl/en/for-investors/periodical-reports;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;VRG;VRG;Apparel retail;2025;;IR_PAGE;https://www.vrg.pl/en/for-investors/periodical-reports;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Torpol;TOR;Railway construction;2021;;IR_PAGE;https://www.torpol.pl/relacje-inwestorskie/centrum-wynikow/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Torpol;TOR;Railway construction;2022;;IR_PAGE;https://www.torpol.pl/relacje-inwestorskie/centrum-wynikow/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Torpol;TOR;Railway construction;2023;;IR_PAGE;https://www.torpol.pl/relacje-inwestorskie/centrum-wynikow/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Torpol;TOR;Railway construction;2024;;IR_PAGE;https://www.torpol.pl/relacje-inwestorskie/centrum-wynikow/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Torpol;TOR;Railway construction;2025;;IR_PAGE;https://www.torpol.pl/relacje-inwestorskie/centrum-wynikow/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Unibep;UNI;Construction;2021;PL;MB_REPORT_PDF;https://unibep.pl/attachments/article/4050/Sprawozdanie_zarzadu_z_dzialalnosci_Grupy_UNIBEP_w_2021_roku.pdf;VERIFIED;sWIG80
+Poland;Unibep;UNI;Construction;2022;PL;MB_REPORT_PDF;https://unibep.pl/attachments/article/4604/Sprawozdanie_zarzadu_z_dzialalnosci_Grupy_UNIBEP_w_2022_roku.pdf;VERIFIED;sWIG80
+Poland;Unibep;UNI;Construction;2023;PL;MB_REPORT_PDF;https://unibep.pl/attachments/article/4894/Sprawozdanie_zarzadu_z_dzialalnosci_Grupy_UNIBEP_w_2023_roku.pdf;VERIFIED;sWIG80
+Poland;Unibep;UNI;Construction;2024;PL;MB_REPORT_PDF;https://unibep.pl/attachments/article/5160/Sprawozdanie_zarzadu_z_dzialalnosci_Grupy_UNIBEP_za_2024_rok%20v.2025.04.14.pdf;VERIFIED;sWIG80
+Poland;Unibep;UNI;Construction;2025;;IR_PAGE;https://unibep.pl/relacje-inwestorskie/raporty/raporty-okresowe.html;NOT_FOUND;sWIG80 / Тайм-аут PDF
+Poland;Elektrotim;ELT;Electrical construction;2021;;IR_PAGE;https://elektrotim.pl/relacje-inwestorskie/raporty-okresowe/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Elektrotim;ELT;Electrical construction;2022;;IR_PAGE;https://elektrotim.pl/relacje-inwestorskie/raporty-okresowe/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Elektrotim;ELT;Electrical construction;2023;;IR_PAGE;https://elektrotim.pl/relacje-inwestorskie/raporty-okresowe/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Elektrotim;ELT;Electrical construction;2024;;IR_PAGE;https://elektrotim.pl/relacje-inwestorskie/raporty-okresowe/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Elektrotim;ELT;Electrical construction;2025;PL;MB_REPORT_PDF;https://elektrotim.pl/wp-content/uploads/2026/04/Sprawozdanie-Zarzadu-z-dzialalnosci-ELEKTROTIM-i-Grupy-2025.pdf;VERIFIED;sWIG80
+Poland;Onde;OND;Renewable energy construction;2021;;IR_PAGE;https://onde.pl/pl/relacje-inwestorskie/raporty-okresowe/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Onde;OND;Renewable energy construction;2022;;IR_PAGE;https://onde.pl/pl/relacje-inwestorskie/raporty-okresowe/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Onde;OND;Renewable energy construction;2023;;IR_PAGE;https://onde.pl/pl/relacje-inwestorskie/raporty-okresowe/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Onde;OND;Renewable energy construction;2024;;IR_PAGE;https://onde.pl/pl/relacje-inwestorskie/raporty-okresowe/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Onde;OND;Renewable energy construction;2025;;IR_PAGE;https://onde.pl/pl/relacje-inwestorskie/raporty-okresowe/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Bioton;BIO;Pharmaceuticals;2021;;IR_PAGE;https://bioton.com/inwestor/raporty/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Bioton;BIO;Pharmaceuticals;2022;;IR_PAGE;https://bioton.com/inwestor/raporty/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Bioton;BIO;Pharmaceuticals;2023;;IR_PAGE;https://bioton.com/inwestor/raporty/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Bioton;BIO;Pharmaceuticals;2024;;IR_PAGE;https://bioton.com/inwestor/raporty/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Bioton;BIO;Pharmaceuticals;2025;;IR_PAGE;https://bioton.com/inwestor/raporty/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Celon Pharma;CLN;Pharmaceuticals;2021;;IR_PAGE;https://celonpharma.com/raporty-okresowe/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Celon Pharma;CLN;Pharmaceuticals;2022;;IR_PAGE;https://celonpharma.com/raporty-okresowe/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Celon Pharma;CLN;Pharmaceuticals;2023;;IR_PAGE;https://celonpharma.com/raporty-okresowe/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Celon Pharma;CLN;Pharmaceuticals;2024;;IR_PAGE;https://celonpharma.com/raporty-okresowe/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Celon Pharma;CLN;Pharmaceuticals;2025;;IR_PAGE;https://celonpharma.com/raporty-okresowe/;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Ryvu Therapeutics;RVU;Biotechnology;2021;;IR_PAGE;https://ryvu.com/investors;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Ryvu Therapeutics;RVU;Biotechnology;2022;;IR_PAGE;https://ryvu.com/investors;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Ryvu Therapeutics;RVU;Biotechnology;2023;EN;ANNUAL_REPORT_PDF;https://wp.ryvu.com/wp-content/uploads/2025/03/Ryvu_Annual_Report_2023_ENG.pdf;VERIFIED;sWIG80 / Отчёт о деятельности
+Poland;Ryvu Therapeutics;RVU;Biotechnology;2024;;IR_PAGE;https://ryvu.com/investors;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Ryvu Therapeutics;RVU;Biotechnology;2025;;IR_PAGE;https://ryvu.com/investors;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Selvita;SLV;Pharmaceutical research;2021;;IR_PAGE;https://selvita.com/investors-media/reports/periodic;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Selvita;SLV;Pharmaceutical research;2022;;IR_PAGE;https://selvita.com/investors-media/reports/periodic;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Selvita;SLV;Pharmaceutical research;2023;;IR_PAGE;https://selvita.com/investors-media/reports/periodic;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+Poland;Selvita;SLV;Pharmaceutical research;2024;EN;MB_REPORT_PDF;https://wp.selvita.com/wp-content/uploads/2026/02/Selvita_Annual-Report_2024.pdf;VERIFIED;Часть 1 / проверенная часть 2 ESG: https://wp.selvita.com/wp-content/uploads/2026/02/Selvita_Annual-Report_Sustainability-Report_2024.pdf
+Poland;Selvita;SLV;Pharmaceutical research;2025;;IR_PAGE;https://selvita.com/investors-media/reports/periodic;NOT_FOUND;sWIG80 / Прямой файл не подтверждён
+SUMMARY;UNIVERSE;;;2026;;INDEX_COMPOSITION;https://www.biznesradar.pl/gielda/indeks:WIG20;73_COMPANIES_361_ROWS;На 30.09.2026 после исключений: WIG20 13 + mWIG40 40 + sWIG80 20. country означает рынок листинга. Состав: https://www.biznesradar.pl/gielda/indeks:mWIG40 и https://www.biznesradar.pl/gielda/indeks:sWIG80
+SUMMARY;VERIFICATION;;;;;;;92_VERIFIED_25_VERIFIED_LINK;VERIFIED: PDF прочитан. VERIFIED_LINK: файловый ответ подтверждён / содержимое не полностью проверено. Год по обозначению эмитента
+SUMMARY;COVERAGE;;;;;;;244_NOT_FOUND;NOT_FOUND означает отсутствие подтверждённого прямого файла в этой проверке / не доказательство отсутствия отчёта. Сбор неполный

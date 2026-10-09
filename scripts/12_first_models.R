@@ -1,0 +1,25 @@
+# First models: does verified board digital expertise relate to AI disclosure (KZ + PL)?
+suppressMessages(library(fixest))
+d <- read.csv("data/panel_kz_pl_model.csv", stringsAsFactors = FALSE, na.strings = c("NA", ""))
+num <- function(x) suppressWarnings(as.numeric(x))
+d$dig       <- num(d$n_digital_expert_verified)
+d$dig_any   <- as.integer(d$dig > 0)
+d$dig_nar   <- as.integer(num(d$n_digital_expert_narrow) > 0)
+d$bsize     <- num(d$board_size)
+d$indep_sh  <- num(d$n_independent) / d$bsize
+d$state     <- as.integer(tolower(d$state_owned_major) == "yes")
+d$log_chars <- log(d$chars)
+d$firm      <- paste(d$country, d$company)
+d$cy        <- paste(d$country, d$year)
+s <- subset(d, !is.na(dig_any) & !is.na(log_assets) & sector_group != "NA")
+cat("Estimation sample:", nrow(s), "firm-years,", length(unique(s$firm)), "firms\n")
+print(table(s$country, s$dig_any))
+
+m1 <- feols(ai_any ~ dig_any | cy, s, cluster = ~firm)
+m2 <- feols(ai_any ~ dig_any + log_assets + log_chars + bsize + indep_sh + state | cy + sector_group, s, cluster = ~firm)
+m3 <- fepois(ai_sentences ~ dig_any + log_assets + bsize + indep_sh + state | cy + sector_group, s,
+             offset = ~log_chars, cluster = ~firm)
+m4 <- feols(ai_any ~ dig_nar + log_assets + log_chars + bsize + indep_sh + state | cy + sector_group, s, cluster = ~firm)
+m5 <- feols(ai_any ~ dig_any:i(country) + log_assets + log_chars + bsize + indep_sh + state | cy + sector_group, s, cluster = ~firm)
+etable(m1, m2, m3, m4, m5, digits = 3, fitstat = ~ n + r2)
+sink("results/first_models.txt"); etable(m1, m2, m3, m4, m5, digits = 3, fitstat = ~ n + r2); sink()
