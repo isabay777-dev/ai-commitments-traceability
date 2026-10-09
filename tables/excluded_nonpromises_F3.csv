@@ -1,0 +1,7 @@
+promise_id,country,firm,year,category,promise_status,specificity,n_later_reports,verdict,fulfilled,fulfilled_or_partial,dropped,dig,dig_narrow,state,log_assets,sector_group,board_size,n_independent,verdict_final,first_full_year,verdict_source,verdict_version
+P0014,KZ,логиком,2024,general_ai,PLAN,1,1,partial,0,0,0,1.0,0.0,,24.7652,other,3,1.0,not_fulfilled,,editor,v2_C_primary_2026-10-07
+P0026,KZ,транстелеком,2024,general_ai,PLAN,1,1,partial,0,1,0,,,yes,25.5459,tech_telecom,7,3.0,partial,,editor,v2_C_primary_2026-10-07
+P0038,NL,213800difn7nr7b97a50,2024,process_automation,PLAN,2,1,fulfilled,1,1,0,0.0,0.0,no,22.2894,other,10,7.0,fulfilled,2025.0,editor,v2_C_primary_2026-10-07
+P0081,NL,7245000v8jj8ce1l8g60,2023,general_ai,PLAN,1,2,fulfilled,0,1,0,0.0,0.0,no,19.6948,resources_energy,4,2.0,partial,,editor,v2_C_primary_2026-10-07
+P0107,NL,724500k5ptpsst86uq23,2023,other,PLAN,2,2,dropped,0,0,1,0.0,0.0,no,24.7334,other,9,7.0,dropped,,editor,v2_C_primary_2026-10-07
+P0197,PL,pko_bank_polski,2023,general_ai,PLAN,1,1,fulfilled,1,1,0,0.0,0.0,yes,26.9409,finance,10,8.0,fulfilled,2025.0,editor,v2_C_primary_2026-10-07

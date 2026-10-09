@@ -1,5 +1,7 @@
-# Figure 1 · Исходы по конкретности
+### Figure 1. Reported outcomes by initial commitment specificity
 
-![Figure 1 — четыре исхода по конкретности](Figure_1_specificity.png){width=6.3in}
+Two horizontal stacked bars show the four F3 outcomes. Specificity 1 (N=97) contains 49 full, 28 partial, 16 continued-without-sufficient-confirmation and four untraced records. Specificity 2 (N=87) contains 26 full, 27 partial, 16 continued-without-sufficient-confirmation and 18 untraced records. Segment widths use unrounded shares; labels give counts. Outcomes concern corporate disclosure over unequal horizons, not causal effects or independently verified implementation. Source: F3. Grayscale and hatching; PNG at 600 dpi and vector PDF.
 
-Данные: F2, C-primary; числа внутри сегментов — n, рядом с группами — N; ширины по точным n/N. Исходы корпоративного раскрытия при неодинаковом горизонте. Аудит исходного F: при конкретности 2 partial 21→22, dropped 20→19, full 29 без изменения. Чёрно-белое построение кодом по существующим данным; это не генеративное изображение и не причинная диаграмма.
+![Figure 1](Figure_1_specificity.png)
+
+[Vector PDF](Figure_1_specificity.pdf).

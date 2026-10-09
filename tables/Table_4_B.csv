@@ -1,0 +1,5 @@
+Model / indicator,Outcome,"Estimate, percentage points (SE)",N/G
+g1 / dig_any,Full,0.3 (10.1),159/71
+g2 / dig_any,Full,-11.5 (11.1),124/56
+g3 / dig_any,Full or partial,-6.2 (10.9),124/56
+g5 / dig_nar,Full,-28.7 (8.8),124/56

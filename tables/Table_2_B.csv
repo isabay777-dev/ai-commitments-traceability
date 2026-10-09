@@ -1,0 +1,4 @@
+Estimate,Outcome,N/G,"Estimate, percentage points"
+Specificity 2 minus 1,Full,184/81,-20.6; 95% CI [-37.3; -3.5]
+"m2, spec2",Full,184/81,-18.2 (SE 8.6)
+"m3, spec2",Full or partial,184/81,-18.6 (SE 7.5)
