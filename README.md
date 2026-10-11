@@ -1,5 +1,9 @@
 # Tracing public AI commitments in corporate annual reports (Kazakhstan, Poland, the Netherlands, 2021–2025)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23296700.svg)](https://doi.org/10.5281/zenodo.23296700)
+
+Archived on Zenodo: https://doi.org/10.5281/zenodo.23296700 (version v1.0.0).
+
 Replication materials for the manuscript *Tracing public AI commitments in corporate annual reports: evidence from Kazakhstan, Poland and the Netherlands* (under review).
 
 ## Contents
