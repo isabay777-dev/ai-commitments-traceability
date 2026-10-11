@@ -1,0 +1,7 @@
+Role: SPECIFICITY CODER under one clarified rule. Read the rule article1/specrecode/PROTOCOL_SPEC_F4.md first and apply it literally. Read ONLY the fragment wording: for an ID without "_alt" read the section "=== PROMISE FRAGMENT" of data/promise_check/packets/<ID>.txt; for an ID ending in "_altN" read the section "=== ALTERNATIVE PROMISE FRAGMENT" of article1/altfrag/packets/<ID>.txt. Code EVERY ID listed in the IDs file. Do not open any CSV, earlier codes, outcomes or later reports.
+Code each component for the company's OWN AI undertaking only (details belonging to a separate non-AI project in the same fragment do not count):
+proc = a concrete AI process/function/product/area named; stage = a CURRENT ACHIEVED stage of THIS AI undertaking stated (pilot/test already running, or AI solution already implemented and to be extended) - work begun, developing, planning, intending to implement = 0; deadline; result (quantitative target/result); amount (investment); solution (named AI solution/product/platform/model); partner (named external partner/vendor/institution for this AI undertaking).
+spec = 2 if proc=1 and at least one of stage/deadline/result/amount/solution/partner = 1; otherwise 1. spec MUST equal this conjunction.
+IDs: {TODO}. After EACH ID append one line to {OUT} (echo >>), no semicolons inside fields:
+ID;proc;stage;deadline;result;amount;solution;partner;spec;evidence(<=150 chars verbatim from the fragment supporting the decisive detail, or NA)
+Invent nothing. Modify no other file.

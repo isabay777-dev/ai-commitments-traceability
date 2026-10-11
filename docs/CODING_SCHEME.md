@@ -127,3 +127,9 @@ For each firm–category–year key with several eligible commitment fragments, 
 ### Disclosure content of continued commitments
 
 For commitments coded `not_fulfilled`, the latest later report mentioning the object was classified as: `repeated_intention` (plan restated without progress information); `ongoing_development` (development, testing or preparation under way, no launch); `explained_revision` (postponement, changed scope, new timeline or reprioritisation with a reason or new date); `explained_closure` (stopped, cancelled or abandoned); `other`.
+
+## Version F5 (11 October 2026): AI-function audit and uniform specificity coding
+
+**AI-function audit.** Every `fulfilled` and `partial` outcome was rechecked for whether the later evidence establishes the promised AI function itself, not only a host platform, system, process or service that was to contain AI. Decisions: keep; downgrade to `partial`, `not_fulfilled` or `dropped` (host continues, no identifiable continuation of the AI component); or `not_a_promise`. Four outcomes were downgraded; an author approved each change.
+
+**Uniform specificity coding.** The clarified specificity rule above was applied in one pass to all 183 retained and 58 alternative fragments, from the wording only. Details belonging to a separate non-AI project in the same passage do not count, and work that has merely begun is not a stage. The category must equal the conjunction of the seven components (checked by `45_build_F5.py`). This uniform coding is the main specificity measure in F5; the original, blind and reconciled codings are retained for sensitivity analysis.

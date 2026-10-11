@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23296700.svg)](https://doi.org/10.5281/zenodo.23296700)
 
-Archived on Zenodo. All versions: https://doi.org/10.5281/zenodo.23296699 (concept DOI, resolves to the latest version). Version v1.0.0: https://doi.org/10.5281/zenodo.23296700.
+**Current version: v1.2.0 (dataset F5).** Archived on Zenodo; the concept DOI https://doi.org/10.5281/zenodo.23296699 always resolves to the latest version. Earlier versions: v1.1.0 (F4) https://doi.org/10.5281/zenodo.23298731; v1.0.0 (F3) https://doi.org/10.5281/zenodo.23296700.
 
 Replication materials for the manuscript *Tracing public AI commitments in corporate annual reports: evidence from Kazakhstan, Poland and the Netherlands* (under review).
 
@@ -10,29 +10,34 @@ Replication materials for the manuscript *Tracing public AI commitments in corpo
 
 | Version | Dataset | Records | What changed |
 |---|---|---|---|
-| v1.1.0 (current) | **F4** `data/promise_model_F4.csv` (= `data/coded/commitments_final.csv`) | 183 | One frozen outcome rule reapplied to all commitments (12 changes, author-approved; one non-commitment excluded); reconciled specificity (original + blind recoding + adjudication); alternative-fragment robustness; disclosure content of continued commitments |
-| v1.0.0 | F3 `data/promise_model_F3.csv` (= `data/coded/commitments_F3.csv`) | 184 | Two coding rounds, third-model adjudication of 58 disagreements |
+| **v1.2.0 (current)** | **F5** `data/promise_model_F5.csv` (= `data/coded/commitments_final.csv`) | 183 | AI-function audit of all confirmations (4 author-approved downgrades); specificity recoded for all fragments under one clarified rule (`spec_final`); second independent coding of disclosure content; firm-cluster bootstrap for country contrasts |
+| v1.1.0 | F4 `data/promise_model_F4.csv` (= `data/coded/commitments_F4.csv`) | 183 | Frozen outcome rule reapplied to all commitments (12 author-approved changes); reconciled specificity; alternative-fragment robustness |
+| v1.0.0 | F3 `data/promise_model_F3.csv` (= `data/coded/commitments_F3.csv`) | 184 | Two coding rounds and third-model adjudication |
 
-## Reproduce the results (F4)
+## Reproduce the results (F5)
 
-Requirements: Python ≥ 3.9 with pandas, numpy, matplotlib; R ≥ 4.3 with fixest. From the repository root:
+Requirements: Python ≥ 3.9 with pandas, numpy, matplotlib, scikit-learn; R ≥ 4.3 with fixest. From the repository root:
 
 ```sh
-python3 scripts/41_build_F4.py          # builds data/promise_model_F4.csv and data/alt_fragments_F4.csv from the coded inputs
-Rscript scripts/42_models_F4.R          # all models -> results/promise_models_F4.txt, results/models_coefficients_F4.csv
-python3 scripts/43_tables_F4.py         # Tables 1-4, Figure 1 -> article1/tables_F4/
-python3 scripts/44_supplement_S4.py     # Supplementary S4 -> article1/tables_F4/Supplementary_S4.md
+python3 scripts/41_build_F4.py            # F4 from F3 and the harmonisation outputs
+python3 scripts/45_build_F5.py            # F5 from F4, the AI-function audit and the uniform specificity coding
+Rscript scripts/46_models_F5.R            # all models -> results/promise_models_F5.txt, results/models_coefficients_F5.csv
+python3 scripts/47_tables_F5.py           # Tables 1-4, Figure 1 -> article1/tables_F5/
+python3 scripts/48_supplement_S4_F5.py    # Supplementary S4 -> article1/tables_F5/Supplementary_S4.md
 ```
 
-`results/` and `article1/tables_F4/` are created by the scripts. The bootstrap seed is fixed (20261011).
+`results/` and `article1/tables_F5/` are created by the scripts; bootstrap seeds are fixed (20261011). Scripts 42–44 reproduce the F4 exhibits of v1.1.0.
 
 ## Contents
 
+
 | Path | What |
 |---|---|
-| `data/promise_model_F4.csv` | Final dataset: 183 commitments with F4 outcome (`verdict_f4`), evidence quote and file, F3 outcome, original/blind/reconciled specificity and its components, sector, corporate group, episode, board and firm variables |
+| `data/promise_model_F5.csv` | Final dataset: 183 commitments with F5 outcome (`verdict_final`), F4 and F3 outcomes, AI-function audit decision, uniform specificity (`spec_final`) and its components, earlier specificity codings, sector, corporate group, episode, board and firm variables |
+| `data/promise_model_F4.csv` | F4 dataset: 183 commitments with F4 outcome (`verdict_f4`), evidence quote and file, F3 outcome, original/blind/reconciled specificity and its components, sector, corporate group, episode, board and firm variables |
 | `data/alt_fragments_F4.csv` | All eligible fragments in each firm–category–year key, with same-object flag, F4 outcome and specificity (robustness) |
-| `data/continued_disclosure_content_F4.csv` | Disclosure content of the 39 continued (`not_fulfilled`) commitments |
+| `data/continued_disclosure_content_F5.csv` | Disclosure content of the 41 continued commitments, two independent model codings |
+| `article1/round5/` | AI-function audit (`fn/`), uniform specificity coding (`spec/`) and second content coding (`expl/`) |
 | `article1/harmonise/` | Frozen rule `PROTOCOL_F4.md` and harmonisation review output (`run/all.csv`) |
 | `article1/specrecode/` | Clarified specificity rule, blind recoding (`run/all.csv`) and adjudication of disagreements (`adj/all.csv`) |
 | `article1/altfrag/`, `article1/explain/` | Coding of alternative fragments; coding of disclosure content |
@@ -44,7 +49,7 @@ python3 scripts/44_supplement_S4.py     # Supplementary S4 -> article1/tables_F4
 | `data/coded/report_panel_ai_mentions.csv` | Report-level panel (1,098 reports) |
 | `data/coded/kz_pl_firm_panel.csv` | Kazakhstan and Poland firm-year panel (board counts, verified digital expertise counts, ownership, size, sector) |
 | `data/sources/` | Report URLs (Kazakhstan, Poland) and ESEF filings index (filings.xbrl.org) |
-| `scripts/` | Retrieval, extraction, dictionary, coding runs, models and tables. Scripts 01–39 document earlier stages; 40–44 are the F4 pipeline. |
+| `scripts/` | Retrieval, extraction, dictionary, coding runs, models and tables. Scripts 01–39 document earlier stages; 40–44 are the F4 pipeline; 45–48 the F5 pipeline. |
 | `prompts/` | Prompts for all AI-assisted coding, review and drafting stages |
 | `docs/CODING_SCHEME.md` | Coding rules v0.1–v0.2.1 and the final F4 rules |
 | `docs/AI_USE_REGISTRY.md` | Registry of AI-tool use: stage, model, prompt, inputs, outputs, dates, human checks (`AI_USE_REGISTRY.csv` covers stages up to F3) |
@@ -57,7 +62,7 @@ python3 scripts/44_supplement_S4.py     # Supplementary S4 -> article1/tables_F4
 
 ## AI use
 
-Large language models (OpenAI gpt-6-astra, gpt-6-sol and gpt-6-luna via Codex CLI; Anthropic Claude Opus 5.5) performed retrieval, extraction, coding, outcome assessment and adjudication under written rules, wrote analysis code and drafted the manuscript, under the authors' supervision. An author reviewed and approved all 58 adjudicated decisions and all 12 changes from the F4 harmonisation review. See `docs/AI_USE_REGISTRY.md`.
+Large language models (OpenAI gpt-6-astra, gpt-6-sol and gpt-6-luna via Codex CLI; Anthropic Claude Opus 5.5) performed retrieval, extraction, coding, outcome assessment and adjudication under written rules, wrote analysis code and drafted the manuscript, under the authors' supervision. An author reviewed and approved all 58 adjudicated decisions and all 16 outcome changes from the F4 harmonisation review and the F5 AI-function audit. See `docs/AI_USE_REGISTRY.md`.
 
 ## Licence
 
