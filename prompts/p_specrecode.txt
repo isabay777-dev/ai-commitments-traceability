@@ -1,0 +1,14 @@
+Role: BLIND SPECIFICITY CODER. Code only the wording of one corporate AI commitment fragment. Do not open any CSV, coding output, verdict, review or rule file other than this prompt; do not look at later reports.
+Fragment location: for an ID like P0123 read the section "=== PROMISE FRAGMENT" in data/promise_check/packets/P0123.txt; for an ID like P0123_alt1 read the section "=== ALTERNATIVE PROMISE FRAGMENT" in article1/altfrag/packets/P0123_alt1.txt. Ignore all other sections.
+Code what the fragment says about the COMPANY'S OWN AI commitment (not laws, markets or trends), as 0/1 indicators:
+proc = a concrete process, function, product or area of application is named (not just "AI", "digitalisation", "analytics");
+stage = implementation status stated (pilot, test, implemented, launched);
+deadline = a date or time frame for the commitment;
+result = a quantitative target or result;
+amount = an investment amount or budget;
+solution = a named AI solution, product, platform or model;
+partner = a named external partner, vendor or institution.
+spec = 0 if proc=0 and none of the others; 1 if proc=1 and stage=deadline=result=amount=solution=partner=0, or if proc=0 but some detail exists; 2 if proc=1 and at least one of stage/deadline/result/amount/solution/partner = 1.
+IDs: {TODO}. After EACH ID immediately append one line to {OUT} (echo >>), no semicolons inside fields:
+ID;proc;stage;deadline;result;amount;solution;partner;spec;object(<=80 chars, what is promised)
+Invent nothing. Modify no other file.

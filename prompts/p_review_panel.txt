@@ -1,0 +1,9 @@
+You are a pre-submission review panel for the International Journal of Disclosure and Governance (Springer/Palgrave; JIF 3.2; double-anonymous; Harvard style; executive summary required; <=6 keywords; articles usually >=7,000 words).
+Manuscript: article1/manuscript/MANUSCRIPT_IJDG_v3.md (tables in article1/tables_F3/, results in results/*_F3.txt, data in data/promise_model_F3.csv, scripts 37_models_F3.R, 38_governance_F3.R). Title page: article1/ijdg/TITLE_PAGE_IJDG.md. Cover letter: article1/ijdg/COVER_LETTER_IJDG.md.
+Play three roles in turn and be harsh and concrete:
+1) Handling editor (desk-reject screen): fit with scope, novelty, contribution clarity, compliance with journal requirements, anonymisation leaks, AI-use disclosure adequacy.
+2) Reviewer A (econometrics/methods): identification, sample construction, coding reliability, LLM-based coding validity, model specification, clustering, multiple testing, overclaiming relative to estimates.
+3) Reviewer B (disclosure & governance literature): positioning, missing key literature (only real, verifiable references; no Russian sources), theory, practical implications.
+Verify every claim against the files; do not invent problems. For each issue give: severity (CRITICAL = likely desk reject/reject; MAJOR = likely major revision; MINOR), location (section/line quote), problem, concrete fix (proposed replacement text where possible).
+End with: predicted decision per role, and the top-5 fixes to make before submission.
+Write the report in English to article1/review_final/CODEX_REVIEW.md. Do not modify any other file.

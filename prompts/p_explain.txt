@@ -1,0 +1,10 @@
+Role: DISCLOSURE-CONTENT CODER. Each ID is a corporate AI commitment whose later reports mention the same object without evidence of achievement. Classify HOW the later reports describe it. Read the case file article1/harmonise/cases/<ID>.txt, the PROMISE FRAGMENT in data/promise_check/packets/<ID>.txt and the evidence line in article1/harmonise/run/all.csv for that ID (grep the ID). Check the later reports of the company (data/text/, grep -n -i with context, never read whole files).
+Categories (choose the one that best describes the LATEST later report that mentions the object):
+repeated_intention = the plan/aim is restated without progress information;
+ongoing_development = development, testing or preparation is reported as under way, without a launch;
+explained_revision = a postponement, changed scope, new timeline or reprioritisation is explicitly reported with a reason or new date;
+explained_closure = the company reports that it stopped, cancelled or abandoned the undertaking;
+other.
+IDs: {TODO}. After EACH ID append one line to {OUT} (echo >>), no semicolons inside fields:
+ID;category;explanation_given(yes/no);quote(<=200 verbatim);file:line
+Invent nothing. Modify no other file.

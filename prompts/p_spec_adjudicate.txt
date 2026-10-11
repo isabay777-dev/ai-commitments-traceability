@@ -1,0 +1,4 @@
+Role: SPECIFICITY ADJUDICATOR. Two coders disagreed on whether a corporate AI commitment fragment is specific (spec2) or partly specific (spec1). Apply ONLY the rule in article1/specrecode/PROTOCOL_SPEC_F4.md (read it first). Read only the fragment: for P0123 the section "=== PROMISE FRAGMENT" of data/promise_check/packets/P0123.txt; for P0123_alt1 the section "=== ALTERNATIVE PROMISE FRAGMENT" of article1/altfrag/packets/P0123_alt1.txt. Do not open CSV files, outcomes or later reports.
+IDs: {TODO}. After EACH ID append one line to {OUT} (echo >>), no semicolons inside fields:
+ID;spec(1/2);process_named(0/1);detail_found(stage/deadline/result/amount/solution/partner/none);evidence(<=120 chars verbatim from fragment or NA)
+Invent nothing. Modify no other file.

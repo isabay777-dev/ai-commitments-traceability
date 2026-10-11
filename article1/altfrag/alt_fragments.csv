@@ -1,0 +1,244 @@
+alt_id,promise_id,retained,country,firm,category,year,fragment_id,specificity,status,use_case
+P0000,P0000,1,KZ,alatau_city_bank,general_ai,2022,KZ_Alatau_City_Bank_2022#1,1,PLAN,general AI strategy
+P0001,P0001,1,KZ,bank_centercredit,general_ai,2024,KZ_Банк_ЦентрКредит_2024#2,1,PLAN,general AI strategy
+P0002,P0002,1,KZ,bank_centercredit,other,2024,KZ_Банк_ЦентрКредит_2024#4,2,PLAN,vehicle damage assessment
+P0003,P0003,1,KZ,bank_centercredit,process_automation,2024,KZ_Банк_ЦентрКредит_2024#3,1,PLAN,business process optimization
+P0004,P0004,1,KZ,fortebank,customer_service,2023,KZ_ForteBank_2023#1,2,PLAN,customer virtual assistant
+P0006,P0006,1,KZ,kazatomprom,personalisation_marketing,2021,KZ_Kazatomprom_2021#4,1,PLAN,geophysical research support
+P0007,P0007,1,KZ,аграрная_кредитная_корпорация,general_ai,2024,KZ_Аграрная_кредитная_корпорация_2024#1,1,PLAN,general AI strategy
+P0009,P0009,1,KZ,институт_космической_техники_и_технологий,other,2024,KZ_Институт_космической_техники_и_технологий_2024#3,2,PLAN,transport information systems
+P0009_alt1,P0009,0,KZ,институт_космической_техники_и_технологий,other,2024,KZ_Институт_космической_техники_и_технологий_2024#11,2,PLAN,emergency call routing
+P0009_alt2,P0009,0,KZ,институт_космической_техники_и_технологий,other,2024,KZ_Институт_космической_техники_и_технологий_2024#7,2,PLAN,emergency call filtering
+P0009_alt3,P0009,0,KZ,институт_космической_техники_и_технологий,other,2024,KZ_Институт_космической_техники_и_технологий_2024#9,2,PLAN,route violation analysis
+P0009_alt4,P0009,0,KZ,институт_космической_техники_и_технологий,other,2024,KZ_Институт_космической_техники_и_технологий_2024#10,2,PLAN,emergency response systems
+P0010,P0010,1,KZ,институт_космической_техники_и_технологий,process_automation,2024,KZ_Институт_космической_техники_и_технологий_2024#12,2,PLAN,emergency call processing
+P0010_alt1,P0010,0,KZ,институт_космической_техники_и_технологий,process_automation,2024,KZ_Институт_космической_техники_и_технологий_2024#5,2,PLAN,operator activity automation
+P0011,P0011,1,KZ,казпочта,hr_people,2024,KZ_Казпочта_2024#9,2,PLAN,training effectiveness analysis
+P0012,P0012,1,KZ,каспий_нефть,forecasting_analytics,2022,KZ_Каспий_нефть_2022#2,2,PLAN,seismic data labeling
+P0013,P0013,1,KZ,каспий_нефть,forecasting_analytics,2024,KZ_Каспий_нефть_2024#1,1,PLAN,seismic data labeling
+P0015,P0015,1,KZ,логиком,maintenance_operations,2024,KZ_ЛОГИКОМ_2024#10,2,PLAN,equipment predictive monitoring
+P0016,P0016,1,KZ,мфо_эко_финанс,credit_risk,2024,KZ_МФО_ЭКО_Финанс_2024#1,1,PLAN,credit scoring
+P0017,P0017,1,KZ,национальная_компания_qazaqgaz,forecasting_analytics,2024,KZ_Национальная_компания_QazaqGaz_2024#3,2,PLAN,data collection analysis
+P0018,P0018,1,KZ,национальная_компания_qazaqgaz,general_ai,2024,KZ_Национальная_компания_QazaqGaz_2024#1,2,PLAN,general AI strategy
+P0019,P0019,1,KZ,национальная_компания_qazaqgaz,other,2024,KZ_Национальная_компания_QazaqGaz_2024#4,1,PLAN,gas network management
+P0020,P0020,1,KZ,национальная_компания_қазақстан_темір_жолы,general_ai,2023,KZ_Национальная_компания_Қазақстан_темір_жолы_2023#1,2,PLAN,railway infrastructure digitalization
+P0022,P0022,1,KZ,национальный_инвестиционный_холдинг_байтерек,process_automation,2024,KZ_Национальный_инвестиционный_холдинг_Байтерек_2024#1,1,PLAN,HR process automation
+P0023,P0023,1,KZ,отбасы_банк,customer_service,2023,KZ_Отбасы_банк_2023#1,2,PILOT,customer chatbot
+P0024,P0024,1,KZ,отбасы_банк,general_ai,2024,KZ_Отбасы_банк_2024#1,1,PLAN,general AI strategy
+P0025,P0025,1,KZ,самрук_энерго,forecasting_analytics,2024,KZ_Самрук_Энерго_2024#8,1,PLAN,forecasting decision support
+P0028,P0028,1,KZ,фонд_национального_благосостояния_самрук_қазына,customer_service,2024,KZ_Фонд_национального_благосостояния_Самрук_Қазына_2024#5,1,PLAN,virtual assistants
+P0029,P0029,1,KZ,фонд_национального_благосостояния_самрук_қазына,forecasting_analytics,2022,KZ_Фонд_национального_благосостояния_Самрук_Қазына_2022#2,1,PLAN,internal data analysis
+P0030,P0030,1,KZ,фонд_национального_благосостояния_самрук_қазына,general_ai,2023,KZ_Фонд_национального_благосостояния_Самрук_Қазына_2023#3,1,PLAN,internal LLM deployment
+P0031,P0031,1,KZ,фонд_национального_благосостояния_самрук_қазына,general_ai,2024,KZ_Фонд_национального_благосостояния_Самрук_Қазына_2024#7,1,PLAN,general AI strategy
+P0032,P0032,1,KZ,фонд_национального_благосостояния_самрук_қазына,other,2024,KZ_Фонд_национального_благосостояния_Самрук_Қазына_2024#3,2,PLAN,seismic survey analysis
+P0033,P0033,1,NL,213800difn7nr7b97a50,maintenance_operations,2023,NL_213800DIFN7NR7B97A50_2023#6,2,PLAN,production ESG assessment
+P0033_alt1,P0033,0,NL,213800difn7nr7b97a50,maintenance_operations,2023,NL_213800DIFN7NR7B97A50_2023#7,2,PLAN,production ESG assessment
+P0034,P0034,1,NL,213800difn7nr7b97a50,maintenance_operations,2024,NL_213800DIFN7NR7B97A50_2024#1,2,PLAN,production ESG assessment
+P0034_alt1,P0034,0,NL,213800difn7nr7b97a50,maintenance_operations,2024,NL_213800DIFN7NR7B97A50_2024#11,2,PLAN,production ESG assessment
+P0035,P0035,1,NL,213800difn7nr7b97a50,process_automation,2021,NL_213800DIFN7NR7B97A50_2021#1,2,PILOT,media production automation
+P0036,P0036,1,NL,213800difn7nr7b97a50,process_automation,2022,NL_213800DIFN7NR7B97A50_2022#1,2,PLAN,business process efficiency
+P0037,P0037,1,NL,213800difn7nr7b97a50,process_automation,2023,NL_213800DIFN7NR7B97A50_2023#3,1,PLAN,business process efficiency
+P0039,P0039,1,NL,213800ed5an2j56n6z02,forecasting_analytics,2021,NL_213800ED5AN2J56N6Z02_2021#1,2,PLAN,enterprise resource planning
+P0040,P0040,1,NL,213800ed5an2j56n6z02,forecasting_analytics,2024,NL_213800ED5AN2J56N6Z02_2024#1,2,PLAN,integrated planning analytics
+P0041,P0041,1,NL,213800ed5an2j56n6z02,other,2024,NL_213800ED5AN2J56N6Z02_2024#7,1,PLAN,forklift collision prevention
+P0042,P0042,1,NL,315700yhfon9rjopck19,other,2022,NL_315700YHFON9RJOPCK19_2022#2,2,PLAN,virtual power plant
+P0043,P0043,1,NL,3tk20iviuj8j3zu0qe75,forecasting_analytics,2021,NL_3TK20IVIUJ8J3ZU0QE75_2021#7,2,PLAN,customer analytics strategy
+P0045,P0045,1,NL,3tk20iviuj8j3zu0qe75,personalisation_marketing,2024,NL_3TK20IVIUJ8J3ZU0QE75_2024#10,2,PLAN,personalized marketing campaigns
+P0046,P0046,1,NL,506700g44v67mpm4bi12,other,2023,NL_506700G44V67MPM4BI12_2023#6,2,PLAN,precision nutrition platform
+P0047,P0047,1,NL,52990050t51w55kk4x45,general_ai,2022,NL_52990050T51W55KK4X45_2022#1,1,PLAN,general AI strategy
+P0048,P0048,1,NL,529900jk6uxhy1ykz082,general_ai,2024,NL_529900JK6UXHY1YKZ082_2024#1,1,PLAN,general AI strategy
+P0048_alt1,P0048,0,NL,529900jk6uxhy1ykz082,general_ai,2024,NL_529900JK6UXHY1YKZ082_2024#2,1,PLAN,general AI strategy
+P0049,P0049,1,NL,529900jk6uxhy1ykz082,process_automation,2024,NL_529900JK6UXHY1YKZ082_2024#3,1,PLAN,knowledge work automation
+P0050,P0050,1,NL,5493006mn6oh67u2yi74,other,2021,NL_5493006MN6OH67U2YI74_2021#1,2,PLAN,industrial power management
+P0050_alt1,P0050,0,NL,5493006mn6oh67u2yi74,other,2021,NL_5493006MN6OH67U2YI74_2021#2,2,PLAN,battery power management
+P0051,P0051,1,NL,549300blwvjn2bat0a44,other,2024,NL_549300BLWVJN2BAT0A44_2024#3,1,PLAN,digital customer solutions
+P0051_alt1,P0051,0,NL,549300blwvjn2bat0a44,other,2024,NL_549300BLWVJN2BAT0A44_2024#12,2,PLAN,workplace accident prevention
+P0051_alt2,P0051,0,NL,549300blwvjn2bat0a44,other,2024,NL_549300BLWVJN2BAT0A44_2024#6,2,PLAN,brake performance analysis
+P0051_alt3,P0051,0,NL,549300blwvjn2bat0a44,other,2024,NL_549300BLWVJN2BAT0A44_2024#7,2,PLAN,intelligent vehicle braking
+P0052,P0052,1,NL,549300edrldfosbd1g50,general_ai,2023,NL_549300EDRLDFOSBD1G50_2023#1,2,PLAN,retail offer optimization
+P0052_alt1,P0052,0,NL,549300edrldfosbd1g50,general_ai,2023,NL_549300EDRLDFOSBD1G50_2023#3,2,PLAN,retail offer optimization
+P0053,P0053,1,NL,549300edrldfosbd1g50,process_automation,2023,NL_549300EDRLDFOSBD1G50_2023#2,1,PLAN,ecommerce process optimization
+P0054,P0054,1,NL,549300fmwm53k9ulyt15,other,2023,NL_549300FMWM53K9ULYT15_2023#1,2,PILOT,building energy optimization
+P0055,P0055,1,NL,549300fmwm53k9ulyt15,other,2024,NL_549300FMWM53K9ULYT15_2024#2,2,PLAN,building energy management
+P0056,P0056,1,NL,549300lkt9pw7zibdf31,other,2021,NL_549300LKT9PW7ZIBDF31_2021#1,2,PLAN,vehicle cockpit assistance
+P0057,P0057,1,NL,549300lkt9pw7zibdf31,other,2022,NL_549300LKT9PW7ZIBDF31_2022#2,2,PLAN,vehicle cockpit assistance
+P0058,P0058,1,NL,549300lkt9pw7zibdf31,other,2024,NL_549300LKT9PW7ZIBDF31_2024#1,2,PLAN,vehicle smart cockpit
+P0059,P0059,1,NL,549300nykk9mwm7ggw15,general_ai,2021,NL_549300NYKK9MWM7GGW15_2021#9,1,PLAN,general AI strategy
+P0060,P0060,1,NL,549300nykk9mwm7ggw15,other,2024,NL_549300NYKK9MWM7GGW15_2024#14,2,PLAN,transaction analysis
+P0062,P0062,1,NL,549300nykk9mwm7ggw15,personalisation_marketing,2024,NL_549300NYKK9MWM7GGW15_2024#13,2,PLAN,personalized marketing campaigns
+P0063,P0063,1,NL,549300rdgcryz5qe6513,hr_people,2024,NL_549300RDGCRYZ5QE6513_2024#1,2,PLAN,employee productivity assistance
+P0064,P0064,1,NL,549300rdgcryz5qe6513,other,2021,NL_549300RDGCRYZ5QE6513_2021#4,2,PLAN,corrosion detection
+P0065,P0065,1,NL,549300rdgcryz5qe6513,other,2023,NL_549300RDGCRYZ5QE6513_2023#3,2,PLAN,technical requirements improvement
+P0066,P0066,1,NL,549300rivy5ex8rcon76,other,2021,NL_549300RIVY5EX8RCON76_2021#1,1,PLAN,advanced driving assistance
+P0069,P0069,1,NL,549300yo0jzhal7fvp81,forecasting_analytics,2021,NL_549300YO0JZHAL7FVP81_2021#2,2,PLAN,secure data sharing
+P0070,P0070,1,NL,549300yo0jzhal7fvp81,general_ai,2024,NL_549300YO0JZHAL7FVP81_2024#2,1,PLAN,general AI strategy
+P0071,P0071,1,NL,549300yo0jzhal7fvp81,other,2022,NL_549300YO0JZHAL7FVP81_2022#2,1,PLAN,service problem prevention
+P0073,P0073,1,NL,549300yo0jzhal7fvp81,process_automation,2023,NL_549300YO0JZHAL7FVP81_2023#2,2,PLAN,operating model automation
+P0074,P0074,1,NL,635400z5lq5f9olvt688,general_ai,2023,NL_635400Z5LQ5F9OLVT688_2023#4,1,PLAN,general AI strategy
+P0074_alt1,P0074,0,NL,635400z5lq5f9olvt688,general_ai,2023,NL_635400Z5LQ5F9OLVT688_2023#16,1,PLAN,general AI strategy
+P0074_alt2,P0074,0,NL,635400z5lq5f9olvt688,general_ai,2023,NL_635400Z5LQ5F9OLVT688_2023#32,1,PLAN,general AI strategy
+P0075,P0075,1,NL,635400z5lq5f9olvt688,other,2023,NL_635400Z5LQ5F9OLVT688_2023#13,2,PLAN,developer knowledge assistance
+P0076,P0076,1,NL,7245000r8gnbsdtsz396,general_ai,2022,NL_7245000R8GNBSDTSZ396_2022#2,1,PLAN,general AI operations
+P0077,P0077,1,NL,7245000r8gnbsdtsz396,software_dev,2023,NL_7245000R8GNBSDTSZ396_2023#2,1,PLAN,software development assistance
+P0078,P0078,1,NL,7245000uzh70go047n03,forecasting_analytics,2024,NL_7245000UZH70GO047N03_2024#4,1,PLAN,water infrastructure analytics
+P0079,P0079,1,NL,7245000uzh70go047n03,other,2023,NL_7245000UZH70GO047N03_2023#4,1,PLAN,water system optimization
+P0079_alt1,P0079,0,NL,7245000uzh70go047n03,other,2023,NL_7245000UZH70GO047N03_2023#6,2,PLAN,building energy efficiency
+P0080,P0080,1,NL,7245000uzh70go047n03,process_automation,2023,NL_7245000UZH70GO047N03_2023#2,1,PLAN,internal process automation
+P0082,P0082,1,NL,7245001i22nd6zfhx623,maintenance_operations,2022,NL_7245001I22ND6ZFHX623_2022#3,2,PLAN,equipment knowledge management
+P0083,P0083,1,NL,7245001i22nd6zfhx623,other,2023,NL_7245001I22ND6ZFHX623_2023#5,2,PLAN,service knowledge management
+P0084,P0084,1,NL,7245001i22nd6zfhx623,other,2024,NL_7245001I22ND6ZFHX623_2024#9,1,PLAN,service knowledge management
+P0085,P0085,1,NL,72450022r2zfl41y6i04,forecasting_analytics,2024,NL_72450022R2ZFL41Y6I04_2024#10,2,PLAN,data driven decision support
+P0086,P0086,1,NL,72450022r2zfl41y6i04,general_ai,2023,NL_72450022R2ZFL41Y6I04_2023#3,1,PLAN,general AI strategy
+P0086_alt1,P0086,0,NL,72450022r2zfl41y6i04,general_ai,2023,NL_72450022R2ZFL41Y6I04_2023#6,2,PLAN,AI digital products
+P0087,P0087,1,NL,72450022r2zfl41y6i04,general_ai,2024,NL_72450022R2ZFL41Y6I04_2024#16,1,PLAN,general AI strategy
+P0087_alt1,P0087,0,NL,72450022r2zfl41y6i04,general_ai,2024,NL_72450022R2ZFL41Y6I04_2024#17,1,PLAN,general AI adoption
+P0087_alt2,P0087,0,NL,72450022r2zfl41y6i04,general_ai,2024,NL_72450022R2ZFL41Y6I04_2024#3,1,PLAN,general AI strategy
+P0087_alt3,P0087,0,NL,72450022r2zfl41y6i04,general_ai,2024,NL_72450022R2ZFL41Y6I04_2024#11,1,PLAN,general AI strategy
+P0087_alt4,P0087,0,NL,72450022r2zfl41y6i04,general_ai,2024,NL_72450022R2ZFL41Y6I04_2024#12,1,PLAN,general AI strategy
+P0087_alt5,P0087,0,NL,72450022r2zfl41y6i04,general_ai,2024,NL_72450022R2ZFL41Y6I04_2024#5,1,PLAN,general AI strategy
+P0087_alt6,P0087,0,NL,72450022r2zfl41y6i04,general_ai,2024,NL_72450022R2ZFL41Y6I04_2024#14,1,PLAN,general AI deployment
+P0088,P0088,1,NL,72450022r2zfl41y6i04,other,2023,NL_72450022R2ZFL41Y6I04_2023#4,2,PLAN,smart road corridors
+P0090,P0090,1,NL,7245008g22fov7tyyj34,process_automation,2024,NL_7245008G22FOV7TYYJ34_2024#7,1,PLAN,machine vision automation
+P0091,P0091,1,NL,724500973odkk3ifq447,maintenance_operations,2021,NL_724500973ODKK3IFQ447_2021#1,1,PLAN,transaction monitoring
+P0092,P0092,1,NL,724500d8woycl1bucb80,forecasting_analytics,2023,NL_724500D8WOYCL1BUCB80_2023#4,2,PLAN,large dataset interpretation
+P0093,P0093,1,NL,724500d8woycl1bucb80,process_automation,2023,NL_724500D8WOYCL1BUCB80_2023#3,1,PLAN,client service automation
+P0094,P0094,1,NL,724500dp8szn3nbqkc44,other,2021,NL_724500DP8SZN3NBQKC44_2021#2,1,PLAN,ecosystem restoration
+P0094_alt1,P0094,0,NL,724500dp8szn3nbqkc44,other,2021,NL_724500DP8SZN3NBQKC44_2021#5,1,PLAN,geospatial environmental modeling
+P0094_alt2,P0094,0,NL,724500dp8szn3nbqkc44,other,2021,NL_724500DP8SZN3NBQKC44_2021#1,2,PLAN,ecosystem restoration
+P0095,P0095,1,NL,724500e5ww4731jj4g46,general_ai,2024,NL_724500E5WW4731JJ4G46_2024#1,1,PLAN,general AI strategy
+P0096,P0096,1,NL,724500ehg519se5zrt89,maintenance_operations,2023,NL_724500EHG519SE5ZRT89_2023#3,2,PLAN,regulatory development monitoring
+P0097,P0097,1,NL,724500flodi49nscip70,other,2024,NL_724500FLODI49NSCIP70_2024#2,2,PLAN,digital operations optimization
+P0097_alt1,P0097,0,NL,724500flodi49nscip70,other,2024,NL_724500FLODI49NSCIP70_2024#3,1,PLAN,engineering productivity improvement
+P0098,P0098,1,NL,724500fvzibssq7shi95,other,2023,NL_724500FVZIBSSQ7SHI95_2023#6,2,PILOT,customer response generation
+P0099,P0099,1,NL,724500fvzibssq7shi95,personalisation_marketing,2023,NL_724500FVZIBSSQ7SHI95_2023#3,2,PLAN,product personalization
+P0100,P0100,1,NL,724500gjbul3d9tw9y18,general_ai,2023,NL_724500GJBUL3D9TW9Y18_2023#4,1,PLAN,AI music creativity
+P0101,P0101,1,NL,724500gjbul3d9tw9y18,general_ai,2024,NL_724500GJBUL3D9TW9Y18_2024#3,2,PLAN,AI music tools
+P0102,P0102,1,NL,724500gjbul3d9tw9y18,other,2021,NL_724500GJBUL3D9TW9Y18_2021#1,2,PLAN,vehicle audio enhancement
+P0103,P0103,1,NL,724500gjbul3d9tw9y18,other,2023,NL_724500GJBUL3D9TW9Y18_2023#9,2,PLAN,responsible music creation
+P0104,P0104,1,NL,724500huxgtqc07caz61,other,2024,NL_724500HUXGTQC07CAZ61_2024#2,2,PLAN,fitness club layout
+P0105,P0105,1,NL,724500igr5fbk0rlzi29,other,2022,NL_724500IGR5FBK0RLZI29_2022#1,1,PLAN,smart factory operations
+P0106,P0106,1,NL,724500k5ptpsst86uq23,other,2021,NL_724500K5PTPSST86UQ23_2021#1,2,PLAN,brewery cost optimization
+P0108,P0108,1,NL,724500ltuwk3jqg63903,forecasting_analytics,2021,NL_724500LTUWK3JQG63903_2021#3,2,PLAN,energy data exchange
+P0109,P0109,1,NL,724500ohyndt9oy6q215,credit_risk,2021,NL_724500OHYNDT9OY6Q215_2021#3,2,PLAN,insurance underwriting automation
+P0110,P0110,1,NL,724500ohyndt9oy6q215,general_ai,2024,NL_724500OHYNDT9OY6Q215_2024#14,1,PLAN,general AI strategy
+P0110_alt1,P0110,0,NL,724500ohyndt9oy6q215,general_ai,2024,NL_724500OHYNDT9OY6Q215_2024#2,1,PLAN,general AI strategy
+P0110_alt2,P0110,0,NL,724500ohyndt9oy6q215,general_ai,2024,NL_724500OHYNDT9OY6Q215_2024#10,1,PLAN,general AI strategy
+P0111,P0111,1,NL,724500oue3pca809dz79,maintenance_operations,2023,NL_724500OUE3PCA809DZ79_2023#8,1,PLAN,predictive asset maintenance
+P0112,P0112,1,NL,724500oue3pca809dz79,other,2021,NL_724500OUE3PCA809DZ79_2021#1,2,PLAN,project risk estimation
+P0113,P0113,1,NL,724500oue3pca809dz79,other,2024,NL_724500OUE3PCA809DZ79_2024#5,2,PLAN,biodiversity measurement
+P0115,P0115,1,NL,724500q41fhn0p1gpc53,customer_service,2024,NL_724500Q41FHN0P1GPC53_2024#3,2,PLAN,customer chatbot
+P0116,P0116,1,NL,724500q41fhn0p1gpc53,process_automation,2022,NL_724500Q41FHN0P1GPC53_2022#2,1,PLAN,process improvement analytics
+P0117,P0117,1,NL,724500qdjrumsprdhw25,customer_service,2021,NL_724500QDJRUMSPRDHW25_2021#10,2,PLAN,conversational customer service
+P0118,P0118,1,NL,724500qdjrumsprdhw25,fraud_security,2023,NL_724500QDJRUMSPRDHW25_2023#15,1,PLAN,cybersecurity software development
+P0119,P0119,1,NL,724500qdjrumsprdhw25,general_ai,2021,NL_724500QDJRUMSPRDHW25_2021#12,2,PLAN,AI SaaS expansion
+P0119_alt1,P0119,0,NL,724500qdjrumsprdhw25,general_ai,2021,NL_724500QDJRUMSPRDHW25_2021#11,2,PLAN,conversational commerce AI
+P0120,P0120,1,NL,724500qdjrumsprdhw25,general_ai,2023,NL_724500QDJRUMSPRDHW25_2023#11,2,PLAN,generative communication software
+P0121,P0121,1,NL,724500qdjrumsprdhw25,general_ai,2024,NL_724500QDJRUMSPRDHW25_2024#8,2,PLAN,general AI strategy
+P0122,P0122,1,NL,724500qdjrumsprdhw25,other,2022,NL_724500QDJRUMSPRDHW25_2022#10,2,PLAN,conversational customer communication
+P0123,P0123,1,NL,724500qdjrumsprdhw25,personalisation_marketing,2021,NL_724500QDJRUMSPRDHW25_2021#4,2,PLAN,customer interaction personalization
+P0123_alt1,P0123,0,NL,724500qdjrumsprdhw25,personalisation_marketing,2021,NL_724500QDJRUMSPRDHW25_2021#2,1,PLAN,customer communication personalization
+P0124,P0124,1,NL,724500qj4qsz3h9qu415,forecasting_analytics,2021,NL_724500QJ4QSZ3H9QU415_2021#1,1,PLAN,data analysis
+P0125,P0125,1,NL,724500qj4qsz3h9qu415,forecasting_analytics,2022,NL_724500QJ4QSZ3H9QU415_2022#1,1,PLAN,data infrastructure analytics
+P0126,P0126,1,NL,724500qj4qsz3h9qu415,forecasting_analytics,2023,NL_724500QJ4QSZ3H9QU415_2023#1,1,PLAN,data analysis
+P0127,P0127,1,NL,724500qj4qsz3h9qu415,other,2024,NL_724500QJ4QSZ3H9QU415_2024#1,1,PLAN,product development assistance
+P0128,P0128,1,NL,724500qj4qsz3h9qu415,software_dev,2024,NL_724500QJ4QSZ3H9QU415_2024#2,2,PLAN,AI software development
+P0129,P0129,1,NL,724500sfk53fpnm68l95,forecasting_analytics,2024,NL_724500SFK53FPNM68L95_2024#4,1,PLAN,data analytics platform
+P0130,P0130,1,NL,724500snt1mk246ahp04,personalisation_marketing,2021,NL_724500SNT1MK246AHP04_2021#3,1,PLAN,research AI capabilities
+P0131,P0131,1,NL,724500tem53i0u077b74,general_ai,2023,NL_724500TEM53I0U077B74_2023#1,1,PLAN,expert solutions AI
+P0131_alt1,P0131,0,NL,724500tem53i0u077b74,general_ai,2023,NL_724500TEM53I0U077B74_2023#26,1,PLAN,customer generative AI
+P0131_alt2,P0131,0,NL,724500tem53i0u077b74,general_ai,2023,NL_724500TEM53I0U077B74_2023#5,1,PLAN,general AI products
+P0132,P0132,1,NL,724500tem53i0u077b74,general_ai,2024,NL_724500TEM53I0U077B74_2024#5,1,PLAN,general AI strategy
+P0132_alt1,P0132,0,NL,724500tem53i0u077b74,general_ai,2024,NL_724500TEM53I0U077B74_2024#6,1,PLAN,expert solutions AI
+P0132_alt2,P0132,0,NL,724500tem53i0u077b74,general_ai,2024,NL_724500TEM53I0U077B74_2024#31,1,PLAN,expert solutions AI
+P0133,P0133,1,NL,724500tem53i0u077b74,other,2023,NL_724500TEM53I0U077B74_2023#6,1,PLAN,product experience enhancement
+P0134,P0134,1,NL,724500tem53i0u077b74,other,2024,NL_724500TEM53I0U077B74_2024#3,1,PLAN,expert solution development
+P0136,P0136,1,NL,724500wau923otvc7m86,general_ai,2023,NL_724500WAU923OTVC7M86_2023#7,1,PLAN,general AI strategy
+P0136_alt1,P0136,0,NL,724500wau923otvc7m86,general_ai,2023,NL_724500WAU923OTVC7M86_2023#8,1,PLAN,general AI strategy
+P0136_alt2,P0136,0,NL,724500wau923otvc7m86,general_ai,2023,NL_724500WAU923OTVC7M86_2023#17,1,PLAN,general AI strategy
+P0137,P0137,1,NL,724500wau923otvc7m86,other,2023,NL_724500WAU923OTVC7M86_2023#2,2,PLAN,traffic flow optimization
+P0138,P0138,1,NL,724500x4was3v33mvx37,maintenance_operations,2024,NL_724500X4WAS3V33MVX37_2024#3,2,PLAN,livestock computer vision
+P0138_alt1,P0138,0,NL,724500x4was3v33mvx37,maintenance_operations,2024,NL_724500X4WAS3V33MVX37_2024#5,2,PILOT,cow health monitoring
+P0139,P0139,1,NL,724500y6duvhqd6oxn27,other,2024,NL_724500Y6DUVHQD6OXN27_2024#14,1,PLAN,artwork digital analysis
+P0140,P0140,1,NL,724500y6duvhqd6oxn27,personalisation_marketing,2024,NL_724500Y6DUVHQD6OXN27_2024#10,2,PLAN,research development acceleration
+P0142,P0142,1,NL,724500y6duvhqd6oxn27,process_automation,2024,NL_724500Y6DUVHQD6OXN27_2024#5,1,PLAN,lithography process control
+P0143,P0143,1,NL,8156008b101b97a43b02,general_ai,2024,NL_8156008B101B97A43B02_2024#1,1,PLAN,general AI strategy
+P0143_alt1,P0143,0,NL,8156008b101b97a43b02,general_ai,2024,NL_8156008B101B97A43B02_2024#3,1,PLAN,general AI strategy
+P0144,P0144,1,NL,8156008b101b97a43b02,maintenance_operations,2023,NL_8156008B101B97A43B02_2023#1,1,PLAN,production supply chain AI
+P0145,P0145,1,NL,815600cc86d25a205563,maintenance_operations,2024,NL_815600CC86D25A205563_2024#5,2,PILOT,predictive maintenance
+P0146,P0146,1,NL,894500g73k46h93rf180,other,2024,NL_894500G73K46H93RF180_2024#3,1,PLAN,content monetization
+P0146_alt1,P0146,0,NL,894500g73k46h93rf180,other,2024,NL_894500G73K46H93RF180_2024#7,1,PLAN,responsible gambling support
+P0147,P0147,1,NL,894500l53avofqk7t710,general_ai,2024,NL_894500L53AVOFQK7T710_2024#38,1,PLAN,generative AI deployment
+P0147_alt1,P0147,0,NL,894500l53avofqk7t710,general_ai,2024,NL_894500L53AVOFQK7T710_2024#16,1,PLAN,general AI investment
+P0147_alt2,P0147,0,NL,894500l53avofqk7t710,general_ai,2024,NL_894500L53AVOFQK7T710_2024#12,1,PLAN,general AI service development
+P0148,P0148,1,NL,894500l53avofqk7t710,process_automation,2024,NL_894500L53AVOFQK7T710_2024#13,2,PLAN,agency service automation
+P0149,P0149,1,NL,bfxs5xch7n0y05nixw11,general_ai,2023,NL_BFXS5XCH7N0Y05NIXW11_2023#7,1,PLAN,general AI strategy
+P0149_alt1,P0149,0,NL,bfxs5xch7n0y05nixw11,general_ai,2023,NL_BFXS5XCH7N0Y05NIXW11_2023#1,1,PLAN,general AI strategy
+P0150,P0150,1,NL,bfxs5xch7n0y05nixw11,other,2024,NL_BFXS5XCH7N0Y05NIXW11_2024#6,1,PLAN,digital banking services
+P0151,P0151,1,NL,bfxs5xch7n0y05nixw11,personalisation_marketing,2024,NL_BFXS5XCH7N0Y05NIXW11_2024#5,1,PLAN,customer experience improvement
+P0152,P0152,1,NL,h1fje8h61jgm1jsgm897,customer_service,2021,NL_H1FJE8H61JGM1JSGM897_2021#4,2,PLAN,patient virtual assistant
+P0153,P0153,1,NL,h1fje8h61jgm1jsgm897,forecasting_analytics,2024,NL_H1FJE8H61JGM1JSGM897_2024#21,2,PLAN,supplier sustainability prediction
+P0154,P0154,1,NL,h1fje8h61jgm1jsgm897,general_ai,2023,NL_H1FJE8H61JGM1JSGM897_2023#8,2,PLAN,radiology AI access
+P0154_alt1,P0154,0,NL,h1fje8h61jgm1jsgm897,general_ai,2023,NL_H1FJE8H61JGM1JSGM897_2023#3,2,PLAN,radiology AI access
+P0155,P0155,1,NL,h1fje8h61jgm1jsgm897,health_product,2022,NL_H1FJE8H61JGM1JSGM897_2022#8,2,PLAN,clinical decision support
+P0156,P0156,1,NL,h1fje8h61jgm1jsgm897,health_product,2023,NL_H1FJE8H61JGM1JSGM897_2023#10,1,PLAN,clinical decision support
+P0157,P0157,1,NL,h1fje8h61jgm1jsgm897,health_product,2024,NL_H1FJE8H61JGM1JSGM897_2024#33,1,PLAN,clinical decision support
+P0157_alt1,P0157,0,NL,h1fje8h61jgm1jsgm897,health_product,2024,NL_H1FJE8H61JGM1JSGM897_2024#13,2,PLAN,healthcare AI implementation
+P0158,P0158,1,NL,h1fje8h61jgm1jsgm897,hr_people,2024,NL_H1FJE8H61JGM1JSGM897_2024#20,1,PLAN,internal talent matching
+P0159,P0159,1,NL,h1fje8h61jgm1jsgm897,maintenance_operations,2024,NL_H1FJE8H61JGM1JSGM897_2024#10,2,PLAN,cardiac monitoring analytics
+P0160,P0160,1,NL,h1fje8h61jgm1jsgm897,other,2021,NL_H1FJE8H61JGM1JSGM897_2021#16,2,PLAN,obstetric care assistance
+P0161,P0161,1,NL,h1fje8h61jgm1jsgm897,other,2022,NL_H1FJE8H61JGM1JSGM897_2022#9,1,PLAN,MRI image reconstruction
+P0161_alt1,P0161,0,NL,h1fje8h61jgm1jsgm897,other,2022,NL_H1FJE8H61JGM1JSGM897_2022#12,2,PLAN,ultrasound image interpretation
+P0162,P0162,1,NL,h1fje8h61jgm1jsgm897,other,2023,NL_H1FJE8H61JGM1JSGM897_2023#11,2,PLAN,MRI image reconstruction
+P0163,P0163,1,NL,h1fje8h61jgm1jsgm897,other,2024,NL_H1FJE8H61JGM1JSGM897_2024#34,1,PLAN,MRI image reconstruction
+P0163_alt1,P0163,0,NL,h1fje8h61jgm1jsgm897,other,2024,NL_H1FJE8H61JGM1JSGM897_2024#24,2,PLAN,obstetric ultrasound assistance
+P0164,P0164,1,NL,h1fje8h61jgm1jsgm897,personalisation_marketing,2021,NL_H1FJE8H61JGM1JSGM897_2021#8,2,PLAN,personalized virtual healthcare
+P0165,P0165,1,NL,mino79wloo247m1il051,customer_service,2023,NL_MINO79WLOO247M1IL051_2023#22,2,PLAN,systems engineering assistant
+P0165_alt1,P0165,0,NL,mino79wloo247m1il051,customer_service,2023,NL_MINO79WLOO247M1IL051_2023#23,2,PLAN,systems engineering assistant
+P0166,P0166,1,NL,mino79wloo247m1il051,general_ai,2022,NL_MINO79WLOO247M1IL051_2022#2,1,PLAN,AI services catalogue
+P0167,P0167,1,NL,mino79wloo247m1il051,general_ai,2023,NL_MINO79WLOO247M1IL051_2023#7,1,PLAN,enterprise AI scaling
+P0167_alt1,P0167,0,NL,mino79wloo247m1il051,general_ai,2023,NL_MINO79WLOO247M1IL051_2023#19,2,PLAN,aircraft quality inspection
+P0168,P0168,1,NL,mino79wloo247m1il051,general_ai,2024,NL_MINO79WLOO247M1IL051_2024#1,1,PLAN,general AI strategy
+P0168_alt1,P0168,0,NL,mino79wloo247m1il051,general_ai,2024,NL_MINO79WLOO247M1IL051_2024#2,1,PLAN,defense AI systems
+P0168_alt2,P0168,0,NL,mino79wloo247m1il051,general_ai,2024,NL_MINO79WLOO247M1IL051_2024#10,2,PLAN,aircraft surface inspection
+P0171,P0171,1,NL,mino79wloo247m1il051,maintenance_operations,2023,NL_MINO79WLOO247M1IL051_2023#3,2,PILOT,sustainable fuel monitoring
+P0172,P0172,1,NL,mino79wloo247m1il051,other,2022,NL_MINO79WLOO247M1IL051_2022#9,1,PLAN,autonomous flight systems
+P0173,P0173,1,NL,mino79wloo247m1il051,other,2023,NL_MINO79WLOO247M1IL051_2023#6,1,PLAN,multisystem design optimization
+P0173_alt1,P0173,0,NL,mino79wloo247m1il051,other,2023,NL_MINO79WLOO247M1IL051_2023#16,2,PLAN,engineering simulation acceleration
+P0173_alt2,P0173,0,NL,mino79wloo247m1il051,other,2023,NL_MINO79WLOO247M1IL051_2023#17,1,PLAN,autonomous flight systems
+P0173_alt3,P0173,0,NL,mino79wloo247m1il051,other,2023,NL_MINO79WLOO247M1IL051_2023#20,2,PLAN,structural simulation acceleration
+P0173_alt4,P0173,0,NL,mino79wloo247m1il051,other,2023,NL_MINO79WLOO247M1IL051_2023#21,2,PLAN,quality nonconformity detection
+P0174,P0174,1,NL,mino79wloo247m1il051,other,2024,NL_MINO79WLOO247M1IL051_2024#7,1,PLAN,scientific simulation modeling
+P0179,P0179,1,PL,alior_bank,customer_service,2022,PL_Alior_Bank_2022#1,2,PLAN,customer chatbot
+P0180,P0180,1,PL,alior_bank,other,2021,PL_Alior_Bank_2021#1,2,PLAN,customer voicebot
+P0182,P0182,1,PL,allegro_eu,personalisation_marketing,2023,PL_Allegro_eu_2023#29,1,PLAN,semantic product search
+P0183,P0183,1,PL,bank_millennium,customer_service,2023,PL_Bank_Millennium_2023#3,1,PLAN,customer banking assistant
+P0184,P0184,1,PL,bnp_paribas_bank_polska,general_ai,2021,PL_BNP_Paribas_Bank_Polska_2021#2,1,PLAN,general AI strategy
+P0185,P0185,1,PL,bnp_paribas_bank_polska,process_automation,2021,PL_BNP_Paribas_Bank_Polska_2021#1,1,PLAN,process automation
+P0186,P0186,1,PL,bnp_paribas_bank_polska,process_automation,2022,PL_BNP_Paribas_Bank_Polska_2022#2,2,PLAN,business process optimization
+P0186_alt1,P0186,0,PL,bnp_paribas_bank_polska,process_automation,2022,PL_BNP_Paribas_Bank_Polska_2022#3,2,PLAN,operational process optimization
+P0188,P0188,1,PL,cyber_folks,general_ai,2022,PL_cyber_Folks_2022#5,1,PLAN,AI customer products
+P0188_alt1,P0188,0,PL,cyber_folks,general_ai,2022,PL_cyber_Folks_2022#6,2,PLAN,AI communication products
+P0188_alt2,P0188,0,PL,cyber_folks,general_ai,2022,PL_cyber_Folks_2022#2,1,PLAN,general AI products
+P0190,P0190,1,PL,grupa_pracuj,other,2021,PL_Grupa_Pracuj_2021#1,1,PLAN,candidate job matching
+P0191,P0191,1,PL,mbank,fraud_security,2021,PL_mBank_2021#3,1,PLAN,fraud detection
+P0192,P0192,1,PL,mbank,general_ai,2021,PL_mBank_2021#5,1,PLAN,general AI banking products
+P0193,P0193,1,PL,mbank,other,2021,PL_mBank_2021#2,2,PLAN,banking risk assessment
+P0193_alt1,P0193,0,PL,mbank,other,2021,PL_mBank_2021#4,1,PLAN,customer support agents
+P0194,P0194,1,PL,mbank,other,2022,PL_mBank_2022#4,2,PLAN,banking risk assessment
+P0195,P0195,1,PL,mbank,other,2023,PL_mBank_2023#2,1,PLAN,risk assessment
+P0196,P0196,1,PL,mbank,other,2024,PL_mBank_2024#4,1,PLAN,risk assessment
+P0198,P0198,1,PL,pko_bank_polski,maintenance_operations,2023,PL_PKO_Bank_Polski_2023#4,2,PLAN,digital asset price prediction
+P0199,P0199,1,PL,pzu,customer_service,2021,PL_PZU_2021#1,1,PLAN,integrated customer service
+P0200,P0200,1,PL,pzu,forecasting_analytics,2021,PL_PZU_2021#19,1,PLAN,general AI analytics
+P0201,P0201,1,PL,pzu,general_ai,2021,PL_PZU_2021#21,1,PLAN,email classification
+P0203,P0203,1,PL,pzu,other,2023,PL_PZU_2023#19,1,PLAN,insurance purchase assistance
+P0204,P0204,1,PL,pzu,process_automation,2021,PL_PZU_2021#22,2,PLAN,claims handling automation
+P0205,P0205,1,PL,pzu,process_automation,2023,PL_PZU_2023#27,1,PLAN,business process analytics
+P0205_alt1,P0205,0,PL,pzu,process_automation,2023,PL_PZU_2023#10,2,PILOT,insurance process automation
+P0206,P0206,1,PL,synektik,personalisation_marketing,2022,PL_Synektik_2022#1,2,PLAN,clinical research analytics
+P0207,P0207,1,PL,tauron_polska_energia,customer_service,2023,PL_Tauron_Polska_Energia_2023#7,1,PLAN,customer service automation
+P0208,P0208,1,PL,tauron_polska_energia,maintenance_operations,2023,PL_Tauron_Polska_Energia_2023#2,2,PLAN,solar farm monitoring
+P0209,P0209,1,PL,ten_square_games,process_automation,2024,PL_Ten_Square_Games_2024#2,1,PLAN,game development automation
+P0210,P0210,1,PL,text,customer_service,2022,PL_Text_2022#11,1,PLAN,customer service automation
+P0211,P0211,1,PL,text,customer_service,2024,PL_Text_2024#5,1,PLAN,customer service automation
+P0212,P0212,1,PL,text,process_automation,2022,PL_Text_2022#3,1,PLAN,customer communication automation
