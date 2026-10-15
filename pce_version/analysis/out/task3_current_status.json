@@ -1,0 +1,18 @@
+{
+  "updated_utc": "2026-10-15T16:06:58.367547+00:00",
+  "source_packets": 183,
+  "source_ready": 183,
+  "coding_counts": {
+    "first_followup_rounds/A.json": 56,
+    "first_followup_rounds/B.json": 56,
+    "first_followup_rounds/NL_A.json": 127,
+    "first_followup_rounds/NL_B.json": 127,
+    "first_followup_adjudication/KZ_PL.json": 56,
+    "first_followup_adjudication/NL.json": 127,
+    "first_followup_adjudication/NL_part1.json": 64,
+    "first_followup_adjudication/NL_part2.json": 63
+  },
+  "readability_companions": 152,
+  "human_validation": false,
+  "new_manuscript_estimates_inserted": true
+}

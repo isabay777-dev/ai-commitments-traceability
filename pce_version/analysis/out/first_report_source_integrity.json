@@ -1,0 +1,12 @@
+{
+  "packets": 183,
+  "ready_by_country": {
+    "KZ": 27,
+    "NL": 127,
+    "PL": 29
+  },
+  "unique_extracted_texts_checked": 222,
+  "text_hash_errors": [],
+  "text_hash_scope_note": "Retriever text_sha256 is normalized UTF8; original artifact byte hash added as text_file_sha256. Archive recovery output_sha256 is file bytes.",
+  "interpretation": "Availability and text integrity only; source identity, coding and human validation require separate checks."
+}

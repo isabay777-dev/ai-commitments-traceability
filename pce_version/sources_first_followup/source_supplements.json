@@ -1,0 +1,10 @@
+{
+  "PL_Bank_Millennium_2023.txt": {
+    "text_path": "sources_first_followup/text/PL_Bank_Millennium_2023__ESG.txt",
+    "archive_member": "3_ESG Report ENG.pdf",
+    "member_sha256": "6abcd6529b2cf68c791158737b9ec6de1c4439dc4949f2d952b3ce35a89525bf",
+    "text_sha256": "6d434023bc58f75a8a036346b3608349ccf2af4ecc6637bc4644c1734f5d67f7",
+    "pdf_pages": 244,
+    "role": "Original-commitment source context within same annual-report ZIP; management report alone does not contain retained archived excerpt."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "inputs": [
+    {
+      "path": "first_followup_adjudication/frozen/NL_part1_v1.json",
+      "sha256": "b2022bd7f6c41592b6d29022bc7ee02ffe08df75cd6b0d30706dee2aa6f9f906"
+    },
+    {
+      "path": "first_followup_adjudication/frozen/NL_part2_v1.json",
+      "sha256": "9f513b89cc2ad91979b79136b035828df77897533699ad23c1ce946c1892787b"
+    }
+  ],
+  "merged_sha256": "af0519ade3335f1a550a62ef9ae7a6873189fbd955ed8b3468ac23ef88634d6c",
+  "rows": 127
+}

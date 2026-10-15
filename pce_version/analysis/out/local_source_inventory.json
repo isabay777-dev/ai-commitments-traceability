@@ -1,0 +1,1588 @@
+{
+  "created_on": "2026-10-15",
+  "scope": "/Users/issabayyesmagambetov/Desktop/Проекты",
+  "read_only_search": true,
+  "search_commands": [
+    [
+      "rg",
+      "--files",
+      "--hidden",
+      "--no-ignore",
+      "-g",
+      "!**/.git/**",
+      "-g",
+      "!**/node_modules/**",
+      "-g",
+      "!**/validation/key_hidden.csv",
+      "."
+    ],
+    "rg --files --hidden --no-ignore -g KZ_*.txt -g PL_*.txt -g NL_*.txt, excluding .git/node_modules",
+    "Filename searches for issuer names and PDF/xhtml alternatives; IJDG_submission inventory"
+  ],
+  "search_limitations": [
+    "Filename inventory cannot prove absence of reports stored under opaque/unrelated names.",
+    "No external directories or symlink targets outside the workspace were searched.",
+    "Archives were identified by filename only and not recursively extracted."
+  ],
+  "full_report_corpora_located": [],
+  "summary": {
+    "retained_commitments": 183,
+    "distinct_expected_first_reports": 131,
+    "exact_local_text_matches": 0,
+    "same_stem_alternative_matches": 0,
+    "expected_distinct_by_country": {
+      "KZ": 20,
+      "NL": 91,
+      "PL": 20
+    }
+  },
+  "report_inventory": [
+    {
+      "expected_report_file": "KZ_Alatau_City_Bank_2023.txt",
+      "country": "KZ",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0000"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_Bank_CenterCredit_2025.txt",
+      "country": "KZ",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0001",
+        "P0002",
+        "P0003"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_ForteBank_2024.txt",
+      "country": "KZ",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0004"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_Kazatomprom_2022.txt",
+      "country": "KZ",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0006"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_Аграрная_кредитная_корпорация_2025.txt",
+      "country": "KZ",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0007"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_Институт_космической_техники_и_технологий_2025.txt",
+      "country": "KZ",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0009",
+        "P0010"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_Казпочта_2025.txt",
+      "country": "KZ",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0011"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_Каспий_нефть_2023.txt",
+      "country": "KZ",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0012"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_Каспий_нефть_2025.txt",
+      "country": "KZ",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0013"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_ЛОГИКОМ_2025.txt",
+      "country": "KZ",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0015"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_МФО_ЭКО_Финанс_2025.txt",
+      "country": "KZ",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0016"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_Национальная_компания_QazaqGaz_2025.txt",
+      "country": "KZ",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0017",
+        "P0018",
+        "P0019"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_Национальная_компания_Қазақстан_темір_жолы_2024.txt",
+      "country": "KZ",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0020"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_Национальный_инвестиционный_холдинг_Байтерек_2025.txt",
+      "country": "KZ",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0022"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_Отбасы_банк_2024.txt",
+      "country": "KZ",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0023"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_Отбасы_банк_2025.txt",
+      "country": "KZ",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0024"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_Самрук_Энерго_2025.txt",
+      "country": "KZ",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0025"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_Фонд_национального_благосостояния_Самрук_Қазына_2023.txt",
+      "country": "KZ",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0029"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_Фонд_национального_благосостояния_Самрук_Қазына_2024.txt",
+      "country": "KZ",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0030"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "KZ_Фонд_национального_благосостояния_Самрук_Қазына_2025.txt",
+      "country": "KZ",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0028",
+        "P0031",
+        "P0032"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_213800DIFN7NR7B97A50_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0035"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_213800DIFN7NR7B97A50_2023.txt",
+      "country": "NL",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0036"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_213800DIFN7NR7B97A50_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0033",
+        "P0037"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_213800DIFN7NR7B97A50_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0034"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_213800ED5AN2J56N6Z02_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0039"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_213800ED5AN2J56N6Z02_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0040",
+        "P0041"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_315700YHFON9RJOPCK19_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0042"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_3TK20IVIUJ8J3ZU0QE75_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0043"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_3TK20IVIUJ8J3ZU0QE75_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0045"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_506700G44V67MPM4BI12_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0046"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_52990050T51W55KK4X45_2023.txt",
+      "country": "NL",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0047"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_529900JK6UXHY1YKZ082_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0048",
+        "P0049"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_5493006MN6OH67U2YI74_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0050"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_549300BLWVJN2BAT0A44_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0051"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_549300EDRLDFOSBD1G50_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0052",
+        "P0053"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_549300FMWM53K9ULYT15_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0054"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_549300FMWM53K9ULYT15_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0055"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_549300LKT9PW7ZIBDF31_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0056"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_549300LKT9PW7ZIBDF31_2023.txt",
+      "country": "NL",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0057"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_549300LKT9PW7ZIBDF31_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0058"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_549300NYKK9MWM7GGW15_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0059"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_549300NYKK9MWM7GGW15_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0060",
+        "P0062"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_549300RDGCRYZ5QE6513_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0064"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_549300RDGCRYZ5QE6513_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0065"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_549300RDGCRYZ5QE6513_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0063"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_549300RIVY5EX8RCON76_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0066"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_549300YO0JZHAL7FVP81_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0069"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_549300YO0JZHAL7FVP81_2023.txt",
+      "country": "NL",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0071"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_549300YO0JZHAL7FVP81_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0073"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_549300YO0JZHAL7FVP81_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0070"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_635400Z5LQ5F9OLVT688_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0074",
+        "P0075"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_7245000R8GNBSDTSZ396_2023.txt",
+      "country": "NL",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0076"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_7245000R8GNBSDTSZ396_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0077"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_7245000UZH70GO047N03_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0079",
+        "P0080"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_7245000UZH70GO047N03_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0078"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_7245001I22ND6ZFHX623_2023.txt",
+      "country": "NL",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0082"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_7245001I22ND6ZFHX623_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0083"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_7245001I22ND6ZFHX623_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0084"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_72450022R2ZFL41Y6I04_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0086",
+        "P0088"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_72450022R2ZFL41Y6I04_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0085",
+        "P0087"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_7245008G22FOV7TYYJ34_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0090"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500973ODKK3IFQ447_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0091"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500D8WOYCL1BUCB80_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0092",
+        "P0093"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500DP8SZN3NBQKC44_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0094"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500E5WW4731JJ4G46_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0095"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500EHG519SE5ZRT89_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0096"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500FLODI49NSCIP70_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0097"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500FVZIBSSQ7SHI95_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0098",
+        "P0099"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500GJBUL3D9TW9Y18_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0102"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500GJBUL3D9TW9Y18_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0100",
+        "P0103"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500GJBUL3D9TW9Y18_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0101"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500HUXGTQC07CAZ61_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0104"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500IGR5FBK0RLZI29_2023.txt",
+      "country": "NL",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0105"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500K5PTPSST86UQ23_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0106"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500LTUWK3JQG63903_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0108"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500OHYNDT9OY6Q215_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0109"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500OHYNDT9OY6Q215_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0110"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500OUE3PCA809DZ79_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0112"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500OUE3PCA809DZ79_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0111"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500OUE3PCA809DZ79_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0113"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500Q41FHN0P1GPC53_2023.txt",
+      "country": "NL",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0116"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500Q41FHN0P1GPC53_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0115"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500QDJRUMSPRDHW25_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0117",
+        "P0123"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500QDJRUMSPRDHW25_2023.txt",
+      "country": "NL",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0122"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500QDJRUMSPRDHW25_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0118",
+        "P0120"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500QDJRUMSPRDHW25_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0121"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500QJ4QSZ3H9QU415_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0124"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500QJ4QSZ3H9QU415_2023.txt",
+      "country": "NL",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0125"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500QJ4QSZ3H9QU415_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0126"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500QJ4QSZ3H9QU415_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0127",
+        "P0128"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500SFK53FPNM68L95_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0129"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500SNT1MK246AHP04_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0130"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500TEM53I0U077B74_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0131",
+        "P0133"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500TEM53I0U077B74_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0132",
+        "P0134"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500WAU923OTVC7M86_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0136",
+        "P0137"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500X4WAS3V33MVX37_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0138"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_724500Y6DUVHQD6OXN27_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0139",
+        "P0140",
+        "P0142"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_8156008B101B97A43B02_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0144"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_8156008B101B97A43B02_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0143"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_815600CC86D25A205563_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0145"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_894500G73K46H93RF180_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0146"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_894500L53AVOFQK7T710_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0147",
+        "P0148"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_BFXS5XCH7N0Y05NIXW11_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0149"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_BFXS5XCH7N0Y05NIXW11_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0150",
+        "P0151"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_H1FJE8H61JGM1JSGM897_2022.txt",
+      "country": "NL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0152",
+        "P0160",
+        "P0164"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_H1FJE8H61JGM1JSGM897_2023.txt",
+      "country": "NL",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0155",
+        "P0161"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_H1FJE8H61JGM1JSGM897_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0154",
+        "P0156",
+        "P0162"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_H1FJE8H61JGM1JSGM897_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0153",
+        "P0157",
+        "P0158",
+        "P0159",
+        "P0163"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_MINO79WLOO247M1IL051_2023.txt",
+      "country": "NL",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0166",
+        "P0172"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_MINO79WLOO247M1IL051_2024.txt",
+      "country": "NL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0165",
+        "P0167",
+        "P0171",
+        "P0173"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "NL_MINO79WLOO247M1IL051_2025.txt",
+      "country": "NL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0168",
+        "P0174"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_Alior_Bank_2022.txt",
+      "country": "PL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0180"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_Alior_Bank_2023.txt",
+      "country": "PL",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0179"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_Allegro_eu_2025.txt",
+      "country": "PL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0182"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_BNP_Paribas_Bank_Polska_2022.txt",
+      "country": "PL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0184",
+        "P0185"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_BNP_Paribas_Bank_Polska_2023.txt",
+      "country": "PL",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0186"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_Bank_Millennium_2024.txt",
+      "country": "PL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0183"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_Grupa_Pracuj_2022.txt",
+      "country": "PL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0190"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_PKO_Bank_Polski_2025.txt",
+      "country": "PL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0198"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_PZU_2023.txt",
+      "country": "PL",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0199",
+        "P0200",
+        "P0201",
+        "P0204"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_PZU_2025.txt",
+      "country": "PL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0203",
+        "P0205"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_Synektik_2023.txt",
+      "country": "PL",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0206"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_Tauron_Polska_Energia_2025.txt",
+      "country": "PL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0207",
+        "P0208"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_Ten_Square_Games_2025.txt",
+      "country": "PL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0209"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_Text_2024.txt",
+      "country": "PL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0210",
+        "P0212"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_Text_2025.txt",
+      "country": "PL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0211"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_cyber_Folks_2024.txt",
+      "country": "PL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0188"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_mBank_2022.txt",
+      "country": "PL",
+      "report_year": "2022",
+      "promise_ids": [
+        "P0191",
+        "P0192",
+        "P0193"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_mBank_2023.txt",
+      "country": "PL",
+      "report_year": "2023",
+      "promise_ids": [
+        "P0194"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_mBank_2024.txt",
+      "country": "PL",
+      "report_year": "2024",
+      "promise_ids": [
+        "P0195"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    },
+    {
+      "expected_report_file": "PL_mBank_2025.txt",
+      "country": "PL",
+      "report_year": "2025",
+      "promise_ids": [
+        "P0196"
+      ],
+      "exact_local_text_matches": [],
+      "same_stem_alternative_matches": [],
+      "status": "not_located_in_workspace"
+    }
+  ],
+  "available_source_indices": [
+    {
+      "path": "/Users/issabayyesmagambetov/Desktop/Проекты/PCE_submission/repo/data/sources/kz_expansion_urls.csv",
+      "bytes": 298100,
+      "role": "source URL/index metadata, not full report text"
+    },
+    {
+      "path": "/Users/issabayyesmagambetov/Desktop/Проекты/PCE_submission/repo/data/sources/pl_report_urls_full.txt",
+      "bytes": 66921,
+      "role": "source URL/index metadata, not full report text"
+    },
+    {
+      "path": "/Users/issabayyesmagambetov/Desktop/Проекты/PCE_submission/repo/data/sources/esef_filings.csv",
+      "bytes": 534516,
+      "role": "source URL/index metadata, not full report text"
+    },
+    {
+      "path": "/Users/issabayyesmagambetov/Desktop/Проекты/PCE_submission/repo/data/sources/kz_report_urls_full.txt",
+      "bytes": 63496,
+      "role": "source URL/index metadata, not full report text"
+    },
+    {
+      "path": "/Users/issabayyesmagambetov/Desktop/Проекты/PCE_submission/repo/data/sources/pl_kz_report_urls_raw.txt",
+      "bytes": 24898,
+      "role": "source URL/index metadata, not full report text"
+    }
+  ],
+  "repository_fulltext_exclusion_notice": {
+    "path": "/Users/issabayyesmagambetov/Desktop/Проекты/PCE_submission/repo/README.md",
+    "section": "Not included",
+    "text": "Full texts of annual reports (copyright of the issuers); they are publicly available at the listed URLs."
+  },
+  "alias_and_identity_hazards": [
+    "Kazakhstan Cyrillic/Latin issuer aliases must be reconciled using explicit mappings from scripts/21_follow_through.py; string similarity alone is not identity proof.",
+    "Alatau City Bank report filenames can conceal historical Jusan branding: verify legal issuer and report year inside the report.",
+    "For NL, text filenames use LEI, not displayed issuer name; use esef_filings.csv with name/year/LEI and check duplicates.",
+    "The filing period_end field can contain anomalous years: at least one PL index row says 2031-03-01 while its package filename says 2022-12-31. Do not assume period_end alone proves reporting year.",
+    "A first_available_report_file reconstructed from the panel is metadata evidence, not proof that the full source is currently present, complete, or the first report actually published.",
+    "Do not transfer latest multi-report outcome labels into first-report coding."
+  ],
+  "unrelated_prefixed_text_files": [
+    "/Users/issabayyesmagambetov/Desktop/Проекты/FINAL_ARTICLES_TO_SUBMIT/07 — AI Knowledge Infrastructure and Circular-Economy Governance — Kazakhstan and Estonia/revision_work/reproducibility_candidate/ECON07_EU_EE_CENTRED_REPRODUCIBILITY_CANDIDATE_HOLD/04_diagnostic_coding/pass_B/sources/KZ_AI_LAW_INFO_RU_2026-08-21.txt",
+    "/Users/issabayyesmagambetov/Desktop/Проекты/FINAL_ARTICLES_TO_SUBMIT/07 — AI Knowledge Infrastructure and Circular-Economy Governance — Kazakhstan and Estonia/revision_work/reproducibility_candidate/ECON07_EU_EE_CENTRED_REPRODUCIBILITY_CANDIDATE_HOLD/04_diagnostic_coding/pass_B/sources/KZ_ECOLOGICAL_CODE_RU_2026-08-21.txt",
+    "/Users/issabayyesmagambetov/Desktop/Проекты/FINAL_ARTICLES_TO_SUBMIT/07 — AI Knowledge Infrastructure and Circular-Economy Governance — Kazakhstan and Estonia/revision_work/reproducibility_candidate/ECON07_EU_EE_CENTRED_REPRODUCIBILITY_CANDIDATE_HOLD/04_diagnostic_coding/pass_B/sources/KZ_DIGITAL_CODE_RU_2026-08-21.txt",
+    "/Users/issabayyesmagambetov/Desktop/Проекты/FINAL_ARTICLES_TO_SUBMIT/07 — AI Knowledge Infrastructure and Circular-Economy Governance — Kazakhstan and Estonia/revision_work/reproducibility_candidate/ECON07_EU_EE_CENTRED_REPRODUCIBILITY_CANDIDATE_HOLD/04_diagnostic_coding/pass_B/sources/KZ_DIGITAL_CODE_INFO_RU_2026-08-21.txt",
+    "/Users/issabayyesmagambetov/Desktop/Проекты/FINAL_ARTICLES_TO_SUBMIT/07 — AI Knowledge Infrastructure and Circular-Economy Governance — Kazakhstan and Estonia/revision_work/reproducibility_candidate/ECON07_EU_EE_CENTRED_REPRODUCIBILITY_CANDIDATE_HOLD/04_diagnostic_coding/pass_B/sources/KZ_ECOLOGICAL_CODE_INFO_RU_2026-08-21.txt",
+    "/Users/issabayyesmagambetov/Desktop/Проекты/FINAL_ARTICLES_TO_SUBMIT/07 — AI Knowledge Infrastructure and Circular-Economy Governance — Kazakhstan and Estonia/revision_work/reproducibility_candidate/ECON07_EU_EE_CENTRED_REPRODUCIBILITY_CANDIDATE_HOLD/04_diagnostic_coding/pass_B/sources/KZ_AI_LAW_RU_2026-08-21.txt",
+    "/Users/issabayyesmagambetov/Desktop/Проекты/FINAL_ARTICLES_TO_SUBMIT/07 — AI Knowledge Infrastructure and Circular-Economy Governance — Kazakhstan and Estonia/revision_work/coding_pass_B/sources/KZ_AI_LAW_INFO_RU_2026-08-21.txt",
+    "/Users/issabayyesmagambetov/Desktop/Проекты/FINAL_ARTICLES_TO_SUBMIT/07 — AI Knowledge Infrastructure and Circular-Economy Governance — Kazakhstan and Estonia/revision_work/coding_pass_B/sources/KZ_ECOLOGICAL_CODE_RU_2026-08-21.txt",
+    "/Users/issabayyesmagambetov/Desktop/Проекты/FINAL_ARTICLES_TO_SUBMIT/07 — AI Knowledge Infrastructure and Circular-Economy Governance — Kazakhstan and Estonia/revision_work/coding_pass_B/sources/KZ_DIGITAL_CODE_RU_2026-08-21.txt",
+    "/Users/issabayyesmagambetov/Desktop/Проекты/FINAL_ARTICLES_TO_SUBMIT/07 — AI Knowledge Infrastructure and Circular-Economy Governance — Kazakhstan and Estonia/revision_work/coding_pass_B/sources/KZ_DIGITAL_CODE_INFO_RU_2026-08-21.txt",
+    "/Users/issabayyesmagambetov/Desktop/Проекты/FINAL_ARTICLES_TO_SUBMIT/07 — AI Knowledge Infrastructure and Circular-Economy Governance — Kazakhstan and Estonia/revision_work/coding_pass_B/sources/KZ_ECOLOGICAL_CODE_INFO_RU_2026-08-21.txt",
+    "/Users/issabayyesmagambetov/Desktop/Проекты/FINAL_ARTICLES_TO_SUBMIT/07 — AI Knowledge Infrastructure and Circular-Economy Governance — Kazakhstan and Estonia/revision_work/coding_pass_B/sources/KZ_AI_LAW_RU_2026-08-21.txt"
+  ]
+}

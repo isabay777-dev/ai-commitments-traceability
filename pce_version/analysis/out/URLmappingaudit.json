@@ -1,0 +1,4206 @@
+{
+  "inputs": [
+    "analysis/out/first_followup_worklist_183.csv",
+    "repo/data/coded/ai_fragments_index.csv",
+    "repo/data/sources/kz_report_urls_full.txt",
+    "repo/data/sources/pl_report_urls_full.txt",
+    "repo/data/sources/pl_kz_report_urls_raw.txt",
+    "repo/data/sources/kz_expansion_urls.csv",
+    "repo/data/sources/esef_filings.csv"
+  ],
+  "rules": [
+    "Exact LEI and report year for NL.",
+    "Exact normalized report-file stem, source company and year for KZ/PL; only the explicit Kazatomprom alias is allowed.",
+    "Use statuses in validation/build_kit.py OK set; reject non-HTTP and duplicate .pdf.pdf URLs.",
+    "For otherwise identical NL ESEF filings, choose highest numeric revision; leave other URL conflicts missing."
+  ],
+  "summary": {
+    "cases": 183,
+    "unique_original_reports": 131,
+    "original_reports_mapped": 131,
+    "original_reports_unknown": 0,
+    "unique_first_followup_reports": 131,
+    "first_followup_reports_mapped": 131,
+    "first_followup_reports_unknown": 0,
+    "cases_with_both_urls": 183,
+    "cases_with_missing_original_url": 0,
+    "cases_with_missing_followup_url": 0,
+    "flags_by_document": {
+      "malformed_duplicate_pdf_extension_excluded": 1,
+      "documented_company_alias": 1,
+      "multiple_esef_revisions": 2
+    }
+  },
+  "documents": {
+    "KZ_Alatau_City_Bank_2022.txt": {
+      "country": "KZ",
+      "year": "2022",
+      "report_file": "KZ_Alatau_City_Bank_2022.txt",
+      "url": "https://kase.kz/files/emitters/TSBN/tsbnp_2022_rus.pdf",
+      "source_company": "Alatau City Bank",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Alatau City Bank",
+          "url": "https://kase.kz/ru/listing/issuers/TSBN",
+          "status": "NOT_FOUND",
+          "source_file": "kz_report_urls_full.txt",
+          "source_line": 305
+        },
+        {
+          "company": "Alatau City Bank",
+          "url": "https://kase.kz/files/emitters/TSBN/tsbnp_2022_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 207
+        }
+      ]
+    },
+    "KZ_Alatau_City_Bank_2023.txt": {
+      "country": "KZ",
+      "year": "2023",
+      "report_file": "KZ_Alatau_City_Bank_2023.txt",
+      "url": "https://kase.kz/files/emitters/TSBN/tsbnp_2023_rus.pdf",
+      "source_company": "Alatau City Bank",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Alatau City Bank",
+          "url": "https://kase.kz/ru/listing/issuers/TSBN",
+          "status": "NOT_FOUND",
+          "source_file": "kz_report_urls_full.txt",
+          "source_line": 306
+        },
+        {
+          "company": "Alatau City Bank",
+          "url": "https://kase.kz/files/emitters/TSBN/tsbnp_2023_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 206
+        }
+      ]
+    },
+    "KZ_Bank_CenterCredit_2025.txt": {
+      "country": "KZ",
+      "year": "2025",
+      "report_file": "KZ_Bank_CenterCredit_2025.txt",
+      "url": "https://www.bcc.kz/static/bcc-kz-storage/storage/app/media/About%20the%20bank/financial-results/ac-godovoi-otcet-angl.pdf",
+      "source_company": "Bank CenterCredit",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Bank CenterCredit",
+          "url": "https://www.bcc.kz/static/bcc-kz-storage/storage/app/media/About%20the%20bank/financial-results/ac-godovoi-otcet-angl.pdf",
+          "status": "FOUND",
+          "source_file": "pl_kz_report_urls_raw.txt",
+          "source_line": 67
+        }
+      ]
+    },
+    "KZ_ForteBank_2023.txt": {
+      "country": "KZ",
+      "year": "2023",
+      "report_file": "KZ_ForteBank_2023.txt",
+      "url": "https://main.storage-object.pscloud.io/Forte_Bank_AR_2023_rus_smart_last_f6939900b4.pdf",
+      "source_company": "ForteBank",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ForteBank",
+          "url": "https://main.storage-object.pscloud.io/Forte_Bank_AR_2023_rus_smart_last_f6939900b4.pdf",
+          "status": "FOUND_INDEXED",
+          "source_file": "kz_report_urls_full.txt",
+          "source_line": 58
+        }
+      ]
+    },
+    "KZ_ForteBank_2024.txt": {
+      "country": "KZ",
+      "year": "2024",
+      "report_file": "KZ_ForteBank_2024.txt",
+      "url": "https://kase.kz/files/emitters/ASBN/asbnp_2024_rus.pdf",
+      "source_company": "ForteBank",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [
+        "malformed_duplicate_pdf_extension_excluded"
+      ],
+      "candidate_classification": "malformed_duplicate",
+      "candidates": [
+        {
+          "company": "ForteBank",
+          "url": "https://ir.forte.kz/investors/annual-reports",
+          "status": "NOT_FOUND",
+          "source_file": "kz_report_urls_full.txt",
+          "source_line": 59
+        },
+        {
+          "company": "ForteBank",
+          "url": "https://kase.kz/files/emitters/ASBN/asbnp_2024_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 47
+        },
+        {
+          "company": "ForteBank",
+          "url": "https://kase.kz/files/emitters/ASBN/asbnp_2024_rus.pdf.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 232
+        }
+      ]
+    },
+    "KZ_Kazatomprom_2021.txt": {
+      "country": "KZ",
+      "year": "2021",
+      "report_file": "KZ_Kazatomprom_2021.txt",
+      "url": "https://www.kazatomprom.kz/storage/1e/kazatomprom_iar_2021_engpdf.pdf",
+      "source_company": "Kazatomprom",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Kazatomprom",
+          "url": "https://www.kazatomprom.kz/storage/1e/kazatomprom_iar_2021_engpdf.pdf",
+          "status": "FOUND",
+          "source_file": "pl_kz_report_urls_raw.txt",
+          "source_line": 44
+        }
+      ]
+    },
+    "KZ_Kazatomprom_2022.txt": {
+      "country": "KZ",
+      "year": "2022",
+      "report_file": "KZ_Kazatomprom_2022.txt",
+      "url": "https://kase.kz/files/emitters/KZAP/kzapp_2022_rus.pdf",
+      "source_company": "Казатомпром",
+      "match_method": "company_alias_year_exact",
+      "ambiguity_flags": [
+        "documented_company_alias"
+      ],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Казатомпром",
+          "url": "https://www.kazatomprom.kz/en/investors/godovie_otcheti",
+          "status": "NOT_FOUND",
+          "source_file": "kz_report_urls_full.txt",
+          "source_line": 183
+        },
+        {
+          "company": "Казатомпром",
+          "url": "https://kase.kz/files/emitters/KZAP/kzapp_2022_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 128
+        }
+      ]
+    },
+    "KZ_Аграрная_кредитная_корпорация_2024.txt": {
+      "country": "KZ",
+      "year": "2024",
+      "report_file": "KZ_Аграрная_кредитная_корпорация_2024.txt",
+      "url": "https://kase.kz/files/emitters/AGKK/agkkp_2024_rus.pdf",
+      "source_company": "Аграрная кредитная корпорация",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Аграрная кредитная корпорация",
+          "url": "https://kase.kz/files/emitters/AGKK/agkkp_2024_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 221
+        }
+      ]
+    },
+    "KZ_Аграрная_кредитная_корпорация_2025.txt": {
+      "country": "KZ",
+      "year": "2025",
+      "report_file": "KZ_Аграрная_кредитная_корпорация_2025.txt",
+      "url": "https://kase.kz/files/emitters/AGKK/agkkp_2025_rus.pdf",
+      "source_company": "Аграрная кредитная корпорация",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Аграрная кредитная корпорация",
+          "url": "https://kase.kz/files/emitters/AGKK/agkkp_2025_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 222
+        }
+      ]
+    },
+    "KZ_Банк_ЦентрКредит_2024.txt": {
+      "country": "KZ",
+      "year": "2024",
+      "report_file": "KZ_Банк_ЦентрКредит_2024.txt",
+      "url": "https://kase.kz/files/emitters/CCBN/ccbnp_2024_rus.pdf",
+      "source_company": "Банк ЦентрКредит",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Банк ЦентрКредит",
+          "url": "https://www.bcc.kz/about/financial-results/",
+          "status": "NOT_FOUND",
+          "source_file": "kz_report_urls_full.txt",
+          "source_line": 97
+        },
+        {
+          "company": "Банк ЦентрКредит",
+          "url": "https://kase.kz/files/emitters/CCBN/ccbnp_2024_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 77
+        }
+      ]
+    },
+    "KZ_Институт_космической_техники_и_технологий_2024.txt": {
+      "country": "KZ",
+      "year": "2024",
+      "report_file": "KZ_Институт_космической_техники_и_технологий_2024.txt",
+      "url": "https://kase.kz/files/emitters/IKTT/ikttp_2024_rus.pdf",
+      "source_company": "Институт космической техники и технологий",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Институт космической техники и технологий",
+          "url": "https://kase.kz/files/emitters/IKTT/ikttp_2024_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 434
+        }
+      ]
+    },
+    "KZ_Институт_космической_техники_и_технологий_2025.txt": {
+      "country": "KZ",
+      "year": "2025",
+      "report_file": "KZ_Институт_космической_техники_и_технологий_2025.txt",
+      "url": "https://kase.kz/files/emitters/IKTT/ikttp_2025_rus.pdf",
+      "source_company": "Институт космической техники и технологий",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Институт космической техники и технологий",
+          "url": "https://kase.kz/files/emitters/IKTT/ikttp_2025_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 433
+        }
+      ]
+    },
+    "KZ_Казпочта_2024.txt": {
+      "country": "KZ",
+      "year": "2024",
+      "report_file": "KZ_Казпочта_2024.txt",
+      "url": "https://website-backend.prod.kazpost.org/uploads/2024_152e404db1.pdf",
+      "source_company": "Казпочта",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Казпочта",
+          "url": "https://kase.kz/files/emitters/KZPS/kzpsp_2024_rus.pdf",
+          "status": "NOT_FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 632
+        },
+        {
+          "company": "Казпочта",
+          "url": "https://website-backend.prod.kazpost.org/uploads/2024_152e404db1.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 938
+        }
+      ]
+    },
+    "KZ_Казпочта_2025.txt": {
+      "country": "KZ",
+      "year": "2025",
+      "report_file": "KZ_Казпочта_2025.txt",
+      "url": "https://website-backend.prod.kazpost.org/uploads/RU_GO_2025_5b7bb222c0.pdf",
+      "source_company": "Казпочта",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Казпочта",
+          "url": "https://kase.kz/files/emitters/KZPS/kzpsp_2025_rus.pdf",
+          "status": "NOT_FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 634
+        },
+        {
+          "company": "Казпочта",
+          "url": "https://website-backend.prod.kazpost.org/uploads/RU_GO_2025_5b7bb222c0.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 935
+        }
+      ]
+    },
+    "KZ_Каспий_нефть_2022.txt": {
+      "country": "KZ",
+      "year": "2022",
+      "report_file": "KZ_Каспий_нефть_2022.txt",
+      "url": "https://kase.kz/files/emitters/KSNF/ksnfp_2022_rus.pdf",
+      "source_company": "Каспий нефть",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Каспий нефть",
+          "url": "https://kase.kz/files/emitters/KSNF/ksnfp_2022_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_report_urls_full.txt",
+          "source_line": 177
+        }
+      ]
+    },
+    "KZ_Каспий_нефть_2023.txt": {
+      "country": "KZ",
+      "year": "2023",
+      "report_file": "KZ_Каспий_нефть_2023.txt",
+      "url": "https://kase.kz/files/emitters/KSNF/ksnfp_2023_rus.pdf",
+      "source_company": "Каспий нефть",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Каспий нефть",
+          "url": "https://kase.kz/files/emitters/KSNF/ksnfp_2023_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_report_urls_full.txt",
+          "source_line": 178
+        }
+      ]
+    },
+    "KZ_Каспий_нефть_2024.txt": {
+      "country": "KZ",
+      "year": "2024",
+      "report_file": "KZ_Каспий_нефть_2024.txt",
+      "url": "https://kase.kz/files/emitters/KSNF/ksnfp_2024_rus.pdf",
+      "source_company": "Каспий нефть",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Каспий нефть",
+          "url": "https://kase.kz/files/emitters/KSNF/ksnfp_2024_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_report_urls_full.txt",
+          "source_line": 179
+        }
+      ]
+    },
+    "KZ_Каспий_нефть_2025.txt": {
+      "country": "KZ",
+      "year": "2025",
+      "report_file": "KZ_Каспий_нефть_2025.txt",
+      "url": "https://kase.kz/files/emitters/KSNF/ksnfp_2025_rus.pdf",
+      "source_company": "Каспий нефть",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Каспий нефть",
+          "url": "https://kase.kz/ru/listing/issuers/KSNF",
+          "status": "NOT_FOUND",
+          "source_file": "kz_report_urls_full.txt",
+          "source_line": 180
+        },
+        {
+          "company": "Каспий нефть",
+          "url": "https://kase.kz/files/emitters/KSNF/ksnfp_2025_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 125
+        }
+      ]
+    },
+    "KZ_ЛОГИКОМ_2024.txt": {
+      "country": "KZ",
+      "year": "2024",
+      "report_file": "KZ_ЛОГИКОМ_2024.txt",
+      "url": "https://kase.kz/files/emitters/LOGC/logcp_2024_rus.pdf",
+      "source_company": "ЛОГИКОМ",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ЛОГИКОМ",
+          "url": "https://kase.kz/files/emitters/LOGC/logcp_2024_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_report_urls_full.txt",
+          "source_line": 214
+        }
+      ]
+    },
+    "KZ_ЛОГИКОМ_2025.txt": {
+      "country": "KZ",
+      "year": "2025",
+      "report_file": "KZ_ЛОГИКОМ_2025.txt",
+      "url": "https://kase.kz/files/emitters/LOGC/logcp_2025_rus.pdf",
+      "source_company": "ЛОГИКОМ",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ЛОГИКОМ",
+          "url": "https://kase.kz/ru/listing/issuers/LOGC",
+          "status": "NOT_FOUND",
+          "source_file": "kz_report_urls_full.txt",
+          "source_line": 215
+        },
+        {
+          "company": "ЛОГИКОМ",
+          "url": "https://kase.kz/files/emitters/LOGC/logcp_2025_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 143
+        }
+      ]
+    },
+    "KZ_МФО_ЭКО_Финанс_2024.txt": {
+      "country": "KZ",
+      "year": "2024",
+      "report_file": "KZ_МФО_ЭКО_Финанс_2024.txt",
+      "url": "https://kase.kz/files/emitters/MFEC/mfecp_2024_rus.pdf",
+      "source_company": "МФО ЭКО - Финанс",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "МФО ЭКО - Финанс",
+          "url": "https://kase.kz/files/emitters/MFEC/mfecp_2024_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 498
+        }
+      ]
+    },
+    "KZ_МФО_ЭКО_Финанс_2025.txt": {
+      "country": "KZ",
+      "year": "2025",
+      "report_file": "KZ_МФО_ЭКО_Финанс_2025.txt",
+      "url": "https://kase.kz/files/emitters/MFEC/mfecp_2025_rus.pdf",
+      "source_company": "МФО ЭКО - Финанс",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "МФО ЭКО - Финанс",
+          "url": "https://kase.kz/files/emitters/MFEC/mfecp_2025_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 499
+        }
+      ]
+    },
+    "KZ_Национальная_компания_QazaqGaz_2024.txt": {
+      "country": "KZ",
+      "year": "2024",
+      "report_file": "KZ_Национальная_компания_QazaqGaz_2024.txt",
+      "url": "https://kase.kz/files/emitters/KZTG/kztgp_2024_rus.pdf",
+      "source_company": "Национальная компания \"QazaqGaz\"",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Национальная компания \"QazaqGaz\"",
+          "url": "https://kase.kz/files/emitters/KZTG/kztgp_2024_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 308
+        }
+      ]
+    },
+    "KZ_Национальная_компания_QazaqGaz_2025.txt": {
+      "country": "KZ",
+      "year": "2025",
+      "report_file": "KZ_Национальная_компания_QazaqGaz_2025.txt",
+      "url": "https://kase.kz/files/emitters/KZTG/kztgp_2025_rus.pdf",
+      "source_company": "Национальная компания \"QazaqGaz\"",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Национальная компания \"QazaqGaz\"",
+          "url": "https://kase.kz/files/emitters/KZTG/kztgp_2025_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 309
+        }
+      ]
+    },
+    "KZ_Национальная_компания_Қазақстан_темір_жолы_2023.txt": {
+      "country": "KZ",
+      "year": "2023",
+      "report_file": "KZ_Национальная_компания_Қазақстан_темір_жолы_2023.txt",
+      "url": "https://kase.kz/files/emitters/TMJL/tmjlp_2023_rus.pdf",
+      "source_company": "Национальная компания \"Қазақстан темір жолы\"",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Национальная компания \"Қазақстан темір жолы\"",
+          "url": "https://kase.kz/files/emitters/TMJL/tmjlp_2023_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 354
+        }
+      ]
+    },
+    "KZ_Национальная_компания_Қазақстан_темір_жолы_2024.txt": {
+      "country": "KZ",
+      "year": "2024",
+      "report_file": "KZ_Национальная_компания_Қазақстан_темір_жолы_2024.txt",
+      "url": "https://kase.kz/files/emitters/TMJL/tmjlp_2024_rus.pdf",
+      "source_company": "Национальная компания \"Қазақстан темір жолы\"",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Национальная компания \"Қазақстан темір жолы\"",
+          "url": "https://kase.kz/files/emitters/TMJL/tmjlp_2024_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 351
+        }
+      ]
+    },
+    "KZ_Национальный_инвестиционный_холдинг_Байтерек_2024.txt": {
+      "country": "KZ",
+      "year": "2024",
+      "report_file": "KZ_Национальный_инвестиционный_холдинг_Байтерек_2024.txt",
+      "url": "https://kase.kz/files/emitters/BTRK/btrkp_2024_rus.pdf",
+      "source_company": "Национальный инвестиционный холдинг \"Байтерек\"",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Национальный инвестиционный холдинг \"Байтерек\"",
+          "url": "https://kase.kz/files/emitters/BTRK/btrkp_2024_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 262
+        }
+      ]
+    },
+    "KZ_Национальный_инвестиционный_холдинг_Байтерек_2025.txt": {
+      "country": "KZ",
+      "year": "2025",
+      "report_file": "KZ_Национальный_инвестиционный_холдинг_Байтерек_2025.txt",
+      "url": "https://kase.kz/files/emitters/BTRK/btrkp_2025_rus.pdf",
+      "source_company": "Национальный инвестиционный холдинг \"Байтерек\"",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Национальный инвестиционный холдинг \"Байтерек\"",
+          "url": "https://kase.kz/files/emitters/BTRK/btrkp_2025_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 264
+        }
+      ]
+    },
+    "KZ_Отбасы_банк_2023.txt": {
+      "country": "KZ",
+      "year": "2023",
+      "report_file": "KZ_Отбасы_банк_2023.txt",
+      "url": "https://kase.kz/files/emitters/JSBN/jsbnp_2023_rus.pdf",
+      "source_company": "Отбасы банк",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Отбасы банк",
+          "url": "https://kase.kz/files/emitters/JSBN/jsbnp_2023_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 287
+        }
+      ]
+    },
+    "KZ_Отбасы_банк_2024.txt": {
+      "country": "KZ",
+      "year": "2024",
+      "report_file": "KZ_Отбасы_банк_2024.txt",
+      "url": "https://kase.kz/files/emitters/JSBN/jsbnp_2024_rus.pdf",
+      "source_company": "Отбасы банк",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Отбасы банк",
+          "url": "https://kase.kz/files/emitters/JSBN/jsbnp_2024_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 288
+        }
+      ]
+    },
+    "KZ_Отбасы_банк_2025.txt": {
+      "country": "KZ",
+      "year": "2025",
+      "report_file": "KZ_Отбасы_банк_2025.txt",
+      "url": "https://kase.kz/files/emitters/JSBN/jsbnp_2025_rus.pdf",
+      "source_company": "Отбасы банк",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Отбасы банк",
+          "url": "https://kase.kz/files/emitters/JSBN/jsbnp_2025_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 289
+        }
+      ]
+    },
+    "KZ_Самрук_Энерго_2024.txt": {
+      "country": "KZ",
+      "year": "2024",
+      "report_file": "KZ_Самрук_Энерго_2024.txt",
+      "url": "https://kase.kz/files/emitters/SNRG/snrgp_2024_rus.pdf",
+      "source_company": "Самрук-Энерго",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Самрук-Энерго",
+          "url": "https://kase.kz/files/emitters/SNRG/snrgp_2024_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 2
+        },
+        {
+          "company": "Самрук-Энерго",
+          "url": "https://kase.kz/files/emitters/SNRG/snrgp_2024_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 628
+        }
+      ]
+    },
+    "KZ_Самрук_Энерго_2025.txt": {
+      "country": "KZ",
+      "year": "2025",
+      "report_file": "KZ_Самрук_Энерго_2025.txt",
+      "url": "https://ar2025.samruk-energy.kz/assets/pdf/samruk-energy-annual-report-2025-ru-v20.pdf",
+      "source_company": "Самрук-Энерго",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Самрук-Энерго",
+          "url": "https://kase.kz/files/emitters/SNRG/snrgp_2025_rus.pdf",
+          "status": "NOT_FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 629
+        },
+        {
+          "company": "Самрук-Энерго",
+          "url": "https://ar2025.samruk-energy.kz/assets/pdf/samruk-energy-annual-report-2025-ru-v20.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 933
+        }
+      ]
+    },
+    "KZ_Фонд_национального_благосостояния_Самрук_Қазына_2022.txt": {
+      "country": "KZ",
+      "year": "2022",
+      "report_file": "KZ_Фонд_национального_благосостояния_Самрук_Қазына_2022.txt",
+      "url": "https://kase.kz/files/emitters/SKKZ/skkzp_2022_rus.pdf",
+      "source_company": "Фонд национального благосостояния \"Самрук-Қазына",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Фонд национального благосостояния \"Самрук-Қазына",
+          "url": "https://kase.kz/files/emitters/SKKZ/skkzp_2022_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 342
+        }
+      ]
+    },
+    "KZ_Фонд_национального_благосостояния_Самрук_Қазына_2023.txt": {
+      "country": "KZ",
+      "year": "2023",
+      "report_file": "KZ_Фонд_национального_благосостояния_Самрук_Қазына_2023.txt",
+      "url": "https://kase.kz/files/emitters/SKKZ/skkzp_2023_rus.pdf",
+      "source_company": "Фонд национального благосостояния \"Самрук-Қазына",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Фонд национального благосостояния \"Самрук-Қазына",
+          "url": "https://kase.kz/files/emitters/SKKZ/skkzp_2023_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 340
+        }
+      ]
+    },
+    "KZ_Фонд_национального_благосостояния_Самрук_Қазына_2024.txt": {
+      "country": "KZ",
+      "year": "2024",
+      "report_file": "KZ_Фонд_национального_благосостояния_Самрук_Қазына_2024.txt",
+      "url": "https://kase.kz/files/emitters/SKKZ/skkzp_2024_rus.pdf",
+      "source_company": "Фонд национального благосостояния \"Самрук-Қазына",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Фонд национального благосостояния \"Самрук-Қазына",
+          "url": "https://kase.kz/files/emitters/SKKZ/skkzp_2024_rus.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 344
+        }
+      ]
+    },
+    "KZ_Фонд_национального_благосостояния_Самрук_Қазына_2025.txt": {
+      "country": "KZ",
+      "year": "2025",
+      "report_file": "KZ_Фонд_национального_благосостояния_Самрук_Қазына_2025.txt",
+      "url": "https://kase.kz/files/emitters/SKKZ/skkzp_2025_rus_2.pdf",
+      "source_company": "Фонд национального благосостояния \"Самрук-Қазына",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Фонд национального благосостояния \"Самрук-Қазына",
+          "url": "https://kase.kz/files/emitters/SKKZ/skkzp_2025_rus_2.pdf",
+          "status": "FOUND",
+          "source_file": "kz_expansion_urls.csv",
+          "source_line": 341
+        }
+      ]
+    },
+    "NL_213800DIFN7NR7B97A50_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_213800DIFN7NR7B97A50_2021.txt",
+      "url": "https://filings.xbrl.org/213800DIFN7NR7B97A50/2021-12-31/ESEF/NL/0/213800DIFN7NR7B97A50-2021-12-31/reports/213800DIFN7NR7B97A50-2021-12-31.html",
+      "source_company": "MFE-MEDIAFOREUROPE N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "MFE-MEDIAFOREUROPE N.V.",
+          "url": "https://filings.xbrl.org/213800DIFN7NR7B97A50/2021-12-31/ESEF/NL/0/213800DIFN7NR7B97A50-2021-12-31/reports/213800DIFN7NR7B97A50-2021-12-31.html",
+          "fxo_id": "213800DIFN7NR7B97A50-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_213800DIFN7NR7B97A50_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_213800DIFN7NR7B97A50_2022.txt",
+      "url": "https://filings.xbrl.org/213800DIFN7NR7B97A50/2022-12-31/ESEF/NL/0/213800DIFN7NR7B97A50-2022-12-31-en/reports/213800DIFN7NR7B97A50-2022-12-31-en.html",
+      "source_company": "MFE-MEDIAFOREUROPE N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "MFE-MEDIAFOREUROPE N.V.",
+          "url": "https://filings.xbrl.org/213800DIFN7NR7B97A50/2022-12-31/ESEF/NL/0/213800DIFN7NR7B97A50-2022-12-31-en/reports/213800DIFN7NR7B97A50-2022-12-31-en.html",
+          "fxo_id": "213800DIFN7NR7B97A50-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_213800DIFN7NR7B97A50_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_213800DIFN7NR7B97A50_2023.txt",
+      "url": "https://filings.xbrl.org/213800DIFN7NR7B97A50/2023-12-31/ESEF/NL/0/213800DIFN7NR7B97A50-2023-12-31-en/reports/213800DIFN7NR7B97A50-2023-12-31-en.html",
+      "source_company": "MFE-MEDIAFOREUROPE N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "MFE-MEDIAFOREUROPE N.V.",
+          "url": "https://filings.xbrl.org/213800DIFN7NR7B97A50/2023-12-31/ESEF/NL/0/213800DIFN7NR7B97A50-2023-12-31-en/reports/213800DIFN7NR7B97A50-2023-12-31-en.html",
+          "fxo_id": "213800DIFN7NR7B97A50-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_213800DIFN7NR7B97A50_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_213800DIFN7NR7B97A50_2024.txt",
+      "url": "https://filings.xbrl.org/213800DIFN7NR7B97A50/2024-12-31/ESEF/NL/0/213800DIFN7NR7B97A50-2024-12-31-0-en/reports/213800DIFN7NR7B97A50-2024-12-31-0-en.html",
+      "source_company": "MFE-MEDIAFOREUROPE N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "MFE-MEDIAFOREUROPE N.V.",
+          "url": "https://filings.xbrl.org/213800DIFN7NR7B97A50/2024-12-31/ESEF/NL/0/213800DIFN7NR7B97A50-2024-12-31-0-en/reports/213800DIFN7NR7B97A50-2024-12-31-0-en.html",
+          "fxo_id": "213800DIFN7NR7B97A50-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_213800DIFN7NR7B97A50_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_213800DIFN7NR7B97A50_2025.txt",
+      "url": "https://filings.xbrl.org/213800DIFN7NR7B97A50/2025-12-31/ESEF/NL/0/213800DIFN7NR7B97A50-2025-12-31-1-en/reports/213800DIFN7NR7B97A50-2025-12-31-1-en.html",
+      "source_company": "MFE-MEDIAFOREUROPE N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "MFE-MEDIAFOREUROPE N.V.",
+          "url": "https://filings.xbrl.org/213800DIFN7NR7B97A50/2025-12-31/ESEF/NL/0/213800DIFN7NR7B97A50-2025-12-31-1-en/reports/213800DIFN7NR7B97A50-2025-12-31-1-en.html",
+          "fxo_id": "213800DIFN7NR7B97A50-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_213800ED5AN2J56N6Z02_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_213800ED5AN2J56N6Z02_2021.txt",
+      "url": "https://filings.xbrl.org/213800ED5AN2J56N6Z02/2021-12-31/ESEF/NL/0/davidecamparimilano/reports/davidecamparimilano-2021-12-31.xhtml",
+      "source_company": "DAVIDE CAMPARI-MILANO N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "DAVIDE CAMPARI-MILANO N.V.",
+          "url": "https://filings.xbrl.org/213800ED5AN2J56N6Z02/2021-12-31/ESEF/NL/0/davidecamparimilano/reports/davidecamparimilano-2021-12-31.xhtml",
+          "fxo_id": "213800ED5AN2J56N6Z02-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_213800ED5AN2J56N6Z02_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_213800ED5AN2J56N6Z02_2022.txt",
+      "url": "https://filings.xbrl.org/213800ED5AN2J56N6Z02/2022-12-31/ESEF/NL/0/davidecamparimilano/reports/davidecamparimilano-2022-12-31.xhtml",
+      "source_company": "DAVIDE CAMPARI-MILANO N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "DAVIDE CAMPARI-MILANO N.V.",
+          "url": "https://filings.xbrl.org/213800ED5AN2J56N6Z02/2022-12-31/ESEF/NL/0/davidecamparimilano/reports/davidecamparimilano-2022-12-31.xhtml",
+          "fxo_id": "213800ED5AN2J56N6Z02-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_213800ED5AN2J56N6Z02_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_213800ED5AN2J56N6Z02_2024.txt",
+      "url": "https://filings.xbrl.org/213800ED5AN2J56N6Z02/2024-12-31/ESEF/NL/0/davidecamparimilano-2024-12-31-en/reports/davidecamparimilano-2024-12-31-en.xhtml",
+      "source_company": "DAVIDE CAMPARI-MILANO N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "DAVIDE CAMPARI-MILANO N.V.",
+          "url": "https://filings.xbrl.org/213800ED5AN2J56N6Z02/2024-12-31/ESEF/NL/0/davidecamparimilano-2024-12-31-en/reports/davidecamparimilano-2024-12-31-en.xhtml",
+          "fxo_id": "213800ED5AN2J56N6Z02-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_213800ED5AN2J56N6Z02_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_213800ED5AN2J56N6Z02_2025.txt",
+      "url": "https://filings.xbrl.org/213800ED5AN2J56N6Z02/2025-12-31/ESEF/NL/0/davidecamparimilano-2025-12-31-0-en/reports/davidecamparimilano-2025-12-31-0-en.xhtml",
+      "source_company": "DAVIDE CAMPARI-MILANO N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "DAVIDE CAMPARI-MILANO N.V.",
+          "url": "https://filings.xbrl.org/213800ED5AN2J56N6Z02/2025-12-31/ESEF/NL/0/davidecamparimilano-2025-12-31-0-en/reports/davidecamparimilano-2025-12-31-0-en.xhtml",
+          "fxo_id": "213800ED5AN2J56N6Z02-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_315700YHFON9RJOPCK19_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_315700YHFON9RJOPCK19_2022.txt",
+      "url": "https://filings.xbrl.org/315700YHFON9RJOPCK19/2022-12-31/ESEF/NL/0/315700YHFON9RJOPCK19-2022-12-31-en/reports/315700YHFON9RJOPCK19-2022-12-31-en.xhtml",
+      "source_company": "Photon Energy N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Photon Energy N.V.",
+          "url": "https://filings.xbrl.org/315700YHFON9RJOPCK19/2022-12-31/ESEF/NL/0/315700YHFON9RJOPCK19-2022-12-31-en/reports/315700YHFON9RJOPCK19-2022-12-31-en.xhtml",
+          "fxo_id": "315700YHFON9RJOPCK19-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_315700YHFON9RJOPCK19_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_315700YHFON9RJOPCK19_2024.txt",
+      "url": "https://filings.xbrl.org/315700YHFON9RJOPCK19/2024-12-31/ESEF/NL/0/315700YHFON9RJOPCK19-2024-12-31-0-en/reports/315700YHFON9RJOPCK19-2024-12-31-0-en.xhtml",
+      "source_company": "Photon Energy N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Photon Energy N.V.",
+          "url": "https://filings.xbrl.org/315700YHFON9RJOPCK19/2024-12-31/ESEF/NL/0/315700YHFON9RJOPCK19-2024-12-31-0-en/reports/315700YHFON9RJOPCK19-2024-12-31-0-en.xhtml",
+          "fxo_id": "315700YHFON9RJOPCK19-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_3TK20IVIUJ8J3ZU0QE75_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_3TK20IVIUJ8J3ZU0QE75_2021.txt",
+      "url": "https://filings.xbrl.org/3TK20IVIUJ8J3ZU0QE75/2021-12-31/ESEF/NL/0/ingbank-20211231/reports/ingbank-2021-12-31.html",
+      "source_company": "ING BANK N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ING BANK N.V.",
+          "url": "https://filings.xbrl.org/3TK20IVIUJ8J3ZU0QE75/2021-12-31/ESEF/NL/0/ingbank-20211231/reports/ingbank-2021-12-31.html",
+          "fxo_id": "3TK20IVIUJ8J3ZU0QE75-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_3TK20IVIUJ8J3ZU0QE75_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_3TK20IVIUJ8J3ZU0QE75_2022.txt",
+      "url": "https://filings.xbrl.org/3TK20IVIUJ8J3ZU0QE75/2022-12-31/ESEF/NL/0/ingbank-2022-12-31-en/reports/ingbank-2022-12-31-en.xhtml",
+      "source_company": "ING BANK N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ING BANK N.V.",
+          "url": "https://filings.xbrl.org/3TK20IVIUJ8J3ZU0QE75/2022-12-31/ESEF/NL/0/ingbank-2022-12-31-en/reports/ingbank-2022-12-31-en.xhtml",
+          "fxo_id": "3TK20IVIUJ8J3ZU0QE75-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_3TK20IVIUJ8J3ZU0QE75_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_3TK20IVIUJ8J3ZU0QE75_2024.txt",
+      "url": "https://filings.xbrl.org/3TK20IVIUJ8J3ZU0QE75/2024-12-31/ESEF/NL/0/ingbank-2024-12-31-en/reports/ingbank-2024-12-31-en.xhtml",
+      "source_company": "ING BANK N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ING BANK N.V.",
+          "url": "https://filings.xbrl.org/3TK20IVIUJ8J3ZU0QE75/2024-12-31/ESEF/NL/0/ingbank-2024-12-31-en/reports/ingbank-2024-12-31-en.xhtml",
+          "fxo_id": "3TK20IVIUJ8J3ZU0QE75-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_3TK20IVIUJ8J3ZU0QE75_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_3TK20IVIUJ8J3ZU0QE75_2025.txt",
+      "url": "https://filings.xbrl.org/3TK20IVIUJ8J3ZU0QE75/2025-12-31/ESEF/NL/0/ingbank-2025-12-31-en/reports/ingbank-2025-12-31-en.xhtml",
+      "source_company": "ING BANK N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ING BANK N.V.",
+          "url": "https://filings.xbrl.org/3TK20IVIUJ8J3ZU0QE75/2025-12-31/ESEF/NL/0/ingbank-2025-12-31-en/reports/ingbank-2025-12-31-en.xhtml",
+          "fxo_id": "3TK20IVIUJ8J3ZU0QE75-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_506700G44V67MPM4BI12_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_506700G44V67MPM4BI12_2023.txt",
+      "url": "https://filings.xbrl.org/506700G44V67MPM4BI12/2023-12-31/ESEF/NL/0/506700G44V67MPM4BI12-2023-12-31-en/reports/506700G44V67MPM4BI12-2023-12-31-en.xhtml",
+      "source_company": "DSM-Firmenich AG",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "DSM-Firmenich AG",
+          "url": "https://filings.xbrl.org/506700G44V67MPM4BI12/2023-12-31/ESEF/NL/0/506700G44V67MPM4BI12-2023-12-31-en/reports/506700G44V67MPM4BI12-2023-12-31-en.xhtml",
+          "fxo_id": "506700G44V67MPM4BI12-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_506700G44V67MPM4BI12_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_506700G44V67MPM4BI12_2024.txt",
+      "url": "https://filings.xbrl.org/506700G44V67MPM4BI12/2024-12-31/ESEF/NL/0/506700G44V67MPM4BI12-2024-12-31-0-en/reports/506700G44V67MPM4BI12-2024-12-31-0-en.xhtml",
+      "source_company": "DSM-Firmenich AG",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "DSM-Firmenich AG",
+          "url": "https://filings.xbrl.org/506700G44V67MPM4BI12/2024-12-31/ESEF/NL/0/506700G44V67MPM4BI12-2024-12-31-0-en/reports/506700G44V67MPM4BI12-2024-12-31-0-en.xhtml",
+          "fxo_id": "506700G44V67MPM4BI12-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_52990050T51W55KK4X45_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_52990050T51W55KK4X45_2022.txt",
+      "url": "https://filings.xbrl.org/52990050T51W55KK4X45/2022-12-31/ESEF/NL/0/adpepper/reports/52990050T51W55KK4X45-2022-12-31-en.xhtml",
+      "source_company": "ad pepper media International N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ad pepper media International N.V.",
+          "url": "https://filings.xbrl.org/52990050T51W55KK4X45/2022-12-31/ESEF/NL/0/adpepper/reports/52990050T51W55KK4X45-2022-12-31-en.xhtml",
+          "fxo_id": "52990050T51W55KK4X45-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_52990050T51W55KK4X45_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_52990050T51W55KK4X45_2023.txt",
+      "url": "https://filings.xbrl.org/52990050T51W55KK4X45/2023-12-31/ESEF/NL/0/52990050T51W55KK4X45-2023-12-31-en/reports/52990050T51W55KK4X45-2023-12-31-en.xhtml",
+      "source_company": "ad pepper media International N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ad pepper media International N.V.",
+          "url": "https://filings.xbrl.org/52990050T51W55KK4X45/2023-12-31/ESEF/NL/0/52990050T51W55KK4X45-2023-12-31-en/reports/52990050T51W55KK4X45-2023-12-31-en.xhtml",
+          "fxo_id": "52990050T51W55KK4X45-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_529900JK6UXHY1YKZ082_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_529900JK6UXHY1YKZ082_2024.txt",
+      "url": "https://filings.xbrl.org/529900JK6UXHY1YKZ082/2024-12-31/ESEF/NL/0/529900JK6UXHY1YKZ082-2024-12-31-en/reports/redcarepharmacynv-2024-12-31-en.xhtml",
+      "source_company": "Redcare Pharmacy N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Redcare Pharmacy N.V.",
+          "url": "https://filings.xbrl.org/529900JK6UXHY1YKZ082/2024-12-31/ESEF/NL/0/529900JK6UXHY1YKZ082-2024-12-31-en/reports/redcarepharmacynv-2024-12-31-en.xhtml",
+          "fxo_id": "529900JK6UXHY1YKZ082-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_529900JK6UXHY1YKZ082_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_529900JK6UXHY1YKZ082_2025.txt",
+      "url": "https://filings.xbrl.org/529900JK6UXHY1YKZ082/2025-12-31/ESEF/NL/0/redcarepharmacynv-2025-12-31-en/reports/redcarepharmacynv-2025-12-31-en.xhtml",
+      "source_company": "Redcare Pharmacy N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Redcare Pharmacy N.V.",
+          "url": "https://filings.xbrl.org/529900JK6UXHY1YKZ082/2025-12-31/ESEF/NL/0/redcarepharmacynv-2025-12-31-en/reports/redcarepharmacynv-2025-12-31-en.xhtml",
+          "fxo_id": "529900JK6UXHY1YKZ082-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_5493006MN6OH67U2YI74_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_5493006MN6OH67U2YI74_2021.txt",
+      "url": "https://filings.xbrl.org/5493006MN6OH67U2YI74/2021-12-31/ESEF/NL/0/amg-2021-12-31-en/reports/amg-2021-12-31-en.xhtml",
+      "source_company": "AMG Critical Materials N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "AMG Critical Materials N.V.",
+          "url": "https://filings.xbrl.org/5493006MN6OH67U2YI74/2021-12-31/ESEF/NL/0/amg-2021-12-31-en/reports/amg-2021-12-31-en.xhtml",
+          "fxo_id": "5493006MN6OH67U2YI74-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_5493006MN6OH67U2YI74_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_5493006MN6OH67U2YI74_2022.txt",
+      "url": "https://filings.xbrl.org/5493006MN6OH67U2YI74/2022-12-31/ESEF/NL/0/amg-2022-12-31-en/reports/amg-2022-12-31-en.xhtml",
+      "source_company": "AMG Critical Materials N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "AMG Critical Materials N.V.",
+          "url": "https://filings.xbrl.org/5493006MN6OH67U2YI74/2022-12-31/ESEF/NL/0/amg-2022-12-31-en/reports/amg-2022-12-31-en.xhtml",
+          "fxo_id": "5493006MN6OH67U2YI74-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300BLWVJN2BAT0A44_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_549300BLWVJN2BAT0A44_2024.txt",
+      "url": "https://filings.xbrl.org/549300BLWVJN2BAT0A44/2024-12-31/ESEF/NL/0/549300BLWVJN2BAT0A44-2024-12-31-en/reports/549300BLWVJN2BAT0A44-2024-12-31-en.xhtml",
+      "source_company": "BREMBO N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "BREMBO N.V.",
+          "url": "https://filings.xbrl.org/549300BLWVJN2BAT0A44/2024-12-31/ESEF/NL/0/549300BLWVJN2BAT0A44-2024-12-31-en/reports/549300BLWVJN2BAT0A44-2024-12-31-en.xhtml",
+          "fxo_id": "549300BLWVJN2BAT0A44-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300BLWVJN2BAT0A44_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_549300BLWVJN2BAT0A44_2025.txt",
+      "url": "https://filings.xbrl.org/549300BLWVJN2BAT0A44/2025-12-31/ESEF/NL/0/549300BLWVJN2BAT0A44-2025-12-31-1-en/reports/549300BLWVJN2BAT0A44-2025-12-31-1-en.xhtml",
+      "source_company": "BREMBO N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "BREMBO N.V.",
+          "url": "https://filings.xbrl.org/549300BLWVJN2BAT0A44/2025-12-31/ESEF/NL/0/549300BLWVJN2BAT0A44-2025-12-31-1-en/reports/549300BLWVJN2BAT0A44-2025-12-31-1-en.xhtml",
+          "fxo_id": "549300BLWVJN2BAT0A44-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300EDRLDFOSBD1G50_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_549300EDRLDFOSBD1G50_2023.txt",
+      "url": "https://filings.xbrl.org/549300EDRLDFOSBD1G50/2023-12-31/ESEF/NL/0/549300EDRLDFOSBD1G50-2023-12-31-en/reports/549300EDRLDFOSBD1G50-2023-12-31-en.xhtml",
+      "source_company": "Cnova N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Cnova N.V.",
+          "url": "https://filings.xbrl.org/549300EDRLDFOSBD1G50/2023-12-31/ESEF/NL/0/549300EDRLDFOSBD1G50-2023-12-31-en/reports/549300EDRLDFOSBD1G50-2023-12-31-en.xhtml",
+          "fxo_id": "549300EDRLDFOSBD1G50-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300EDRLDFOSBD1G50_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_549300EDRLDFOSBD1G50_2024.txt",
+      "url": "https://filings.xbrl.org/549300EDRLDFOSBD1G50/2024-12-31/ESEF/NL/0/549300EDRLDFOSBD1G50-2024-12-31-0-en/reports/549300EDRLDFOSBD1G50-2024-12-31-0-en.xhtml",
+      "source_company": "Cnova N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Cnova N.V.",
+          "url": "https://filings.xbrl.org/549300EDRLDFOSBD1G50/2024-12-31/ESEF/NL/0/549300EDRLDFOSBD1G50-2024-12-31-0-en/reports/549300EDRLDFOSBD1G50-2024-12-31-0-en.xhtml",
+          "fxo_id": "549300EDRLDFOSBD1G50-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300FMWM53K9ULYT15_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_549300FMWM53K9ULYT15_2023.txt",
+      "url": "https://filings.xbrl.org/549300FMWM53K9ULYT15/2023-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2023-12-31-en/reports/549300FMWM53K9ULYT15-2023-12-31-en.html",
+      "source_company": "NEPI ROCKCASTLE N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "NEPI ROCKCASTLE N.V.",
+          "url": "https://filings.xbrl.org/549300FMWM53K9ULYT15/2023-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2023-12-31-en/reports/549300FMWM53K9ULYT15-2023-12-31-en.html",
+          "fxo_id": "549300FMWM53K9ULYT15-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300FMWM53K9ULYT15_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_549300FMWM53K9ULYT15_2024.txt",
+      "url": "https://filings.xbrl.org/549300FMWM53K9ULYT15/2024-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2024-12-31-en/reports/549300FMWM53K9ULYT15-2024-12-31.html",
+      "source_company": "NEPI ROCKCASTLE N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "NEPI ROCKCASTLE N.V.",
+          "url": "https://filings.xbrl.org/549300FMWM53K9ULYT15/2024-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2024-12-31-en/reports/549300FMWM53K9ULYT15-2024-12-31.html",
+          "fxo_id": "549300FMWM53K9ULYT15-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300FMWM53K9ULYT15_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_549300FMWM53K9ULYT15_2025.txt",
+      "url": "https://filings.xbrl.org/549300FMWM53K9ULYT15/2025-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2025-12-31-1-en/reports/549300FMWM53K9ULYT15-2025-12-31-1-en.html",
+      "source_company": "NEPI ROCKCASTLE N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "NEPI ROCKCASTLE N.V.",
+          "url": "https://filings.xbrl.org/549300FMWM53K9ULYT15/2025-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2025-12-31-1-en/reports/549300FMWM53K9ULYT15-2025-12-31-1-en.html",
+          "fxo_id": "549300FMWM53K9ULYT15-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300LKT9PW7ZIBDF31_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_549300LKT9PW7ZIBDF31_2021.txt",
+      "url": "https://filings.xbrl.org/549300LKT9PW7ZIBDF31/2021-12-31/ESEF/NL/0/stellantis-2021-12-31-en/reports/stellantis-2021-12-31-en.xhtml",
+      "source_company": "STELLANTIS N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "STELLANTIS N.V.",
+          "url": "https://filings.xbrl.org/549300LKT9PW7ZIBDF31/2021-12-31/ESEF/NL/0/stellantis-2021-12-31-en/reports/stellantis-2021-12-31-en.xhtml",
+          "fxo_id": "549300LKT9PW7ZIBDF31-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300LKT9PW7ZIBDF31_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_549300LKT9PW7ZIBDF31_2022.txt",
+      "url": "https://filings.xbrl.org/549300LKT9PW7ZIBDF31/2022-12-31/ESEF/NL/0/stellantis-2022-12-31-en/reports/stellantis-2022-12-31-en.xhtml",
+      "source_company": "STELLANTIS N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "STELLANTIS N.V.",
+          "url": "https://filings.xbrl.org/549300LKT9PW7ZIBDF31/2022-12-31/ESEF/NL/0/stellantis-2022-12-31-en/reports/stellantis-2022-12-31-en.xhtml",
+          "fxo_id": "549300LKT9PW7ZIBDF31-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300LKT9PW7ZIBDF31_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_549300LKT9PW7ZIBDF31_2023.txt",
+      "url": "https://filings.xbrl.org/549300LKT9PW7ZIBDF31/2023-12-31/ESEF/NL/0/stellantis-2023-12-31-en/reports/stellantis-2023-12-31-en.xhtml",
+      "source_company": "STELLANTIS N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "STELLANTIS N.V.",
+          "url": "https://filings.xbrl.org/549300LKT9PW7ZIBDF31/2023-12-31/ESEF/NL/0/stellantis-2023-12-31-en/reports/stellantis-2023-12-31-en.xhtml",
+          "fxo_id": "549300LKT9PW7ZIBDF31-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300LKT9PW7ZIBDF31_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_549300LKT9PW7ZIBDF31_2024.txt",
+      "url": "https://filings.xbrl.org/549300LKT9PW7ZIBDF31/2024-12-31/ESEF/NL/0/stellantis-2024-12-31-en/reports/stellantis-2024-12-31-en.xhtml",
+      "source_company": "STELLANTIS N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "STELLANTIS N.V.",
+          "url": "https://filings.xbrl.org/549300LKT9PW7ZIBDF31/2024-12-31/ESEF/NL/0/stellantis-2024-12-31-en/reports/stellantis-2024-12-31-en.xhtml",
+          "fxo_id": "549300LKT9PW7ZIBDF31-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300LKT9PW7ZIBDF31_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_549300LKT9PW7ZIBDF31_2025.txt",
+      "url": "https://filings.xbrl.org/549300LKT9PW7ZIBDF31/2025-12-31/ESEF/NL/0/stellantis-2025-12-31-en/reports/stellantis-2025-12-31-en.xhtml",
+      "source_company": "STELLANTIS N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "STELLANTIS N.V.",
+          "url": "https://filings.xbrl.org/549300LKT9PW7ZIBDF31/2025-12-31/ESEF/NL/0/stellantis-2025-12-31-en/reports/stellantis-2025-12-31-en.xhtml",
+          "fxo_id": "549300LKT9PW7ZIBDF31-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300NYKK9MWM7GGW15_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_549300NYKK9MWM7GGW15_2021.txt",
+      "url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2021-12-31/ESEF/NL/0/inggroup-2021-12-31/reports/inggroup-2021-12-31.html",
+      "source_company": "ING GROEP N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ING GROEP N.V.",
+          "url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2021-12-31/ESEF/NL/0/inggroup-2021-12-31/reports/inggroup-2021-12-31.html",
+          "fxo_id": "549300NYKK9MWM7GGW15-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300NYKK9MWM7GGW15_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_549300NYKK9MWM7GGW15_2022.txt",
+      "url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2022-12-31/ESEF/NL/0/ing-2022-12-31-en/reports/ing-2022-12-31-en.xhtml",
+      "source_company": "ING GROEP N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ING GROEP N.V.",
+          "url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2022-12-31/ESEF/NL/0/ing-2022-12-31-en/reports/ing-2022-12-31-en.xhtml",
+          "fxo_id": "549300NYKK9MWM7GGW15-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300NYKK9MWM7GGW15_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_549300NYKK9MWM7GGW15_2024.txt",
+      "url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2024-12-31/ESEF/NL/0/ing-2024-12-31-en/reports/ing-2024-12-31-en.xhtml",
+      "source_company": "ING GROEP N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ING GROEP N.V.",
+          "url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2024-12-31/ESEF/NL/0/ing-2024-12-31-en/reports/ing-2024-12-31-en.xhtml",
+          "fxo_id": "549300NYKK9MWM7GGW15-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300NYKK9MWM7GGW15_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_549300NYKK9MWM7GGW15_2025.txt",
+      "url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2025-12-31/ESEF/NL/0/ing-2025-12-31-en/reports/ing-2025-12-31-en.xhtml",
+      "source_company": "ING GROEP N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ING GROEP N.V.",
+          "url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2025-12-31/ESEF/NL/0/ing-2025-12-31-en/reports/ing-2025-12-31-en.xhtml",
+          "fxo_id": "549300NYKK9MWM7GGW15-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300RDGCRYZ5QE6513_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_549300RDGCRYZ5QE6513_2021.txt",
+      "url": "https://filings.xbrl.org/549300RDGCRYZ5QE6513/2021-12-31/ESEF/NL/0/SBMO-2021-12-31/reports/SBMO-2021-12-31.html",
+      "source_company": "SBM OFFSHORE N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "SBM OFFSHORE N.V.",
+          "url": "https://filings.xbrl.org/549300RDGCRYZ5QE6513/2021-12-31/ESEF/NL/0/SBMO-2021-12-31/reports/SBMO-2021-12-31.html",
+          "fxo_id": "549300RDGCRYZ5QE6513-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300RDGCRYZ5QE6513_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_549300RDGCRYZ5QE6513_2022.txt",
+      "url": "https://filings.xbrl.org/549300RDGCRYZ5QE6513/2022-12-31/ESEF/NL/0/SBMO-2022-12-31/reports/SBMO-2022-12-31.html",
+      "source_company": "SBM OFFSHORE N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "SBM OFFSHORE N.V.",
+          "url": "https://filings.xbrl.org/549300RDGCRYZ5QE6513/2022-12-31/ESEF/NL/0/SBMO-2022-12-31/reports/SBMO-2022-12-31.html",
+          "fxo_id": "549300RDGCRYZ5QE6513-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300RDGCRYZ5QE6513_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_549300RDGCRYZ5QE6513_2023.txt",
+      "url": "https://filings.xbrl.org/549300RDGCRYZ5QE6513/2023-12-31/ESEF/NL/0/SBMO-2023-12-31/reports/SBMO-2023-12-31.html",
+      "source_company": "SBM OFFSHORE N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "SBM OFFSHORE N.V.",
+          "url": "https://filings.xbrl.org/549300RDGCRYZ5QE6513/2023-12-31/ESEF/NL/0/SBMO-2023-12-31/reports/SBMO-2023-12-31.html",
+          "fxo_id": "549300RDGCRYZ5QE6513-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300RDGCRYZ5QE6513_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_549300RDGCRYZ5QE6513_2024.txt",
+      "url": "https://filings.xbrl.org/549300RDGCRYZ5QE6513/2024-12-31/ESEF/NL/0/SBMO-2024-12-31-en/reports/SBMO-2024-12-31.html",
+      "source_company": "SBM OFFSHORE N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "SBM OFFSHORE N.V.",
+          "url": "https://filings.xbrl.org/549300RDGCRYZ5QE6513/2024-12-31/ESEF/NL/0/SBMO-2024-12-31-en/reports/SBMO-2024-12-31.html",
+          "fxo_id": "549300RDGCRYZ5QE6513-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300RDGCRYZ5QE6513_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_549300RDGCRYZ5QE6513_2025.txt",
+      "url": "https://filings.xbrl.org/549300RDGCRYZ5QE6513/2025-12-31/ESEF/NL/0/SBMO-2025-12-31-1-en/reports/SBMO-2025-12-31-1-en.html",
+      "source_company": "SBM OFFSHORE N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "SBM OFFSHORE N.V.",
+          "url": "https://filings.xbrl.org/549300RDGCRYZ5QE6513/2025-12-31/ESEF/NL/0/SBMO-2025-12-31-1-en/reports/SBMO-2025-12-31-1-en.html",
+          "fxo_id": "549300RDGCRYZ5QE6513-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300RIVY5EX8RCON76_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_549300RIVY5EX8RCON76_2021.txt",
+      "url": "https://filings.xbrl.org/549300RIVY5EX8RCON76/2021-12-31/ESEF/NL/0/race-2021-12-31-en/reports/race-2021-12-31-en.xhtml",
+      "source_company": "FERRARI N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "FERRARI N.V.",
+          "url": "https://filings.xbrl.org/549300RIVY5EX8RCON76/2021-12-31/ESEF/NL/0/race-2021-12-31-en/reports/race-2021-12-31-en.xhtml",
+          "fxo_id": "549300RIVY5EX8RCON76-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300RIVY5EX8RCON76_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_549300RIVY5EX8RCON76_2022.txt",
+      "url": "https://filings.xbrl.org/549300RIVY5EX8RCON76/2022-12-31/ESEF/NL/0/race-2022-12-31-en/reports/race-2022-12-31-en.xhtml",
+      "source_company": "FERRARI N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "FERRARI N.V.",
+          "url": "https://filings.xbrl.org/549300RIVY5EX8RCON76/2022-12-31/ESEF/NL/0/race-2022-12-31-en/reports/race-2022-12-31-en.xhtml",
+          "fxo_id": "549300RIVY5EX8RCON76-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300YO0JZHAL7FVP81_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_549300YO0JZHAL7FVP81_2021.txt",
+      "url": "https://filings.xbrl.org/549300YO0JZHAL7FVP81/2021-12-31/ESEF/NL/0/KONI-2021-12-31/reports/KONI-2021-12-31.html",
+      "source_company": "Koninklijke KPN N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Koninklijke KPN N.V.",
+          "url": "https://filings.xbrl.org/549300YO0JZHAL7FVP81/2021-12-31/ESEF/NL/0/KONI-2021-12-31/reports/KONI-2021-12-31.html",
+          "fxo_id": "549300YO0JZHAL7FVP81-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300YO0JZHAL7FVP81_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_549300YO0JZHAL7FVP81_2022.txt",
+      "url": "https://filings.xbrl.org/549300YO0JZHAL7FVP81/2022-12-31/ESEF/NL/0/KONI-2022-12-31/reports/KONI-2022-12-31.html",
+      "source_company": "Koninklijke KPN N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Koninklijke KPN N.V.",
+          "url": "https://filings.xbrl.org/549300YO0JZHAL7FVP81/2022-12-31/ESEF/NL/0/KONI-2022-12-31/reports/KONI-2022-12-31.html",
+          "fxo_id": "549300YO0JZHAL7FVP81-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300YO0JZHAL7FVP81_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_549300YO0JZHAL7FVP81_2023.txt",
+      "url": "https://filings.xbrl.org/549300YO0JZHAL7FVP81/2023-12-31/ESEF/NL/0/KONI-2023-12-31/reports/KONI-2023-12-31.html",
+      "source_company": "Koninklijke KPN N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Koninklijke KPN N.V.",
+          "url": "https://filings.xbrl.org/549300YO0JZHAL7FVP81/2023-12-31/ESEF/NL/0/KONI-2023-12-31/reports/KONI-2023-12-31.html",
+          "fxo_id": "549300YO0JZHAL7FVP81-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300YO0JZHAL7FVP81_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_549300YO0JZHAL7FVP81_2024.txt",
+      "url": "https://filings.xbrl.org/549300YO0JZHAL7FVP81/2024-12-31/ESEF/NL/0/KONI-2024-12-31-en/reports/KONI-2024-12-31-en.html",
+      "source_company": "Koninklijke KPN N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Koninklijke KPN N.V.",
+          "url": "https://filings.xbrl.org/549300YO0JZHAL7FVP81/2024-12-31/ESEF/NL/0/KONI-2024-12-31-en/reports/KONI-2024-12-31-en.html",
+          "fxo_id": "549300YO0JZHAL7FVP81-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_549300YO0JZHAL7FVP81_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_549300YO0JZHAL7FVP81_2025.txt",
+      "url": "https://filings.xbrl.org/549300YO0JZHAL7FVP81/2025-12-31/ESEF/NL/0/549300YO0JZHAL7FVP81-2025-12-31-1-en/reports/549300YO0JZHAL7FVP81-2025-12-31-1-en.html",
+      "source_company": "Koninklijke KPN N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Koninklijke KPN N.V.",
+          "url": "https://filings.xbrl.org/549300YO0JZHAL7FVP81/2025-12-31/ESEF/NL/0/549300YO0JZHAL7FVP81-2025-12-31-1-en/reports/549300YO0JZHAL7FVP81-2025-12-31-1-en.html",
+          "fxo_id": "549300YO0JZHAL7FVP81-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_635400Z5LQ5F9OLVT688_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_635400Z5LQ5F9OLVT688_2023.txt",
+      "url": "https://filings.xbrl.org/635400Z5LQ5F9OLVT688/2023-03-31/ESEF/NL/0/635400Z5LQ5F9OLVT688-2023-03-31-en/reports/635400Z5LQ5F9OLVT688-2023-03-31-en.xhtml",
+      "source_company": "Prosus N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Prosus N.V.",
+          "url": "https://filings.xbrl.org/635400Z5LQ5F9OLVT688/2023-03-31/ESEF/NL/0/635400Z5LQ5F9OLVT688-2023-03-31-en/reports/635400Z5LQ5F9OLVT688-2023-03-31-en.xhtml",
+          "fxo_id": "635400Z5LQ5F9OLVT688-2023-03-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_635400Z5LQ5F9OLVT688_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_635400Z5LQ5F9OLVT688_2024.txt",
+      "url": "https://filings.xbrl.org/635400Z5LQ5F9OLVT688/2024-03-31/ESEF/NL/0/635400Z5LQ5F9OLVT688-2024-03-31-en/reports/635400Z5LQ5F9OLVT688-2024-03-31-en.xhtml",
+      "source_company": "Prosus N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Prosus N.V.",
+          "url": "https://filings.xbrl.org/635400Z5LQ5F9OLVT688/2024-03-31/ESEF/NL/0/635400Z5LQ5F9OLVT688-2024-03-31-en/reports/635400Z5LQ5F9OLVT688-2024-03-31-en.xhtml",
+          "fxo_id": "635400Z5LQ5F9OLVT688-2024-03-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_7245000R8GNBSDTSZ396_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_7245000R8GNBSDTSZ396_2022.txt",
+      "url": "https://filings.xbrl.org/7245000R8GNBSDTSZ396/2022-12-31/ESEF/NL/0/7245000R8GNBSDTSZ396-2022-12-31-en/reports/7245000R8GNBSDTSZ396-2022-12-31-en.xhtml",
+      "source_company": "Fugro N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Fugro N.V.",
+          "url": "https://filings.xbrl.org/7245000R8GNBSDTSZ396/2022-12-31/ESEF/NL/0/7245000R8GNBSDTSZ396-2022-12-31-en/reports/7245000R8GNBSDTSZ396-2022-12-31-en.xhtml",
+          "fxo_id": "7245000R8GNBSDTSZ396-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_7245000R8GNBSDTSZ396_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_7245000R8GNBSDTSZ396_2023.txt",
+      "url": "https://filings.xbrl.org/7245000R8GNBSDTSZ396/2023-12-31/ESEF/NL/0/7245000R8GNBSDTSZ396-2023-12-31-en/reports/7245000R8GNBSDTSZ396-2023-12-31-en.xhtml",
+      "source_company": "Fugro N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Fugro N.V.",
+          "url": "https://filings.xbrl.org/7245000R8GNBSDTSZ396/2023-12-31/ESEF/NL/0/7245000R8GNBSDTSZ396-2023-12-31-en/reports/7245000R8GNBSDTSZ396-2023-12-31-en.xhtml",
+          "fxo_id": "7245000R8GNBSDTSZ396-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_7245000R8GNBSDTSZ396_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_7245000R8GNBSDTSZ396_2024.txt",
+      "url": "https://filings.xbrl.org/7245000R8GNBSDTSZ396/2024-12-31/ESEF/NL/0/7245000R8GNBSDTSZ396-2024-12-31-0-en/reports/7245000R8GNBSDTSZ396-2024-12-31-0-en.xhtml",
+      "source_company": "Fugro N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Fugro N.V.",
+          "url": "https://filings.xbrl.org/7245000R8GNBSDTSZ396/2024-12-31/ESEF/NL/0/7245000R8GNBSDTSZ396-2024-12-31-0-en/reports/7245000R8GNBSDTSZ396-2024-12-31-0-en.xhtml",
+          "fxo_id": "7245000R8GNBSDTSZ396-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_7245000UZH70GO047N03_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_7245000UZH70GO047N03_2023.txt",
+      "url": "https://filings.xbrl.org/7245000UZH70GO047N03/2023-12-31/ESEF/NL/0/7245000UZH70GO047N03-2023-12-31-en/reports/7245000UZH70GO047N03-2023-12-31-en.xhtml",
+      "source_company": "ARCADIS N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ARCADIS N.V.",
+          "url": "https://filings.xbrl.org/7245000UZH70GO047N03/2023-12-31/ESEF/NL/0/7245000UZH70GO047N03-2023-12-31-en/reports/7245000UZH70GO047N03-2023-12-31-en.xhtml",
+          "fxo_id": "7245000UZH70GO047N03-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_7245000UZH70GO047N03_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_7245000UZH70GO047N03_2024.txt",
+      "url": "https://filings.xbrl.org/7245000UZH70GO047N03/2024-12-31/ESEF/NL/0/Arcadis_NV-2024-12-31-en/reports/Arcadis_NV-2024-12-31-en.xhtml",
+      "source_company": "ARCADIS N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ARCADIS N.V.",
+          "url": "https://filings.xbrl.org/7245000UZH70GO047N03/2024-12-31/ESEF/NL/0/Arcadis_NV-2024-12-31-en/reports/Arcadis_NV-2024-12-31-en.xhtml",
+          "fxo_id": "7245000UZH70GO047N03-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_7245000UZH70GO047N03_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_7245000UZH70GO047N03_2025.txt",
+      "url": "https://filings.xbrl.org/7245000UZH70GO047N03/2025-12-31/ESEF/NL/0/7245000UZH70GO047N03-2025-12-31-1-en/reports/7245000UZH70GO047N03-2025-12-31-1-en.xhtml",
+      "source_company": "ARCADIS N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ARCADIS N.V.",
+          "url": "https://filings.xbrl.org/7245000UZH70GO047N03/2025-12-31/ESEF/NL/0/7245000UZH70GO047N03-2025-12-31-1-en/reports/7245000UZH70GO047N03-2025-12-31-1-en.xhtml",
+          "fxo_id": "7245000UZH70GO047N03-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_7245001I22ND6ZFHX623_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_7245001I22ND6ZFHX623_2022.txt",
+      "url": "https://filings.xbrl.org/7245001I22ND6ZFHX623/2022-12-31/ESEF/NL/0/asm-2022-12-31-en/reports/asm-2022-12-31-en.xhtml",
+      "source_company": "ASM International N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ASM International N.V.",
+          "url": "https://filings.xbrl.org/7245001I22ND6ZFHX623/2022-12-31/ESEF/NL/0/asm-2022-12-31-en/reports/asm-2022-12-31-en.xhtml",
+          "fxo_id": "7245001I22ND6ZFHX623-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_7245001I22ND6ZFHX623_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_7245001I22ND6ZFHX623_2023.txt",
+      "url": "https://filings.xbrl.org/7245001I22ND6ZFHX623/2023-12-31/ESEF/NL/0/asm-2023-12-31-en/reports/asm-2023-12-31-en.xhtml",
+      "source_company": "ASM International N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ASM International N.V.",
+          "url": "https://filings.xbrl.org/7245001I22ND6ZFHX623/2023-12-31/ESEF/NL/0/asm-2023-12-31-en/reports/asm-2023-12-31-en.xhtml",
+          "fxo_id": "7245001I22ND6ZFHX623-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_7245001I22ND6ZFHX623_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_7245001I22ND6ZFHX623_2024.txt",
+      "url": "https://filings.xbrl.org/7245001I22ND6ZFHX623/2024-12-31/ESEF/NL/0/asm-2024-12-31-en/reports/asm-2024-12-31-en.xhtml",
+      "source_company": "ASM International N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ASM International N.V.",
+          "url": "https://filings.xbrl.org/7245001I22ND6ZFHX623/2024-12-31/ESEF/NL/0/asm-2024-12-31-en/reports/asm-2024-12-31-en.xhtml",
+          "fxo_id": "7245001I22ND6ZFHX623-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_7245001I22ND6ZFHX623_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_7245001I22ND6ZFHX623_2025.txt",
+      "url": "https://filings.xbrl.org/7245001I22ND6ZFHX623/2025-12-31/ESEF/NL/0/asm-2025-12-31-1-en/reports/asm-2025-12-31-1-en.xhtml",
+      "source_company": "ASM International N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ASM International N.V.",
+          "url": "https://filings.xbrl.org/7245001I22ND6ZFHX623/2025-12-31/ESEF/NL/0/asm-2025-12-31-1-en/reports/asm-2025-12-31-1-en.xhtml",
+          "fxo_id": "7245001I22ND6ZFHX623-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_72450022R2ZFL41Y6I04_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_72450022R2ZFL41Y6I04_2023.txt",
+      "url": "https://filings.xbrl.org/72450022R2ZFL41Y6I04/2023-12-31/ESEF/NL/0/ferr-2023-12-31-en/reports/ferr-2023-12-31-en.xhtml",
+      "source_company": "Ferrovial SE",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Ferrovial SE",
+          "url": "https://filings.xbrl.org/72450022R2ZFL41Y6I04/2023-12-31/ESEF/NL/0/ferr-2023-12-31-en/reports/ferr-2023-12-31-en.xhtml",
+          "fxo_id": "72450022R2ZFL41Y6I04-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_72450022R2ZFL41Y6I04_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_72450022R2ZFL41Y6I04_2024.txt",
+      "url": "https://filings.xbrl.org/72450022R2ZFL41Y6I04/2024-12-31/ESEF/NL/0/ferr-2024-12-31-en/reports/ferr-2024-12-31-en.xhtml",
+      "source_company": "Ferrovial SE",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Ferrovial SE",
+          "url": "https://filings.xbrl.org/72450022R2ZFL41Y6I04/2024-12-31/ESEF/NL/0/ferr-2024-12-31-en/reports/ferr-2024-12-31-en.xhtml",
+          "fxo_id": "72450022R2ZFL41Y6I04-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_72450022R2ZFL41Y6I04_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_72450022R2ZFL41Y6I04_2025.txt",
+      "url": "https://filings.xbrl.org/72450022R2ZFL41Y6I04/2025-12-31/ESEF/NL/0/fer-2025-12-31-1-en/reports/fer-2025-12-31-1-en.xhtml",
+      "source_company": "Ferrovial SE",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Ferrovial SE",
+          "url": "https://filings.xbrl.org/72450022R2ZFL41Y6I04/2025-12-31/ESEF/NL/0/fer-2025-12-31-1-en/reports/fer-2025-12-31-1-en.xhtml",
+          "fxo_id": "72450022R2ZFL41Y6I04-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_7245008G22FOV7TYYJ34_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_7245008G22FOV7TYYJ34_2024.txt",
+      "url": "https://filings.xbrl.org/7245008G22FOV7TYYJ34/2024-12-31/ESEF/NL/0/7245008G22FOV7TYYJ34-2024-12-31-en/reports/7245008G22FOV7TYYJ34-2024-12-31-en.xhtml",
+      "source_company": "TKH Group N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "TKH Group N.V.",
+          "url": "https://filings.xbrl.org/7245008G22FOV7TYYJ34/2024-12-31/ESEF/NL/0/7245008G22FOV7TYYJ34-2024-12-31-en/reports/7245008G22FOV7TYYJ34-2024-12-31-en.xhtml",
+          "fxo_id": "7245008G22FOV7TYYJ34-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_7245008G22FOV7TYYJ34_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_7245008G22FOV7TYYJ34_2025.txt",
+      "url": "https://filings.xbrl.org/7245008G22FOV7TYYJ34/2025-12-31/ESEF/NL/0/7245008G22FOV7TYYJ34-2025-12-31-1-en/reports/7245008G22FOV7TYYJ34-2025-12-31-1-en.xhtml",
+      "source_company": "TKH Group N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "TKH Group N.V.",
+          "url": "https://filings.xbrl.org/7245008G22FOV7TYYJ34/2025-12-31/ESEF/NL/0/7245008G22FOV7TYYJ34-2025-12-31-1-en/reports/7245008G22FOV7TYYJ34-2025-12-31-1-en.xhtml",
+          "fxo_id": "7245008G22FOV7TYYJ34-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500973ODKK3IFQ447_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_724500973ODKK3IFQ447_2021.txt",
+      "url": "https://filings.xbrl.org/724500973ODKK3IFQ447/2021-12-31/ESEF/NL/0/724500973ODKK3IFQ447-2021-12-31-en/reports/724500973ODKK3IFQ447-2021-12-31-en.xhtml",
+      "source_company": "Adyen N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Adyen N.V.",
+          "url": "https://filings.xbrl.org/724500973ODKK3IFQ447/2021-12-31/ESEF/NL/0/724500973ODKK3IFQ447-2021-12-31-en/reports/724500973ODKK3IFQ447-2021-12-31-en.xhtml",
+          "fxo_id": "724500973ODKK3IFQ447-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500973ODKK3IFQ447_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_724500973ODKK3IFQ447_2022.txt",
+      "url": "https://filings.xbrl.org/724500973ODKK3IFQ447/2022-12-31/ESEF/NL/0/724500973ODKK3IFQ447-2022-12-31-en/reports/724500973ODKK3IFQ447-2022-12-31-en.xhtml",
+      "source_company": "Adyen N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Adyen N.V.",
+          "url": "https://filings.xbrl.org/724500973ODKK3IFQ447/2022-12-31/ESEF/NL/0/724500973ODKK3IFQ447-2022-12-31-en/reports/724500973ODKK3IFQ447-2022-12-31-en.xhtml",
+          "fxo_id": "724500973ODKK3IFQ447-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500D8WOYCL1BUCB80_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_724500D8WOYCL1BUCB80_2023.txt",
+      "url": "https://filings.xbrl.org/724500D8WOYCL1BUCB80/2023-12-31/ESEF/NL/0/vlk-2023-12-31-en/reports/vlk-2023-12-31-en.xhtml",
+      "source_company": "VAN LANSCHOT KEMPEN N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "VAN LANSCHOT KEMPEN N.V.",
+          "url": "https://filings.xbrl.org/724500D8WOYCL1BUCB80/2023-12-31/ESEF/NL/0/vlk-2023-12-31-en/reports/vlk-2023-12-31-en.xhtml",
+          "fxo_id": "724500D8WOYCL1BUCB80-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500D8WOYCL1BUCB80_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_724500D8WOYCL1BUCB80_2024.txt",
+      "url": "https://filings.xbrl.org/724500D8WOYCL1BUCB80/2024-12-31/ESEF/NL/0/vlk-2024-12-31-0-en/reports/vlk-2024-12-31-0-en.xhtml",
+      "source_company": "VAN LANSCHOT KEMPEN N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "VAN LANSCHOT KEMPEN N.V.",
+          "url": "https://filings.xbrl.org/724500D8WOYCL1BUCB80/2024-12-31/ESEF/NL/0/vlk-2024-12-31-0-en/reports/vlk-2024-12-31-0-en.xhtml",
+          "fxo_id": "724500D8WOYCL1BUCB80-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500DP8SZN3NBQKC44_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_724500DP8SZN3NBQKC44_2021.txt",
+      "url": "https://filings.xbrl.org/724500DP8SZN3NBQKC44/2021-12-31/ESEF/NL/0/724500DP8SZN3NBQKC44-2021-12-31-en/reports/724500DP8SZN3NBQKC44-2021-12-31-en.xhtml",
+      "source_company": "DGB Group N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "DGB Group N.V.",
+          "url": "https://filings.xbrl.org/724500DP8SZN3NBQKC44/2021-12-31/ESEF/NL/0/724500DP8SZN3NBQKC44-2021-12-31-en/reports/724500DP8SZN3NBQKC44-2021-12-31-en.xhtml",
+          "fxo_id": "724500DP8SZN3NBQKC44-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500DP8SZN3NBQKC44_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_724500DP8SZN3NBQKC44_2022.txt",
+      "url": "https://filings.xbrl.org/724500DP8SZN3NBQKC44/2022-12-31/ESEF/NL/1/724500DP8SZN3NBQKC44-2022-12-31-en/reports/724500DP8SZN3NBQKC44-2022-12-31-en.xhtml",
+      "source_company": "DGB Group N.V.",
+      "match_method": "lei_year_latest_esef_revision",
+      "ambiguity_flags": [
+        "multiple_esef_revisions"
+      ],
+      "candidate_classification": "duplicate_revision",
+      "candidates": [
+        {
+          "company": "DGB Group N.V.",
+          "url": "https://filings.xbrl.org/724500DP8SZN3NBQKC44/2022-12-31/ESEF/NL/0/724500DP8SZN3NBQKC44-2022-12-31-en/reports/724500DP8SZN3NBQKC44-2022-12-31-en.xhtml",
+          "fxo_id": "724500DP8SZN3NBQKC44-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        },
+        {
+          "company": "DGB Group N.V.",
+          "url": "https://filings.xbrl.org/724500DP8SZN3NBQKC44/2022-12-31/ESEF/NL/1/724500DP8SZN3NBQKC44-2022-12-31-en/reports/724500DP8SZN3NBQKC44-2022-12-31-en.xhtml",
+          "fxo_id": "724500DP8SZN3NBQKC44-2022-12-31-ESEF-NL-1",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500E5WW4731JJ4G46_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_724500E5WW4731JJ4G46_2024.txt",
+      "url": "https://filings.xbrl.org/724500E5WW4731JJ4G46/2024-12-31/ESEF/NL/0/avantium-2024-12-31-en/reports/avantium-2024-12-31-en.xhtml",
+      "source_company": "Avantium N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Avantium N.V.",
+          "url": "https://filings.xbrl.org/724500E5WW4731JJ4G46/2024-12-31/ESEF/NL/0/avantium-2024-12-31-en/reports/avantium-2024-12-31-en.xhtml",
+          "fxo_id": "724500E5WW4731JJ4G46-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500E5WW4731JJ4G46_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_724500E5WW4731JJ4G46_2025.txt",
+      "url": "https://filings.xbrl.org/724500E5WW4731JJ4G46/2025-12-31/ESEF/NL/0/avantium-2025-12-31-en/reports/avantium-2025-12-31-en.xhtml",
+      "source_company": "Avantium N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Avantium N.V.",
+          "url": "https://filings.xbrl.org/724500E5WW4731JJ4G46/2025-12-31/ESEF/NL/0/avantium-2025-12-31-en/reports/avantium-2025-12-31-en.xhtml",
+          "fxo_id": "724500E5WW4731JJ4G46-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500EHG519SE5ZRT89_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_724500EHG519SE5ZRT89_2023.txt",
+      "url": "https://filings.xbrl.org/724500EHG519SE5ZRT89/2023-12-31/ESEF/NL/0/jdep-2023-12-31-en/reports/jdep-2023-12-31-en.xhtml",
+      "source_company": "JDE Peet's N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "JDE Peet's N.V.",
+          "url": "https://filings.xbrl.org/724500EHG519SE5ZRT89/2023-12-31/ESEF/NL/0/jdep-2023-12-31-en/reports/jdep-2023-12-31-en.xhtml",
+          "fxo_id": "724500EHG519SE5ZRT89-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500EHG519SE5ZRT89_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_724500EHG519SE5ZRT89_2025.txt",
+      "url": "https://filings.xbrl.org/724500EHG519SE5ZRT89/2025-12-31/ESEF/NL/0/jdep-2025-12-31-1-en/reports/jdep-2025-12-31-1-en.xhtml",
+      "source_company": "JDE Peet's N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "JDE Peet's N.V.",
+          "url": "https://filings.xbrl.org/724500EHG519SE5ZRT89/2025-12-31/ESEF/NL/0/jdep-2025-12-31-1-en/reports/jdep-2025-12-31-1-en.xhtml",
+          "fxo_id": "724500EHG519SE5ZRT89-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500FLODI49NSCIP70_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_724500FLODI49NSCIP70_2024.txt",
+      "url": "https://filings.xbrl.org/724500FLODI49NSCIP70/2024-12-31/ESEF/NL/0/ten-2024-12-31-0-en/reports/ten-2024-12-31-0-en.xhtml",
+      "source_company": "Technip Energies N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Technip Energies N.V.",
+          "url": "https://filings.xbrl.org/724500FLODI49NSCIP70/2024-12-31/ESEF/NL/0/ten-2024-12-31-0-en/reports/ten-2024-12-31-0-en.xhtml",
+          "fxo_id": "724500FLODI49NSCIP70-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500FLODI49NSCIP70_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_724500FLODI49NSCIP70_2025.txt",
+      "url": "https://filings.xbrl.org/724500FLODI49NSCIP70/2025-12-31/ESEF/NL/0/ten-2025-12-31-1-en/reports/ten-2025-12-31-1-en.xhtml",
+      "source_company": "Technip Energies N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Technip Energies N.V.",
+          "url": "https://filings.xbrl.org/724500FLODI49NSCIP70/2025-12-31/ESEF/NL/0/ten-2025-12-31-1-en/reports/ten-2025-12-31-1-en.xhtml",
+          "fxo_id": "724500FLODI49NSCIP70-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500FVZIBSSQ7SHI95_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_724500FVZIBSSQ7SHI95_2023.txt",
+      "url": "https://filings.xbrl.org/724500FVZIBSSQ7SHI95/2023-12-31/ESEF/NL/0/724500FVZIBSSQ7SHI95-2023-12-31-en/reports/724500FVZIBSSQ7SHI95-2023-12-31-en.xhtml",
+      "source_company": "Just Eat Takeaway.com N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Just Eat Takeaway.com N.V.",
+          "url": "https://filings.xbrl.org/724500FVZIBSSQ7SHI95/2023-12-31/ESEF/NL/0/724500FVZIBSSQ7SHI95-2023-12-31-en/reports/724500FVZIBSSQ7SHI95-2023-12-31-en.xhtml",
+          "fxo_id": "724500FVZIBSSQ7SHI95-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500FVZIBSSQ7SHI95_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_724500FVZIBSSQ7SHI95_2024.txt",
+      "url": "https://filings.xbrl.org/724500FVZIBSSQ7SHI95/2024-12-31/ESEF/NL/0/724500FVZIBSSQ7SHI95-2024-12-31-0-en/reports/724500FVZIBSSQ7SHI95-2024-12-31-0-en.xhtml",
+      "source_company": "Just Eat Takeaway.com N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Just Eat Takeaway.com N.V.",
+          "url": "https://filings.xbrl.org/724500FVZIBSSQ7SHI95/2024-12-31/ESEF/NL/0/724500FVZIBSSQ7SHI95-2024-12-31-0-en/reports/724500FVZIBSSQ7SHI95-2024-12-31-0-en.xhtml",
+          "fxo_id": "724500FVZIBSSQ7SHI95-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500GJBUL3D9TW9Y18_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_724500GJBUL3D9TW9Y18_2021.txt",
+      "url": "https://filings.xbrl.org/724500GJBUL3D9TW9Y18/2021-12-31/ESEF/NL/0/universalmusicgroup-2021-12-31-en/reports/universalmusicgroup-2021-12-31-en.xhtml",
+      "source_company": "Universal Music Group N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Universal Music Group N.V.",
+          "url": "https://filings.xbrl.org/724500GJBUL3D9TW9Y18/2021-12-31/ESEF/NL/0/universalmusicgroup-2021-12-31-en/reports/universalmusicgroup-2021-12-31-en.xhtml",
+          "fxo_id": "724500GJBUL3D9TW9Y18-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500GJBUL3D9TW9Y18_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_724500GJBUL3D9TW9Y18_2022.txt",
+      "url": "https://filings.xbrl.org/724500GJBUL3D9TW9Y18/2022-12-31/ESEF/NL/0/724500GJBUL3D9TW9Y18-2022-12-31-en/reports/724500GJBUL3D9TW9Y18-2022-12-31-en.xhtml",
+      "source_company": "Universal Music Group N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Universal Music Group N.V.",
+          "url": "https://filings.xbrl.org/724500GJBUL3D9TW9Y18/2022-12-31/ESEF/NL/0/724500GJBUL3D9TW9Y18-2022-12-31-en/reports/724500GJBUL3D9TW9Y18-2022-12-31-en.xhtml",
+          "fxo_id": "724500GJBUL3D9TW9Y18-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500GJBUL3D9TW9Y18_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_724500GJBUL3D9TW9Y18_2023.txt",
+      "url": "https://filings.xbrl.org/724500GJBUL3D9TW9Y18/2023-12-31/ESEF/NL/0/724500GJBUL3D9TW9Y18-2023-12-31-en/reports/724500GJBUL3D9TW9Y18-2023-12-31-en.xhtml",
+      "source_company": "Universal Music Group N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Universal Music Group N.V.",
+          "url": "https://filings.xbrl.org/724500GJBUL3D9TW9Y18/2023-12-31/ESEF/NL/0/724500GJBUL3D9TW9Y18-2023-12-31-en/reports/724500GJBUL3D9TW9Y18-2023-12-31-en.xhtml",
+          "fxo_id": "724500GJBUL3D9TW9Y18-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500GJBUL3D9TW9Y18_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_724500GJBUL3D9TW9Y18_2024.txt",
+      "url": "https://filings.xbrl.org/724500GJBUL3D9TW9Y18/2024-12-31/ESEF/NL/0/724500GJBUL3D9TW9Y18-2024-12-31-en/reports/724500GJBUL3D9TW9Y18-2024-12-31-en.xhtml",
+      "source_company": "Universal Music Group N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Universal Music Group N.V.",
+          "url": "https://filings.xbrl.org/724500GJBUL3D9TW9Y18/2024-12-31/ESEF/NL/0/724500GJBUL3D9TW9Y18-2024-12-31-en/reports/724500GJBUL3D9TW9Y18-2024-12-31-en.xhtml",
+          "fxo_id": "724500GJBUL3D9TW9Y18-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500GJBUL3D9TW9Y18_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_724500GJBUL3D9TW9Y18_2025.txt",
+      "url": "https://filings.xbrl.org/724500GJBUL3D9TW9Y18/2025-12-31/ESEF/NL/0/724500GJBUL3D9TW9Y18-2025-12-31-1-en/reports/724500GJBUL3D9TW9Y18-2025-12-31-1-en.xhtml",
+      "source_company": "Universal Music Group N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Universal Music Group N.V.",
+          "url": "https://filings.xbrl.org/724500GJBUL3D9TW9Y18/2025-12-31/ESEF/NL/0/724500GJBUL3D9TW9Y18-2025-12-31-1-en/reports/724500GJBUL3D9TW9Y18-2025-12-31-1-en.xhtml",
+          "fxo_id": "724500GJBUL3D9TW9Y18-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500HUXGTQC07CAZ61_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_724500HUXGTQC07CAZ61_2024.txt",
+      "url": "https://filings.xbrl.org/724500HUXGTQC07CAZ61/2024-12-31/ESEF/NL/0/724500HUXGTQC07CAZ61-2024-12-31-en/reports/724500HUXGTQC07CAZ61-2024-12-31-en.html",
+      "source_company": "Basic-Fit N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Basic-Fit N.V.",
+          "url": "https://filings.xbrl.org/724500HUXGTQC07CAZ61/2024-12-31/ESEF/NL/0/724500HUXGTQC07CAZ61-2024-12-31-en/reports/724500HUXGTQC07CAZ61-2024-12-31-en.html",
+          "fxo_id": "724500HUXGTQC07CAZ61-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500HUXGTQC07CAZ61_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_724500HUXGTQC07CAZ61_2025.txt",
+      "url": "https://filings.xbrl.org/724500HUXGTQC07CAZ61/2025-12-31/ESEF/NL/0/724500HUXGTQC07CAZ61-2025-12-31-1-en/reports/724500HUXGTQC07CAZ61-2025-12-31-1-en.html",
+      "source_company": "Basic-Fit N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Basic-Fit N.V.",
+          "url": "https://filings.xbrl.org/724500HUXGTQC07CAZ61/2025-12-31/ESEF/NL/0/724500HUXGTQC07CAZ61-2025-12-31-1-en/reports/724500HUXGTQC07CAZ61-2025-12-31-1-en.html",
+          "fxo_id": "724500HUXGTQC07CAZ61-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500IGR5FBK0RLZI29_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_724500IGR5FBK0RLZI29_2022.txt",
+      "url": "https://filings.xbrl.org/724500IGR5FBK0RLZI29/2022-12-31/ESEF/NL/0/724500IGR5FBK0RLZI29-2022-12-31-en/reports/724500IGR5FBK0RLZI29-2022-12-31-en.xhtml",
+      "source_company": "Kendrion N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Kendrion N.V.",
+          "url": "https://filings.xbrl.org/724500IGR5FBK0RLZI29/2022-12-31/ESEF/NL/0/724500IGR5FBK0RLZI29-2022-12-31-en/reports/724500IGR5FBK0RLZI29-2022-12-31-en.xhtml",
+          "fxo_id": "724500IGR5FBK0RLZI29-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500IGR5FBK0RLZI29_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_724500IGR5FBK0RLZI29_2023.txt",
+      "url": "https://filings.xbrl.org/724500IGR5FBK0RLZI29/2023-12-31/ESEF/NL/0/kend-2023-12-31-en/reports/kend-2023-12-31-en.xhtml",
+      "source_company": "Kendrion N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Kendrion N.V.",
+          "url": "https://filings.xbrl.org/724500IGR5FBK0RLZI29/2023-12-31/ESEF/NL/0/kend-2023-12-31-en/reports/kend-2023-12-31-en.xhtml",
+          "fxo_id": "724500IGR5FBK0RLZI29-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500K5PTPSST86UQ23_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_724500K5PTPSST86UQ23_2021.txt",
+      "url": "https://filings.xbrl.org/724500K5PTPSST86UQ23/2021-12-31/ESEF/NL/0/heia-2021-12-31-en/reports/heia-2021-12-31-en.xhtml",
+      "source_company": "Heineken N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Heineken N.V.",
+          "url": "https://filings.xbrl.org/724500K5PTPSST86UQ23/2021-12-31/ESEF/NL/0/heia-2021-12-31-en/reports/heia-2021-12-31-en.xhtml",
+          "fxo_id": "724500K5PTPSST86UQ23-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500K5PTPSST86UQ23_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_724500K5PTPSST86UQ23_2022.txt",
+      "url": "https://filings.xbrl.org/724500K5PTPSST86UQ23/2022-12-31/ESEF/NL/0/heia-2022-12-31-en/reports/heia-2022-12-31-en.xhtml",
+      "source_company": "Heineken N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Heineken N.V.",
+          "url": "https://filings.xbrl.org/724500K5PTPSST86UQ23/2022-12-31/ESEF/NL/0/heia-2022-12-31-en/reports/heia-2022-12-31-en.xhtml",
+          "fxo_id": "724500K5PTPSST86UQ23-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500LTUWK3JQG63903_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_724500LTUWK3JQG63903_2021.txt",
+      "url": "https://filings.xbrl.org/724500LTUWK3JQG63903/2021-12-31/ESEF/NL/0/724500LTUWK3JQG63903-2021-12-31-en/reports/724500LTUWK3JQG63903-2021-12-31-en.xhtml",
+      "source_company": "TenneT Holding B.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "TenneT Holding B.V.",
+          "url": "https://filings.xbrl.org/724500LTUWK3JQG63903/2021-12-31/ESEF/NL/0/724500LTUWK3JQG63903-2021-12-31-en/reports/724500LTUWK3JQG63903-2021-12-31-en.xhtml",
+          "fxo_id": "724500LTUWK3JQG63903-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500LTUWK3JQG63903_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_724500LTUWK3JQG63903_2022.txt",
+      "url": "https://filings.xbrl.org/724500LTUWK3JQG63903/2022-12-31/ESEF/NL/0/724500LTUWK3JQG63903-2022-12-31-en/reports/724500LTUWK3JQG63903-2022-12-31-en.xhtml",
+      "source_company": "TenneT Holding B.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "TenneT Holding B.V.",
+          "url": "https://filings.xbrl.org/724500LTUWK3JQG63903/2022-12-31/ESEF/NL/0/724500LTUWK3JQG63903-2022-12-31-en/reports/724500LTUWK3JQG63903-2022-12-31-en.xhtml",
+          "fxo_id": "724500LTUWK3JQG63903-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500OHYNDT9OY6Q215_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_724500OHYNDT9OY6Q215_2021.txt",
+      "url": "https://filings.xbrl.org/724500OHYNDT9OY6Q215/2021-12-31/ESEF/NL/0/nngroupnv-2021-12-31-en/reports/nngroupnv-2021-12-31-en.xhtml",
+      "source_company": "NN Group N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "NN Group N.V.",
+          "url": "https://filings.xbrl.org/724500OHYNDT9OY6Q215/2021-12-31/ESEF/NL/0/nngroupnv-2021-12-31-en/reports/nngroupnv-2021-12-31-en.xhtml",
+          "fxo_id": "724500OHYNDT9OY6Q215-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500OHYNDT9OY6Q215_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_724500OHYNDT9OY6Q215_2022.txt",
+      "url": "https://filings.xbrl.org/724500OHYNDT9OY6Q215/2022-12-31/ESEF/NL/0/724500OHYNDT9OY6Q215/reports/nn-gr-2022-12-31-en.xhtml",
+      "source_company": "NN Group N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "NN Group N.V.",
+          "url": "https://filings.xbrl.org/724500OHYNDT9OY6Q215/2022-12-31/ESEF/NL/0/724500OHYNDT9OY6Q215/reports/nn-gr-2022-12-31-en.xhtml",
+          "fxo_id": "724500OHYNDT9OY6Q215-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500OHYNDT9OY6Q215_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_724500OHYNDT9OY6Q215_2024.txt",
+      "url": "https://filings.xbrl.org/724500OHYNDT9OY6Q215/2024-12-31/ESEF/NL/0/724500OHYNDT9OY6Q215/reports/nngr-2024-12-31-0-en.xhtml",
+      "source_company": "NN Group N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "NN Group N.V.",
+          "url": "https://filings.xbrl.org/724500OHYNDT9OY6Q215/2024-12-31/ESEF/NL/0/724500OHYNDT9OY6Q215/reports/nngr-2024-12-31-0-en.xhtml",
+          "fxo_id": "724500OHYNDT9OY6Q215-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500OHYNDT9OY6Q215_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_724500OHYNDT9OY6Q215_2025.txt",
+      "url": "https://filings.xbrl.org/724500OHYNDT9OY6Q215/2025-12-31/ESEF/NL/0/724500OHYNDT9OY6Q215-2025-12-31-1-en/reports/724500OHYNDT9OY6Q215-2025-12-31-1-en.html",
+      "source_company": "NN Group N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "NN Group N.V.",
+          "url": "https://filings.xbrl.org/724500OHYNDT9OY6Q215/2025-12-31/ESEF/NL/0/724500OHYNDT9OY6Q215-2025-12-31-1-en/reports/724500OHYNDT9OY6Q215-2025-12-31-1-en.html",
+          "fxo_id": "724500OHYNDT9OY6Q215-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500OUE3PCA809DZ79_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_724500OUE3PCA809DZ79_2021.txt",
+      "url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2021-12-31/ESEF/NL/0/724500OUE3PCA809DZ79-2021-12-31-nl/reports/724500OUE3PCA809DZ79-2021-12-31-nl.xhtml",
+      "source_company": "Koninklijke Heijmans N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Koninklijke Heijmans N.V.",
+          "url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2021-12-31/ESEF/NL/0/724500OUE3PCA809DZ79-2021-12-31-nl/reports/724500OUE3PCA809DZ79-2021-12-31-nl.xhtml",
+          "fxo_id": "724500OUE3PCA809DZ79-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500OUE3PCA809DZ79_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_724500OUE3PCA809DZ79_2022.txt",
+      "url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2022-12-31/ESEF/NL/0/Heijmans_NV-2022-12-31/reports/Heijmans_NV-2022-12-31.xhtml",
+      "source_company": "Koninklijke Heijmans N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Koninklijke Heijmans N.V.",
+          "url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2022-12-31/ESEF/NL/0/Heijmans_NV-2022-12-31/reports/Heijmans_NV-2022-12-31.xhtml",
+          "fxo_id": "724500OUE3PCA809DZ79-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500OUE3PCA809DZ79_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_724500OUE3PCA809DZ79_2023.txt",
+      "url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2023-12-31/ESEF/NL/0/Heijmans-2023-12-31-nl/reports/Heijmans-2023-12-31-nl.xhtml",
+      "source_company": "Koninklijke Heijmans N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Koninklijke Heijmans N.V.",
+          "url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2023-12-31/ESEF/NL/0/Heijmans-2023-12-31-nl/reports/Heijmans-2023-12-31-nl.xhtml",
+          "fxo_id": "724500OUE3PCA809DZ79-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500OUE3PCA809DZ79_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_724500OUE3PCA809DZ79_2024.txt",
+      "url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2024-12-31/ESEF/NL/0/Heijmans-2024-12-31-nl/reports/Heijmans-2024-12-31-nl.xhtml",
+      "source_company": "Koninklijke Heijmans N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Koninklijke Heijmans N.V.",
+          "url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2024-12-31/ESEF/NL/0/Heijmans-2024-12-31-nl/reports/Heijmans-2024-12-31-nl.xhtml",
+          "fxo_id": "724500OUE3PCA809DZ79-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500OUE3PCA809DZ79_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_724500OUE3PCA809DZ79_2025.txt",
+      "url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2025-12-31/ESEF/NL/0/724500OUE3PCA809DZ79-2025-12-31-1-nl/reports/724500OUE3PCA809DZ79-2025-12-31-1-nl.xhtml",
+      "source_company": "Koninklijke Heijmans N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Koninklijke Heijmans N.V.",
+          "url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2025-12-31/ESEF/NL/0/724500OUE3PCA809DZ79-2025-12-31-1-nl/reports/724500OUE3PCA809DZ79-2025-12-31-1-nl.xhtml",
+          "fxo_id": "724500OUE3PCA809DZ79-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500Q41FHN0P1GPC53_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_724500Q41FHN0P1GPC53_2022.txt",
+      "url": "https://filings.xbrl.org/724500Q41FHN0P1GPC53/2022-12-31/ESEF/NL/0/POST-2022-12-31/reports/POST-2022-12-31.html",
+      "source_company": "PostNL N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "PostNL N.V.",
+          "url": "https://filings.xbrl.org/724500Q41FHN0P1GPC53/2022-12-31/ESEF/NL/0/POST-2022-12-31/reports/POST-2022-12-31.html",
+          "fxo_id": "724500Q41FHN0P1GPC53-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500Q41FHN0P1GPC53_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_724500Q41FHN0P1GPC53_2023.txt",
+      "url": "https://filings.xbrl.org/724500Q41FHN0P1GPC53/2023-12-31/ESEF/NL/0/POST-2023-12-31/reports/POST-2023-12-31.html",
+      "source_company": "PostNL N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "PostNL N.V.",
+          "url": "https://filings.xbrl.org/724500Q41FHN0P1GPC53/2023-12-31/ESEF/NL/0/POST-2023-12-31/reports/POST-2023-12-31.html",
+          "fxo_id": "724500Q41FHN0P1GPC53-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500Q41FHN0P1GPC53_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_724500Q41FHN0P1GPC53_2024.txt",
+      "url": "https://filings.xbrl.org/724500Q41FHN0P1GPC53/2024-12-31/ESEF/NL/0/724500Q41FHN0P1GPC53-2024-12-31-en/reports/724500Q41FHN0P1GPC53-2024-12-31-en.html",
+      "source_company": "PostNL N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "PostNL N.V.",
+          "url": "https://filings.xbrl.org/724500Q41FHN0P1GPC53/2024-12-31/ESEF/NL/0/724500Q41FHN0P1GPC53-2024-12-31-en/reports/724500Q41FHN0P1GPC53-2024-12-31-en.html",
+          "fxo_id": "724500Q41FHN0P1GPC53-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500Q41FHN0P1GPC53_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_724500Q41FHN0P1GPC53_2025.txt",
+      "url": "https://filings.xbrl.org/724500Q41FHN0P1GPC53/2025-12-31/ESEF/NL/0/pos-2025-12-31-en/reports/pos-2025-12-31-en.xhtml",
+      "source_company": "PostNL N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "PostNL N.V.",
+          "url": "https://filings.xbrl.org/724500Q41FHN0P1GPC53/2025-12-31/ESEF/NL/0/pos-2025-12-31-en/reports/pos-2025-12-31-en.xhtml",
+          "fxo_id": "724500Q41FHN0P1GPC53-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500QDJRUMSPRDHW25_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_724500QDJRUMSPRDHW25_2021.txt",
+      "url": "https://filings.xbrl.org/724500QDJRUMSPRDHW25/2021-12-31/ESEF/NL/0/724500QDJRUMSPRDHW25-2021-12-31-en/reports/724500QDJRUMSPRDHW25-2021-12-31-en.xhtml",
+      "source_company": "CM.com N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "CM.com N.V.",
+          "url": "https://filings.xbrl.org/724500QDJRUMSPRDHW25/2021-12-31/ESEF/NL/0/724500QDJRUMSPRDHW25-2021-12-31-en/reports/724500QDJRUMSPRDHW25-2021-12-31-en.xhtml",
+          "fxo_id": "724500QDJRUMSPRDHW25-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500QDJRUMSPRDHW25_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_724500QDJRUMSPRDHW25_2022.txt",
+      "url": "https://filings.xbrl.org/724500QDJRUMSPRDHW25/2022-12-31/ESEF/NL/0/724500QDJRUMSPRDHW25-2022-12-31/reports/724500QDJRUMSPRDHW25-2022-12-31.html",
+      "source_company": "CM.com N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "CM.com N.V.",
+          "url": "https://filings.xbrl.org/724500QDJRUMSPRDHW25/2022-12-31/ESEF/NL/0/724500QDJRUMSPRDHW25-2022-12-31/reports/724500QDJRUMSPRDHW25-2022-12-31.html",
+          "fxo_id": "724500QDJRUMSPRDHW25-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500QDJRUMSPRDHW25_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_724500QDJRUMSPRDHW25_2023.txt",
+      "url": "https://filings.xbrl.org/724500QDJRUMSPRDHW25/2023-12-31/ESEF/NL/0/724500QDJRUMSPRDHW25-2023-12-31/reports/724500QDJRUMSPRDHW25-2023-12-31.html",
+      "source_company": "CM.com N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "CM.com N.V.",
+          "url": "https://filings.xbrl.org/724500QDJRUMSPRDHW25/2023-12-31/ESEF/NL/0/724500QDJRUMSPRDHW25-2023-12-31/reports/724500QDJRUMSPRDHW25-2023-12-31.html",
+          "fxo_id": "724500QDJRUMSPRDHW25-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500QDJRUMSPRDHW25_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_724500QDJRUMSPRDHW25_2024.txt",
+      "url": "https://filings.xbrl.org/724500QDJRUMSPRDHW25/2024-12-31/ESEF/NL/0/724500QDJRUMSPRDHW25-2024-12-31-en/reports/724500QDJRUMSPRDHW25-2024-12-31.html",
+      "source_company": "CM.com N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "CM.com N.V.",
+          "url": "https://filings.xbrl.org/724500QDJRUMSPRDHW25/2024-12-31/ESEF/NL/0/724500QDJRUMSPRDHW25-2024-12-31-en/reports/724500QDJRUMSPRDHW25-2024-12-31.html",
+          "fxo_id": "724500QDJRUMSPRDHW25-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500QDJRUMSPRDHW25_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_724500QDJRUMSPRDHW25_2025.txt",
+      "url": "https://filings.xbrl.org/724500QDJRUMSPRDHW25/2025-12-31/ESEF/NL/0/CMCOM-2025-12-31-1-en/reports/CMCOM-2025-12-31-1-en.html",
+      "source_company": "CM.com N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "CM.com N.V.",
+          "url": "https://filings.xbrl.org/724500QDJRUMSPRDHW25/2025-12-31/ESEF/NL/0/CMCOM-2025-12-31-1-en/reports/CMCOM-2025-12-31-1-en.html",
+          "fxo_id": "724500QDJRUMSPRDHW25-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500QJ4QSZ3H9QU415_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_724500QJ4QSZ3H9QU415_2021.txt",
+      "url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2021-12-31/ESEF/NL/0/eur-2021-12-31-en/reports/eur-2021-12-31-en.xhtml",
+      "source_company": "Euronext N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Euronext N.V.",
+          "url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2021-12-31/ESEF/NL/0/eur-2021-12-31-en/reports/eur-2021-12-31-en.xhtml",
+          "fxo_id": "724500QJ4QSZ3H9QU415-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500QJ4QSZ3H9QU415_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_724500QJ4QSZ3H9QU415_2022.txt",
+      "url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2022-12-31/ESEF/NL/0/eur-2022-12-31-en/reports/eur-2022-12-31-en.xhtml",
+      "source_company": "Euronext N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Euronext N.V.",
+          "url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2022-12-31/ESEF/NL/0/eur-2022-12-31-en/reports/eur-2022-12-31-en.xhtml",
+          "fxo_id": "724500QJ4QSZ3H9QU415-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500QJ4QSZ3H9QU415_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_724500QJ4QSZ3H9QU415_2023.txt",
+      "url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2023-12-31/ESEF/NL/0/eur-2023-12-31-en/reports/eur-2023-12-31-en.xhtml",
+      "source_company": "Euronext N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Euronext N.V.",
+          "url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2023-12-31/ESEF/NL/0/eur-2023-12-31-en/reports/eur-2023-12-31-en.xhtml",
+          "fxo_id": "724500QJ4QSZ3H9QU415-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500QJ4QSZ3H9QU415_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_724500QJ4QSZ3H9QU415_2024.txt",
+      "url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2024-12-31/ESEF/NL/0/eur-2024-12-31-en/reports/eur-2024-12-31-en.xhtml",
+      "source_company": "Euronext N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Euronext N.V.",
+          "url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2024-12-31/ESEF/NL/0/eur-2024-12-31-en/reports/eur-2024-12-31-en.xhtml",
+          "fxo_id": "724500QJ4QSZ3H9QU415-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500QJ4QSZ3H9QU415_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_724500QJ4QSZ3H9QU415_2025.txt",
+      "url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2025-12-31/ESEF/NL/0/eur-2025-12-31-en/reports/eur-2025-12-31-en.xhtml",
+      "source_company": "Euronext N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Euronext N.V.",
+          "url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2025-12-31/ESEF/NL/0/eur-2025-12-31-en/reports/eur-2025-12-31-en.xhtml",
+          "fxo_id": "724500QJ4QSZ3H9QU415-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500SFK53FPNM68L95_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_724500SFK53FPNM68L95_2024.txt",
+      "url": "https://filings.xbrl.org/724500SFK53FPNM68L95/2024-12-31/ESEF/NL/0/724500SFK53FPNM68L95-2024-12-31-0-en/reports/724500SFK53FPNM68L95-2024-12-31-0-en.xhtml",
+      "source_company": "Eurocommercial Properties N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Eurocommercial Properties N.V.",
+          "url": "https://filings.xbrl.org/724500SFK53FPNM68L95/2024-12-31/ESEF/NL/0/724500SFK53FPNM68L95-2024-12-31-0-en/reports/724500SFK53FPNM68L95-2024-12-31-0-en.xhtml",
+          "fxo_id": "724500SFK53FPNM68L95-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500SFK53FPNM68L95_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_724500SFK53FPNM68L95_2025.txt",
+      "url": "https://filings.xbrl.org/724500SFK53FPNM68L95/2025-12-31/ESEF/NL/0/724500SFK53FPNM68L95-2025-12-31-1-en/reports/724500SFK53FPNM68L95-2025-12-31-1-en.xhtml",
+      "source_company": "Eurocommercial Properties N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Eurocommercial Properties N.V.",
+          "url": "https://filings.xbrl.org/724500SFK53FPNM68L95/2025-12-31/ESEF/NL/0/724500SFK53FPNM68L95-2025-12-31-1-en/reports/724500SFK53FPNM68L95-2025-12-31-1-en.xhtml",
+          "fxo_id": "724500SFK53FPNM68L95-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500SNT1MK246AHP04_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_724500SNT1MK246AHP04_2021.txt",
+      "url": "https://filings.xbrl.org/724500SNT1MK246AHP04/2021-12-31/ESEF/NL/0/724500SNT1MK246AHP04-2021-12-31-en/reports/724500SNT1MK246AHP04-2021-12-31-en.xhtml",
+      "source_company": "Koninklijke DSM N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Koninklijke DSM N.V.",
+          "url": "https://filings.xbrl.org/724500SNT1MK246AHP04/2021-12-31/ESEF/NL/0/724500SNT1MK246AHP04-2021-12-31-en/reports/724500SNT1MK246AHP04-2021-12-31-en.xhtml",
+          "fxo_id": "724500SNT1MK246AHP04-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500SNT1MK246AHP04_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_724500SNT1MK246AHP04_2022.txt",
+      "url": "https://filings.xbrl.org/724500SNT1MK246AHP04/2022-12-31/ESEF/NL/0/724500SNT1MK246AHP04-2022-12-31-en/reports/724500SNT1MK246AHP04-2022-12-31-en.xhtml",
+      "source_company": "Koninklijke DSM N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Koninklijke DSM N.V.",
+          "url": "https://filings.xbrl.org/724500SNT1MK246AHP04/2022-12-31/ESEF/NL/0/724500SNT1MK246AHP04-2022-12-31-en/reports/724500SNT1MK246AHP04-2022-12-31-en.xhtml",
+          "fxo_id": "724500SNT1MK246AHP04-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500TEM53I0U077B74_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_724500TEM53I0U077B74_2023.txt",
+      "url": "https://filings.xbrl.org/724500TEM53I0U077B74/2023-12-31/ESEF/NL/0/wolt-2023-12-31-en/reports/wolt-2023-12-31-en.xhtml",
+      "source_company": "Wolters Kluwer N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Wolters Kluwer N.V.",
+          "url": "https://filings.xbrl.org/724500TEM53I0U077B74/2023-12-31/ESEF/NL/0/wolt-2023-12-31-en/reports/wolt-2023-12-31-en.xhtml",
+          "fxo_id": "724500TEM53I0U077B74-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500TEM53I0U077B74_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_724500TEM53I0U077B74_2024.txt",
+      "url": "https://filings.xbrl.org/724500TEM53I0U077B74/2024-12-31/ESEF/NL/1/wolt-2024-12-31-0-en/reports/wolt-2024-12-31-0-en.xhtml",
+      "source_company": "Wolters Kluwer N.V.",
+      "match_method": "lei_year_latest_esef_revision",
+      "ambiguity_flags": [
+        "multiple_esef_revisions"
+      ],
+      "candidate_classification": "duplicate_revision",
+      "candidates": [
+        {
+          "company": "Wolters Kluwer N.V.",
+          "url": "https://filings.xbrl.org/724500TEM53I0U077B74/2024-12-31/ESEF/NL/0/wolt-2024-12-31-0-en/reports/wolt-2024-12-31-0-en.xhtml",
+          "fxo_id": "724500TEM53I0U077B74-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        },
+        {
+          "company": "Wolters Kluwer N.V.",
+          "url": "https://filings.xbrl.org/724500TEM53I0U077B74/2024-12-31/ESEF/NL/1/wolt-2024-12-31-0-en/reports/wolt-2024-12-31-0-en.xhtml",
+          "fxo_id": "724500TEM53I0U077B74-2024-12-31-ESEF-NL-1",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500TEM53I0U077B74_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_724500TEM53I0U077B74_2025.txt",
+      "url": "https://filings.xbrl.org/724500TEM53I0U077B74/2025-12-31/ESEF/NL/0/wolt-2025-12-31-0-en/reports/wolt-2025-12-31-0-en.xhtml",
+      "source_company": "Wolters Kluwer N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Wolters Kluwer N.V.",
+          "url": "https://filings.xbrl.org/724500TEM53I0U077B74/2025-12-31/ESEF/NL/0/wolt-2025-12-31-0-en/reports/wolt-2025-12-31-0-en.xhtml",
+          "fxo_id": "724500TEM53I0U077B74-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500WAU923OTVC7M86_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_724500WAU923OTVC7M86_2023.txt",
+      "url": "https://filings.xbrl.org/724500WAU923OTVC7M86/2023-12-31/ESEF/NL/0/tom-2023-12-31-en/reports/tom-2023-12-31-en.xhtml",
+      "source_company": "TomTom N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "TomTom N.V.",
+          "url": "https://filings.xbrl.org/724500WAU923OTVC7M86/2023-12-31/ESEF/NL/0/tom-2023-12-31-en/reports/tom-2023-12-31-en.xhtml",
+          "fxo_id": "724500WAU923OTVC7M86-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500WAU923OTVC7M86_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_724500WAU923OTVC7M86_2024.txt",
+      "url": "https://filings.xbrl.org/724500WAU923OTVC7M86/2024-12-31/ESEF/NL/0/tom-2024-12-31-en/reports/tom-2024-12-31-en.xhtml",
+      "source_company": "TomTom N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "TomTom N.V.",
+          "url": "https://filings.xbrl.org/724500WAU923OTVC7M86/2024-12-31/ESEF/NL/0/tom-2024-12-31-en/reports/tom-2024-12-31-en.xhtml",
+          "fxo_id": "724500WAU923OTVC7M86-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500X4WAS3V33MVX37_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_724500X4WAS3V33MVX37_2024.txt",
+      "url": "https://filings.xbrl.org/724500X4WAS3V33MVX37/2024-12-31/ESEF/NL/0/Nedap-2024-12-31-0-en/reports/Nedap-2024-12-31-0-en.xhtml",
+      "source_company": "Nedap N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Nedap N.V.",
+          "url": "https://filings.xbrl.org/724500X4WAS3V33MVX37/2024-12-31/ESEF/NL/0/Nedap-2024-12-31-0-en/reports/Nedap-2024-12-31-0-en.xhtml",
+          "fxo_id": "724500X4WAS3V33MVX37-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500X4WAS3V33MVX37_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_724500X4WAS3V33MVX37_2025.txt",
+      "url": "https://filings.xbrl.org/724500X4WAS3V33MVX37/2025-12-31/ESEF/NL/0/724500X4WAS3V33MVX37-2025-12-31-1-en/reports/7724500X4WAS3V33MVX37-2025-12-31-1-en.xhtml",
+      "source_company": "Nedap N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Nedap N.V.",
+          "url": "https://filings.xbrl.org/724500X4WAS3V33MVX37/2025-12-31/ESEF/NL/0/724500X4WAS3V33MVX37-2025-12-31-1-en/reports/7724500X4WAS3V33MVX37-2025-12-31-1-en.xhtml",
+          "fxo_id": "724500X4WAS3V33MVX37-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500Y6DUVHQD6OXN27_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_724500Y6DUVHQD6OXN27_2024.txt",
+      "url": "https://filings.xbrl.org/724500Y6DUVHQD6OXN27/2024-12-31/ESEF/NL/0/asml-2024-12-31-en/reports/asml-2024-12-31-en.xhtml",
+      "source_company": "ASML Holding N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ASML Holding N.V.",
+          "url": "https://filings.xbrl.org/724500Y6DUVHQD6OXN27/2024-12-31/ESEF/NL/0/asml-2024-12-31-en/reports/asml-2024-12-31-en.xhtml",
+          "fxo_id": "724500Y6DUVHQD6OXN27-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_724500Y6DUVHQD6OXN27_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_724500Y6DUVHQD6OXN27_2025.txt",
+      "url": "https://filings.xbrl.org/724500Y6DUVHQD6OXN27/2025-12-31/ESEF/NL/0/asml-2025-12-31-1-en/reports/asml-2025-12-31-1-en.xhtml",
+      "source_company": "ASML Holding N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ASML Holding N.V.",
+          "url": "https://filings.xbrl.org/724500Y6DUVHQD6OXN27/2025-12-31/ESEF/NL/0/asml-2025-12-31-1-en/reports/asml-2025-12-31-1-en.xhtml",
+          "fxo_id": "724500Y6DUVHQD6OXN27-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_8156008B101B97A43B02_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_8156008B101B97A43B02_2023.txt",
+      "url": "https://filings.xbrl.org/8156008B101B97A43B02/2023-12-31/ESEF/NL/0/8156008B101B97A43B02-2023-12-31-en/reports/8156008B101B97A43B02-2023-12-31-en.xhtml",
+      "source_company": "Cementir Holding N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Cementir Holding N.V.",
+          "url": "https://filings.xbrl.org/8156008B101B97A43B02/2023-12-31/ESEF/NL/0/8156008B101B97A43B02-2023-12-31-en/reports/8156008B101B97A43B02-2023-12-31-en.xhtml",
+          "fxo_id": "8156008B101B97A43B02-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_8156008B101B97A43B02_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_8156008B101B97A43B02_2024.txt",
+      "url": "https://filings.xbrl.org/8156008B101B97A43B02/2024-12-31/ESEF/NL/0/8156008B101B97A43B02-2024-12-31-0-en/reports/8156008B101B97A43B02-2024-12-31-0-en.xhtml",
+      "source_company": "Cementir Holding N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Cementir Holding N.V.",
+          "url": "https://filings.xbrl.org/8156008B101B97A43B02/2024-12-31/ESEF/NL/0/8156008B101B97A43B02-2024-12-31-0-en/reports/8156008B101B97A43B02-2024-12-31-0-en.xhtml",
+          "fxo_id": "8156008B101B97A43B02-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_8156008B101B97A43B02_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_8156008B101B97A43B02_2025.txt",
+      "url": "https://filings.xbrl.org/8156008B101B97A43B02/2025-12-31/ESEF/NL/0/8156008B101B97A43B02-2025-12-31-1-en/reports/8156008B101B97A43B02-2025-12-31-1-en.xhtml",
+      "source_company": "Cementir Holding N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Cementir Holding N.V.",
+          "url": "https://filings.xbrl.org/8156008B101B97A43B02/2025-12-31/ESEF/NL/0/8156008B101B97A43B02-2025-12-31-1-en/reports/8156008B101B97A43B02-2025-12-31-1-en.xhtml",
+          "fxo_id": "8156008B101B97A43B02-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_815600CC86D25A205563_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_815600CC86D25A205563_2024.txt",
+      "url": "https://filings.xbrl.org/815600CC86D25A205563/2024-12-31/ESEF/NL/0/815600CC86D25A205563-2024-12-31/reports/815600CC86D25A205563-2024-12-31.xhtml",
+      "source_company": "Ariston Holding N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Ariston Holding N.V.",
+          "url": "https://filings.xbrl.org/815600CC86D25A205563/2024-12-31/ESEF/NL/0/815600CC86D25A205563-2024-12-31/reports/815600CC86D25A205563-2024-12-31.xhtml",
+          "fxo_id": "815600CC86D25A205563-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_815600CC86D25A205563_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_815600CC86D25A205563_2025.txt",
+      "url": "https://filings.xbrl.org/815600CC86D25A205563/2025-12-31/ESEF/NL/0/815600CC86D25A205563-2025-12-31-1-en/reports/815600CC86D25A205563-2025-12-31-1-en.xhtml",
+      "source_company": "Ariston Holding N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Ariston Holding N.V.",
+          "url": "https://filings.xbrl.org/815600CC86D25A205563/2025-12-31/ESEF/NL/0/815600CC86D25A205563-2025-12-31-1-en/reports/815600CC86D25A205563-2025-12-31-1-en.xhtml",
+          "fxo_id": "815600CC86D25A205563-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_894500G73K46H93RF180_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_894500G73K46H93RF180_2024.txt",
+      "url": "https://filings.xbrl.org/894500G73K46H93RF180/2024-12-31/ESEF/NL/0/894500G73K46H93RF180-2024-12-31-0-en/reports/894500G73K46H93RF180-2024-12-31-0-en.xhtml",
+      "source_company": "Banijay Group N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Banijay Group N.V.",
+          "url": "https://filings.xbrl.org/894500G73K46H93RF180/2024-12-31/ESEF/NL/0/894500G73K46H93RF180-2024-12-31-0-en/reports/894500G73K46H93RF180-2024-12-31-0-en.xhtml",
+          "fxo_id": "894500G73K46H93RF180-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_894500G73K46H93RF180_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_894500G73K46H93RF180_2025.txt",
+      "url": "https://filings.xbrl.org/894500G73K46H93RF180/2025-12-31/ESEF/NL/0/894500G73K46H93RF180-2025-12-31-1-en/reports/894500G73K46H93RF180-2025-12-31-1-en.xhtml",
+      "source_company": "Banijay Group N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Banijay Group N.V.",
+          "url": "https://filings.xbrl.org/894500G73K46H93RF180/2025-12-31/ESEF/NL/0/894500G73K46H93RF180-2025-12-31-1-en/reports/894500G73K46H93RF180-2025-12-31-1-en.xhtml",
+          "fxo_id": "894500G73K46H93RF180-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_894500L53AVOFQK7T710_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_894500L53AVOFQK7T710_2024.txt",
+      "url": "https://filings.xbrl.org/894500L53AVOFQK7T710/2024-12-31/ESEF/NL/0/894500L53AVOFQK7T710-2024-12-31AR/reports/894500L53AVOFQK7T710-2024-12-31AR.xhtml",
+      "source_company": "Havas N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Havas N.V.",
+          "url": "https://filings.xbrl.org/894500L53AVOFQK7T710/2024-12-31/ESEF/NL/0/894500L53AVOFQK7T710-2024-12-31AR/reports/894500L53AVOFQK7T710-2024-12-31AR.xhtml",
+          "fxo_id": "894500L53AVOFQK7T710-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_894500L53AVOFQK7T710_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_894500L53AVOFQK7T710_2025.txt",
+      "url": "https://filings.xbrl.org/894500L53AVOFQK7T710/2025-12-31/ESEF/NL/0/894500L53AVOFQK7T710-2025-12-31AR/reports/894500L53AVOFQK7T710-2025-12-31AR.xhtml",
+      "source_company": "Havas N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Havas N.V.",
+          "url": "https://filings.xbrl.org/894500L53AVOFQK7T710/2025-12-31/ESEF/NL/0/894500L53AVOFQK7T710-2025-12-31AR/reports/894500L53AVOFQK7T710-2025-12-31AR.xhtml",
+          "fxo_id": "894500L53AVOFQK7T710-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_BFXS5XCH7N0Y05NIXW11_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_BFXS5XCH7N0Y05NIXW11_2023.txt",
+      "url": "https://filings.xbrl.org/BFXS5XCH7N0Y05NIXW11/2023-12-31/ESEF/NL/0/BFXS5XCH7N0Y05NIXW11-2023-12-31-en/reports/BFXS5XCH7N0Y05NIXW11-2023-12-31-en.xhtml",
+      "source_company": "ABN AMRO Bank N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ABN AMRO Bank N.V.",
+          "url": "https://filings.xbrl.org/BFXS5XCH7N0Y05NIXW11/2023-12-31/ESEF/NL/0/BFXS5XCH7N0Y05NIXW11-2023-12-31-en/reports/BFXS5XCH7N0Y05NIXW11-2023-12-31-en.xhtml",
+          "fxo_id": "BFXS5XCH7N0Y05NIXW11-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_BFXS5XCH7N0Y05NIXW11_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_BFXS5XCH7N0Y05NIXW11_2024.txt",
+      "url": "https://filings.xbrl.org/BFXS5XCH7N0Y05NIXW11/2024-12-31/ESEF/NL/0/abn-2024-12-31-en/reports/abn-2024-12-31-en.xhtml",
+      "source_company": "ABN AMRO Bank N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ABN AMRO Bank N.V.",
+          "url": "https://filings.xbrl.org/BFXS5XCH7N0Y05NIXW11/2024-12-31/ESEF/NL/0/abn-2024-12-31-en/reports/abn-2024-12-31-en.xhtml",
+          "fxo_id": "BFXS5XCH7N0Y05NIXW11-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_BFXS5XCH7N0Y05NIXW11_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_BFXS5XCH7N0Y05NIXW11_2025.txt",
+      "url": "https://filings.xbrl.org/BFXS5XCH7N0Y05NIXW11/2025-12-31/ESEF/NL/0/abn-2025-12-31-1-en/reports/abn-2025-12-31-1-en.xhtml",
+      "source_company": "ABN AMRO Bank N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "ABN AMRO Bank N.V.",
+          "url": "https://filings.xbrl.org/BFXS5XCH7N0Y05NIXW11/2025-12-31/ESEF/NL/0/abn-2025-12-31-1-en/reports/abn-2025-12-31-1-en.xhtml",
+          "fxo_id": "BFXS5XCH7N0Y05NIXW11-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_H1FJE8H61JGM1JSGM897_2021.txt": {
+      "country": "NL",
+      "year": "2021",
+      "report_file": "NL_H1FJE8H61JGM1JSGM897_2021.txt",
+      "url": "https://filings.xbrl.org/H1FJE8H61JGM1JSGM897/2021-12-31/ESEF/NL/0/H1FJE8H61JGM1JSGM897-2021-12-31/reports/H1FJE8H61JGM1JSGM897-2021-12-31.xhtml",
+      "source_company": "Koninklijke Philips N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Koninklijke Philips N.V.",
+          "url": "https://filings.xbrl.org/H1FJE8H61JGM1JSGM897/2021-12-31/ESEF/NL/0/H1FJE8H61JGM1JSGM897-2021-12-31/reports/H1FJE8H61JGM1JSGM897-2021-12-31.xhtml",
+          "fxo_id": "H1FJE8H61JGM1JSGM897-2021-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_H1FJE8H61JGM1JSGM897_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_H1FJE8H61JGM1JSGM897_2022.txt",
+      "url": "https://filings.xbrl.org/H1FJE8H61JGM1JSGM897/2022-12-31/ESEF/NL/0/H1FJE8H61JGM1JSGM897-2022-12-31/reports/H1FJE8H61JGM1JSGM897-2022-12-31.xhtml",
+      "source_company": "Koninklijke Philips N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Koninklijke Philips N.V.",
+          "url": "https://filings.xbrl.org/H1FJE8H61JGM1JSGM897/2022-12-31/ESEF/NL/0/H1FJE8H61JGM1JSGM897-2022-12-31/reports/H1FJE8H61JGM1JSGM897-2022-12-31.xhtml",
+          "fxo_id": "H1FJE8H61JGM1JSGM897-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_H1FJE8H61JGM1JSGM897_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_H1FJE8H61JGM1JSGM897_2023.txt",
+      "url": "https://filings.xbrl.org/H1FJE8H61JGM1JSGM897/2023-12-31/ESEF/NL/0/H1FJE8H61JGM1JSGM897-2023-12-31/reports/H1FJE8H61JGM1JSGM897-2023-12-31.xhtml",
+      "source_company": "Koninklijke Philips N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Koninklijke Philips N.V.",
+          "url": "https://filings.xbrl.org/H1FJE8H61JGM1JSGM897/2023-12-31/ESEF/NL/0/H1FJE8H61JGM1JSGM897-2023-12-31/reports/H1FJE8H61JGM1JSGM897-2023-12-31.xhtml",
+          "fxo_id": "H1FJE8H61JGM1JSGM897-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_H1FJE8H61JGM1JSGM897_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_H1FJE8H61JGM1JSGM897_2024.txt",
+      "url": "https://filings.xbrl.org/H1FJE8H61JGM1JSGM897/2024-12-31/ESEF/NL/0/phg-2024-12-31-en/reports/phg-2024-12-31-en.xhtml",
+      "source_company": "Koninklijke Philips N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Koninklijke Philips N.V.",
+          "url": "https://filings.xbrl.org/H1FJE8H61JGM1JSGM897/2024-12-31/ESEF/NL/0/phg-2024-12-31-en/reports/phg-2024-12-31-en.xhtml",
+          "fxo_id": "H1FJE8H61JGM1JSGM897-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_H1FJE8H61JGM1JSGM897_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_H1FJE8H61JGM1JSGM897_2025.txt",
+      "url": "https://filings.xbrl.org/H1FJE8H61JGM1JSGM897/2025-12-31/ESEF/NL/0/phia-2025-12-31-1-en/reports/phia-2025-12-31-1-en.xhtml",
+      "source_company": "Koninklijke Philips N.V.",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Koninklijke Philips N.V.",
+          "url": "https://filings.xbrl.org/H1FJE8H61JGM1JSGM897/2025-12-31/ESEF/NL/0/phia-2025-12-31-1-en/reports/phia-2025-12-31-1-en.xhtml",
+          "fxo_id": "H1FJE8H61JGM1JSGM897-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_MINO79WLOO247M1IL051_2022.txt": {
+      "country": "NL",
+      "year": "2022",
+      "report_file": "NL_MINO79WLOO247M1IL051_2022.txt",
+      "url": "https://filings.xbrl.org/MINO79WLOO247M1IL051/2022-12-31/ESEF/NL/0/airbus-2022-12-31-en/reports/airbus-2022-12-31-en.html",
+      "source_company": "AIRBUS SE",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "AIRBUS SE",
+          "url": "https://filings.xbrl.org/MINO79WLOO247M1IL051/2022-12-31/ESEF/NL/0/airbus-2022-12-31-en/reports/airbus-2022-12-31-en.html",
+          "fxo_id": "MINO79WLOO247M1IL051-2022-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_MINO79WLOO247M1IL051_2023.txt": {
+      "country": "NL",
+      "year": "2023",
+      "report_file": "NL_MINO79WLOO247M1IL051_2023.txt",
+      "url": "https://filings.xbrl.org/MINO79WLOO247M1IL051/2023-12-31/ESEF/NL/0/MINO79WLOO247M1IL051-2023-12-31-en/reports/MINO79WLOO247M1IL051-2023-12-31-en.xhtml",
+      "source_company": "AIRBUS SE",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "AIRBUS SE",
+          "url": "https://filings.xbrl.org/MINO79WLOO247M1IL051/2023-12-31/ESEF/NL/0/MINO79WLOO247M1IL051-2023-12-31-en/reports/MINO79WLOO247M1IL051-2023-12-31-en.xhtml",
+          "fxo_id": "MINO79WLOO247M1IL051-2023-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_MINO79WLOO247M1IL051_2024.txt": {
+      "country": "NL",
+      "year": "2024",
+      "report_file": "NL_MINO79WLOO247M1IL051_2024.txt",
+      "url": "https://filings.xbrl.org/MINO79WLOO247M1IL051/2024-12-31/ESEF/NL/0/MINO79WLOO247M1IL051-2024-12-31-1-en/reports/MINO79WLOO247M1IL051-2024-12-31-1-en.xhtml",
+      "source_company": "AIRBUS SE",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "AIRBUS SE",
+          "url": "https://filings.xbrl.org/MINO79WLOO247M1IL051/2024-12-31/ESEF/NL/0/MINO79WLOO247M1IL051-2024-12-31-1-en/reports/MINO79WLOO247M1IL051-2024-12-31-1-en.xhtml",
+          "fxo_id": "MINO79WLOO247M1IL051-2024-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "NL_MINO79WLOO247M1IL051_2025.txt": {
+      "country": "NL",
+      "year": "2025",
+      "report_file": "NL_MINO79WLOO247M1IL051_2025.txt",
+      "url": "https://filings.xbrl.org/MINO79WLOO247M1IL051/2025-12-31/ESEF/NL/0/MINO79WLOO247M1IL051-2025-12-31-1-en/reports/MINO79WLOO247M1IL051-2025-12-31-1-en.xhtml",
+      "source_company": "AIRBUS SE",
+      "match_method": "lei_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "AIRBUS SE",
+          "url": "https://filings.xbrl.org/MINO79WLOO247M1IL051/2025-12-31/ESEF/NL/0/MINO79WLOO247M1IL051-2025-12-31-1-en/reports/MINO79WLOO247M1IL051-2025-12-31-1-en.xhtml",
+          "fxo_id": "MINO79WLOO247M1IL051-2025-12-31-ESEF-NL-0",
+          "error_count": "0"
+        }
+      ]
+    },
+    "PL_Alior_Bank_2021.txt": {
+      "country": "PL",
+      "year": "2021",
+      "report_file": "PL_Alior_Bank_2021.txt",
+      "url": "https://www.aliorbank.pl/dam/jcr:97d9a1f4-55ad-4ce8-bc51-ff734475c107/Management%20Board%20Report_Alior%20Bank%20Capital%20Group_FY2021_new%20layout.pdf",
+      "source_company": "Alior Bank",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Alior Bank",
+          "url": "https://www.aliorbank.pl/dam/jcr:97d9a1f4-55ad-4ce8-bc51-ff734475c107/Management%20Board%20Report_Alior%20Bank%20Capital%20Group_FY2021_new%20layout.pdf",
+          "status": "VERIFIED",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 2
+        }
+      ]
+    },
+    "PL_Alior_Bank_2022.txt": {
+      "country": "PL",
+      "year": "2022",
+      "report_file": "PL_Alior_Bank_2022.txt",
+      "url": "https://www.aliorbank.pl/dam/jcr:aa583329-e353-4468-8be2-678b44860016/Management%20Board%20Report%20of%20Alior%20Bank%20Group%20for%202022.pdf",
+      "source_company": "Alior Bank",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Alior Bank",
+          "url": "https://www.aliorbank.pl/dam/jcr:aa583329-e353-4468-8be2-678b44860016/Management%20Board%20Report%20of%20Alior%20Bank%20Group%20for%202022.pdf",
+          "status": "VERIFIED",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 3
+        }
+      ]
+    },
+    "PL_Alior_Bank_2023.txt": {
+      "country": "PL",
+      "year": "2023",
+      "report_file": "PL_Alior_Bank_2023.txt",
+      "url": "https://www.aliorbank.pl/dam/jcr:187d23d7-a84a-4e4c-a80c-52b56441a61a/Management%20Board%20Report%20of%20Alior%20Bank%20Group%20for%202023.pdf",
+      "source_company": "Alior Bank",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Alior Bank",
+          "url": "https://www.aliorbank.pl/dam/jcr:187d23d7-a84a-4e4c-a80c-52b56441a61a/Management%20Board%20Report%20of%20Alior%20Bank%20Group%20for%202023.pdf",
+          "status": "VERIFIED",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 4
+        }
+      ]
+    },
+    "PL_Allegro_eu_2023.txt": {
+      "country": "PL",
+      "year": "2023",
+      "report_file": "PL_Allegro_eu_2023.txt",
+      "url": "https://about.allegro.eu/wp-content/uploads/2026/01/Consolidated-Annual-Report-2023.pdf",
+      "source_company": "Allegro.eu",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Allegro.eu",
+          "url": "https://about.allegro.eu/wp-content/uploads/2026/01/Consolidated-Annual-Report-2023.pdf",
+          "status": "FOUND",
+          "source_file": "pl_kz_report_urls_raw.txt",
+          "source_line": 24
+        }
+      ]
+    },
+    "PL_Allegro_eu_2025.txt": {
+      "country": "PL",
+      "year": "2025",
+      "report_file": "PL_Allegro_eu_2025.txt",
+      "url": "https://about.allegro.eu/wp-content/uploads/2026/03/ALLEGRO-Annual-Consolidated-Report-2025.pdf",
+      "source_company": "Allegro.eu",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Allegro.eu",
+          "url": "https://about.allegro.eu/wp-content/uploads/2026/03/ALLEGRO-Annual-Consolidated-Report-2025.pdf",
+          "status": "FOUND",
+          "source_file": "pl_kz_report_urls_raw.txt",
+          "source_line": 25
+        }
+      ]
+    },
+    "PL_BNP_Paribas_Bank_Polska_2021.txt": {
+      "country": "PL",
+      "year": "2021",
+      "report_file": "PL_BNP_Paribas_Bank_Polska_2021.txt",
+      "url": "https://www.bnpparibas.pl/_fileserver/item/1536870",
+      "source_company": "BNP Paribas Bank Polska",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "BNP Paribas Bank Polska",
+          "url": "https://www.bnpparibas.pl/_fileserver/item/1536870",
+          "status": "VERIFIED",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 104
+        }
+      ]
+    },
+    "PL_BNP_Paribas_Bank_Polska_2022.txt": {
+      "country": "PL",
+      "year": "2022",
+      "report_file": "PL_BNP_Paribas_Bank_Polska_2022.txt",
+      "url": "https://www.bnpparibas.pl/_fileserver/item/1540876",
+      "source_company": "BNP Paribas Bank Polska",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "BNP Paribas Bank Polska",
+          "url": "https://www.bnpparibas.pl/_fileserver/item/1540876",
+          "status": "VERIFIED",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 105
+        }
+      ]
+    },
+    "PL_BNP_Paribas_Bank_Polska_2023.txt": {
+      "country": "PL",
+      "year": "2023",
+      "report_file": "PL_BNP_Paribas_Bank_Polska_2023.txt",
+      "url": "https://www.bnpparibas.pl/_fileserver/item/1544154",
+      "source_company": "BNP Paribas Bank Polska",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "BNP Paribas Bank Polska",
+          "url": "https://www.bnpparibas.pl/_fileserver/item/1544154",
+          "status": "VERIFIED",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 106
+        }
+      ]
+    },
+    "PL_Bank_Millennium_2023.txt": {
+      "country": "PL",
+      "year": "2023",
+      "report_file": "PL_Bank_Millennium_2023.txt",
+      "url": "https://www.bankmillennium.pl/documents/10184/32257776/Consolidated-Annual-Report-of-Bank-Millennium-Group-for-2023_pdf.zip/7d0efb5f-5156-7e41-33c4-354d5a430f59?t=1709301519702",
+      "source_company": "Bank Millennium",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Bank Millennium",
+          "url": "https://www.bankmillennium.pl/documents/10184/32257776/Consolidated-Annual-Report-of-Bank-Millennium-Group-for-2023_pdf.zip/7d0efb5f-5156-7e41-33c4-354d5a430f59?t=1709301519702",
+          "status": "VERIFIED_LINK",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 186
+        }
+      ]
+    },
+    "PL_Bank_Millennium_2024.txt": {
+      "country": "PL",
+      "year": "2024",
+      "report_file": "PL_Bank_Millennium_2024.txt",
+      "url": "https://www.bankmillennium.pl/documents/10184/33276917/Consolidated-Annual-Report-of-Bank-Millennium-Group-for-2024_pdf.zip/9a09500a-60ba-c07b-1226-9f79c8874ea6?t=1740417867523",
+      "source_company": "Bank Millennium",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Bank Millennium",
+          "url": "https://www.bankmillennium.pl/documents/10184/33276917/Consolidated-Annual-Report-of-Bank-Millennium-Group-for-2024_pdf.zip/9a09500a-60ba-c07b-1226-9f79c8874ea6?t=1740417867523",
+          "status": "VERIFIED_LINK",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 187
+        }
+      ]
+    },
+    "PL_Grupa_Pracuj_2021.txt": {
+      "country": "PL",
+      "year": "2021",
+      "report_file": "PL_Grupa_Pracuj_2021.txt",
+      "url": "https://ir.grupapracuj.pl/media/336/download/Management-Board-Report-on-activities-Grupa-Pracuj-S.A.-and-Group-2021.pdf?inline=1&v=1",
+      "source_company": "Grupa Pracuj",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Grupa Pracuj",
+          "url": "https://ir.grupapracuj.pl/media/336/download/Management-Board-Report-on-activities-Grupa-Pracuj-S.A.-and-Group-2021.pdf?inline=1&v=1",
+          "status": "VERIFIED",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 154
+        }
+      ]
+    },
+    "PL_Grupa_Pracuj_2022.txt": {
+      "country": "PL",
+      "year": "2022",
+      "report_file": "PL_Grupa_Pracuj_2022.txt",
+      "url": "https://ir.grupapracuj.pl/media/326/download/Sprawozdanie%20Zarza%CC%A8du%20z%20dzia%C5%82alnos%CC%81ci%20spo%CC%81%C5%82ki%20Grupa%20Pracuj%20SA%20i%20Grupy%20Kapita%C5%82owej%20Grupy%20Pracuj%20SA%202.pdf?inline=1&v=1",
+      "source_company": "Grupa Pracuj",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Grupa Pracuj",
+          "url": "https://ir.grupapracuj.pl/media/326/download/Sprawozdanie%20Zarza%CC%A8du%20z%20dzia%C5%82alnos%CC%81ci%20spo%CC%81%C5%82ki%20Grupa%20Pracuj%20SA%20i%20Grupy%20Kapita%C5%82owej%20Grupy%20Pracuj%20SA%202.pdf?inline=1&v=1",
+          "status": "VERIFIED",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 155
+        }
+      ]
+    },
+    "PL_PKO_Bank_Polski_2023.txt": {
+      "country": "PL",
+      "year": "2023",
+      "report_file": "PL_PKO_Bank_Polski_2023.txt",
+      "url": "https://www.pkobp.pl/api/default/01f70b02-479e-441a-8281-5d46429f1058.pdf?content-disposition=filename%3DThe_PKO_Bank_Polski_S.A._Group_Directors_Report_for_2023.pdf",
+      "source_company": "PKO Bank Polski",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "PKO Bank Polski",
+          "url": "https://www.pkobp.pl/api/default/01f70b02-479e-441a-8281-5d46429f1058.pdf?content-disposition=filename%3DThe_PKO_Bank_Polski_S.A._Group_Directors_Report_for_2023.pdf",
+          "status": "FOUND",
+          "source_file": "pl_kz_report_urls_raw.txt",
+          "source_line": 3
+        }
+      ]
+    },
+    "PL_PKO_Bank_Polski_2025.txt": {
+      "country": "PL",
+      "year": "2025",
+      "report_file": "PL_PKO_Bank_Polski_2025.txt",
+      "url": "https://www.pkobp.pl/api/public/b87ee713-e22e-4067-8265-a1bc819a860a.pdf?content-disposition=filename%3DThe_PKO_Bank_Polski_S.A._Group_Director%E2%80%99s_Report_for_2025_%5B.pdf%5D.pdf",
+      "source_company": "PKO Bank Polski",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "PKO Bank Polski",
+          "url": "https://www.pkobp.pl/api/public/b87ee713-e22e-4067-8265-a1bc819a860a.pdf?content-disposition=filename%3DThe_PKO_Bank_Polski_S.A._Group_Director%E2%80%99s_Report_for_2025_%5B.pdf%5D.pdf",
+          "status": "FOUND",
+          "source_file": "pl_kz_report_urls_raw.txt",
+          "source_line": 4
+        }
+      ]
+    },
+    "PL_PZU_2021.txt": {
+      "country": "PL",
+      "year": "2021",
+      "report_file": "PL_PZU_2021.txt",
+      "url": "https://www.pzu.pl/_fileserver/item/1536709",
+      "source_company": "PZU",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "PZU",
+          "url": "https://www.pzu.pl/_fileserver/item/1536709",
+          "status": "FOUND",
+          "source_file": "pl_kz_report_urls_raw.txt",
+          "source_line": 11
+        }
+      ]
+    },
+    "PL_PZU_2023.txt": {
+      "country": "PL",
+      "year": "2023",
+      "report_file": "PL_PZU_2023.txt",
+      "url": "https://www.pzu.pl/_fileserver/item/1552372",
+      "source_company": "PZU",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "PZU",
+          "url": "https://www.pzu.pl/_fileserver/item/1552372",
+          "status": "FOUND",
+          "source_file": "pl_kz_report_urls_raw.txt",
+          "source_line": 12
+        }
+      ]
+    },
+    "PL_PZU_2025.txt": {
+      "country": "PL",
+      "year": "2025",
+      "report_file": "PL_PZU_2025.txt",
+      "url": "https://www.pzu.pl/_fileserver/item/1567946",
+      "source_company": "PZU",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "PZU",
+          "url": "https://www.pzu.pl/_fileserver/item/1567946",
+          "status": "FOUND",
+          "source_file": "pl_kz_report_urls_raw.txt",
+          "source_line": 13
+        }
+      ]
+    },
+    "PL_Synektik_2022.txt": {
+      "country": "PL",
+      "year": "2022",
+      "report_file": "PL_Synektik_2022.txt",
+      "url": "https://synektik.com.pl/wp-content/uploads/2024/02/Sprawozdanie_z_dzialalnosci_Synektik_FY2022-EN_m2.pdf",
+      "source_company": "Synektik",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Synektik",
+          "url": "https://synektik.com.pl/wp-content/uploads/2024/02/Sprawozdanie_z_dzialalnosci_Synektik_FY2022-EN_m2.pdf",
+          "status": "VERIFIED",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 229
+        }
+      ]
+    },
+    "PL_Synektik_2023.txt": {
+      "country": "PL",
+      "year": "2023",
+      "report_file": "PL_Synektik_2023.txt",
+      "url": "https://synektik.com.pl/wp-content/uploads/2025/01/Sprawozdanie_z_dzialalnosci_Synektik_FY2023_ENG.pdf",
+      "source_company": "Synektik",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Synektik",
+          "url": "https://synektik.com.pl/wp-content/uploads/2025/01/Sprawozdanie_z_dzialalnosci_Synektik_FY2023_ENG.pdf",
+          "status": "VERIFIED",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 230
+        }
+      ]
+    },
+    "PL_Tauron_Polska_Energia_2023.txt": {
+      "country": "PL",
+      "year": "2023",
+      "report_file": "PL_Tauron_Polska_Energia_2023.txt",
+      "url": "https://en.tauron.pl/-/media/offer-documents/english/general-meetings/2024/documents-presented/report-of-the-management-board-on-the-operatios-of-tauron-and-tauron-capital-group-for-2023.ashx",
+      "source_company": "Tauron Polska Energia",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Tauron Polska Energia",
+          "url": "https://en.tauron.pl/-/media/offer-documents/english/general-meetings/2024/documents-presented/report-of-the-management-board-on-the-operatios-of-tauron-and-tauron-capital-group-for-2023.ashx",
+          "status": "VERIFIED",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 57
+        }
+      ]
+    },
+    "PL_Tauron_Polska_Energia_2025.txt": {
+      "country": "PL",
+      "year": "2025",
+      "report_file": "PL_Tauron_Polska_Energia_2025.txt",
+      "url": "https://www.tauron.pl/-/media/tauron/o-tauronie/esg/dokumenty/report-of-the-management-board-on-the-operations-of-tauron-polska-energia-sa-and-tauron-capital-group-for-2025.ashx",
+      "source_company": "Tauron Polska Energia",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Tauron Polska Energia",
+          "url": "https://www.tauron.pl/-/media/tauron/o-tauronie/esg/dokumenty/report-of-the-management-board-on-the-operations-of-tauron-polska-energia-sa-and-tauron-capital-group-for-2025.ashx",
+          "status": "VERIFIED_LINK",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 59
+        }
+      ]
+    },
+    "PL_Ten_Square_Games_2024.txt": {
+      "country": "PL",
+      "year": "2024",
+      "report_file": "PL_Ten_Square_Games_2024.txt",
+      "url": "https://tensquaregames.com/wp-content/uploads/2025/03/TSG-Raport-Roczny-SzD-2024-ENG-final.pdf",
+      "source_company": "Ten Square Games",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Ten Square Games",
+          "url": "https://tensquaregames.com/wp-content/uploads/2025/03/TSG-Raport-Roczny-SzD-2024-ENG-final.pdf",
+          "status": "VERIFIED",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 236
+        }
+      ]
+    },
+    "PL_Ten_Square_Games_2025.txt": {
+      "country": "PL",
+      "year": "2025",
+      "report_file": "PL_Ten_Square_Games_2025.txt",
+      "url": "https://tensquaregames.com/wp-content/uploads/2026/03/TSG-Raport-Roczny-SzD-2025-ENG-final.pdf",
+      "source_company": "Ten Square Games",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Ten Square Games",
+          "url": "https://tensquaregames.com/wp-content/uploads/2026/03/TSG-Raport-Roczny-SzD-2025-ENG-final.pdf",
+          "status": "VERIFIED",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 237
+        }
+      ]
+    },
+    "PL_Text_2022.txt": {
+      "country": "PL",
+      "year": "2022",
+      "report_file": "PL_Text_2022.txt",
+      "url": "https://investor.text.com/uploads/2023-07-lvc-management-report.pdf",
+      "source_company": "Text",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Text",
+          "url": "https://investor.text.com/uploads/2023-07-lvc-management-report.pdf",
+          "status": "VERIFIED",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 239
+        }
+      ]
+    },
+    "PL_Text_2024.txt": {
+      "country": "PL",
+      "year": "2024",
+      "report_file": "PL_Text_2024.txt",
+      "url": "https://investor.text.com/uploads/2025reporten.pdf",
+      "source_company": "Text",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Text",
+          "url": "https://investor.text.com/uploads/2025reporten.pdf",
+          "status": "VERIFIED_LINK",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 241
+        }
+      ]
+    },
+    "PL_Text_2025.txt": {
+      "country": "PL",
+      "year": "2025",
+      "report_file": "PL_Text_2025.txt",
+      "url": "https://investor.text.com/uploads/2026-06-management-report-en.pdf",
+      "source_company": "Text",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "Text",
+          "url": "https://investor.text.com/uploads/2026-06-management-report-en.pdf",
+          "status": "VERIFIED_LINK",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 242
+        }
+      ]
+    },
+    "PL_cyber_Folks_2022.txt": {
+      "country": "PL",
+      "year": "2022",
+      "report_file": "PL_cyber_Folks_2022.txt",
+      "url": "https://investors.cyberfolks.pl/wp-content/uploads/2026/05/R22_Annual_report_2022__28.03.2023-1.pdf",
+      "source_company": "cyber_Folks",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "cyber_Folks",
+          "url": "https://investors.cyberfolks.pl/wp-content/uploads/2026/05/R22_Annual_report_2022__28.03.2023-1.pdf",
+          "status": "VERIFIED",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 115
+        }
+      ]
+    },
+    "PL_cyber_Folks_2024.txt": {
+      "country": "PL",
+      "year": "2024",
+      "report_file": "PL_cyber_Folks_2024.txt",
+      "url": "https://investors.cyberfolks.pl/wp-content/uploads/2026/05/CBF_Annual_Report_2024-1.pdf",
+      "source_company": "cyber_Folks",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "cyber_Folks",
+          "url": "https://investors.cyberfolks.pl/wp-content/uploads/2026/05/CBF_Annual_Report_2024-1.pdf",
+          "status": "VERIFIED",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 117
+        }
+      ]
+    },
+    "PL_mBank_2021.txt": {
+      "country": "PL",
+      "year": "2021",
+      "report_file": "PL_mBank_2021.txt",
+      "url": "https://www.mbank.pl/pdf/relacje-inwestorskie/raport-roczny/2021/mbank-group-consolidated-fiancial-report-pdf.zip",
+      "source_company": "mBank",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "mBank",
+          "url": "https://www.mbank.pl/pdf/relacje-inwestorskie/raport-roczny/2021/mbank-group-consolidated-fiancial-report-pdf.zip",
+          "status": "VERIFIED_LINK",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 26
+        }
+      ]
+    },
+    "PL_mBank_2022.txt": {
+      "country": "PL",
+      "year": "2022",
+      "report_file": "PL_mBank_2022.txt",
+      "url": "https://www.mbank.pl/pdf/relacje-inwestorskie/raport-roczny/2022/mbank-group-consolidated-financial-report-pdf.zip",
+      "source_company": "mBank",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "mBank",
+          "url": "https://www.mbank.pl/pdf/relacje-inwestorskie/raport-roczny/2022/mbank-group-consolidated-financial-report-pdf.zip",
+          "status": "VERIFIED_LINK",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 27
+        }
+      ]
+    },
+    "PL_mBank_2023.txt": {
+      "country": "PL",
+      "year": "2023",
+      "report_file": "PL_mBank_2023.txt",
+      "url": "https://www.mbank.pl/pdf/relacje-inwestorskie/raport-roczny/2023/mbank-group-consolidated-financial-report-pdf.zip",
+      "source_company": "mBank",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "mBank",
+          "url": "https://www.mbank.pl/pdf/relacje-inwestorskie/raport-roczny/2023/mbank-group-consolidated-financial-report-pdf.zip",
+          "status": "VERIFIED_LINK",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 28
+        }
+      ]
+    },
+    "PL_mBank_2024.txt": {
+      "country": "PL",
+      "year": "2024",
+      "report_file": "PL_mBank_2024.txt",
+      "url": "https://www.mbank.pl/pdf/relacje-inwestorskie/raport-roczny/2024/mbank-group-consolidated-financial-report-pdf.zip",
+      "source_company": "mBank",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "mBank",
+          "url": "https://www.mbank.pl/pdf/relacje-inwestorskie/raport-roczny/2024/mbank-group-consolidated-financial-report-pdf.zip",
+          "status": "VERIFIED_LINK",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 29
+        }
+      ]
+    },
+    "PL_mBank_2025.txt": {
+      "country": "PL",
+      "year": "2025",
+      "report_file": "PL_mBank_2025.txt",
+      "url": "https://www.mbank.pl/pdf/relacje-inwestorskie/raport-roczny/2025/mbank-group-consolidated-financial-report-pdf.zip",
+      "source_company": "mBank",
+      "match_method": "file_stem_company_year_exact",
+      "ambiguity_flags": [],
+      "candidate_classification": "single",
+      "candidates": [
+        {
+          "company": "mBank",
+          "url": "https://www.mbank.pl/pdf/relacje-inwestorskie/raport-roczny/2025/mbank-group-consolidated-financial-report-pdf.zip",
+          "status": "VERIFIED_LINK",
+          "source_file": "pl_report_urls_full.txt",
+          "source_line": 30
+        }
+      ]
+    }
+  }
+}

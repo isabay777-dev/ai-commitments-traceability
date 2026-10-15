@@ -1,0 +1,15 @@
+{
+  "task3_status": "prepared_not_completed",
+  "retained_cases": 183,
+  "first_report_outcomes_newly_coded": 0,
+  "full_reports_newly_checked": 0,
+  "source": "Task2 reconstructed availability and unchanged F5 membership",
+  "limits": [
+    "First available report is not necessarily the first report actually published.",
+    "Report-year gap is not elapsed months or time relative to a promised deadline.",
+    "The 23 unresolved omitted candidates require eligibility review separately.",
+    "Latest multi-report outcomes have not been copied into first-report fields.",
+    "No new outcome comparison or model has been estimated."
+  ],
+  "snapshot_role": "Metadata preparation only; not current coding progress. See task3_current_status.json."
+}

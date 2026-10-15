@@ -1,0 +1,5 @@
+"model","N","firms","KZ_N","PL_N","KZ_firms","PL_firms","observed_cells"
+"raw",52,25,25,27,14,11,16
+"one_year_gap",40,21,25,15,14,7,12
+"common_cells_raw",25,16,17,8,10,6,5
+"common_cells_FE",25,16,17,8,10,6,5

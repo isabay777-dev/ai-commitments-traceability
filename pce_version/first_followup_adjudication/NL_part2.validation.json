@@ -1,0 +1,33 @@
+{
+  "file": "first_followup_adjudication/NL_part2.json",
+  "status": "closed",
+  "provisional_llm_adjudication": true,
+  "human_validation": false,
+  "case_count": 63,
+  "unique_case_count": 63,
+  "range": [
+    "FF0092",
+    "FF0154"
+  ],
+  "status_counts": {
+    "unresolved": 7,
+    "partial": 2,
+    "dropped": 13,
+    "fulfilled": 26,
+    "not_a_promise": 2,
+    "not_fulfilled": 13
+  },
+  "validated": [
+    "63 expected unique IDs",
+    "required fields and enums",
+    "eligibility/adequacy/outcome consistency",
+    "all 126 quotations literal and at least 18 characters",
+    "all quote source paths belong to original or selected first-follow-up packet",
+    "literal original surrounding context",
+    "full-text search audit includes whitespace-normalized named/function/synonym searches",
+    "unverified exact dates explicitly unknown"
+  ],
+  "errors": [],
+  "sha256": "9f513b89cc2ad91979b79136b035828df77897533699ad23c1ce946c1892787b",
+  "scope_note": "No later report or other adjudication used. Not independent human validation. Broad AI intentions and unresolved object/perimeter linkage remain explicit."
+}

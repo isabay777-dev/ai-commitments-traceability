@@ -1,0 +1,2131 @@
+[
+  {
+    "file": "NL_213800DIFN7NR7B97A50_2021.txt",
+    "archive_sha256": "13767739a2e32df7eb87ba5af04598bce31fd8f7f211a48b5e8517d24ee5f270",
+    "archive_path": "sources_first_followup/raw/13767739a2e32df7eb87ba5af04598bce31fd8f7f211a48b5e8517d24ee5f270.zip",
+    "source_url": "https://filings.xbrl.org/213800DIFN7NR7B97A50/2021-12-31/ESEF/NL/0/213800DIFN7NR7B97A50-2021-12-31.zip",
+    "original_report_url": "https://filings.xbrl.org/213800DIFN7NR7B97A50/2021-12-31/ESEF/NL/0/213800DIFN7NR7B97A50-2021-12-31/reports/213800DIFN7NR7B97A50-2021-12-31.html",
+    "selected_member_path": "213800DIFN7NR7B97A50-2021-12-31/reports/213800DIFN7NR7B97A50-2021-12-31.html",
+    "selected_member_sha256": "ce09c761fe9336bb676675f8a162c38ab7fa05a94772ade0aa53c2443f54bbb1",
+    "selected_member_bytes": 152140391,
+    "archive_member_inventory": [
+      {
+        "path": "213800DIFN7NR7B97A50-2021-12-31/reports/213800DIFN7NR7B97A50-2021-12-31.html",
+        "bytes": 152140391,
+        "crc32": "d7053ffd"
+      },
+      {
+        "path": "213800DIFN7NR7B97A50-2021-12-31/taxonomy/213800DIFN7NR7B97A50-2021-12-31_lab-en.xml",
+        "bytes": 22717,
+        "crc32": "e352104b"
+      },
+      {
+        "path": "213800DIFN7NR7B97A50-2021-12-31/taxonomy/213800DIFN7NR7B97A50-2021-12-31_def.xml",
+        "bytes": 1888485,
+        "crc32": "6e20ec9b"
+      },
+      {
+        "path": "213800DIFN7NR7B97A50-2021-12-31/taxonomy/213800DIFN7NR7B97A50-2021-12-31_cal.xml",
+        "bytes": 64958,
+        "crc32": "0d02e168"
+      },
+      {
+        "path": "213800DIFN7NR7B97A50-2021-12-31/taxonomy/213800DIFN7NR7B97A50-2021-12-31_pre.xml",
+        "bytes": 122073,
+        "crc32": "571fa8da"
+      },
+      {
+        "path": "213800DIFN7NR7B97A50-2021-12-31/taxonomy/213800DIFN7NR7B97A50-2021-12-31.xsd",
+        "bytes": 91145,
+        "crc32": "ddc932c0"
+      },
+      {
+        "path": "213800DIFN7NR7B97A50-2021-12-31/META-INF/taxonomyPackage.xml",
+        "bytes": 689,
+        "crc32": "64ec4169"
+      },
+      {
+        "path": "213800DIFN7NR7B97A50-2021-12-31/META-INF/catalog.xml",
+        "bytes": 366,
+        "crc32": "db38b48e"
+      }
+    ],
+    "html_title": "MFE-MEDIAFOREUROPE - GROUP- 213800DIFN7NR7B97A50 - 2021",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_213800DIFN7NR7B97A50_2021.txt",
+    "output_sha256": "f2792617f461e8671e72bb7f6766351aac3bc4ef982af7b47c12af11cb39adbb",
+    "text_characters": 1188634,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_506700G44V67MPM4BI12_2024.txt",
+    "archive_sha256": "509a172b7691ad748b66cd1a9db859bca2dd2493ce4a94b17bd3571cbdc26708",
+    "archive_path": "sources_first_followup/raw/509a172b7691ad748b66cd1a9db859bca2dd2493ce4a94b17bd3571cbdc26708.zip",
+    "source_url": "https://filings.xbrl.org/506700G44V67MPM4BI12/2024-12-31/ESEF/NL/0/506700G44V67MPM4BI12-2024-12-31-0-en.zip",
+    "original_report_url": "https://filings.xbrl.org/506700G44V67MPM4BI12/2024-12-31/ESEF/NL/0/506700G44V67MPM4BI12-2024-12-31-0-en/reports/506700G44V67MPM4BI12-2024-12-31-0-en.xhtml",
+    "selected_member_path": "506700G44V67MPM4BI12-2024-12-31-0-en/reports/506700G44V67MPM4BI12-2024-12-31-0-en.xhtml",
+    "selected_member_sha256": "9c8fa1347bb73911b1ca7f2c03d3cf57beee1bd2dfbde37e4f1bc49b86f2ce05",
+    "selected_member_bytes": 139025714,
+    "archive_member_inventory": [
+      {
+        "path": "506700G44V67MPM4BI12-2024-12-31-0-en/dsm-firmenich.com/2024-12-31/506700G44V67MPM4BI12-2024-12-31_cal.xml",
+        "bytes": 82433,
+        "crc32": "16eb162a"
+      },
+      {
+        "path": "506700G44V67MPM4BI12-2024-12-31-0-en/dsm-firmenich.com/2024-12-31/506700G44V67MPM4BI12-2024-12-31_def.xml",
+        "bytes": 228918,
+        "crc32": "9945b50b"
+      },
+      {
+        "path": "506700G44V67MPM4BI12-2024-12-31-0-en/dsm-firmenich.com/2024-12-31/506700G44V67MPM4BI12-2024-12-31_pre.xml",
+        "bytes": 236680,
+        "crc32": "a9cecb77"
+      },
+      {
+        "path": "506700G44V67MPM4BI12-2024-12-31-0-en/dsm-firmenich.com/2024-12-31/506700G44V67MPM4BI12-2024-12-31_lab-en.xml",
+        "bytes": 30342,
+        "crc32": "ba34b747"
+      },
+      {
+        "path": "506700G44V67MPM4BI12-2024-12-31-0-en/dsm-firmenich.com/2024-12-31/506700G44V67MPM4BI12-2024-12-31_ref.xml",
+        "bytes": 414,
+        "crc32": "f7190ae6"
+      },
+      {
+        "path": "506700G44V67MPM4BI12-2024-12-31-0-en/dsm-firmenich.com/2024-12-31/506700G44V67MPM4BI12-2024-12-31.xsd",
+        "bytes": 9504,
+        "crc32": "01b31974"
+      },
+      {
+        "path": "506700G44V67MPM4BI12-2024-12-31-0-en/META-INF/catalog.xml",
+        "bytes": 375,
+        "crc32": "9680a929"
+      },
+      {
+        "path": "506700G44V67MPM4BI12-2024-12-31-0-en/META-INF/taxonomyPackage.xml",
+        "bytes": 1392,
+        "crc32": "e4817b31"
+      },
+      {
+        "path": "506700G44V67MPM4BI12-2024-12-31-0-en/reports/506700G44V67MPM4BI12-2024-12-31-0-en.xhtml",
+        "bytes": 139025714,
+        "crc32": "8dd2a190"
+      }
+    ],
+    "html_title": "dsm firmenich",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_506700G44V67MPM4BI12_2024.txt",
+    "output_sha256": "e80b8c16fa837a5e6a56138bdca37c30daf5df3c718fb0fcbb233b9228a7e1cb",
+    "text_characters": 978781,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_529900JK6UXHY1YKZ082_2024.txt",
+    "archive_sha256": "396ffc2fddcb06fcf250a148d4c32817167026fd180a578bbc5788895dcd2086",
+    "archive_path": "sources_first_followup/raw/396ffc2fddcb06fcf250a148d4c32817167026fd180a578bbc5788895dcd2086.zip",
+    "source_url": "https://filings.xbrl.org/529900JK6UXHY1YKZ082/2024-12-31/ESEF/NL/0/529900JK6UXHY1YKZ082-2024-12-31-en.zip",
+    "original_report_url": "https://filings.xbrl.org/529900JK6UXHY1YKZ082/2024-12-31/ESEF/NL/0/529900JK6UXHY1YKZ082-2024-12-31-en/reports/redcarepharmacynv-2024-12-31-en.xhtml",
+    "selected_member_path": "529900JK6UXHY1YKZ082-2024-12-31-en/reports/redcarepharmacynv-2024-12-31-en.xhtml",
+    "selected_member_sha256": "77402e0b74a505f2d9df21672c2ea7e1014c9e5a764d289b140809ad23b1531b",
+    "selected_member_bytes": 131159921,
+    "archive_member_inventory": [
+      {
+        "path": "529900JK6UXHY1YKZ082-2024-12-31-en/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "529900JK6UXHY1YKZ082-2024-12-31-en/META-INF/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "529900JK6UXHY1YKZ082-2024-12-31-en/META-INF/catalog.xml",
+        "bytes": 385,
+        "crc32": "aa87248d"
+      },
+      {
+        "path": "529900JK6UXHY1YKZ082-2024-12-31-en/META-INF/reportPackage.json",
+        "bytes": 72,
+        "crc32": "279ab10e"
+      },
+      {
+        "path": "529900JK6UXHY1YKZ082-2024-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 631,
+        "crc32": "e9de3d9a"
+      },
+      {
+        "path": "529900JK6UXHY1YKZ082-2024-12-31-en/redcareparmacynv.com/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "529900JK6UXHY1YKZ082-2024-12-31-en/redcareparmacynv.com/20241231/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "529900JK6UXHY1YKZ082-2024-12-31-en/redcareparmacynv.com/20241231/redcarepharmacynv-2024-12-31.xsd",
+        "bytes": 10092,
+        "crc32": "a042e2e8"
+      },
+      {
+        "path": "529900JK6UXHY1YKZ082-2024-12-31-en/redcareparmacynv.com/20241231/redcarepharmacynv-2024-12-31_cal.xml",
+        "bytes": 58153,
+        "crc32": "fdf40fad"
+      },
+      {
+        "path": "529900JK6UXHY1YKZ082-2024-12-31-en/redcareparmacynv.com/20241231/redcarepharmacynv-2024-12-31_def.xml",
+        "bytes": 169156,
+        "crc32": "c2c211f6"
+      },
+      {
+        "path": "529900JK6UXHY1YKZ082-2024-12-31-en/redcareparmacynv.com/20241231/redcarepharmacynv-2024-12-31_lab-en.xml",
+        "bytes": 22492,
+        "crc32": "1476a897"
+      },
+      {
+        "path": "529900JK6UXHY1YKZ082-2024-12-31-en/redcareparmacynv.com/20241231/redcarepharmacynv-2024-12-31_pre.xml",
+        "bytes": 172527,
+        "crc32": "fb670c3b"
+      },
+      {
+        "path": "529900JK6UXHY1YKZ082-2024-12-31-en/reports/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "529900JK6UXHY1YKZ082-2024-12-31-en/reports/redcarepharmacynv-2024-12-31-en.xhtml",
+        "bytes": 131159921,
+        "crc32": "5d251038"
+      }
+    ],
+    "html_title": "redcarepharmacynv-2024-12-31-en",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_529900JK6UXHY1YKZ082_2024.txt",
+    "output_sha256": "145104739786c178f5439aad6696af7a1823171b25bc7cefef0049d766cc0f87",
+    "text_characters": 702804,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_529900JK6UXHY1YKZ082_2025.txt",
+    "archive_sha256": "1daaf166e2a9fe19f107f792761cc2e025f17858fc84ae43e7875e5858e9b71e",
+    "archive_path": "sources_first_followup/raw/1daaf166e2a9fe19f107f792761cc2e025f17858fc84ae43e7875e5858e9b71e.zip",
+    "source_url": "https://filings.xbrl.org/529900JK6UXHY1YKZ082/2025-12-31/ESEF/NL/0/529900JK6UXHY1YKZ082-2025-12-31.xbri",
+    "original_report_url": "https://filings.xbrl.org/529900JK6UXHY1YKZ082/2025-12-31/ESEF/NL/0/redcarepharmacynv-2025-12-31-en/reports/redcarepharmacynv-2025-12-31-en.xhtml",
+    "selected_member_path": "redcarepharmacynv-2025-12-31-en/reports/redcarepharmacynv-2025-12-31-en.xhtml",
+    "selected_member_sha256": "36ecb7905567c08ede21fd1e43efe6bae804c7b5e887116f3d4634b16815455f",
+    "selected_member_bytes": 113348897,
+    "archive_member_inventory": [
+      {
+        "path": "redcarepharmacynv-2025-12-31-en/reports/redcarepharmacynv-2025-12-31-en.xhtml",
+        "bytes": 113348897,
+        "crc32": "58e11ce0"
+      },
+      {
+        "path": "redcarepharmacynv-2025-12-31-en/redcareparmacynv.com/20251231/redcarepharmacynv-2025-12-31_pre.xml",
+        "bytes": 172061,
+        "crc32": "adccdfd3"
+      },
+      {
+        "path": "redcarepharmacynv-2025-12-31-en/redcareparmacynv.com/20251231/redcarepharmacynv-2025-12-31_def.xml",
+        "bytes": 168168,
+        "crc32": "4947a707"
+      },
+      {
+        "path": "redcarepharmacynv-2025-12-31-en/redcareparmacynv.com/20251231/redcarepharmacynv-2025-12-31_lab-en.xml",
+        "bytes": 20949,
+        "crc32": "7f018f41"
+      },
+      {
+        "path": "redcarepharmacynv-2025-12-31-en/redcareparmacynv.com/20251231/redcarepharmacynv-2025-12-31_cal.xml",
+        "bytes": 55719,
+        "crc32": "1366a4f0"
+      },
+      {
+        "path": "redcarepharmacynv-2025-12-31-en/redcareparmacynv.com/20251231/redcarepharmacynv-2025-12-31.xsd",
+        "bytes": 8747,
+        "crc32": "5c1beca5"
+      },
+      {
+        "path": "redcarepharmacynv-2025-12-31-en/META-INF/catalog.xml",
+        "bytes": 385,
+        "crc32": "bb1f162d"
+      },
+      {
+        "path": "redcarepharmacynv-2025-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 631,
+        "crc32": "2eff6689"
+      },
+      {
+        "path": "redcarepharmacynv-2025-12-31-en/META-INF/reportPackage.json",
+        "bytes": 77,
+        "crc32": "87f0f66a"
+      }
+    ],
+    "html_title": "redcarepharmacynv-2025-12-31-en",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_529900JK6UXHY1YKZ082_2025.txt",
+    "output_sha256": "f5f1b3ddc7ac3f650aa9d9eb068d5e534e9b2ab18be36ab351fbed74bb91daff",
+    "text_characters": 750421,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_549300BLWVJN2BAT0A44_2024.txt",
+    "archive_sha256": "afa4d6d3e73920750e5e42134ef79d6074864fabfd0eebfecb06fb5e7b59c404",
+    "archive_path": "sources_first_followup/raw/afa4d6d3e73920750e5e42134ef79d6074864fabfd0eebfecb06fb5e7b59c404.zip",
+    "source_url": "https://filings.xbrl.org/549300BLWVJN2BAT0A44/2024-12-31/ESEF/NL/0/549300BLWVJN2BAT0A44-2024-12-31-en.zip",
+    "original_report_url": "https://filings.xbrl.org/549300BLWVJN2BAT0A44/2024-12-31/ESEF/NL/0/549300BLWVJN2BAT0A44-2024-12-31-en/reports/549300BLWVJN2BAT0A44-2024-12-31-en.xhtml",
+    "selected_member_path": "549300BLWVJN2BAT0A44-2024-12-31-en/reports/549300BLWVJN2BAT0A44-2024-12-31-en.xhtml",
+    "selected_member_sha256": "2c6a3d8f02971e136986826ad1904f9203c4f61a503ad250b3bc9b9978692292",
+    "selected_member_bytes": 120593969,
+    "archive_member_inventory": [
+      {
+        "path": "549300BLWVJN2BAT0A44-2024-12-31-en/brembogroup.com/2024-12-31/549300BLWVJN2BAT0A44-2024-12-31_cal.xml",
+        "bytes": 77336,
+        "crc32": "25add666"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2024-12-31-en/brembogroup.com/2024-12-31/549300BLWVJN2BAT0A44-2024-12-31_def.xml",
+        "bytes": 183654,
+        "crc32": "bd7f15c1"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2024-12-31-en/brembogroup.com/2024-12-31/549300BLWVJN2BAT0A44-2024-12-31_pre.xml",
+        "bytes": 174288,
+        "crc32": "2e1b99ad"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2024-12-31-en/brembogroup.com/2024-12-31/549300BLWVJN2BAT0A44-2024-12-31_lab-en.xml",
+        "bytes": 35460,
+        "crc32": "c416d058"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2024-12-31-en/brembogroup.com/2024-12-31/549300BLWVJN2BAT0A44-2024-12-31_lab-it.xml",
+        "bytes": 36129,
+        "crc32": "f68af18b"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2024-12-31-en/brembogroup.com/2024-12-31/549300BLWVJN2BAT0A44-2024-12-31_ref.xml",
+        "bytes": 414,
+        "crc32": "f7190ae6"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2024-12-31-en/brembogroup.com/2024-12-31/549300BLWVJN2BAT0A44-2024-12-31.xsd",
+        "bytes": 11923,
+        "crc32": "9bfc1ef8"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2024-12-31-en/META-INF/catalog.xml",
+        "bytes": 371,
+        "crc32": "c1afb0c6"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2024-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 1405,
+        "crc32": "7395f0df"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2024-12-31-en/reports/549300BLWVJN2BAT0A44-2024-12-31-en.xhtml",
+        "bytes": 120593969,
+        "crc32": "28acd2a2"
+      }
+    ],
+    "html_title": "Brembo N.V.",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_549300BLWVJN2BAT0A44_2024.txt",
+    "output_sha256": "cba67ac23957ea7a594e332110a5fceca72b2a4f8d846d9da1fa959349d22eed",
+    "text_characters": 1135257,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_549300BLWVJN2BAT0A44_2025.txt",
+    "archive_sha256": "b16bc868a37e9e3541441562621c6be7d880957564a3b8c84a46dc9c4eb216f0",
+    "archive_path": "sources_first_followup/raw/b16bc868a37e9e3541441562621c6be7d880957564a3b8c84a46dc9c4eb216f0.zip",
+    "source_url": "https://filings.xbrl.org/549300BLWVJN2BAT0A44/2025-12-31/ESEF/NL/0/549300BLWVJN2BAT0A44-2025-12-31.xbri",
+    "original_report_url": "https://filings.xbrl.org/549300BLWVJN2BAT0A44/2025-12-31/ESEF/NL/0/549300BLWVJN2BAT0A44-2025-12-31-1-en/reports/549300BLWVJN2BAT0A44-2025-12-31-1-en.xhtml",
+    "selected_member_path": "549300BLWVJN2BAT0A44-2025-12-31-1-en/reports/549300BLWVJN2BAT0A44-2025-12-31-1-en.xhtml",
+    "selected_member_sha256": "6db2c15fd2c90da2e3868351a096ab121c4347b584df477755ac9ba55b09c540",
+    "selected_member_bytes": 91848449,
+    "archive_member_inventory": [
+      {
+        "path": "549300BLWVJN2BAT0A44-2025-12-31-1-en/brembogroup.com/2025-12-31/549300BLWVJN2BAT0A44-2025-12-31_cal.xml",
+        "bytes": 76462,
+        "crc32": "3a187afe"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2025-12-31-1-en/brembogroup.com/2025-12-31/549300BLWVJN2BAT0A44-2025-12-31_def.xml",
+        "bytes": 184370,
+        "crc32": "0be8a1ee"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2025-12-31-1-en/brembogroup.com/2025-12-31/549300BLWVJN2BAT0A44-2025-12-31_pre.xml",
+        "bytes": 172391,
+        "crc32": "6ade6660"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2025-12-31-1-en/brembogroup.com/2025-12-31/549300BLWVJN2BAT0A44-2025-12-31_lab-en.xml",
+        "bytes": 37444,
+        "crc32": "dd509c27"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2025-12-31-1-en/brembogroup.com/2025-12-31/549300BLWVJN2BAT0A44-2025-12-31_lab-it.xml",
+        "bytes": 38178,
+        "crc32": "f7ad92c8"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2025-12-31-1-en/brembogroup.com/2025-12-31/549300BLWVJN2BAT0A44-2025-12-31_ref.xml",
+        "bytes": 414,
+        "crc32": "f7190ae6"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2025-12-31-1-en/brembogroup.com/2025-12-31/549300BLWVJN2BAT0A44-2025-12-31.xsd",
+        "bytes": 12388,
+        "crc32": "b4f58c4f"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2025-12-31-1-en/META-INF/catalog.xml",
+        "bytes": 371,
+        "crc32": "a9b96f56"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2025-12-31-1-en/META-INF/taxonomyPackage.xml",
+        "bytes": 1405,
+        "crc32": "9d566626"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2025-12-31-1-en/META-INF/reportPackage.json",
+        "bytes": 77,
+        "crc32": "87f0f66a"
+      },
+      {
+        "path": "549300BLWVJN2BAT0A44-2025-12-31-1-en/reports/549300BLWVJN2BAT0A44-2025-12-31-1-en.xhtml",
+        "bytes": 91848449,
+        "crc32": "81fe9891"
+      }
+    ],
+    "html_title": "Brembo N.V.",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_549300BLWVJN2BAT0A44_2025.txt",
+    "output_sha256": "8682b71c3538a597760f73cfd512064c2ae711b9fe08d012dc2e76aa55b268d1",
+    "text_characters": 1253997,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_549300FMWM53K9ULYT15_2023.txt",
+    "archive_sha256": "0d7c8a70a4f3dea502044db014e445682d073b2d2d2fd814f012b9065760607f",
+    "archive_path": "sources_first_followup/raw/0d7c8a70a4f3dea502044db014e445682d073b2d2d2fd814f012b9065760607f.zip",
+    "source_url": "https://filings.xbrl.org/549300FMWM53K9ULYT15/2023-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2023-12-31-en.zip",
+    "original_report_url": "https://filings.xbrl.org/549300FMWM53K9ULYT15/2023-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2023-12-31-en/reports/549300FMWM53K9ULYT15-2023-12-31-en.html",
+    "selected_member_path": "549300FMWM53K9ULYT15-2023-12-31-en/reports/549300FMWM53K9ULYT15-2023-12-31-en.html",
+    "selected_member_sha256": "9834de75534b276f4c3423686ec14771958483662befc7fbbb36b36b8e5254ac",
+    "selected_member_bytes": 92164374,
+    "archive_member_inventory": [
+      {
+        "path": "549300FMWM53K9ULYT15-2023-12-31-en/META-INF/catalog.xml",
+        "bytes": 404,
+        "crc32": "2244b5ea"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2023-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 1447,
+        "crc32": "41f8fb0a"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2023-12-31-en/www.nepirockcastle.com/taxonomy/2023-12-31/549300FMWM53K9ULYT15-2023-12-31_def.xml",
+        "bytes": 204954,
+        "crc32": "1a78f1eb"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2023-12-31-en/www.nepirockcastle.com/taxonomy/2023-12-31/549300FMWM53K9ULYT15-2023-12-31_pre.xml",
+        "bytes": 545534,
+        "crc32": "c2fc216b"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2023-12-31-en/www.nepirockcastle.com/taxonomy/2023-12-31/549300FMWM53K9ULYT15-2023-12-31_lab-en.xml",
+        "bytes": 45700,
+        "crc32": "64ec2e70"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2023-12-31-en/www.nepirockcastle.com/taxonomy/2023-12-31/549300FMWM53K9ULYT15-2023-12-31.xsd",
+        "bytes": 15175,
+        "crc32": "ce5c76a2"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2023-12-31-en/www.nepirockcastle.com/taxonomy/2023-12-31/549300FMWM53K9ULYT15-2023-12-31_ref.xml",
+        "bytes": 414,
+        "crc32": "f7190ae6"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2023-12-31-en/www.nepirockcastle.com/taxonomy/2023-12-31/549300FMWM53K9ULYT15-2023-12-31_cal.xml",
+        "bytes": 73476,
+        "crc32": "249537d8"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2023-12-31-en/reports/549300FMWM53K9ULYT15-2023-12-31-en.html",
+        "bytes": 92164374,
+        "crc32": "07b45067"
+      }
+    ],
+    "html_title": "Annual Report 2023",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_549300FMWM53K9ULYT15_2023.txt",
+    "output_sha256": "3594eccc9e65fdf7c2a53ac2c9d0e8b9350f13886bd9a7903a51c61af577830d",
+    "text_characters": 843006,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_549300FMWM53K9ULYT15_2024.txt",
+    "archive_sha256": "5b21f5ff37a37904c341403d497955d7f1d901d7d3d49682f65f1b6050ac79bd",
+    "archive_path": "sources_first_followup/raw/5b21f5ff37a37904c341403d497955d7f1d901d7d3d49682f65f1b6050ac79bd.zip",
+    "source_url": "https://filings.xbrl.org/549300FMWM53K9ULYT15/2024-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2024-12-31-en.zip",
+    "original_report_url": "https://filings.xbrl.org/549300FMWM53K9ULYT15/2024-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2024-12-31-en/reports/549300FMWM53K9ULYT15-2024-12-31.html",
+    "selected_member_path": "549300FMWM53K9ULYT15-2024-12-31-en/reports/549300FMWM53K9ULYT15-2024-12-31.html",
+    "selected_member_sha256": "63b5dbe4990af42439c23140e0fdae548f1464030b67d175637a78be24bc4456",
+    "selected_member_bytes": 102591884,
+    "archive_member_inventory": [
+      {
+        "path": "549300FMWM53K9ULYT15-2024-12-31-en/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2024-12-31-en/META-INF/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2024-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 1149,
+        "crc32": "aa7b5c38"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2024-12-31-en/META-INF/catalog.xml",
+        "bytes": 406,
+        "crc32": "c0bcf836"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2024-12-31-en/www.nepirockcastle.com/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2024-12-31-en/www.nepirockcastle.com/taxonomy/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2024-12-31-en/www.nepirockcastle.com/taxonomy/2024-12-31/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2024-12-31-en/www.nepirockcastle.com/taxonomy/2024-12-31/549300FMWM53K9ULYT15-2024-12-31.xsd",
+        "bytes": 13376,
+        "crc32": "183db184"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2024-12-31-en/www.nepirockcastle.com/taxonomy/2024-12-31/549300FMWM53K9ULYT15-2024-12-31_ref.xml",
+        "bytes": 399,
+        "crc32": "83370167"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2024-12-31-en/www.nepirockcastle.com/taxonomy/2024-12-31/549300FMWM53K9ULYT15-2024-12-31_def.xml",
+        "bytes": 185815,
+        "crc32": "0d50a5f6"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2024-12-31-en/www.nepirockcastle.com/taxonomy/2024-12-31/549300FMWM53K9ULYT15-2024-12-31_lab-en.xml",
+        "bytes": 35598,
+        "crc32": "a03608ac"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2024-12-31-en/www.nepirockcastle.com/taxonomy/2024-12-31/549300FMWM53K9ULYT15-2024-12-31_cal.xml",
+        "bytes": 62337,
+        "crc32": "f6969fd2"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2024-12-31-en/www.nepirockcastle.com/taxonomy/2024-12-31/549300FMWM53K9ULYT15-2024-12-31_pre.xml",
+        "bytes": 539652,
+        "crc32": "0b4191b6"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2024-12-31-en/reports/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "549300FMWM53K9ULYT15-2024-12-31-en/reports/549300FMWM53K9ULYT15-2024-12-31.html",
+        "bytes": 102591884,
+        "crc32": "6db792f4"
+      }
+    ],
+    "html_title": "NEPI Rockcastle N.V. Annual Report 2024",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_549300FMWM53K9ULYT15_2024.txt",
+    "output_sha256": "bf9b46450365c58cc46009f60c3e21bf15eccc2dc38c59036b5aa5d72d3629ce",
+    "text_characters": 990584,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_549300NYKK9MWM7GGW15_2024.txt",
+    "archive_sha256": "035cbd335f64b5b8f84ace016d7712fa3e1e559c70de05894d4e1c8eca31c872",
+    "archive_path": "sources_first_followup/raw/035cbd335f64b5b8f84ace016d7712fa3e1e559c70de05894d4e1c8eca31c872.zip",
+    "source_url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2024-12-31/ESEF/NL/0/ing-2024-12-31-en.zip",
+    "original_report_url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2024-12-31/ESEF/NL/0/ing-2024-12-31-en/reports/ing-2024-12-31-en.xhtml",
+    "selected_member_path": "ing-2024-12-31-en/reports/ing-2024-12-31-en.xhtml",
+    "selected_member_sha256": "2bf35b18001c8cef1038e0c4c8c45f4aff039bdb4a5a1fa0e558fbf9e5e8dfed",
+    "selected_member_bytes": 97695465,
+    "archive_member_inventory": [
+      {
+        "path": "ing-2024-12-31-en/reports/ing-2024-12-31-en.xhtml",
+        "bytes": 97695465,
+        "crc32": "6148252a"
+      },
+      {
+        "path": "ing-2024-12-31-en/www.ing.com/20241231/ing-2024-12-31_pre.xml",
+        "bytes": 235839,
+        "crc32": "1455bed5"
+      },
+      {
+        "path": "ing-2024-12-31-en/www.ing.com/20241231/ing-2024-12-31_def.xml",
+        "bytes": 244832,
+        "crc32": "fdfb9d89"
+      },
+      {
+        "path": "ing-2024-12-31-en/www.ing.com/20241231/ing-2024-12-31_lab-en.xml",
+        "bytes": 51717,
+        "crc32": "8ed02998"
+      },
+      {
+        "path": "ing-2024-12-31-en/www.ing.com/20241231/ing-2024-12-31_cal.xml",
+        "bytes": 61619,
+        "crc32": "e41b32ef"
+      },
+      {
+        "path": "ing-2024-12-31-en/www.ing.com/20241231/ing-2024-12-31.xsd",
+        "bytes": 16313,
+        "crc32": "8e6931cd"
+      },
+      {
+        "path": "ing-2024-12-31-en/META-INF/catalog.xml",
+        "bytes": 367,
+        "crc32": "0ec43835"
+      },
+      {
+        "path": "ing-2024-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 599,
+        "crc32": "e735565b"
+      },
+      {
+        "path": "ing-2024-12-31-en/META-INF/reportPackage.json",
+        "bytes": 72,
+        "crc32": "279ab10e"
+      }
+    ],
+    "html_title": "ing-2024-12-31-en",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_549300NYKK9MWM7GGW15_2024.txt",
+    "output_sha256": "647e941545a366b344a5e29b88810b1eb26dd670bd92f0f1de79bb97cc3ff778",
+    "text_characters": 1816179,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_549300NYKK9MWM7GGW15_2025.txt",
+    "archive_sha256": "ea953da6aeb6881d8efc440fadbcd715942b5fd913022c95bfddf49c90595c42",
+    "archive_path": "sources_first_followup/raw/ea953da6aeb6881d8efc440fadbcd715942b5fd913022c95bfddf49c90595c42.zip",
+    "source_url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2025-12-31/ESEF/NL/0/549300NYKK9MWM7GGW15-2025-12-31.xbri",
+    "original_report_url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2025-12-31/ESEF/NL/0/ing-2025-12-31-en/reports/ing-2025-12-31-en.xhtml",
+    "selected_member_path": "ing-2025-12-31-en/reports/ing-2025-12-31-en.xhtml",
+    "selected_member_sha256": "6b72c6331261eb6d902d6969162f980b669885d157a8b03bf06803c79c425779",
+    "selected_member_bytes": 121318256,
+    "archive_member_inventory": [
+      {
+        "path": "ing-2025-12-31-en/reports/ing-2025-12-31-en.xhtml",
+        "bytes": 121318256,
+        "crc32": "da9c1aea"
+      },
+      {
+        "path": "ing-2025-12-31-en/www.ing.com/20251231/ing-2025-12-31_pre.xml",
+        "bytes": 230367,
+        "crc32": "804156c0"
+      },
+      {
+        "path": "ing-2025-12-31-en/www.ing.com/20251231/ing-2025-12-31_def.xml",
+        "bytes": 237787,
+        "crc32": "e1309c2d"
+      },
+      {
+        "path": "ing-2025-12-31-en/www.ing.com/20251231/ing-2025-12-31_lab-en.xml",
+        "bytes": 50671,
+        "crc32": "789525b7"
+      },
+      {
+        "path": "ing-2025-12-31-en/www.ing.com/20251231/ing-2025-12-31_cal.xml",
+        "bytes": 77159,
+        "crc32": "605398e4"
+      },
+      {
+        "path": "ing-2025-12-31-en/www.ing.com/20251231/ing-2025-12-31.xsd",
+        "bytes": 15993,
+        "crc32": "0b75a7bb"
+      },
+      {
+        "path": "ing-2025-12-31-en/META-INF/catalog.xml",
+        "bytes": 367,
+        "crc32": "1c5f5ff3"
+      },
+      {
+        "path": "ing-2025-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 599,
+        "crc32": "949e11cf"
+      },
+      {
+        "path": "ing-2025-12-31-en/META-INF/reportPackage.json",
+        "bytes": 77,
+        "crc32": "87f0f66a"
+      }
+    ],
+    "html_title": "ing-2025-12-31-en",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_549300NYKK9MWM7GGW15_2025.txt",
+    "output_sha256": "549ea9102a229694e056abb0aeb5e4e1c37f95e2b1cdc71e1b4142db8c18c4d5",
+    "text_characters": 1667641,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_7245000UZH70GO047N03_2024.txt",
+    "archive_sha256": "75b39de909a05c2d799522914c40e9cb4b232a1ddf6ba70441f26775e98a5266",
+    "archive_path": "sources_first_followup/raw/75b39de909a05c2d799522914c40e9cb4b232a1ddf6ba70441f26775e98a5266.zip",
+    "source_url": "https://filings.xbrl.org/7245000UZH70GO047N03/2024-12-31/ESEF/NL/0/Arcadis_NV-2024-12-31-en.zip",
+    "original_report_url": "https://filings.xbrl.org/7245000UZH70GO047N03/2024-12-31/ESEF/NL/0/Arcadis_NV-2024-12-31-en/reports/Arcadis_NV-2024-12-31-en.xhtml",
+    "selected_member_path": "Arcadis_NV-2024-12-31-en/reports/Arcadis_NV-2024-12-31-en.xhtml",
+    "selected_member_sha256": "35ee4c01f50a41a7978c1e2d1b5cbd0500b7ecbb25fe453096ce5c06d686a68b",
+    "selected_member_bytes": 141271582,
+    "archive_member_inventory": [
+      {
+        "path": "Arcadis_NV-2024-12-31-en/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "Arcadis_NV-2024-12-31-en/META-INF/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "Arcadis_NV-2024-12-31-en/META-INF/catalog.xml",
+        "bytes": 388,
+        "crc32": "2e113258"
+      },
+      {
+        "path": "Arcadis_NV-2024-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 1537,
+        "crc32": "0181cb79"
+      },
+      {
+        "path": "Arcadis_NV-2024-12-31-en/www.arcadis.com/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "Arcadis_NV-2024-12-31-en/www.arcadis.com/V202502111035/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "Arcadis_NV-2024-12-31-en/www.arcadis.com/V202502111035/Arcadis_NV-2024-12-31_lab-en.xml",
+        "bytes": 21153,
+        "crc32": "3efe0bc4"
+      },
+      {
+        "path": "Arcadis_NV-2024-12-31-en/www.arcadis.com/V202502111035/Arcadis_NV-2024-12-31.xsd",
+        "bytes": 12006,
+        "crc32": "a6b0c571"
+      },
+      {
+        "path": "Arcadis_NV-2024-12-31-en/www.arcadis.com/V202502111035/Arcadis_NV-2024-12-31_pre.xml",
+        "bytes": 164745,
+        "crc32": "c88e34a5"
+      },
+      {
+        "path": "Arcadis_NV-2024-12-31-en/www.arcadis.com/V202502111035/Arcadis_NV-2024-12-31_cal.xml",
+        "bytes": 67510,
+        "crc32": "9aac9f3f"
+      },
+      {
+        "path": "Arcadis_NV-2024-12-31-en/www.arcadis.com/V202502111035/Arcadis_NV-2024-12-31_def.xml",
+        "bytes": 158268,
+        "crc32": "691e449f"
+      },
+      {
+        "path": "Arcadis_NV-2024-12-31-en/reports/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "Arcadis_NV-2024-12-31-en/reports/Arcadis_NV-2024-12-31-en.xhtml",
+        "bytes": 141271582,
+        "crc32": "85dfee56"
+      }
+    ],
+    "html_title": "Arcadis 24 AIR",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_7245000UZH70GO047N03_2024.txt",
+    "output_sha256": "ad2bcf76453c5cca78300a03a995b9c761c27b2b42e851a6eb4a6bdfee2c7015",
+    "text_characters": 835183,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_7245001I22ND6ZFHX623_2024.txt",
+    "archive_sha256": "73e02ab6be92c2efa4e21243a5b7bc7396c1818a59674ee756929bbdf1c9250d",
+    "archive_path": "sources_first_followup/raw/73e02ab6be92c2efa4e21243a5b7bc7396c1818a59674ee756929bbdf1c9250d.zip",
+    "source_url": "https://filings.xbrl.org/7245001I22ND6ZFHX623/2024-12-31/ESEF/NL/0/asm-2024-12-31-en.zip",
+    "original_report_url": "https://filings.xbrl.org/7245001I22ND6ZFHX623/2024-12-31/ESEF/NL/0/asm-2024-12-31-en/reports/asm-2024-12-31-en.xhtml",
+    "selected_member_path": "asm-2024-12-31-en/reports/asm-2024-12-31-en.xhtml",
+    "selected_member_sha256": "30c6fba654b88c2b183aa99a1de523c3ae9f1da21b3c78e8307395b2d339f6cd",
+    "selected_member_bytes": 115297816,
+    "archive_member_inventory": [
+      {
+        "path": "asm-2024-12-31-en/reports/asm-2024-12-31-en.xhtml",
+        "bytes": 115297816,
+        "crc32": "aee4eae4"
+      },
+      {
+        "path": "asm-2024-12-31-en/www.asm.com/20241231/asm-2024-12-31_pre.xml",
+        "bytes": 143991,
+        "crc32": "31d47d82"
+      },
+      {
+        "path": "asm-2024-12-31-en/www.asm.com/20241231/asm-2024-12-31_def.xml",
+        "bytes": 127630,
+        "crc32": "ce965b2f"
+      },
+      {
+        "path": "asm-2024-12-31-en/www.asm.com/20241231/asm-2024-12-31_lab-en.xml",
+        "bytes": 104771,
+        "crc32": "9686a1ef"
+      },
+      {
+        "path": "asm-2024-12-31-en/www.asm.com/20241231/asm-2024-12-31_cal.xml",
+        "bytes": 60652,
+        "crc32": "8516484a"
+      },
+      {
+        "path": "asm-2024-12-31-en/www.asm.com/20241231/asm-2024-12-31.xsd",
+        "bytes": 8504,
+        "crc32": "159b2102"
+      },
+      {
+        "path": "asm-2024-12-31-en/META-INF/catalog.xml",
+        "bytes": 367,
+        "crc32": "8ed40514"
+      },
+      {
+        "path": "asm-2024-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 599,
+        "crc32": "314a0910"
+      },
+      {
+        "path": "asm-2024-12-31-en/META-INF/reportPackage.json",
+        "bytes": 72,
+        "crc32": "279ab10e"
+      }
+    ],
+    "html_title": "asm-2024-12-31-en",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_7245001I22ND6ZFHX623_2024.txt",
+    "output_sha256": "2080b907700775ba57bbef2995b9f6db00457f77f1f5b798e6dfaff306671d5b",
+    "text_characters": 830745,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_7245001I22ND6ZFHX623_2025.txt",
+    "archive_sha256": "96b5830489aa66bbc02a0d960b8ff20f0b0d8d78e59dc7e16ac088cbc18d3e45",
+    "archive_path": "sources_first_followup/raw/96b5830489aa66bbc02a0d960b8ff20f0b0d8d78e59dc7e16ac088cbc18d3e45.zip",
+    "source_url": "https://filings.xbrl.org/7245001I22ND6ZFHX623/2025-12-31/ESEF/NL/0/7245001I22ND6ZFHX623-2025-12-31.xbri",
+    "original_report_url": "https://filings.xbrl.org/7245001I22ND6ZFHX623/2025-12-31/ESEF/NL/0/asm-2025-12-31-1-en/reports/asm-2025-12-31-1-en.xhtml",
+    "selected_member_path": "asm-2025-12-31-1-en/reports/asm-2025-12-31-1-en.xhtml",
+    "selected_member_sha256": "fb681ffb83fba550c0d37edbf0211b5c5622059a86c75bcd597a2b9486992dcc",
+    "selected_member_bytes": 89148898,
+    "archive_member_inventory": [
+      {
+        "path": "asm-2025-12-31-1-en/reports/asm-2025-12-31-1-en.xhtml",
+        "bytes": 89148898,
+        "crc32": "b7b9f989"
+      },
+      {
+        "path": "asm-2025-12-31-1-en/www.asm.com/20251231/asm-2025-12-31_pre.xml",
+        "bytes": 182073,
+        "crc32": "79da2a75"
+      },
+      {
+        "path": "asm-2025-12-31-1-en/www.asm.com/20251231/asm-2025-12-31_def.xml",
+        "bytes": 170642,
+        "crc32": "5a47cc4b"
+      },
+      {
+        "path": "asm-2025-12-31-1-en/www.asm.com/20251231/asm-2025-12-31_lab-en.xml",
+        "bytes": 33181,
+        "crc32": "80aff607"
+      },
+      {
+        "path": "asm-2025-12-31-1-en/www.asm.com/20251231/asm-2025-12-31_cal.xml",
+        "bytes": 63534,
+        "crc32": "d66ce882"
+      },
+      {
+        "path": "asm-2025-12-31-1-en/www.asm.com/20251231/asm-2025-12-31.xsd",
+        "bytes": 10384,
+        "crc32": "835b5bfd"
+      },
+      {
+        "path": "asm-2025-12-31-1-en/META-INF/catalog.xml",
+        "bytes": 367,
+        "crc32": "9c4f62d2"
+      },
+      {
+        "path": "asm-2025-12-31-1-en/META-INF/taxonomyPackage.xml",
+        "bytes": 599,
+        "crc32": "42e14e84"
+      },
+      {
+        "path": "asm-2025-12-31-1-en/META-INF/reportPackage.json",
+        "bytes": 77,
+        "crc32": "87f0f66a"
+      }
+    ],
+    "html_title": "asm-2025-12-31-1-en",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_7245001I22ND6ZFHX623_2025.txt",
+    "output_sha256": "d3bd602b350d4b2d1dd0b6b3d1d12b19ccf1d1ea2ae27e5803eb08401eed3503",
+    "text_characters": 961026,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500D8WOYCL1BUCB80_2023.txt",
+    "archive_sha256": "b4ca333f91aac461462885813aa7975f09dd2aa3535f9f9e6371e4eed5e8d291",
+    "archive_path": "sources_first_followup/raw/b4ca333f91aac461462885813aa7975f09dd2aa3535f9f9e6371e4eed5e8d291.zip",
+    "source_url": "https://filings.xbrl.org/724500D8WOYCL1BUCB80/2023-12-31/ESEF/NL/0/vlk-2023-12-31-en.zip",
+    "original_report_url": "https://filings.xbrl.org/724500D8WOYCL1BUCB80/2023-12-31/ESEF/NL/0/vlk-2023-12-31-en/reports/vlk-2023-12-31-en.xhtml",
+    "selected_member_path": "vlk-2023-12-31-en/reports/vlk-2023-12-31-en.xhtml",
+    "selected_member_sha256": "fd12ea7f246142604fe450d6a5af0a68b835353e1217181cc931d691cb457c2a",
+    "selected_member_bytes": 197273633,
+    "archive_member_inventory": [
+      {
+        "path": "vlk-2023-12-31-en/reports/vlk-2023-12-31-en.xhtml",
+        "bytes": 197273633,
+        "crc32": "06f4895e"
+      },
+      {
+        "path": "vlk-2023-12-31-en/www.vanlanschotkempen.com/20231231/vlk-2023-12-31_pre.xml",
+        "bytes": 241511,
+        "crc32": "9faa397e"
+      },
+      {
+        "path": "vlk-2023-12-31-en/www.vanlanschotkempen.com/20231231/vlk-2023-12-31_def.xml",
+        "bytes": 242310,
+        "crc32": "cd4f6aa5"
+      },
+      {
+        "path": "vlk-2023-12-31-en/www.vanlanschotkempen.com/20231231/vlk-2023-12-31_lab-en.xml",
+        "bytes": 62080,
+        "crc32": "51af1c24"
+      },
+      {
+        "path": "vlk-2023-12-31-en/www.vanlanschotkempen.com/20231231/vlk-2023-12-31_cal.xml",
+        "bytes": 97211,
+        "crc32": "1c4b78b0"
+      },
+      {
+        "path": "vlk-2023-12-31-en/www.vanlanschotkempen.com/20231231/vlk-2023-12-31.xsd",
+        "bytes": 19023,
+        "crc32": "c1900dc2"
+      },
+      {
+        "path": "vlk-2023-12-31-en/META-INF/catalog.xml",
+        "bytes": 395,
+        "crc32": "20de2f70"
+      },
+      {
+        "path": "vlk-2023-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 627,
+        "crc32": "d2e05007"
+      }
+    ],
+    "html_title": "vlk-2023-12-31-en",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500D8WOYCL1BUCB80_2023.txt",
+    "output_sha256": "9e0d324437b56424e9d105affed7d7561faa544e23131e5f4468e7c0351a33ca",
+    "text_characters": 819570,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500DP8SZN3NBQKC44_2021.txt",
+    "archive_sha256": "5748308a3e9abb5cae70f55c729f9bd48ede50b77757083de3e196817e5a1bfd",
+    "archive_path": "sources_first_followup/raw/5748308a3e9abb5cae70f55c729f9bd48ede50b77757083de3e196817e5a1bfd.zip",
+    "source_url": "https://filings.xbrl.org/724500DP8SZN3NBQKC44/2021-12-31/ESEF/NL/0/724500DP8SZN3NBQKC44-2021-12-31-en.zip",
+    "original_report_url": "https://filings.xbrl.org/724500DP8SZN3NBQKC44/2021-12-31/ESEF/NL/0/724500DP8SZN3NBQKC44-2021-12-31-en/reports/724500DP8SZN3NBQKC44-2021-12-31-en.xhtml",
+    "selected_member_path": "724500DP8SZN3NBQKC44-2021-12-31-en/reports/724500DP8SZN3NBQKC44-2021-12-31-en.xhtml",
+    "selected_member_sha256": "45af1f529242d2584bb8a67640fffc8502ffeffe6fc41413c6b4def0437cd74f",
+    "selected_member_bytes": 84117929,
+    "archive_member_inventory": [
+      {
+        "path": "724500DP8SZN3NBQKC44-2021-12-31-en/dgb.earth/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2021-12-31-en/dgb.earth/2021-12-31/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2021-12-31-en/dgb.earth/2021-12-31/724500DP8SZN3NBQKC44-2021-12-31.xsd",
+        "bytes": 6384,
+        "crc32": "ce0a661a"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2021-12-31-en/dgb.earth/2021-12-31/724500DP8SZN3NBQKC44-2021-12-31_cal.xml",
+        "bytes": 46062,
+        "crc32": "cb2899d2"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2021-12-31-en/dgb.earth/2021-12-31/724500DP8SZN3NBQKC44-2021-12-31_def.xml",
+        "bytes": 74154,
+        "crc32": "75b533c1"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2021-12-31-en/dgb.earth/2021-12-31/724500DP8SZN3NBQKC44-2021-12-31_lab-en.xml",
+        "bytes": 9824,
+        "crc32": "8266cb14"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2021-12-31-en/dgb.earth/2021-12-31/724500DP8SZN3NBQKC44-2021-12-31_pre.xml",
+        "bytes": 79712,
+        "crc32": "3d74f055"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2021-12-31-en/dgb.earth/2021-12-31/724500DP8SZN3NBQKC44-2021-12-31_ref.xml",
+        "bytes": 414,
+        "crc32": "f7190ae6"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2021-12-31-en/META-INF/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2021-12-31-en/META-INF/catalog.xml",
+        "bytes": 359,
+        "crc32": "f4aa0cc1"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2021-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 1377,
+        "crc32": "6c69c1e1"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2021-12-31-en/reports/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2021-12-31-en/reports/724500DP8SZN3NBQKC44-2021-12-31-en.xhtml",
+        "bytes": 84117929,
+        "crc32": "9b743dc2"
+      }
+    ],
+    "html_title": "Untitled",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500DP8SZN3NBQKC44_2021.txt",
+    "output_sha256": "4b8e158847c337b13f7d77c4031ef9cdb83de8eef4cd5e598fb2311e01516a0a",
+    "text_characters": 333985,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500DP8SZN3NBQKC44_2022.txt",
+    "archive_sha256": "ad365098eb4d780e59c75a9aa06040a852129bce138d6a35c5d44541de6520a3",
+    "archive_path": "sources_first_followup/raw/ad365098eb4d780e59c75a9aa06040a852129bce138d6a35c5d44541de6520a3.zip",
+    "source_url": "https://filings.xbrl.org/724500DP8SZN3NBQKC44/2022-12-31/ESEF/NL/1/724500DP8SZN3NBQKC44-2022-12-31-en.zip",
+    "original_report_url": "https://filings.xbrl.org/724500DP8SZN3NBQKC44/2022-12-31/ESEF/NL/1/724500DP8SZN3NBQKC44-2022-12-31-en/reports/724500DP8SZN3NBQKC44-2022-12-31-en.xhtml",
+    "selected_member_path": "724500DP8SZN3NBQKC44-2022-12-31-en/reports/724500DP8SZN3NBQKC44-2022-12-31-en.xhtml",
+    "selected_member_sha256": "f852b06ecb27b3f2203538b0a0d1fcbc85dbb79ec4ac950878c724b6515d291d",
+    "selected_member_bytes": 146698059,
+    "archive_member_inventory": [
+      {
+        "path": "724500DP8SZN3NBQKC44-2022-12-31-en/green.earth/2022-12-31/724500DP8SZN3NBQKC44-2022-12-31_cal.xml",
+        "bytes": 47427,
+        "crc32": "8c94321d"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2022-12-31-en/green.earth/2022-12-31/724500DP8SZN3NBQKC44-2022-12-31_def.xml",
+        "bytes": 95995,
+        "crc32": "3f4bbd86"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2022-12-31-en/green.earth/2022-12-31/724500DP8SZN3NBQKC44-2022-12-31_pre.xml",
+        "bytes": 103632,
+        "crc32": "69fdf33e"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2022-12-31-en/green.earth/2022-12-31/724500DP8SZN3NBQKC44-2022-12-31_lab-en.xml",
+        "bytes": 12884,
+        "crc32": "a43ebda3"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2022-12-31-en/green.earth/2022-12-31/724500DP8SZN3NBQKC44-2022-12-31_ref.xml",
+        "bytes": 414,
+        "crc32": "f7190ae6"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2022-12-31-en/green.earth/2022-12-31/724500DP8SZN3NBQKC44-2022-12-31.xsd",
+        "bytes": 6775,
+        "crc32": "7476c468"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2022-12-31-en/META-INF/catalog.xml",
+        "bytes": 363,
+        "crc32": "ff10f123"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2022-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 1367,
+        "crc32": "07244341"
+      },
+      {
+        "path": "724500DP8SZN3NBQKC44-2022-12-31-en/reports/724500DP8SZN3NBQKC44-2022-12-31-en.xhtml",
+        "bytes": 146698059,
+        "crc32": "7fbf62c4"
+      }
+    ],
+    "html_title": "DGB Group N.V.",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500DP8SZN3NBQKC44_2022.txt",
+    "output_sha256": "51a025a3ca2ae5f87b9894f73f98732b65ea155c4e96518c2f5c71f462790b99",
+    "text_characters": 315126,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500EHG519SE5ZRT89_2023.txt",
+    "archive_sha256": "1d98278200940286d0eb736b5bd675ef4993a506588db1312361af2cc9c6cb3b",
+    "archive_path": "sources_first_followup/raw/1d98278200940286d0eb736b5bd675ef4993a506588db1312361af2cc9c6cb3b.zip",
+    "source_url": "https://filings.xbrl.org/724500EHG519SE5ZRT89/2023-12-31/ESEF/NL/0/jdep-2023-12-31-en.zip",
+    "original_report_url": "https://filings.xbrl.org/724500EHG519SE5ZRT89/2023-12-31/ESEF/NL/0/jdep-2023-12-31-en/reports/jdep-2023-12-31-en.xhtml",
+    "selected_member_path": "jdep-2023-12-31-en/reports/jdep-2023-12-31-en.xhtml",
+    "selected_member_sha256": "dc4c6f1672580b50c3341383254fe0d096a08f2a96fd631afa43cae3effe16a9",
+    "selected_member_bytes": 107406657,
+    "archive_member_inventory": [
+      {
+        "path": "jdep-2023-12-31-en/reports/jdep-2023-12-31-en.xhtml",
+        "bytes": 107406657,
+        "crc32": "9aa33bd8"
+      },
+      {
+        "path": "jdep-2023-12-31-en/www.jdepeets.com/20231231/jdep-2023-12-31_pre.xml",
+        "bytes": 212754,
+        "crc32": "544cf405"
+      },
+      {
+        "path": "jdep-2023-12-31-en/www.jdepeets.com/20231231/jdep-2023-12-31_def.xml",
+        "bytes": 184527,
+        "crc32": "26f15240"
+      },
+      {
+        "path": "jdep-2023-12-31-en/www.jdepeets.com/20231231/jdep-2023-12-31_lab-en.xml",
+        "bytes": 27201,
+        "crc32": "0fddfd00"
+      },
+      {
+        "path": "jdep-2023-12-31-en/www.jdepeets.com/20231231/jdep-2023-12-31_cal.xml",
+        "bytes": 61889,
+        "crc32": "ab3a02de"
+      },
+      {
+        "path": "jdep-2023-12-31-en/www.jdepeets.com/20231231/jdep-2023-12-31.xsd",
+        "bytes": 9474,
+        "crc32": "6d82ca91"
+      },
+      {
+        "path": "jdep-2023-12-31-en/META-INF/catalog.xml",
+        "bytes": 377,
+        "crc32": "d414a10c"
+      },
+      {
+        "path": "jdep-2023-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 610,
+        "crc32": "9bea4798"
+      }
+    ],
+    "html_title": "jdep-2023-12-31-en",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500EHG519SE5ZRT89_2023.txt",
+    "output_sha256": "51cd370d516b26d29bd97f582b50681600513ae4e8db85dae3467fe72a53c44a",
+    "text_characters": 939073,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500FLODI49NSCIP70_2024.txt",
+    "archive_sha256": "99b80e39c47850cc3f600304ad557035697294cebadff1231debe9d6ffde99c6",
+    "archive_path": "sources_first_followup/raw/99b80e39c47850cc3f600304ad557035697294cebadff1231debe9d6ffde99c6.zip",
+    "source_url": "https://filings.xbrl.org/724500FLODI49NSCIP70/2024-12-31/ESEF/NL/0/ten-2024-12-31-0-en.zip",
+    "original_report_url": "https://filings.xbrl.org/724500FLODI49NSCIP70/2024-12-31/ESEF/NL/0/ten-2024-12-31-0-en/reports/ten-2024-12-31-0-en.xhtml",
+    "selected_member_path": "ten-2024-12-31-0-en/reports/ten-2024-12-31-0-en.xhtml",
+    "selected_member_sha256": "79056462223cd3f474cdd1449d8adeebec038768b1d306f45df5c403a887c7e9",
+    "selected_member_bytes": 130873630,
+    "archive_member_inventory": [
+      {
+        "path": "ten-2024-12-31-0-en/reports/ten-2024-12-31-0-en.xhtml",
+        "bytes": 130873630,
+        "crc32": "9b9efda6"
+      },
+      {
+        "path": "ten-2024-12-31-0-en/technipenergies.com/20241231/ten-2024-12-31_pre.xml",
+        "bytes": 192386,
+        "crc32": "3f5b30da"
+      },
+      {
+        "path": "ten-2024-12-31-0-en/technipenergies.com/20241231/ten-2024-12-31_def.xml",
+        "bytes": 183084,
+        "crc32": "bed7a60d"
+      },
+      {
+        "path": "ten-2024-12-31-0-en/technipenergies.com/20241231/ten-2024-12-31_lab-en.xml",
+        "bytes": 31672,
+        "crc32": "1d05882c"
+      },
+      {
+        "path": "ten-2024-12-31-0-en/technipenergies.com/20241231/ten-2024-12-31_cal.xml",
+        "bytes": 72877,
+        "crc32": "7ee0db19"
+      },
+      {
+        "path": "ten-2024-12-31-0-en/technipenergies.com/20241231/ten-2024-12-31.xsd",
+        "bytes": 9810,
+        "crc32": "9362b6a7"
+      },
+      {
+        "path": "ten-2024-12-31-0-en/META-INF/catalog.xml",
+        "bytes": 383,
+        "crc32": "b8642596"
+      },
+      {
+        "path": "ten-2024-12-31-0-en/META-INF/taxonomyPackage.xml",
+        "bytes": 615,
+        "crc32": "f74bd5c9"
+      },
+      {
+        "path": "ten-2024-12-31-0-en/META-INF/reportPackage.json",
+        "bytes": 72,
+        "crc32": "279ab10e"
+      }
+    ],
+    "html_title": "ten-2024-12-31-0-en",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500FLODI49NSCIP70_2024.txt",
+    "output_sha256": "2d9cb450eca8fa47a701967f1c970db523a4e159042162da2e63cd1776b12f4c",
+    "text_characters": 1455529,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500FLODI49NSCIP70_2025.txt",
+    "archive_sha256": "7c3b5d4b431ee0c5909934175684eb4c1f8942ac2f8f9f7aefd925b55a3b2447",
+    "archive_path": "sources_first_followup/raw/7c3b5d4b431ee0c5909934175684eb4c1f8942ac2f8f9f7aefd925b55a3b2447.zip",
+    "source_url": "https://filings.xbrl.org/724500FLODI49NSCIP70/2025-12-31/ESEF/NL/0/724500FLODI49NSCIP70-2025-12-31.xbri",
+    "original_report_url": "https://filings.xbrl.org/724500FLODI49NSCIP70/2025-12-31/ESEF/NL/0/ten-2025-12-31-1-en/reports/ten-2025-12-31-1-en.xhtml",
+    "selected_member_path": "ten-2025-12-31-1-en/reports/ten-2025-12-31-1-en.xhtml",
+    "selected_member_sha256": "291c9d3d1c577d737c5141ebb3cc751967d3aef9d594e16fbc370c2b03ca51c2",
+    "selected_member_bytes": 154577306,
+    "archive_member_inventory": [
+      {
+        "path": "ten-2025-12-31-1-en/reports/ten-2025-12-31-1-en.xhtml",
+        "bytes": 154577306,
+        "crc32": "a4b9a7c0"
+      },
+      {
+        "path": "ten-2025-12-31-1-en/ten.com/20251231/ten-2025-12-31_pre.xml",
+        "bytes": 195903,
+        "crc32": "3d397745"
+      },
+      {
+        "path": "ten-2025-12-31-1-en/ten.com/20251231/ten-2025-12-31_def.xml",
+        "bytes": 189365,
+        "crc32": "27cb8a43"
+      },
+      {
+        "path": "ten-2025-12-31-1-en/ten.com/20251231/ten-2025-12-31_lab-en.xml",
+        "bytes": 32263,
+        "crc32": "d1224a17"
+      },
+      {
+        "path": "ten-2025-12-31-1-en/ten.com/20251231/ten-2025-12-31_cal.xml",
+        "bytes": 73487,
+        "crc32": "248b38c4"
+      },
+      {
+        "path": "ten-2025-12-31-1-en/ten.com/20251231/ten-2025-12-31.xsd",
+        "bytes": 9598,
+        "crc32": "bb2e5818"
+      },
+      {
+        "path": "ten-2025-12-31-1-en/META-INF/catalog.xml",
+        "bytes": 359,
+        "crc32": "a31291d2"
+      },
+      {
+        "path": "ten-2025-12-31-1-en/META-INF/taxonomyPackage.xml",
+        "bytes": 668,
+        "crc32": "fb313902"
+      },
+      {
+        "path": "ten-2025-12-31-1-en/META-INF/reportPackage.json",
+        "bytes": 77,
+        "crc32": "87f0f66a"
+      }
+    ],
+    "html_title": "ten-2025-12-31-1-en",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500FLODI49NSCIP70_2025.txt",
+    "output_sha256": "aa86ef67655729f1bd7ad963f218d84ab49f7841a6ff98ec41f60b2cd4c4f0ae",
+    "text_characters": 1511554,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500GJBUL3D9TW9Y18_2021.txt",
+    "archive_sha256": "059e1f8eb904d588c6fb1dbbc8521d6e3ef6c8fce96ce901840b3520814bd4c9",
+    "archive_path": "sources_first_followup/raw/059e1f8eb904d588c6fb1dbbc8521d6e3ef6c8fce96ce901840b3520814bd4c9.zip",
+    "source_url": "https://filings.xbrl.org/724500GJBUL3D9TW9Y18/2021-12-31/ESEF/NL/0/universalmusicgroup-2021-12-31-en.zip",
+    "original_report_url": "https://filings.xbrl.org/724500GJBUL3D9TW9Y18/2021-12-31/ESEF/NL/0/universalmusicgroup-2021-12-31-en/reports/universalmusicgroup-2021-12-31-en.xhtml",
+    "selected_member_path": "universalmusicgroup-2021-12-31-en/reports/universalmusicgroup-2021-12-31-en.xhtml",
+    "selected_member_sha256": "1b0b3be96586fb846dca5508bca327ed1053eb8b1b23ae4b7f01761cf5cf8c5b",
+    "selected_member_bytes": 200707177,
+    "archive_member_inventory": [
+      {
+        "path": "universalmusicgroup-2021-12-31-en/META-INF/catalog.xml",
+        "bytes": 399,
+        "crc32": "96e13ee9"
+      },
+      {
+        "path": "universalmusicgroup-2021-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 1493,
+        "crc32": "bf1a830f"
+      },
+      {
+        "path": "universalmusicgroup-2021-12-31-en/reports/universalmusicgroup-2021-12-31-en.xhtml",
+        "bytes": 200707177,
+        "crc32": "2253a8c1"
+      },
+      {
+        "path": "universalmusicgroup-2021-12-31-en/universalmusicgroup.com/xbrl/2021/universalmusicgroup-2021-12-31.xsd",
+        "bytes": 12961,
+        "crc32": "22e2c0dd"
+      },
+      {
+        "path": "universalmusicgroup-2021-12-31-en/universalmusicgroup.com/xbrl/2021/universalmusicgroup-2021-12-31_cal.xml",
+        "bytes": 57180,
+        "crc32": "e0c93cc7"
+      },
+      {
+        "path": "universalmusicgroup-2021-12-31-en/universalmusicgroup.com/xbrl/2021/universalmusicgroup-2021-12-31_def.xml",
+        "bytes": 88087,
+        "crc32": "454c1d77"
+      },
+      {
+        "path": "universalmusicgroup-2021-12-31-en/universalmusicgroup.com/xbrl/2021/universalmusicgroup-2021-12-31_lab-en.xml",
+        "bytes": 27769,
+        "crc32": "43dcf6f6"
+      },
+      {
+        "path": "universalmusicgroup-2021-12-31-en/universalmusicgroup.com/xbrl/2021/universalmusicgroup-2021-12-31_pre.xml",
+        "bytes": 77945,
+        "crc32": "149259de"
+      }
+    ],
+    "html_title": "",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500GJBUL3D9TW9Y18_2021.txt",
+    "output_sha256": "37fa35a96291f17bb4a1a29bf02f1f2c863dfcab173423bee577f68dd371aa13",
+    "text_characters": 745492,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500K5PTPSST86UQ23_2021.txt",
+    "archive_sha256": "f20fbdec57092e1d3e0dad8909fe646fa895df839474182ebaa8f62eb5813611",
+    "archive_path": "sources_first_followup/raw/f20fbdec57092e1d3e0dad8909fe646fa895df839474182ebaa8f62eb5813611.zip",
+    "source_url": "https://filings.xbrl.org/724500K5PTPSST86UQ23/2021-12-31/ESEF/NL/0/heia-2021-12-31-en.zip",
+    "original_report_url": "https://filings.xbrl.org/724500K5PTPSST86UQ23/2021-12-31/ESEF/NL/0/heia-2021-12-31-en/reports/heia-2021-12-31-en.xhtml",
+    "selected_member_path": "heia-2021-12-31-en/reports/heia-2021-12-31-en.xhtml",
+    "selected_member_sha256": "19d21a9e19f8929fb49fa1a5df7cb8d96032068fbaad9e6b12ce074850355b32",
+    "selected_member_bytes": 96753056,
+    "archive_member_inventory": [
+      {
+        "path": "heia-2021-12-31-en/reports/heia-2021-12-31-en.xhtml",
+        "bytes": 96753056,
+        "crc32": "09d94626"
+      },
+      {
+        "path": "heia-2021-12-31-en/theheinekencompany.com/20211231/heia-2021-12-31_lab-en.xml",
+        "bytes": 146869,
+        "crc32": "da6da509"
+      },
+      {
+        "path": "heia-2021-12-31-en/theheinekencompany.com/20211231/heia-2021-12-31_pre.xml",
+        "bytes": 115502,
+        "crc32": "d8c96f4d"
+      },
+      {
+        "path": "heia-2021-12-31-en/theheinekencompany.com/20211231/heia-2021-12-31_cal.xml",
+        "bytes": 72759,
+        "crc32": "fe27be91"
+      },
+      {
+        "path": "heia-2021-12-31-en/theheinekencompany.com/20211231/heia-2021-12-31_def.xml",
+        "bytes": 118875,
+        "crc32": "c3136da4"
+      },
+      {
+        "path": "heia-2021-12-31-en/theheinekencompany.com/20211231/heia-2021-12-31.xsd",
+        "bytes": 15195,
+        "crc32": "39f3e937"
+      },
+      {
+        "path": "heia-2021-12-31-en/META-INF/catalog.xml",
+        "bytes": 389,
+        "crc32": "3ab6a2a8"
+      },
+      {
+        "path": "heia-2021-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 541,
+        "crc32": "65057db0"
+      }
+    ],
+    "html_title": "heia-2021-12-31-en",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500K5PTPSST86UQ23_2021.txt",
+    "output_sha256": "bae8de41dcac0001ced565a06b940852b5ed84adfe332d6c8fc0cc7c748da18a",
+    "text_characters": 723631,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500OUE3PCA809DZ79_2021.txt",
+    "archive_sha256": "0673a43aa216f03a3dacf67298c87aa99df4b573486fc1f1a3be625aac217055",
+    "archive_path": "sources_first_followup/raw/0673a43aa216f03a3dacf67298c87aa99df4b573486fc1f1a3be625aac217055.zip",
+    "source_url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2021-12-31/ESEF/NL/0/724500OUE3PCA809DZ79-2021-12-31-nl.zip",
+    "original_report_url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2021-12-31/ESEF/NL/0/724500OUE3PCA809DZ79-2021-12-31-nl/reports/724500OUE3PCA809DZ79-2021-12-31-nl.xhtml",
+    "selected_member_path": "724500OUE3PCA809DZ79-2021-12-31-nl/reports/724500OUE3PCA809DZ79-2021-12-31-nl.xhtml",
+    "selected_member_sha256": "8d514d9fc5cb665e92854b1cc59c7ceb8badc1cd931257b92db51a1b5746c1d3",
+    "selected_member_bytes": 120045245,
+    "archive_member_inventory": [
+      {
+        "path": "724500OUE3PCA809DZ79-2021-12-31-nl/heijmans.nl/2021-12-31/724500OUE3PCA809DZ79-2021-12-31_def.xml",
+        "bytes": 72780,
+        "crc32": "74306c4a"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2021-12-31-nl/heijmans.nl/2021-12-31/724500OUE3PCA809DZ79-2021-12-31_pre.xml",
+        "bytes": 77700,
+        "crc32": "4cb793b6"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2021-12-31-nl/heijmans.nl/2021-12-31/724500OUE3PCA809DZ79-2021-12-31_cal.xml",
+        "bytes": 50733,
+        "crc32": "abc3ec6b"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2021-12-31-nl/heijmans.nl/2021-12-31/724500OUE3PCA809DZ79-2021-12-31_lab-en.xml",
+        "bytes": 18242,
+        "crc32": "62034ba7"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2021-12-31-nl/heijmans.nl/2021-12-31/724500OUE3PCA809DZ79-2021-12-31_lab-nl.xml",
+        "bytes": 29169,
+        "crc32": "3fde1efa"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2021-12-31-nl/heijmans.nl/2021-12-31/724500OUE3PCA809DZ79-2021-12-31_ref.xml",
+        "bytes": 414,
+        "crc32": "f7190ae6"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2021-12-31-nl/heijmans.nl/2021-12-31/724500OUE3PCA809DZ79-2021-12-31.xsd",
+        "bytes": 8824,
+        "crc32": "f0a3c3a0"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2021-12-31-nl/META-INF/catalog.xml",
+        "bytes": 363,
+        "crc32": "2f1f4e06"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2021-12-31-nl/META-INF/taxonomyPackage.xml",
+        "bytes": 1411,
+        "crc32": "66713ffb"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2021-12-31-nl/reports/724500OUE3PCA809DZ79-2021-12-31-nl.xhtml",
+        "bytes": 120045245,
+        "crc32": "d923adc4"
+      }
+    ],
+    "html_title": "Untitled",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500OUE3PCA809DZ79_2021.txt",
+    "output_sha256": "14b5e2bc218478e8618c6a0b08d6932ccb42a22a74bdb19e47b0e1f81909a23e",
+    "text_characters": 802721,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500OUE3PCA809DZ79_2024.txt",
+    "archive_sha256": "a6f5db4d377cf920ff351d9f289cd0384e3357111938a7e6651c58807b6f7c1b",
+    "archive_path": "sources_first_followup/raw/a6f5db4d377cf920ff351d9f289cd0384e3357111938a7e6651c58807b6f7c1b.zip",
+    "source_url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2024-12-31/ESEF/NL/0/Heijmans-2024-12-31-nl.zip",
+    "original_report_url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2024-12-31/ESEF/NL/0/Heijmans-2024-12-31-nl/reports/Heijmans-2024-12-31-nl.xhtml",
+    "selected_member_path": "Heijmans-2024-12-31-nl/reports/Heijmans-2024-12-31-nl.xhtml",
+    "selected_member_sha256": "78f4814cdf0a12f864dec493b23aa11321667f4e639a7972052ea4eefbdeddf9",
+    "selected_member_bytes": 135392807,
+    "archive_member_inventory": [
+      {
+        "path": "Heijmans-2024-12-31-nl/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "Heijmans-2024-12-31-nl/META-INF/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "Heijmans-2024-12-31-nl/META-INF/catalog.xml",
+        "bytes": 388,
+        "crc32": "1d7367e3"
+      },
+      {
+        "path": "Heijmans-2024-12-31-nl/META-INF/taxonomyPackage.xml",
+        "bytes": 1449,
+        "crc32": "bff2a597"
+      },
+      {
+        "path": "Heijmans-2024-12-31-nl/www.heijmans.nl/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "Heijmans-2024-12-31-nl/www.heijmans.nl/V202503111130/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "Heijmans-2024-12-31-nl/www.heijmans.nl/V202503111130/Heijmans-2024-12-31_cal.xml",
+        "bytes": 50375,
+        "crc32": "f6f809b4"
+      },
+      {
+        "path": "Heijmans-2024-12-31-nl/www.heijmans.nl/V202503111130/Heijmans-2024-12-31_lab-en.xml",
+        "bytes": 6243,
+        "crc32": "36b95513"
+      },
+      {
+        "path": "Heijmans-2024-12-31-nl/www.heijmans.nl/V202503111130/Heijmans-2024-12-31.xsd",
+        "bytes": 7758,
+        "crc32": "86274f91"
+      },
+      {
+        "path": "Heijmans-2024-12-31-nl/www.heijmans.nl/V202503111130/Heijmans-2024-12-31_def.xml",
+        "bytes": 125209,
+        "crc32": "656f7b3e"
+      },
+      {
+        "path": "Heijmans-2024-12-31-nl/www.heijmans.nl/V202503111130/Heijmans-2024-12-31_pre.xml",
+        "bytes": 144774,
+        "crc32": "d6a3fa95"
+      },
+      {
+        "path": "Heijmans-2024-12-31-nl/www.heijmans.nl/V202503111130/Heijmans-2024-12-31_lab-nl.xml",
+        "bytes": 7816,
+        "crc32": "f896f5ce"
+      },
+      {
+        "path": "Heijmans-2024-12-31-nl/reports/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "Heijmans-2024-12-31-nl/reports/Heijmans-2024-12-31-nl.xhtml",
+        "bytes": 135392807,
+        "crc32": "8b824793"
+      }
+    ],
+    "html_title": "Jaarverslag 2024",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500OUE3PCA809DZ79_2024.txt",
+    "output_sha256": "a0f461ef7e0a96a6c9cebfae152a2d5dfccbeadc7db600fd039bb1e546c2fafd",
+    "text_characters": 1037028,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500OUE3PCA809DZ79_2025.txt",
+    "archive_sha256": "dbce3e1ff7ed71feb94f075f61e1bc5e30fdf75d9f12ea874beae24f438171d7",
+    "archive_path": "sources_first_followup/raw/dbce3e1ff7ed71feb94f075f61e1bc5e30fdf75d9f12ea874beae24f438171d7.zip",
+    "source_url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2025-12-31/ESEF/NL/0/724500OUE3PCA809DZ79-2025-12-31-1-nl.xbri",
+    "original_report_url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2025-12-31/ESEF/NL/0/724500OUE3PCA809DZ79-2025-12-31-1-nl/reports/724500OUE3PCA809DZ79-2025-12-31-1-nl.xhtml",
+    "selected_member_path": "724500OUE3PCA809DZ79-2025-12-31-1-nl/reports/724500OUE3PCA809DZ79-2025-12-31-1-nl.xhtml",
+    "selected_member_sha256": "ad49891c02784e993e7951a68a81fd1c77a9f3fd11a0704aa4486fba7911f130",
+    "selected_member_bytes": 84737631,
+    "archive_member_inventory": [
+      {
+        "path": "724500OUE3PCA809DZ79-2025-12-31-1-nl/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2025-12-31-1-nl/META-INF/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2025-12-31-1-nl/META-INF/catalog.xml",
+        "bytes": 222,
+        "crc32": "dd0ca5d7"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2025-12-31-1-nl/META-INF/taxonomyPackage.xml",
+        "bytes": 1413,
+        "crc32": "eb89bdb5"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2025-12-31-1-nl/META-INF/reportPackage.json",
+        "bytes": 79,
+        "crc32": "951988bc"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2025-12-31-1-nl/www.heijmans.nl/2025-12-31/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2025-12-31-1-nl/www.heijmans.nl/2025-12-31/724500OUE3PCA809DZ79-2025-12-31.xsd",
+        "bytes": 9049,
+        "crc32": "42147fa6"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2025-12-31-1-nl/www.heijmans.nl/2025-12-31/724500OUE3PCA809DZ79-2025-12-31_pre.xml",
+        "bytes": 183941,
+        "crc32": "85780236"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2025-12-31-1-nl/www.heijmans.nl/2025-12-31/724500OUE3PCA809DZ79-2025-12-31_cal.xml",
+        "bytes": 74681,
+        "crc32": "e8dc22f6"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2025-12-31-1-nl/www.heijmans.nl/2025-12-31/724500OUE3PCA809DZ79-2025-12-31_def.xml",
+        "bytes": 224048,
+        "crc32": "db115647"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2025-12-31-1-nl/www.heijmans.nl/2025-12-31/724500OUE3PCA809DZ79-2025-12-31_lab-en.xml",
+        "bytes": 8357,
+        "crc32": "00ae94db"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2025-12-31-1-nl/www.heijmans.nl/2025-12-31/724500OUE3PCA809DZ79-2025-12-31_lab-nl.xml",
+        "bytes": 9497,
+        "crc32": "9069d390"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2025-12-31-1-nl/reports/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "724500OUE3PCA809DZ79-2025-12-31-1-nl/reports/724500OUE3PCA809DZ79-2025-12-31-1-nl.xhtml",
+        "bytes": 84737631,
+        "crc32": "c1ab31e9"
+      }
+    ],
+    "html_title": "Jaarverslag 2025",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500OUE3PCA809DZ79_2025.txt",
+    "output_sha256": "127050e6ac9eafdff3ed423e8fb2e29c031a19da9e27b167f428dc5667bd5592",
+    "text_characters": 943152,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500QDJRUMSPRDHW25_2023.txt",
+    "archive_sha256": "1a504569f8056eef40f0b76289c35c17bfecc1a92a6e21f7b2ab873305f6dc02",
+    "archive_path": "sources_first_followup/raw/1a504569f8056eef40f0b76289c35c17bfecc1a92a6e21f7b2ab873305f6dc02.zip",
+    "source_url": "https://filings.xbrl.org/724500QDJRUMSPRDHW25/2023-12-31/ESEF/NL/0/724500QDJRUMSPRDHW25-2023-12-31.zip",
+    "original_report_url": "https://filings.xbrl.org/724500QDJRUMSPRDHW25/2023-12-31/ESEF/NL/0/724500QDJRUMSPRDHW25-2023-12-31/reports/724500QDJRUMSPRDHW25-2023-12-31.html",
+    "selected_member_path": "724500QDJRUMSPRDHW25-2023-12-31/reports/724500QDJRUMSPRDHW25-2023-12-31.html",
+    "selected_member_sha256": "bda0a807a3ae70912c0c6032a0cd15bca463ee6b6dc22a8c4a138d0c433d046f",
+    "selected_member_bytes": 98717490,
+    "archive_member_inventory": [
+      {
+        "path": "724500QDJRUMSPRDHW25-2023-12-31/META-INF/catalog.xml",
+        "bytes": 380,
+        "crc32": "37c1239e"
+      },
+      {
+        "path": "724500QDJRUMSPRDHW25-2023-12-31/META-INF/taxonomyPackage.xml",
+        "bytes": 1402,
+        "crc32": "a2129cc3"
+      },
+      {
+        "path": "724500QDJRUMSPRDHW25-2023-12-31/www.cm.com/taxonomy/2023-12-31/724500QDJRUMSPRDHW25-2023-12-31_def.xml",
+        "bytes": 171525,
+        "crc32": "fc9d1e9f"
+      },
+      {
+        "path": "724500QDJRUMSPRDHW25-2023-12-31/www.cm.com/taxonomy/2023-12-31/724500QDJRUMSPRDHW25-2023-12-31_lab-en.xml",
+        "bytes": 21529,
+        "crc32": "3c9aa7bc"
+      },
+      {
+        "path": "724500QDJRUMSPRDHW25-2023-12-31/www.cm.com/taxonomy/2023-12-31/724500QDJRUMSPRDHW25-2023-12-31_cal.xml",
+        "bytes": 45351,
+        "crc32": "8640ec8a"
+      },
+      {
+        "path": "724500QDJRUMSPRDHW25-2023-12-31/www.cm.com/taxonomy/2023-12-31/724500QDJRUMSPRDHW25-2023-12-31_pre.xml",
+        "bytes": 196285,
+        "crc32": "aebce392"
+      },
+      {
+        "path": "724500QDJRUMSPRDHW25-2023-12-31/www.cm.com/taxonomy/2023-12-31/724500QDJRUMSPRDHW25-2023-12-31.xsd",
+        "bytes": 8791,
+        "crc32": "f1e3cb9e"
+      },
+      {
+        "path": "724500QDJRUMSPRDHW25-2023-12-31/www.cm.com/taxonomy/2023-12-31/724500QDJRUMSPRDHW25-2023-12-31_ref.xml",
+        "bytes": 414,
+        "crc32": "f7190ae6"
+      },
+      {
+        "path": "724500QDJRUMSPRDHW25-2023-12-31/reports/724500QDJRUMSPRDHW25-2023-12-31.html",
+        "bytes": 98717490,
+        "crc32": "acb8066b"
+      }
+    ],
+    "html_title": "Annual Report 2023",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500QDJRUMSPRDHW25_2023.txt",
+    "output_sha256": "0fcc86b4fe41d833cb98317b1f57cad168f729607c66e985e030988d5d73829d",
+    "text_characters": 406855,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500QJ4QSZ3H9QU415_2024.txt",
+    "archive_sha256": "7a03c8f2d92ac26bd339f8d63772e786c80617a6c6c766e953cbc636e8aebe7f",
+    "archive_path": "sources_first_followup/raw/7a03c8f2d92ac26bd339f8d63772e786c80617a6c6c766e953cbc636e8aebe7f.zip",
+    "source_url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2024-12-31/ESEF/NL/0/eur-2024-12-31-en.zip",
+    "original_report_url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2024-12-31/ESEF/NL/0/eur-2024-12-31-en/reports/eur-2024-12-31-en.xhtml",
+    "selected_member_path": "eur-2024-12-31-en/reports/eur-2024-12-31-en.xhtml",
+    "selected_member_sha256": "4275b4cb8047bade4fe2974e49ccdd6ca21a09306c21ac41272aa83b692bd271",
+    "selected_member_bytes": 122257946,
+    "archive_member_inventory": [
+      {
+        "path": "eur-2024-12-31-en/reports/eur-2024-12-31-en.xhtml",
+        "bytes": 122257946,
+        "crc32": "3cc3bf18"
+      },
+      {
+        "path": "eur-2024-12-31-en/www.euronext.com/20241231/eur-2024-12-31_pre.xml",
+        "bytes": 217431,
+        "crc32": "213fa955"
+      },
+      {
+        "path": "eur-2024-12-31-en/www.euronext.com/20241231/eur-2024-12-31_def.xml",
+        "bytes": 211413,
+        "crc32": "cb9b0a41"
+      },
+      {
+        "path": "eur-2024-12-31-en/www.euronext.com/20241231/eur-2024-12-31_lab-en.xml",
+        "bytes": 78314,
+        "crc32": "356e75d4"
+      },
+      {
+        "path": "eur-2024-12-31-en/www.euronext.com/20241231/eur-2024-12-31_cal.xml",
+        "bytes": 69847,
+        "crc32": "5d940bf0"
+      },
+      {
+        "path": "eur-2024-12-31-en/www.euronext.com/20241231/eur-2024-12-31.xsd",
+        "bytes": 14436,
+        "crc32": "14ee115a"
+      },
+      {
+        "path": "eur-2024-12-31-en/META-INF/catalog.xml",
+        "bytes": 377,
+        "crc32": "f819655b"
+      },
+      {
+        "path": "eur-2024-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 609,
+        "crc32": "5909713b"
+      },
+      {
+        "path": "eur-2024-12-31-en/META-INF/reportPackage.json",
+        "bytes": 72,
+        "crc32": "279ab10e"
+      }
+    ],
+    "html_title": "eur-2024-12-31-en",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500QJ4QSZ3H9QU415_2024.txt",
+    "output_sha256": "5b107eb843ec010cd33a022287663cfb642e89dfc47e078ca453e5a60173fcbf",
+    "text_characters": 1371370,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500QJ4QSZ3H9QU415_2025.txt",
+    "archive_sha256": "3215bc1fd228211636b7105124faba961dbb94eaa83fe2e1aa277656b3e99b3a",
+    "archive_path": "sources_first_followup/raw/3215bc1fd228211636b7105124faba961dbb94eaa83fe2e1aa277656b3e99b3a.zip",
+    "source_url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2025-12-31/ESEF/NL/0/724500QJ4QSZ3H9QU415-2025-12-31.xbri",
+    "original_report_url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2025-12-31/ESEF/NL/0/eur-2025-12-31-en/reports/eur-2025-12-31-en.xhtml",
+    "selected_member_path": "eur-2025-12-31-en/reports/eur-2025-12-31-en.xhtml",
+    "selected_member_sha256": "636be49de4edc3c2dbffb5293c6d5f415e85cc86a93837a7cd825c1310cd965d",
+    "selected_member_bytes": 143699710,
+    "archive_member_inventory": [
+      {
+        "path": "eur-2025-12-31-en/reports/eur-2025-12-31-en.xhtml",
+        "bytes": 143699710,
+        "crc32": "38f60783"
+      },
+      {
+        "path": "eur-2025-12-31-en/www.euronext.com/20251231/eur-2025-12-31_pre.xml",
+        "bytes": 222306,
+        "crc32": "04020515"
+      },
+      {
+        "path": "eur-2025-12-31-en/www.euronext.com/20251231/eur-2025-12-31_def.xml",
+        "bytes": 215346,
+        "crc32": "18977260"
+      },
+      {
+        "path": "eur-2025-12-31-en/www.euronext.com/20251231/eur-2025-12-31_lab-en.xml",
+        "bytes": 76310,
+        "crc32": "b81c027c"
+      },
+      {
+        "path": "eur-2025-12-31-en/www.euronext.com/20251231/eur-2025-12-31_cal.xml",
+        "bytes": 71534,
+        "crc32": "0cf6b4b4"
+      },
+      {
+        "path": "eur-2025-12-31-en/www.euronext.com/20251231/eur-2025-12-31.xsd",
+        "bytes": 13855,
+        "crc32": "7f7cf62c"
+      },
+      {
+        "path": "eur-2025-12-31-en/META-INF/catalog.xml",
+        "bytes": 377,
+        "crc32": "c9c8b551"
+      },
+      {
+        "path": "eur-2025-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 609,
+        "crc32": "61ccf8dd"
+      },
+      {
+        "path": "eur-2025-12-31-en/META-INF/reportPackage.json",
+        "bytes": 77,
+        "crc32": "87f0f66a"
+      }
+    ],
+    "html_title": "eur-2025-12-31-en",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500QJ4QSZ3H9QU415_2025.txt",
+    "output_sha256": "ff22c5ffaa4cd9db370eec710b04077c0b71ef81abdddfb8e76df2ac5eaf7fc4",
+    "text_characters": 1384270,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500SFK53FPNM68L95_2024.txt",
+    "archive_sha256": "45d05780cf7cd00932be4e11e7ba2f2dd1e6cf117859df5b1cc313e2f14b3bcd",
+    "archive_path": "sources_first_followup/raw/45d05780cf7cd00932be4e11e7ba2f2dd1e6cf117859df5b1cc313e2f14b3bcd.zip",
+    "source_url": "https://filings.xbrl.org/724500SFK53FPNM68L95/2024-12-31/ESEF/NL/0/724500SFK53FPNM68L95-2024-12-31-0-en.zip",
+    "original_report_url": "https://filings.xbrl.org/724500SFK53FPNM68L95/2024-12-31/ESEF/NL/0/724500SFK53FPNM68L95-2024-12-31-0-en/reports/724500SFK53FPNM68L95-2024-12-31-0-en.xhtml",
+    "selected_member_path": "724500SFK53FPNM68L95-2024-12-31-0-en/reports/724500SFK53FPNM68L95-2024-12-31-0-en.xhtml",
+    "selected_member_sha256": "62adaee83b80274357e5d0d2a1ab2802b885ac704056503b49507424d645be85",
+    "selected_member_bytes": 134046749,
+    "archive_member_inventory": [
+      {
+        "path": "724500SFK53FPNM68L95-2024-12-31-0-en/eurocommercialproperties.com/2024-12-31/724500SFK53FPNM68L95-2024-12-31_cal.xml",
+        "bytes": 65811,
+        "crc32": "47c6cd5e"
+      },
+      {
+        "path": "724500SFK53FPNM68L95-2024-12-31-0-en/eurocommercialproperties.com/2024-12-31/724500SFK53FPNM68L95-2024-12-31_def.xml",
+        "bytes": 151177,
+        "crc32": "31f2106b"
+      },
+      {
+        "path": "724500SFK53FPNM68L95-2024-12-31-0-en/eurocommercialproperties.com/2024-12-31/724500SFK53FPNM68L95-2024-12-31_pre.xml",
+        "bytes": 158693,
+        "crc32": "1bdd00bf"
+      },
+      {
+        "path": "724500SFK53FPNM68L95-2024-12-31-0-en/eurocommercialproperties.com/2024-12-31/724500SFK53FPNM68L95-2024-12-31_lab-en.xml",
+        "bytes": 26839,
+        "crc32": "c6910df0"
+      },
+      {
+        "path": "724500SFK53FPNM68L95-2024-12-31-0-en/eurocommercialproperties.com/2024-12-31/724500SFK53FPNM68L95-2024-12-31_ref.xml",
+        "bytes": 414,
+        "crc32": "f7190ae6"
+      },
+      {
+        "path": "724500SFK53FPNM68L95-2024-12-31-0-en/eurocommercialproperties.com/2024-12-31/724500SFK53FPNM68L95-2024-12-31.xsd",
+        "bytes": 9755,
+        "crc32": "1503b839"
+      },
+      {
+        "path": "724500SFK53FPNM68L95-2024-12-31-0-en/META-INF/catalog.xml",
+        "bytes": 397,
+        "crc32": "03c57cd8"
+      },
+      {
+        "path": "724500SFK53FPNM68L95-2024-12-31-0-en/META-INF/taxonomyPackage.xml",
+        "bytes": 1434,
+        "crc32": "7de09cc0"
+      },
+      {
+        "path": "724500SFK53FPNM68L95-2024-12-31-0-en/reports/724500SFK53FPNM68L95-2024-12-31-0-en.xhtml",
+        "bytes": 134046749,
+        "crc32": "74df93b8"
+      }
+    ],
+    "html_title": "Eurocommercial Properties N.V.",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500SFK53FPNM68L95_2024.txt",
+    "output_sha256": "b0baf277b73266a12c7cbfa4af3b5a09dd74dd9a0279318746d60495129f525c",
+    "text_characters": 731659,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500SFK53FPNM68L95_2025.txt",
+    "archive_sha256": "8273d5cdb61e6b733d2ade1a2ea9df3ef76af4924c4a696d3325243f14adfe9d",
+    "archive_path": "sources_first_followup/raw/8273d5cdb61e6b733d2ade1a2ea9df3ef76af4924c4a696d3325243f14adfe9d.zip",
+    "source_url": "https://filings.xbrl.org/724500SFK53FPNM68L95/2025-12-31/ESEF/NL/0/724500SFK53FPNM68L95-2025-12-31.xbri",
+    "original_report_url": "https://filings.xbrl.org/724500SFK53FPNM68L95/2025-12-31/ESEF/NL/0/724500SFK53FPNM68L95-2025-12-31-1-en/reports/724500SFK53FPNM68L95-2025-12-31-1-en.xhtml",
+    "selected_member_path": "724500SFK53FPNM68L95-2025-12-31-1-en/reports/724500SFK53FPNM68L95-2025-12-31-1-en.xhtml",
+    "selected_member_sha256": "0b074bc4c48cf04de5868b52f7d6a58703b1de2a5df714cc2eb80ab104719826",
+    "selected_member_bytes": 158275509,
+    "archive_member_inventory": [
+      {
+        "path": "724500SFK53FPNM68L95-2025-12-31-1-en/eurocommercialproperties.com/2025-12-31/724500SFK53FPNM68L95-2025-12-31_cal.xml",
+        "bytes": 63324,
+        "crc32": "a9ee9436"
+      },
+      {
+        "path": "724500SFK53FPNM68L95-2025-12-31-1-en/eurocommercialproperties.com/2025-12-31/724500SFK53FPNM68L95-2025-12-31_def.xml",
+        "bytes": 151187,
+        "crc32": "559e6820"
+      },
+      {
+        "path": "724500SFK53FPNM68L95-2025-12-31-1-en/eurocommercialproperties.com/2025-12-31/724500SFK53FPNM68L95-2025-12-31_pre.xml",
+        "bytes": 153881,
+        "crc32": "45fc7e04"
+      },
+      {
+        "path": "724500SFK53FPNM68L95-2025-12-31-1-en/eurocommercialproperties.com/2025-12-31/724500SFK53FPNM68L95-2025-12-31_lab-en.xml",
+        "bytes": 29222,
+        "crc32": "2c2c972c"
+      },
+      {
+        "path": "724500SFK53FPNM68L95-2025-12-31-1-en/eurocommercialproperties.com/2025-12-31/724500SFK53FPNM68L95-2025-12-31_ref.xml",
+        "bytes": 414,
+        "crc32": "f7190ae6"
+      },
+      {
+        "path": "724500SFK53FPNM68L95-2025-12-31-1-en/eurocommercialproperties.com/2025-12-31/724500SFK53FPNM68L95-2025-12-31.xsd",
+        "bytes": 10817,
+        "crc32": "aedd27e5"
+      },
+      {
+        "path": "724500SFK53FPNM68L95-2025-12-31-1-en/META-INF/catalog.xml",
+        "bytes": 397,
+        "crc32": "06abcd2c"
+      },
+      {
+        "path": "724500SFK53FPNM68L95-2025-12-31-1-en/META-INF/taxonomyPackage.xml",
+        "bytes": 1434,
+        "crc32": "50d772b4"
+      },
+      {
+        "path": "724500SFK53FPNM68L95-2025-12-31-1-en/META-INF/reportPackage.json",
+        "bytes": 77,
+        "crc32": "87f0f66a"
+      },
+      {
+        "path": "724500SFK53FPNM68L95-2025-12-31-1-en/reports/724500SFK53FPNM68L95-2025-12-31-1-en.xhtml",
+        "bytes": 158275509,
+        "crc32": "66c5ebf7"
+      }
+    ],
+    "html_title": "Eurocommercial Properties N.V.",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500SFK53FPNM68L95_2025.txt",
+    "output_sha256": "14e13dba002d8463530a97195b3c6faed348fc62cf25eab799ff8d8bc00ef951",
+    "text_characters": 754964,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500WAU923OTVC7M86_2024.txt",
+    "archive_sha256": "84a1d74fbd76c88d76e70a7aabff4e30d057a60bc37682ff3999935259039aae",
+    "archive_path": "sources_first_followup/raw/84a1d74fbd76c88d76e70a7aabff4e30d057a60bc37682ff3999935259039aae.zip",
+    "source_url": "https://filings.xbrl.org/724500WAU923OTVC7M86/2024-12-31/ESEF/NL/0/tom-2024-12-31-en.xbri",
+    "original_report_url": "https://filings.xbrl.org/724500WAU923OTVC7M86/2024-12-31/ESEF/NL/0/tom-2024-12-31-en/reports/tom-2024-12-31-en.xhtml",
+    "selected_member_path": "tom-2024-12-31-en/reports/tom-2024-12-31-en.xhtml",
+    "selected_member_sha256": "cb01c770745cb0f12924b81b6f65b6ec7d86b6e23fa51c7552de7a1a8031eaed",
+    "selected_member_bytes": 112560913,
+    "archive_member_inventory": [
+      {
+        "path": "tom-2024-12-31-en/reports/tom-2024-12-31-en.xhtml",
+        "bytes": 112560913,
+        "crc32": "4576ee14"
+      },
+      {
+        "path": "tom-2024-12-31-en/www.tomtom.com/20241231/tom-2024-12-31_pre.xml",
+        "bytes": 167861,
+        "crc32": "eeb823a9"
+      },
+      {
+        "path": "tom-2024-12-31-en/www.tomtom.com/20241231/tom-2024-12-31_def.xml",
+        "bytes": 145697,
+        "crc32": "33679ef0"
+      },
+      {
+        "path": "tom-2024-12-31-en/www.tomtom.com/20241231/tom-2024-12-31_lab-en.xml",
+        "bytes": 15272,
+        "crc32": "a87997ab"
+      },
+      {
+        "path": "tom-2024-12-31-en/www.tomtom.com/20241231/tom-2024-12-31_cal.xml",
+        "bytes": 53377,
+        "crc32": "83879011"
+      },
+      {
+        "path": "tom-2024-12-31-en/www.tomtom.com/20241231/tom-2024-12-31.xsd",
+        "bytes": 9361,
+        "crc32": "3971ec67"
+      },
+      {
+        "path": "tom-2024-12-31-en/META-INF/catalog.xml",
+        "bytes": 373,
+        "crc32": "970905d8"
+      },
+      {
+        "path": "tom-2024-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 605,
+        "crc32": "595b5ec9"
+      },
+      {
+        "path": "tom-2024-12-31-en/META-INF/reportPackage.json",
+        "bytes": 77,
+        "crc32": "87f0f66a"
+      }
+    ],
+    "html_title": "tom-2024-12-31-en",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500WAU923OTVC7M86_2024.txt",
+    "output_sha256": "5bee5ed815650149bcc4a4afdbf291d4f4c0ac6a976ad558e006b34d109ae8ec",
+    "text_characters": 532750,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  },
+  {
+    "file": "NL_724500Y6DUVHQD6OXN27_2024.txt",
+    "archive_sha256": "603b8f048e16c43d2973f4c4e509ce86e035ece4bbc64886a03388db2241e2a6",
+    "archive_path": "sources_first_followup/raw/603b8f048e16c43d2973f4c4e509ce86e035ece4bbc64886a03388db2241e2a6.zip",
+    "source_url": "https://filings.xbrl.org/724500Y6DUVHQD6OXN27/2024-12-31/ESEF/NL/0/asml-2024-12-31-en.zip",
+    "original_report_url": "https://filings.xbrl.org/724500Y6DUVHQD6OXN27/2024-12-31/ESEF/NL/0/asml-2024-12-31-en/reports/asml-2024-12-31-en.xhtml",
+    "selected_member_path": "asml-2024-12-31-en/reports/asml-2024-12-31-en.xhtml",
+    "selected_member_sha256": "a76aafdb4f13e8c30d84169bc1616487485dd2b1adbe1286a70a6af8f23df2e7",
+    "selected_member_bytes": 86035004,
+    "archive_member_inventory": [
+      {
+        "path": "asml-2024-12-31-en/reports/asml-2024-12-31-en.xhtml",
+        "bytes": 86035004,
+        "crc32": "0ad42d6b"
+      },
+      {
+        "path": "asml-2024-12-31-en/www.asml.com/20241231/asml-2024-12-31_pre.xml",
+        "bytes": 161381,
+        "crc32": "055fbaaa"
+      },
+      {
+        "path": "asml-2024-12-31-en/www.asml.com/20241231/asml-2024-12-31_def.xml",
+        "bytes": 155549,
+        "crc32": "a0e8485c"
+      },
+      {
+        "path": "asml-2024-12-31-en/www.asml.com/20241231/asml-2024-12-31_lab-en.xml",
+        "bytes": 27308,
+        "crc32": "10be2c4a"
+      },
+      {
+        "path": "asml-2024-12-31-en/www.asml.com/20241231/asml-2024-12-31_cal.xml",
+        "bytes": 63641,
+        "crc32": "f17a1f4b"
+      },
+      {
+        "path": "asml-2024-12-31-en/www.asml.com/20241231/asml-2024-12-31.xsd",
+        "bytes": 12025,
+        "crc32": "f00f6936"
+      },
+      {
+        "path": "asml-2024-12-31-en/META-INF/catalog.xml",
+        "bytes": 369,
+        "crc32": "372970bc"
+      },
+      {
+        "path": "asml-2024-12-31-en/META-INF/taxonomyPackage.xml",
+        "bytes": 602,
+        "crc32": "d41b4257"
+      },
+      {
+        "path": "asml-2024-12-31-en/META-INF/reportPackage.json",
+        "bytes": 72,
+        "crc32": "279ab10e"
+      }
+    ],
+    "html_title": "asml-2024-12-31-en",
+    "status": "recovered",
+    "output_path": "sources_first_followup/text/NL_724500Y6DUVHQD6OXN27_2024.txt",
+    "output_sha256": "87f390723ea0fcc98b8211306cd6291412ea500a30cf90fca95590b9964f8b85",
+    "text_characters": 1467586,
+    "source_caveat": "Same ESEF package/revision as frozen report URL; exact report basename selected. Entity, period and outcome require independent source review.",
+    "extraction_method": "BeautifulSoup lxml visible body; script/style/head and ix:hidden/header removed; embedded base64 images omitted only from parsing input"
+  }
+]

@@ -1,0 +1,6 @@
+Common cells require both countries in the exact sector x commitment year x report-year-gap cell.
+Cell FE contrast is exploratory and conditional on those sparse cells, not a national or like-for-like causal estimate.
+raw dropped collinear terms: 
+one_year_gap dropped collinear terms: 
+common_cells_raw dropped collinear terms: 
+common_cells_FE dropped collinear terms: 

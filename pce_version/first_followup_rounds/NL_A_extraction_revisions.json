@@ -1,0 +1,128 @@
+[
+  {
+    "case_id": "FF0033",
+    "prior_first_report_status": null,
+    "revised_first_report_status": null,
+    "revised_source_adequacy": "unresolved",
+    "reason": "Companion rechecked: title 2022 alongside 2019 header; SAP host operation but specific AI function ambiguous.",
+    "source_paths": [
+      "sources_first_followup/text/NL_213800ED5AN2J56N6Z02_2021__blocks.txt",
+      "sources_first_followup/text/NL_213800ED5AN2J56N6Z02_2022__blocks.txt"
+    ],
+    "edition_changed": false,
+    "stage": "Pre-close independent round A review; no other round accessed",
+    "review_type": "Block-aware extraction re-review"
+  },
+  {
+    "case_id": "FF0040",
+    "prior_first_report_status": null,
+    "revised_first_report_status": null,
+    "revised_source_adequacy": "unresolved",
+    "reason": "Companion rechecked; multi-column interleaving persists in AI passages. No reliable achieved function established.",
+    "source_paths": [
+      "sources_first_followup/text/NL_52990050T51W55KK4X45_2022__blocks.txt",
+      "sources_first_followup/text/NL_52990050T51W55KK4X45_2023__blocks.txt"
+    ],
+    "edition_changed": false,
+    "stage": "Pre-close independent round A review; no other round accessed",
+    "review_type": "Block-aware extraction re-review"
+  },
+  {
+    "case_id": "FF0065",
+    "prior_first_report_status": null,
+    "revised_first_report_status": "partial",
+    "revised_source_adequacy": "assessable",
+    "reason": "Inline-span repair reveals successful AI interpretation of infrastructure/subsurface data; all-routines scope remains future.",
+    "source_paths": [
+      "sources_first_followup/text/NL_7245000R8GNBSDTSZ396_2022__blocks.txt",
+      "sources_first_followup/text/NL_7245000R8GNBSDTSZ396_2023__blocks.txt"
+    ],
+    "edition_changed": false,
+    "stage": "Pre-close independent round A review; no other round accessed",
+    "review_type": "Block-aware extraction re-review"
+  },
+  {
+    "case_id": "FF0066",
+    "prior_first_report_status": null,
+    "revised_first_report_status": "dropped",
+    "revised_source_adequacy": "assessable",
+    "reason": "Original software-development AI tool rollout anchor restored; full followup contains geodata AI but no same software-tool continuation.",
+    "source_paths": [
+      "sources_first_followup/text/NL_7245000R8GNBSDTSZ396_2023__blocks.txt",
+      "sources_first_followup/text/NL_7245000R8GNBSDTSZ396_2024__blocks.txt"
+    ],
+    "edition_changed": false,
+    "stage": "Pre-close independent round A review; no other round accessed",
+    "review_type": "Block-aware extraction re-review"
+  },
+  {
+    "case_id": "FF0095",
+    "prior_first_report_status": null,
+    "revised_first_report_status": "dropped",
+    "revised_source_adequacy": "assessable",
+    "reason": "Original restored Japan Life medical-check policy-processing target; followup marketing ML is a different function.",
+    "source_paths": [
+      "sources_first_followup/text/NL_724500OHYNDT9OY6Q215_2021__blocks.txt",
+      "sources_first_followup/text/NL_724500OHYNDT9OY6Q215_2022__blocks.txt"
+    ],
+    "edition_changed": false,
+    "stage": "Pre-close independent round A review; no other round accessed",
+    "review_type": "Block-aware extraction re-review"
+  },
+  {
+    "case_id": "FF0114",
+    "prior_first_report_status": null,
+    "revised_first_report_status": "not_fulfilled",
+    "revised_source_adequacy": "assessable",
+    "reason": "AI4b.io continuation readable; described research/exploration rather than achieved AI research function.",
+    "source_paths": [
+      "sources_first_followup/text/NL_724500SNT1MK246AHP04_2021__blocks.txt",
+      "sources_first_followup/text/NL_724500SNT1MK246AHP04_2022__blocks.txt"
+    ],
+    "edition_changed": false,
+    "stage": "Pre-close independent round A review; no other round accessed",
+    "review_type": "Block-aware extraction re-review"
+  },
+  {
+    "case_id": "FF0125",
+    "prior_first_report_status": null,
+    "revised_first_report_status": null,
+    "revised_source_adequacy": "unresolved",
+    "reason": "Operational cybersecurity AI reported but named implemented process and broad promise match remain ambiguous.",
+    "source_paths": [
+      "sources_first_followup/text/NL_8156008B101B97A43B02_2024__blocks.txt",
+      "sources_first_followup/text/NL_8156008B101B97A43B02_2025__blocks.txt"
+    ],
+    "edition_changed": false,
+    "stage": "Pre-close independent round A review; no other round accessed",
+    "review_type": "Block-aware extraction re-review"
+  },
+  {
+    "case_id": "FF0126",
+    "prior_first_report_status": null,
+    "revised_first_report_status": null,
+    "revised_source_adequacy": "unresolved",
+    "reason": "Operational cybersecurity/productivity AI does not establish production/commercial/supply-chain original scope.",
+    "source_paths": [
+      "sources_first_followup/text/NL_8156008B101B97A43B02_2023__blocks.txt",
+      "sources_first_followup/text/NL_8156008B101B97A43B02_2024__blocks.txt"
+    ],
+    "edition_changed": false,
+    "stage": "Pre-close independent round A review; no other round accessed",
+    "review_type": "Block-aware extraction re-review"
+  },
+  {
+    "case_id": "FF0092",
+    "prior_first_report_status": "fulfilled",
+    "revised_first_report_status": null,
+    "revised_source_adequacy": "unresolved",
+    "reason": "Pre-close substantive quality check applies F5 named-function requirement; factory AI technology list insufficient without identified AI process.",
+    "source_paths": [
+      "sources_first_followup/text/NL_724500IGR5FBK0RLZI29_2022__blocks.txt",
+      "sources_first_followup/text/NL_724500IGR5FBK0RLZI29_2023__blocks.txt"
+    ],
+    "edition_changed": false,
+    "stage": "Pre-close independent round A review; no other round accessed",
+    "review_type": "F5 substantive check"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "case_id": "FF0081",
+    "issue": "Packet selects followup2022 but block-aware source cover says DGBGroup annualreport2023 and contains2023events. Verify actual financial/reporting period rather than file/index label; no substitution with later report."
+  },
+  {
+    "case_id": "FF0033",
+    "issue": "Packet selected period2022 but cover context shows2019. Verify report year from full source; unresolved if linkage cannot be established."
+  }
+]

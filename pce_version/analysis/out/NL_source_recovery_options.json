@@ -1,0 +1,82 @@
+[
+  {
+    "file": "NL_213800DIFN7NR7B97A50_2021.txt",
+    "company": "MFE-MEDIAFOREUROPE N.V.",
+    "period": "2021-12-31",
+    "candidate_url": "https://filings.xbrl.org/213800DIFN7NR7B97A50/2021-12-31/ESEF/NL/0/213800DIFN7NR7B97A50-2021-12-31.zip",
+    "candidate_type": "ESEF package ZIP",
+    "head_content_length_bytes": 13309770,
+    "official_source_page": "https://www.mfemediaforeurope.com/en/events/56/ordinary-shareholders-meeting-29-june-2022.html",
+    "equivalence_edition_caveat": "Same LEI and year as the oversized XHTML, using the compressed ESEF package recorded in esef_filings.csv. The issuer's event page separately lists its Annual Report 2021 ESEF package; equivalence of the mirror ZIP to that issuer package has not been byte-verified. Confirm the contained report member before extraction."
+  },
+  {
+    "file": "NL_506700G44V67MPM4BI12_2024.txt",
+    "company": "DSM-Firmenich AG",
+    "period": "2024-12-31",
+    "candidate_url": "https://annualreport.dsm-firmenich.com/2024/_assets/downloads/entire-dsmfirmenich-iar24.pdf?h=a7H7irqq",
+    "candidate_type": "issuer complete annual report PDF",
+    "head_content_length_bytes": 27077913,
+    "official_source_page": "https://annualreport.dsm-firmenich.com/2024/services/downloads.html",
+    "equivalence_edition_caveat": "Issuer's complete 307-page 2024 Integrated Annual Report, in PDF rather than the ESEF XHTML edition. The issuer lists its ESEF ZIP at 89.5 MB; HEAD measured 93,797,564 bytes, above the 80 MiB cap. The report states that its English edition prevails. The PDF is a different format/edition, so page and narrative equivalence should be checked before substitution."
+  },
+  {
+    "file": "NL_529900JK6UXHY1YKZ082_2024.txt",
+    "company": "Redcare Pharmacy N.V.",
+    "period": "2024-12-31",
+    "candidate_url": "https://filings.xbrl.org/529900JK6UXHY1YKZ082/2024-12-31/ESEF/NL/0/529900JK6UXHY1YKZ082-2024-12-31-en.zip",
+    "candidate_type": "ESEF package ZIP",
+    "head_content_length_bytes": 73060836,
+    "official_source_page": "https://ir.redcare-pharmacy.com/en/event-and-publication",
+    "equivalence_edition_caveat": "Same LEI and year as the oversized XHTML, using the compressed ESEF package recorded in esef_filings.csv. Issuer IR lists annual reports, but this mirror package was not byte-compared with the issuer download. Verify the report member and any ESEF/PDF edition difference before use."
+  },
+  {
+    "file": "NL_529900JK6UXHY1YKZ082_2025.txt",
+    "company": "Redcare Pharmacy N.V.",
+    "period": "2025-12-31",
+    "candidate_url": "https://filings.xbrl.org/529900JK6UXHY1YKZ082/2025-12-31/ESEF/NL/0/529900JK6UXHY1YKZ082-2025-12-31.xbri",
+    "candidate_type": "ESEF XBRI package",
+    "head_content_length_bytes": 55336827,
+    "official_source_page": "https://ir.redcare-pharmacy.com/en/event-and-publication",
+    "equivalence_edition_caveat": "Same LEI and year as the oversized XHTML, using the XBRI package recorded in esef_filings.csv; HEAD did not provide a content type. Issuer IR lists both PDF and packaged 2025 annual report editions. Confirm the package format and contained report member before extraction; mirror equivalence was not byte-verified."
+  },
+  {
+    "file": "NL_549300BLWVJN2BAT0A44_2024.txt",
+    "company": "BREMBO N.V.",
+    "period": "2024-12-31",
+    "candidate_url": "https://filings.xbrl.org/549300BLWVJN2BAT0A44/2024-12-31/ESEF/NL/0/549300BLWVJN2BAT0A44-2024-12-31-en.zip",
+    "candidate_type": "ESEF package ZIP",
+    "head_content_length_bytes": 60608045,
+    "official_source_page": "https://www.brembogroup.com/en/investors/reports",
+    "equivalence_edition_caveat": "Same LEI and year as the oversized XHTML, using the compressed ESEF package recorded in esef_filings.csv. Issuer IR lists separate XHTML, ZIP, and PDF editions for 2024. Confirm contained report member and compare publisher/mirror edition before use."
+  },
+  {
+    "file": "NL_549300BLWVJN2BAT0A44_2025.txt",
+    "company": "BREMBO N.V.",
+    "period": "2025-12-31",
+    "candidate_url": "https://filings.xbrl.org/549300BLWVJN2BAT0A44/2025-12-31/ESEF/NL/0/549300BLWVJN2BAT0A44-2025-12-31.xbri",
+    "candidate_type": "ESEF XBRI package",
+    "head_content_length_bytes": 40354467,
+    "official_source_page": "https://www.brembogroup.com/en/investors/reports",
+    "equivalence_edition_caveat": "Same LEI and year as the oversized XHTML, using the XBRI package recorded in esef_filings.csv; HEAD did not provide a content type. Issuer IR lists XHTML, XBRI, and PDF editions for 2025. Confirm package format and contained report member before use."
+  },
+  {
+    "file": "NL_549300FMWM53K9ULYT15_2023.txt",
+    "company": "NEPI ROCKCASTLE N.V.",
+    "period": "2023-12-31",
+    "candidate_url": "https://filings.xbrl.org/549300FMWM53K9ULYT15/2023-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2023-12-31-en.zip",
+    "candidate_type": "ESEF package ZIP",
+    "head_content_length_bytes": 55149280,
+    "official_source_page": "https://nepirockcastle.com/investors/financial-information/",
+    "equivalence_edition_caveat": "Same LEI and year as the oversized XHTML, using the compressed ESEF package recorded in esef_filings.csv. Issuer IR lists a distinct ESEF package and PDF. Its PDF says the ESEF package prevails if there is a discrepancy; verify mirror package contents and version before use."
+  },
+  {
+    "file": "NL_549300FMWM53K9ULYT15_2024.txt",
+    "company": "NEPI ROCKCASTLE N.V.",
+    "period": "2024-12-31",
+    "candidate_url": "https://filings.xbrl.org/549300FMWM53K9ULYT15/2024-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2024-12-31-en.zip",
+    "candidate_type": "ESEF package ZIP",
+    "head_content_length_bytes": 61353301,
+    "official_source_page": "https://nepirockcastle.com/investors/financial-information/",
+    "equivalence_edition_caveat": "Same LEI and year as the oversized XHTML, using the compressed ESEF package recorded in esef_filings.csv. Issuer IR lists an ESEF package and a separate PDF for 2024. Verify mirror package contents and version before use."
+  }
+]

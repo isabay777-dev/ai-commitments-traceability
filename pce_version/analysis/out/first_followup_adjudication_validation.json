@@ -1,0 +1,12 @@
+{
+  "rows": 183,
+  "flags": [],
+  "human_validation": false,
+  "passed": true,
+  "partial": false,
+  "adjudication_inputs": {
+    "first_followup_adjudication/KZ_PL.json": "dba6a7da79ee8619388844328624ff3520f4851173a5b6f9735253508e2c8bde",
+    "first_followup_adjudication/NL.json": "af0519ade3335f1a550a62ef9ae7a6873189fbd955ed8b3468ac23ef88634d6c"
+  },
+  "derived_csv_sha256": "9b57175a389de2ede7172ae024b99e54407e5895fb8e916fbcce7f327ef31eb7"
+}

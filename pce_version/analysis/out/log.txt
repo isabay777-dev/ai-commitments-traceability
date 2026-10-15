@@ -1,0 +1,189 @@
+== Outcomes by country ==
+   Full confirmation Partial confirmation Reported as ongoing Untraced   N
+PL                17                    4                   3        5  29
+KZ                 8                    6                   9        4  27
+NL                49                   34                  29       15 127
+   firms any_later_text
+PL    13             24
+KZ    16             23
+NL    52            112
+    
+     Full confirmation Partial confirmation Reported as ongoing Untraced
+  PL              58.6                 13.8                10.3     17.2
+  KZ              29.6                 22.2                33.3     14.8
+  NL              38.6                 26.8                22.8     11.8
+
+== By year group ==
+  country    ygrp  N full ongoing untraced
+1      PL 2021-22 18   13       1        1
+2      KZ 2021-22  4    0       2        1
+3      NL 2021-22 38   12       8        7
+4      PL    2023  8    2       2        4
+5      KZ    2023  4    2       1        0
+6      NL    2023 40   17      10        5
+7      PL    2024  3    2       0        0
+8      KZ    2024 19    6       6        3
+9      NL    2024 49   20      11        3
+
+== By follow-up ==
+  country              fgrp  N full ongoing untraced
+1      PL    1 later report 12    5       1        4
+2      KZ    1 later report 20    6       7        3
+3      NL    1 later report 61   24      14        6
+4      PL >=2 later reports 17   12       2        1
+5      KZ >=2 later reports  7    2       2        1
+6      NL >=2 later reports 66   25      15        9
+
+== sector4 x country ==
+    
+     bank_ins holding nonfin other_fin
+  PL       19       0     10         0
+  KZ        7       6     12         2
+  NL       18       0    109         0
+  country   sector4   N full
+1      PL  bank_ins  19   12
+2      KZ  bank_ins   7    5
+3      NL  bank_ins  18   10
+4      KZ   holding   6    1
+5      PL    nonfin  10    5
+6      KZ    nonfin  12    2
+7      NL    nonfin 109   39
+8      KZ other_fin   2    0
+
+== State x country ==
+  country   state  N full ongoing untraced
+1      PL      no  7    5       0        1
+2      KZ      no  8    3       4        1
+3      NL      no 92   36      21       12
+4      PL unknown 13    9       1        1
+5      KZ unknown  1    0       1        0
+6      NL unknown 23    9       2        2
+7      PL     yes  9    3       2        3
+8      KZ     yes 18    5       4        3
+9      NL     yes 12    4       6        1
+
+== Specificity x country ==
+  country spec2  N full untraced
+1      PL     0 20   14        1
+2      KZ     0 19    5        3
+3      NL     0 70   34        4
+4      PL     1  9    3        4
+5      KZ     1  8    3        1
+6      NL     1 57   15       11
+state coef: -16 11.7 N 146 
+Note: in the one-later-report subset fixest drops singleton year-FE observations: TRUE 
+
+== KZ vs PL contrasts (pp) ==
+                                                       spec   est   se     p
+                                    Full: baseline controls -40.9 16.4 0.014
+                       Full: + specificity + finance (main) -39.8 16.0 0.015
+                                       Full: KZ and PL only -47.4 20.4 0.027
+ Full: banks/insurers, other lenders and holdings separated -26.9 17.1 0.120
+                                    Full: holdings excluded -32.2 17.1 0.063
+                     Full: + state affiliation (known only) -34.9 18.7 0.067
+                                 Full: + state + log assets -40.0 17.2 0.024
+            Full: without the three largest KZ contributors -45.3 17.4 0.011
+                                Full: commitments 2021-2023 -44.9 21.7 0.043
+                             Full: exactly one later report -25.5 18.4 0.171
+                            Full: two or more later reports -60.6 25.0 0.020
+                                   Full: equal firm weights -35.7 16.7 0.035
+                            Full or partial (main controls) -27.1 14.9 0.074
+                Any identifiable later text (main controls)  -3.5 10.5 0.737
+                        Reported as ongoing (main controls)  23.5 13.4 0.083
+   N N_KZ N_PL firms_KZPL
+ 183   27   29         29
+ 183   27   29         29
+  56   27   29         29
+ 183   27   29         29
+ 177   21   29         27
+ 146   26   16         23
+ 141   22   15         20
+ 172   16   29         26
+ 112    8   26         19
+  92   20   12         23
+  90    7   17         14
+ 183   27   29         29
+ 183   27   29         29
+ 183   27   29         29
+ 183   27   29         29
+
+== LOFO: est range -45 -30.6 ; max p 0.099 ; weakest: PL mbank 
+Firm means: 0.436 0.221  n: 13 16  Wilcoxon p 0.208 
+Raw KZ-PL full: -29  95% firm bootstrap: -56.5 3.7 
+
+== Specificity, leave-country-out ==
+           sample   est   se   N
+spec2         all -19.4  6.8 183
+spec21 without KZ -23.9  7.0 156
+spec22 without PL -16.4  7.4 154
+spec23 without NL -13.4 13.2  56
+
+== Continued content (coder 1) ==
+    
+     explained_revision ongoing_development other repeated_intention
+  PL                  0                   2     0                  1
+  KZ                  0                   4     1                  4
+  NL                  4                  17     4                  4
+explanation coder1:
+    
+     no yes
+  PL  3   0
+  KZ  9   0
+  NL 25   4
+explanation coder2:
+    
+     no yes
+  PL  3   0
+  KZ  9   0
+  NL 27   2
+
+== AI mention share by country-year ==
+   country year reports ai_any share
+1       KZ 2021      59     17  28.8
+2       NL 2021     106     48  45.3
+3       PL 2021      30     15  50.0
+4       KZ 2022      64     18  28.1
+5       NL 2022     120     55  45.8
+6       PL 2022      19     12  63.2
+7       KZ 2023      65     25  38.5
+8       NL 2023     108     67  62.0
+9       PL 2023      29     16  55.2
+10      KZ 2024     118     38  32.2
+11      NL 2024     111     72  64.9
+12      PL 2024      24     19  79.2
+13      KZ 2025     116     63  54.3
+14      NL 2025      96     75  78.1
+15      PL 2025      33     27  81.8
+Reports, firms, AI share by country:
+  country reports  ai
+1      KZ     422 161
+2      NL     541 317
+3      PL     135  89
+entities after alias/case normalisation: 137 141 54 total 332 
+
+== Part A: state-linked vs non-state ==
+ country                  model  est   se     p   N firms
+      KZ                    raw 22.9  7.9 0.005 311   110
+      KZ           raw_constant 21.3  9.0 0.021 266    97
+      KZ length_sector_constant  1.4  9.0 0.877 266    97
+      KZ          length_sector  4.4  7.8 0.573 310   110
+      KZ            plus_assets -5.1  8.8 0.568 266    97
+      KZ              intensity  0.0  0.2 0.886 266    97
+      PL                    raw 29.8 15.0 0.054  93    43
+      PL           raw_constant 27.6 15.2 0.078  80    40
+      PL length_sector_constant  8.9 13.1 0.500  80    40
+      PL          length_sector 34.0 19.9 0.095  93    43
+      PL            plus_assets 15.3 16.4 0.356  80    40
+      PL              intensity  1.9  1.0 0.066  80    40
+Median chars by state:
+  country state     chars
+1      KZ    no  238890.5
+2      PL    no  537844.0
+3      KZ   yes  768967.0
+4      PL   yes 1824284.0
+Raw any-mention by state:
+  country state ai_any.n ai_any.share
+1      KZ    no    190.0         34.7
+2      PL    no     80.0         57.5
+3      KZ   yes    121.0         54.5
+4      PL   yes     13.0         84.6

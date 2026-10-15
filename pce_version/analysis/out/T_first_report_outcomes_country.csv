@@ -1,0 +1,4 @@
+country,retained_worklist,worklist_firms,assessable,assessable_firms,ineligible,unresolved,confirmed_eligible,eligibility_unresolved,confirmed_eligible_missing,non_assessable_total,fulfilled,partial,not_fulfilled,dropped,full_percent_assessable
+KZ,27,16,25,14,0,2,26,1,1,2,7,2,11,5,28.0
+NL,127,52,109,46,4,14,122,1,13,18,47,13,25,24,43.11926605504587
+PL,29,13,27,11,0,2,29,0,2,2,15,2,4,6,55.55555555555556

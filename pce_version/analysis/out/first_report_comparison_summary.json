@@ -1,0 +1,37 @@
+{
+  "raw_complete_case": {
+    "estimand": "KZ minus PL full-confirmation share among assessable retained commitments",
+    "difference_pp": -27.555555555555557,
+    "firm_bootstrap_95_lo": -50.75773653341565,
+    "firm_bootstrap_95_hi": 1.9845238095238078,
+    "resamples": 10000,
+    "seed": 20261015
+  },
+  "finite_worklist_extreme_bounds": {
+    "lower_pp": -32.69476372924648,
+    "upper_pp": -18.390804597701155,
+    "assumption": "All original 27 KZ and 29 PL retained keys are eligible; all non-assessable legacy-worklist keys (including new ineligibility judgements) receive hypothetical full outcomes 0 or 1. This is solely a sensitivity retaining legacy eligibility, not a corrected-eligibility estimate. Not a confidence interval or national-population bound."
+  },
+  "fixed_confirmed_eligibility_bounds": {
+    "lower_pp": -31.697612732095486,
+    "upper_pp": -20.954907161803714,
+    "by_country": {
+      "KZ": {
+        "confirmed_eligible": 26,
+        "fulfilled": 7,
+        "eligible_missing": 1,
+        "lower": 0.2692307692307692,
+        "upper": 0.3076923076923077
+      },
+      "PL": {
+        "confirmed_eligible": 29,
+        "fulfilled": 15,
+        "eligible_missing": 2,
+        "lower": 0.5172413793103449,
+        "upper": 0.5862068965517241
+      }
+    },
+    "assumption": "Eligibility fixed to cases adjudicated commitment; unresolved eligibility and newly ineligible keys excluded. Only missing binary outcomes vary. Not confidence intervals or national bounds."
+  },
+  "human_validated": false
+}

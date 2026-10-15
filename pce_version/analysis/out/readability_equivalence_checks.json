@@ -1,0 +1,6 @@
+{
+  "companions": 152,
+  "non_whitespace_character_changes": [],
+  "passed": true,
+  "interpretation": "Alternative extraction changes whitespace/block boundaries only; no semantic rewriting. This does not establish correct reading order or outcome."
+}

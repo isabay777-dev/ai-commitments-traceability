@@ -1,0 +1,232 @@
+{
+  "version": "first_report_human_v1",
+  "metadata_columns": [
+    "case_id",
+    "country",
+    "company_identifier",
+    "commitment_year",
+    "selected_report_year",
+    "report_year_gap",
+    "case_card"
+  ],
+  "response_columns": [
+    "coder_id",
+    "coding_started_utc",
+    "coding_finished_utc",
+    "minutes_spent",
+    "original_language",
+    "followup_language",
+    "original_entity",
+    "original_perimeter",
+    "followup_entity",
+    "followup_perimeter",
+    "entity_linkage",
+    "entity_linkage_quote",
+    "entity_linkage_locator",
+    "eligibility",
+    "eligibility_reason",
+    "source_adequacy",
+    "source_issue_detail",
+    "retrieval_attempts",
+    "extraction_quality_checked",
+    "search_audit",
+    "original_ai_function_quote",
+    "original_ai_function_locator",
+    "original_promise_quote",
+    "original_promise_locator",
+    "promised_stage",
+    "promised_scope",
+    "promised_ai_function",
+    "initial_maturity",
+    "specificity_process_named",
+    "specificity_specific",
+    "specificity_achieved_stage",
+    "specificity_deadline_or_timeframe",
+    "specificity_quantitative_target",
+    "specificity_investment_amount",
+    "specificity_named_solution_or_partner",
+    "specificity_basis",
+    "deadline_original_wording",
+    "deadline_original_locator",
+    "deadline_precision",
+    "deadline_reference_date",
+    "deadline_reference_locator",
+    "deadline_resolved_date",
+    "deadline_state_at_report",
+    "original_period_end_date",
+    "original_period_end_date_state",
+    "original_period_end_locator",
+    "original_publication_date",
+    "original_publication_date_state",
+    "original_publication_locator",
+    "followup_period_end_date",
+    "followup_period_end_date_state",
+    "followup_period_end_locator",
+    "followup_publication_date",
+    "followup_publication_date_state",
+    "followup_publication_locator",
+    "object_linkage",
+    "object_linkage_rationale",
+    "ai_function_linkage",
+    "ai_function_rationale",
+    "status",
+    "followup_ai_function_quote",
+    "followup_ai_function_locator",
+    "followup_stage_scope_quote",
+    "followup_stage_scope_locator",
+    "followup_event_date",
+    "followup_event_date_state",
+    "followup_event_date_locator",
+    "identity_stage_scope_rationale",
+    "cancellation_reported",
+    "uncertainty_notes"
+  ],
+  "enums": {
+    "entity_linkage": [
+      "yes",
+      "no",
+      "uncertain"
+    ],
+    "eligibility": [
+      "eligible",
+      "not_a_promise",
+      "unresolved"
+    ],
+    "source_adequacy": [
+      "adequate",
+      "source_unavailable",
+      "unreadable",
+      "incomplete_extraction",
+      "incomplete_search",
+      "ambiguous_evidence"
+    ],
+    "extraction_quality_checked": [
+      "yes",
+      "no",
+      "uncertain"
+    ],
+    "promised_stage": [
+      "study",
+      "pilot_or_test",
+      "deployment",
+      "other",
+      "unspecified",
+      "source_unavailable"
+    ],
+    "initial_maturity": [
+      "plan",
+      "development",
+      "test_not_live",
+      "live_pilot",
+      "deployed",
+      "other",
+      "unspecified",
+      "source_unavailable"
+    ],
+    "specificity_process_named": [
+      "0",
+      "1",
+      "uncertain"
+    ],
+    "specificity_specific": [
+      "0",
+      "1",
+      "uncertain"
+    ],
+    "specificity_achieved_stage": [
+      "0",
+      "1",
+      "uncertain"
+    ],
+    "specificity_deadline_or_timeframe": [
+      "0",
+      "1",
+      "uncertain"
+    ],
+    "specificity_quantitative_target": [
+      "0",
+      "1",
+      "uncertain"
+    ],
+    "specificity_investment_amount": [
+      "0",
+      "1",
+      "uncertain"
+    ],
+    "specificity_named_solution_or_partner": [
+      "0",
+      "1",
+      "uncertain"
+    ],
+    "deadline_precision": [
+      "day",
+      "month",
+      "quarter",
+      "year",
+      "relative",
+      "vague",
+      "none_stated",
+      "source_unavailable"
+    ],
+    "deadline_state_at_report": [
+      "elapsed",
+      "not_yet_elapsed",
+      "indeterminate",
+      "no_deadline"
+    ],
+    "original_period_end_date_state": [
+      "known",
+      "unknown",
+      "unverified"
+    ],
+    "original_publication_date_state": [
+      "known",
+      "unknown",
+      "unverified"
+    ],
+    "followup_period_end_date_state": [
+      "known",
+      "unknown",
+      "unverified"
+    ],
+    "followup_publication_date_state": [
+      "known",
+      "unknown",
+      "unverified"
+    ],
+    "object_linkage": [
+      "yes",
+      "no",
+      "uncertain"
+    ],
+    "ai_function_linkage": [
+      "yes",
+      "no",
+      "uncertain"
+    ],
+    "status": [
+      "fulfilled",
+      "partial",
+      "not_fulfilled",
+      "dropped",
+      "not_a_promise"
+    ],
+    "followup_event_date_state": [
+      "known",
+      "unknown",
+      "unverified"
+    ],
+    "cancellation_reported": [
+      "yes",
+      "no",
+      "uncertain"
+    ]
+  },
+  "row_count": 183,
+  "country_counts": {
+    "KZ": 27,
+    "NL": 127,
+    "PL": 29
+  },
+  "note": "All response columns are blank in both templates. No outcome labels are supplied."
+}

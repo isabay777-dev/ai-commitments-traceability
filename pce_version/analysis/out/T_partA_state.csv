@@ -1,0 +1,13 @@
+"country","model","est","se","p","N","firms"
+"KZ","raw",22.9,7.9,0.005,311,110
+"KZ","raw_constant",21.3,9,0.021,266,97
+"KZ","length_sector_constant",1.4,9,0.877,266,97
+"KZ","length_sector",4.4,7.8,0.573,310,110
+"KZ","plus_assets",-5.1,8.8,0.568,266,97
+"KZ","intensity",0,0.2,0.886,266,97
+"PL","raw",29.8,15,0.054,93,43
+"PL","raw_constant",27.6,15.2,0.078,80,40
+"PL","length_sector_constant",8.9,13.1,0.5,80,40
+"PL","length_sector",34,19.9,0.095,93,43
+"PL","plus_assets",15.3,16.4,0.356,80,40
+"PL","intensity",1.9,1,0.066,80,40

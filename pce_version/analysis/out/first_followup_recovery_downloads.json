@@ -1,0 +1,320 @@
+[
+  {
+    "file": "KZ_Банк_ЦентрКредит_2024.txt",
+    "country": "KZ",
+    "role": "original",
+    "recovery_of_url": "https://kase.kz/files/emitters/CCBN/ccbnp_2024_rus.pdf",
+    "url": "https://www.bcc.kz/static/bcc-kz-storage/storage/app/media/%D0%9E%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B5/%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/%D0%B3%D0%BE%D0%B4%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%BE%D1%82%D1%87%D0%B5%D1%82/2024-ru.pdf",
+    "recovery_method": "official issuer annual report mirror; entity/year/content require verification"
+  },
+  {
+    "file": "NL_213800DIFN7NR7B97A50_2021.txt",
+    "country": "NL",
+    "role": "original",
+    "recovery_of_url": "https://filings.xbrl.org/213800DIFN7NR7B97A50/2021-12-31/ESEF/NL/0/213800DIFN7NR7B97A50-2021-12-31/reports/213800DIFN7NR7B97A50-2021-12-31.html",
+    "url": "https://filings.xbrl.org/213800DIFN7NR7B97A50/2021-12-31/ESEF/NL/0/213800DIFN7NR7B97A50-2021-12-31.zip",
+    "required_report_member_basename": "213800DIFN7NR7B97A50-2021-12-31.html",
+    "original_report_path": "/213800DIFN7NR7B97A50/2021-12-31/ESEF/NL/0/213800DIFN7NR7B97A50-2021-12-31/reports/213800DIFN7NR7B97A50-2021-12-31.html",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_506700G44V67MPM4BI12_2024.txt",
+    "country": "NL",
+    "role": "followup",
+    "recovery_of_url": "https://filings.xbrl.org/506700G44V67MPM4BI12/2024-12-31/ESEF/NL/0/506700G44V67MPM4BI12-2024-12-31-0-en/reports/506700G44V67MPM4BI12-2024-12-31-0-en.xhtml",
+    "url": "https://filings.xbrl.org/506700G44V67MPM4BI12/2024-12-31/ESEF/NL/0/506700G44V67MPM4BI12-2024-12-31-0-en.zip",
+    "required_report_member_basename": "506700G44V67MPM4BI12-2024-12-31-0-en.xhtml",
+    "original_report_path": "/506700G44V67MPM4BI12/2024-12-31/ESEF/NL/0/506700G44V67MPM4BI12-2024-12-31-0-en/reports/506700G44V67MPM4BI12-2024-12-31-0-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_529900JK6UXHY1YKZ082_2024.txt",
+    "country": "NL",
+    "role": "original",
+    "recovery_of_url": "https://filings.xbrl.org/529900JK6UXHY1YKZ082/2024-12-31/ESEF/NL/0/529900JK6UXHY1YKZ082-2024-12-31-en/reports/redcarepharmacynv-2024-12-31-en.xhtml",
+    "url": "https://filings.xbrl.org/529900JK6UXHY1YKZ082/2024-12-31/ESEF/NL/0/529900JK6UXHY1YKZ082-2024-12-31-en.zip",
+    "required_report_member_basename": "redcarepharmacynv-2024-12-31-en.xhtml",
+    "original_report_path": "/529900JK6UXHY1YKZ082/2024-12-31/ESEF/NL/0/529900JK6UXHY1YKZ082-2024-12-31-en/reports/redcarepharmacynv-2024-12-31-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_529900JK6UXHY1YKZ082_2025.txt",
+    "country": "NL",
+    "role": "followup",
+    "recovery_of_url": "https://filings.xbrl.org/529900JK6UXHY1YKZ082/2025-12-31/ESEF/NL/0/redcarepharmacynv-2025-12-31-en/reports/redcarepharmacynv-2025-12-31-en.xhtml",
+    "url": "https://filings.xbrl.org/529900JK6UXHY1YKZ082/2025-12-31/ESEF/NL/0/529900JK6UXHY1YKZ082-2025-12-31.xbri",
+    "required_report_member_basename": "redcarepharmacynv-2025-12-31-en.xhtml",
+    "original_report_path": "/529900JK6UXHY1YKZ082/2025-12-31/ESEF/NL/0/redcarepharmacynv-2025-12-31-en/reports/redcarepharmacynv-2025-12-31-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_549300BLWVJN2BAT0A44_2024.txt",
+    "country": "NL",
+    "role": "original",
+    "recovery_of_url": "https://filings.xbrl.org/549300BLWVJN2BAT0A44/2024-12-31/ESEF/NL/0/549300BLWVJN2BAT0A44-2024-12-31-en/reports/549300BLWVJN2BAT0A44-2024-12-31-en.xhtml",
+    "url": "https://filings.xbrl.org/549300BLWVJN2BAT0A44/2024-12-31/ESEF/NL/0/549300BLWVJN2BAT0A44-2024-12-31-en.zip",
+    "required_report_member_basename": "549300BLWVJN2BAT0A44-2024-12-31-en.xhtml",
+    "original_report_path": "/549300BLWVJN2BAT0A44/2024-12-31/ESEF/NL/0/549300BLWVJN2BAT0A44-2024-12-31-en/reports/549300BLWVJN2BAT0A44-2024-12-31-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_549300BLWVJN2BAT0A44_2025.txt",
+    "country": "NL",
+    "role": "followup",
+    "recovery_of_url": "https://filings.xbrl.org/549300BLWVJN2BAT0A44/2025-12-31/ESEF/NL/0/549300BLWVJN2BAT0A44-2025-12-31-1-en/reports/549300BLWVJN2BAT0A44-2025-12-31-1-en.xhtml",
+    "url": "https://filings.xbrl.org/549300BLWVJN2BAT0A44/2025-12-31/ESEF/NL/0/549300BLWVJN2BAT0A44-2025-12-31.xbri",
+    "required_report_member_basename": "549300BLWVJN2BAT0A44-2025-12-31-1-en.xhtml",
+    "original_report_path": "/549300BLWVJN2BAT0A44/2025-12-31/ESEF/NL/0/549300BLWVJN2BAT0A44-2025-12-31-1-en/reports/549300BLWVJN2BAT0A44-2025-12-31-1-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_549300FMWM53K9ULYT15_2023.txt",
+    "country": "NL",
+    "role": "original",
+    "recovery_of_url": "https://filings.xbrl.org/549300FMWM53K9ULYT15/2023-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2023-12-31-en/reports/549300FMWM53K9ULYT15-2023-12-31-en.html",
+    "url": "https://filings.xbrl.org/549300FMWM53K9ULYT15/2023-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2023-12-31-en.zip",
+    "required_report_member_basename": "549300FMWM53K9ULYT15-2023-12-31-en.html",
+    "original_report_path": "/549300FMWM53K9ULYT15/2023-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2023-12-31-en/reports/549300FMWM53K9ULYT15-2023-12-31-en.html",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_549300FMWM53K9ULYT15_2024.txt",
+    "country": "NL",
+    "role": "followup",
+    "recovery_of_url": "https://filings.xbrl.org/549300FMWM53K9ULYT15/2024-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2024-12-31-en/reports/549300FMWM53K9ULYT15-2024-12-31.html",
+    "url": "https://filings.xbrl.org/549300FMWM53K9ULYT15/2024-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2024-12-31-en.zip",
+    "required_report_member_basename": "549300FMWM53K9ULYT15-2024-12-31.html",
+    "original_report_path": "/549300FMWM53K9ULYT15/2024-12-31/ESEF/NL/0/549300FMWM53K9ULYT15-2024-12-31-en/reports/549300FMWM53K9ULYT15-2024-12-31.html",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_549300NYKK9MWM7GGW15_2024.txt",
+    "country": "NL",
+    "role": "original",
+    "recovery_of_url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2024-12-31/ESEF/NL/0/ing-2024-12-31-en/reports/ing-2024-12-31-en.xhtml",
+    "url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2024-12-31/ESEF/NL/0/ing-2024-12-31-en.zip",
+    "required_report_member_basename": "ing-2024-12-31-en.xhtml",
+    "original_report_path": "/549300NYKK9MWM7GGW15/2024-12-31/ESEF/NL/0/ing-2024-12-31-en/reports/ing-2024-12-31-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_549300NYKK9MWM7GGW15_2025.txt",
+    "country": "NL",
+    "role": "followup",
+    "recovery_of_url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2025-12-31/ESEF/NL/0/ing-2025-12-31-en/reports/ing-2025-12-31-en.xhtml",
+    "url": "https://filings.xbrl.org/549300NYKK9MWM7GGW15/2025-12-31/ESEF/NL/0/549300NYKK9MWM7GGW15-2025-12-31.xbri",
+    "required_report_member_basename": "ing-2025-12-31-en.xhtml",
+    "original_report_path": "/549300NYKK9MWM7GGW15/2025-12-31/ESEF/NL/0/ing-2025-12-31-en/reports/ing-2025-12-31-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_7245000UZH70GO047N03_2024.txt",
+    "country": "NL",
+    "role": "original",
+    "recovery_of_url": "https://filings.xbrl.org/7245000UZH70GO047N03/2024-12-31/ESEF/NL/0/Arcadis_NV-2024-12-31-en/reports/Arcadis_NV-2024-12-31-en.xhtml",
+    "url": "https://filings.xbrl.org/7245000UZH70GO047N03/2024-12-31/ESEF/NL/0/Arcadis_NV-2024-12-31-en.zip",
+    "required_report_member_basename": "Arcadis_NV-2024-12-31-en.xhtml",
+    "original_report_path": "/7245000UZH70GO047N03/2024-12-31/ESEF/NL/0/Arcadis_NV-2024-12-31-en/reports/Arcadis_NV-2024-12-31-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_7245001I22ND6ZFHX623_2024.txt",
+    "country": "NL",
+    "role": "followup",
+    "recovery_of_url": "https://filings.xbrl.org/7245001I22ND6ZFHX623/2024-12-31/ESEF/NL/0/asm-2024-12-31-en/reports/asm-2024-12-31-en.xhtml",
+    "url": "https://filings.xbrl.org/7245001I22ND6ZFHX623/2024-12-31/ESEF/NL/0/asm-2024-12-31-en.zip",
+    "required_report_member_basename": "asm-2024-12-31-en.xhtml",
+    "original_report_path": "/7245001I22ND6ZFHX623/2024-12-31/ESEF/NL/0/asm-2024-12-31-en/reports/asm-2024-12-31-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_7245001I22ND6ZFHX623_2025.txt",
+    "country": "NL",
+    "role": "followup",
+    "recovery_of_url": "https://filings.xbrl.org/7245001I22ND6ZFHX623/2025-12-31/ESEF/NL/0/asm-2025-12-31-1-en/reports/asm-2025-12-31-1-en.xhtml",
+    "url": "https://filings.xbrl.org/7245001I22ND6ZFHX623/2025-12-31/ESEF/NL/0/7245001I22ND6ZFHX623-2025-12-31.xbri",
+    "required_report_member_basename": "asm-2025-12-31-1-en.xhtml",
+    "original_report_path": "/7245001I22ND6ZFHX623/2025-12-31/ESEF/NL/0/asm-2025-12-31-1-en/reports/asm-2025-12-31-1-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500D8WOYCL1BUCB80_2023.txt",
+    "country": "NL",
+    "role": "original",
+    "recovery_of_url": "https://filings.xbrl.org/724500D8WOYCL1BUCB80/2023-12-31/ESEF/NL/0/vlk-2023-12-31-en/reports/vlk-2023-12-31-en.xhtml",
+    "url": "https://filings.xbrl.org/724500D8WOYCL1BUCB80/2023-12-31/ESEF/NL/0/vlk-2023-12-31-en.zip",
+    "required_report_member_basename": "vlk-2023-12-31-en.xhtml",
+    "original_report_path": "/724500D8WOYCL1BUCB80/2023-12-31/ESEF/NL/0/vlk-2023-12-31-en/reports/vlk-2023-12-31-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500DP8SZN3NBQKC44_2021.txt",
+    "country": "NL",
+    "role": "original",
+    "recovery_of_url": "https://filings.xbrl.org/724500DP8SZN3NBQKC44/2021-12-31/ESEF/NL/0/724500DP8SZN3NBQKC44-2021-12-31-en/reports/724500DP8SZN3NBQKC44-2021-12-31-en.xhtml",
+    "url": "https://filings.xbrl.org/724500DP8SZN3NBQKC44/2021-12-31/ESEF/NL/0/724500DP8SZN3NBQKC44-2021-12-31-en.zip",
+    "required_report_member_basename": "724500DP8SZN3NBQKC44-2021-12-31-en.xhtml",
+    "original_report_path": "/724500DP8SZN3NBQKC44/2021-12-31/ESEF/NL/0/724500DP8SZN3NBQKC44-2021-12-31-en/reports/724500DP8SZN3NBQKC44-2021-12-31-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500DP8SZN3NBQKC44_2022.txt",
+    "country": "NL",
+    "role": "followup",
+    "recovery_of_url": "https://filings.xbrl.org/724500DP8SZN3NBQKC44/2022-12-31/ESEF/NL/1/724500DP8SZN3NBQKC44-2022-12-31-en/reports/724500DP8SZN3NBQKC44-2022-12-31-en.xhtml",
+    "url": "https://filings.xbrl.org/724500DP8SZN3NBQKC44/2022-12-31/ESEF/NL/1/724500DP8SZN3NBQKC44-2022-12-31-en.zip",
+    "required_report_member_basename": "724500DP8SZN3NBQKC44-2022-12-31-en.xhtml",
+    "original_report_path": "/724500DP8SZN3NBQKC44/2022-12-31/ESEF/NL/1/724500DP8SZN3NBQKC44-2022-12-31-en/reports/724500DP8SZN3NBQKC44-2022-12-31-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500EHG519SE5ZRT89_2023.txt",
+    "country": "NL",
+    "role": "original",
+    "recovery_of_url": "https://filings.xbrl.org/724500EHG519SE5ZRT89/2023-12-31/ESEF/NL/0/jdep-2023-12-31-en/reports/jdep-2023-12-31-en.xhtml",
+    "url": "https://filings.xbrl.org/724500EHG519SE5ZRT89/2023-12-31/ESEF/NL/0/jdep-2023-12-31-en.zip",
+    "required_report_member_basename": "jdep-2023-12-31-en.xhtml",
+    "original_report_path": "/724500EHG519SE5ZRT89/2023-12-31/ESEF/NL/0/jdep-2023-12-31-en/reports/jdep-2023-12-31-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500FLODI49NSCIP70_2024.txt",
+    "country": "NL",
+    "role": "original",
+    "recovery_of_url": "https://filings.xbrl.org/724500FLODI49NSCIP70/2024-12-31/ESEF/NL/0/ten-2024-12-31-0-en/reports/ten-2024-12-31-0-en.xhtml",
+    "url": "https://filings.xbrl.org/724500FLODI49NSCIP70/2024-12-31/ESEF/NL/0/ten-2024-12-31-0-en.zip",
+    "required_report_member_basename": "ten-2024-12-31-0-en.xhtml",
+    "original_report_path": "/724500FLODI49NSCIP70/2024-12-31/ESEF/NL/0/ten-2024-12-31-0-en/reports/ten-2024-12-31-0-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500FLODI49NSCIP70_2025.txt",
+    "country": "NL",
+    "role": "followup",
+    "recovery_of_url": "https://filings.xbrl.org/724500FLODI49NSCIP70/2025-12-31/ESEF/NL/0/ten-2025-12-31-1-en/reports/ten-2025-12-31-1-en.xhtml",
+    "url": "https://filings.xbrl.org/724500FLODI49NSCIP70/2025-12-31/ESEF/NL/0/724500FLODI49NSCIP70-2025-12-31.xbri",
+    "required_report_member_basename": "ten-2025-12-31-1-en.xhtml",
+    "original_report_path": "/724500FLODI49NSCIP70/2025-12-31/ESEF/NL/0/ten-2025-12-31-1-en/reports/ten-2025-12-31-1-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500GJBUL3D9TW9Y18_2021.txt",
+    "country": "NL",
+    "role": "original",
+    "recovery_of_url": "https://filings.xbrl.org/724500GJBUL3D9TW9Y18/2021-12-31/ESEF/NL/0/universalmusicgroup-2021-12-31-en/reports/universalmusicgroup-2021-12-31-en.xhtml",
+    "url": "https://filings.xbrl.org/724500GJBUL3D9TW9Y18/2021-12-31/ESEF/NL/0/universalmusicgroup-2021-12-31-en.zip",
+    "required_report_member_basename": "universalmusicgroup-2021-12-31-en.xhtml",
+    "original_report_path": "/724500GJBUL3D9TW9Y18/2021-12-31/ESEF/NL/0/universalmusicgroup-2021-12-31-en/reports/universalmusicgroup-2021-12-31-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500K5PTPSST86UQ23_2021.txt",
+    "country": "NL",
+    "role": "original",
+    "recovery_of_url": "https://filings.xbrl.org/724500K5PTPSST86UQ23/2021-12-31/ESEF/NL/0/heia-2021-12-31-en/reports/heia-2021-12-31-en.xhtml",
+    "url": "https://filings.xbrl.org/724500K5PTPSST86UQ23/2021-12-31/ESEF/NL/0/heia-2021-12-31-en.zip",
+    "required_report_member_basename": "heia-2021-12-31-en.xhtml",
+    "original_report_path": "/724500K5PTPSST86UQ23/2021-12-31/ESEF/NL/0/heia-2021-12-31-en/reports/heia-2021-12-31-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500OUE3PCA809DZ79_2021.txt",
+    "country": "NL",
+    "role": "original",
+    "recovery_of_url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2021-12-31/ESEF/NL/0/724500OUE3PCA809DZ79-2021-12-31-nl/reports/724500OUE3PCA809DZ79-2021-12-31-nl.xhtml",
+    "url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2021-12-31/ESEF/NL/0/724500OUE3PCA809DZ79-2021-12-31-nl.zip",
+    "required_report_member_basename": "724500OUE3PCA809DZ79-2021-12-31-nl.xhtml",
+    "original_report_path": "/724500OUE3PCA809DZ79/2021-12-31/ESEF/NL/0/724500OUE3PCA809DZ79-2021-12-31-nl/reports/724500OUE3PCA809DZ79-2021-12-31-nl.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500OUE3PCA809DZ79_2024.txt",
+    "country": "NL",
+    "role": "followup",
+    "recovery_of_url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2024-12-31/ESEF/NL/0/Heijmans-2024-12-31-nl/reports/Heijmans-2024-12-31-nl.xhtml",
+    "url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2024-12-31/ESEF/NL/0/Heijmans-2024-12-31-nl.zip",
+    "required_report_member_basename": "Heijmans-2024-12-31-nl.xhtml",
+    "original_report_path": "/724500OUE3PCA809DZ79/2024-12-31/ESEF/NL/0/Heijmans-2024-12-31-nl/reports/Heijmans-2024-12-31-nl.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500OUE3PCA809DZ79_2025.txt",
+    "country": "NL",
+    "role": "followup",
+    "recovery_of_url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2025-12-31/ESEF/NL/0/724500OUE3PCA809DZ79-2025-12-31-1-nl/reports/724500OUE3PCA809DZ79-2025-12-31-1-nl.xhtml",
+    "url": "https://filings.xbrl.org/724500OUE3PCA809DZ79/2025-12-31/ESEF/NL/0/724500OUE3PCA809DZ79-2025-12-31-1-nl.xbri",
+    "required_report_member_basename": "724500OUE3PCA809DZ79-2025-12-31-1-nl.xhtml",
+    "original_report_path": "/724500OUE3PCA809DZ79/2025-12-31/ESEF/NL/0/724500OUE3PCA809DZ79-2025-12-31-1-nl/reports/724500OUE3PCA809DZ79-2025-12-31-1-nl.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500QDJRUMSPRDHW25_2023.txt",
+    "country": "NL",
+    "role": "original",
+    "recovery_of_url": "https://filings.xbrl.org/724500QDJRUMSPRDHW25/2023-12-31/ESEF/NL/0/724500QDJRUMSPRDHW25-2023-12-31/reports/724500QDJRUMSPRDHW25-2023-12-31.html",
+    "url": "https://filings.xbrl.org/724500QDJRUMSPRDHW25/2023-12-31/ESEF/NL/0/724500QDJRUMSPRDHW25-2023-12-31.zip",
+    "required_report_member_basename": "724500QDJRUMSPRDHW25-2023-12-31.html",
+    "original_report_path": "/724500QDJRUMSPRDHW25/2023-12-31/ESEF/NL/0/724500QDJRUMSPRDHW25-2023-12-31/reports/724500QDJRUMSPRDHW25-2023-12-31.html",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500QJ4QSZ3H9QU415_2024.txt",
+    "country": "NL",
+    "role": "followup",
+    "recovery_of_url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2024-12-31/ESEF/NL/0/eur-2024-12-31-en/reports/eur-2024-12-31-en.xhtml",
+    "url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2024-12-31/ESEF/NL/0/eur-2024-12-31-en.zip",
+    "required_report_member_basename": "eur-2024-12-31-en.xhtml",
+    "original_report_path": "/724500QJ4QSZ3H9QU415/2024-12-31/ESEF/NL/0/eur-2024-12-31-en/reports/eur-2024-12-31-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500QJ4QSZ3H9QU415_2025.txt",
+    "country": "NL",
+    "role": "followup",
+    "recovery_of_url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2025-12-31/ESEF/NL/0/eur-2025-12-31-en/reports/eur-2025-12-31-en.xhtml",
+    "url": "https://filings.xbrl.org/724500QJ4QSZ3H9QU415/2025-12-31/ESEF/NL/0/724500QJ4QSZ3H9QU415-2025-12-31.xbri",
+    "required_report_member_basename": "eur-2025-12-31-en.xhtml",
+    "original_report_path": "/724500QJ4QSZ3H9QU415/2025-12-31/ESEF/NL/0/eur-2025-12-31-en/reports/eur-2025-12-31-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500SFK53FPNM68L95_2024.txt",
+    "country": "NL",
+    "role": "original",
+    "recovery_of_url": "https://filings.xbrl.org/724500SFK53FPNM68L95/2024-12-31/ESEF/NL/0/724500SFK53FPNM68L95-2024-12-31-0-en/reports/724500SFK53FPNM68L95-2024-12-31-0-en.xhtml",
+    "url": "https://filings.xbrl.org/724500SFK53FPNM68L95/2024-12-31/ESEF/NL/0/724500SFK53FPNM68L95-2024-12-31-0-en.zip",
+    "required_report_member_basename": "724500SFK53FPNM68L95-2024-12-31-0-en.xhtml",
+    "original_report_path": "/724500SFK53FPNM68L95/2024-12-31/ESEF/NL/0/724500SFK53FPNM68L95-2024-12-31-0-en/reports/724500SFK53FPNM68L95-2024-12-31-0-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500SFK53FPNM68L95_2025.txt",
+    "country": "NL",
+    "role": "followup",
+    "recovery_of_url": "https://filings.xbrl.org/724500SFK53FPNM68L95/2025-12-31/ESEF/NL/0/724500SFK53FPNM68L95-2025-12-31-1-en/reports/724500SFK53FPNM68L95-2025-12-31-1-en.xhtml",
+    "url": "https://filings.xbrl.org/724500SFK53FPNM68L95/2025-12-31/ESEF/NL/0/724500SFK53FPNM68L95-2025-12-31.xbri",
+    "required_report_member_basename": "724500SFK53FPNM68L95-2025-12-31-1-en.xhtml",
+    "original_report_path": "/724500SFK53FPNM68L95/2025-12-31/ESEF/NL/0/724500SFK53FPNM68L95-2025-12-31-1-en/reports/724500SFK53FPNM68L95-2025-12-31-1-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500WAU923OTVC7M86_2024.txt",
+    "country": "NL",
+    "role": "followup",
+    "recovery_of_url": "https://filings.xbrl.org/724500WAU923OTVC7M86/2024-12-31/ESEF/NL/0/tom-2024-12-31-en/reports/tom-2024-12-31-en.xhtml",
+    "url": "https://filings.xbrl.org/724500WAU923OTVC7M86/2024-12-31/ESEF/NL/0/tom-2024-12-31-en.xbri",
+    "required_report_member_basename": "tom-2024-12-31-en.xhtml",
+    "original_report_path": "/724500WAU923OTVC7M86/2024-12-31/ESEF/NL/0/tom-2024-12-31-en/reports/tom-2024-12-31-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  },
+  {
+    "file": "NL_724500Y6DUVHQD6OXN27_2024.txt",
+    "country": "NL",
+    "role": "original",
+    "recovery_of_url": "https://filings.xbrl.org/724500Y6DUVHQD6OXN27/2024-12-31/ESEF/NL/0/asml-2024-12-31-en/reports/asml-2024-12-31-en.xhtml",
+    "url": "https://filings.xbrl.org/724500Y6DUVHQD6OXN27/2024-12-31/ESEF/NL/0/asml-2024-12-31-en.zip",
+    "required_report_member_basename": "asml-2024-12-31-en.xhtml",
+    "original_report_path": "/724500Y6DUVHQD6OXN27/2024-12-31/ESEF/NL/0/asml-2024-12-31-en/reports/asml-2024-12-31-en.xhtml",
+    "recovery_method": "same filing revision compressed ESEF package"
+  }
+]

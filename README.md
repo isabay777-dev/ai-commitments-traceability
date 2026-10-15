@@ -55,6 +55,21 @@ python3 scripts/48_supplement_S4_F5.py    # Supplementary S4 -> article1/tables_
 | `docs/AI_USE_REGISTRY.md` | Registry of AI-tool use: stage, model, prompt, inputs, outputs, dates, human checks (`AI_USE_REGISTRY.csv` covers stages up to F3) |
 | `tables/` | F3 exhibits (v1.0.0) |
 
+## v1.3.0 — Post-Communist Economies version (`pce_version/`)
+
+Materials for "Corporate AI commitments in annual reports: follow-up disclosure in Kazakhstan and Poland". The F5 data in `data/` are unchanged.
+
+| Path | Contents |
+|---|---|
+| `pce_version/analysis/` | `final_analysis.R` (Tables 1–4, Figure 1, Kazakhstan–Poland contrasts and sensitivities, report-panel models), `selection_flow.py`, `build_selection_ledger.py` (213-key ledger), first-report scripts (`prepare_first_followup.py` … `first_followup_focal_models.R`, `build_first_report_supplement.py`), `make_S5.py`; outputs in `out/` |
+| `pce_version/first_followup_rounds/`, `first_followup_adjudication/` | Frozen model coding rounds and source adjudication (rationales, quote pairs) for the first-available-report exercise |
+| `pce_version/sources_first_followup/` | Retrieval, recovery, readability and ESEF manifests (URLs, hashes). Full report texts are not redistributed |
+| `pce_version/research/` | First-report protocol, its SHA256, documented deviations and analysis decisions |
+| `pce_version/work/` | Supplementary S2 (AI-use registry), S4 and S5 as Markdown |
+| `pce_version/validation/`, `validation_first_report/` | Blind human-coding kits (legacy 76-case F5 kit; 183 source-only first-report cards). Answer keys are withheld; no human coding results are included |
+
+`pce_version/repo` is a symbolic link to the repository root, so scripts can be run from `pce_version/` (e.g. `cd pce_version/analysis && Rscript final_analysis.R`). The first-report scripts that read report texts cannot be rerun without the source files; their outputs and hashes are included.
+
 ## Not included
 
 - Full texts of annual reports (copyright of the issuers); they are publicly available at the listed URLs. Scripts that read report texts or full fragments (e.g. `40_alt_fragments.py`, the Codex coding runs) therefore cannot be rerun from this package; their outputs are included.

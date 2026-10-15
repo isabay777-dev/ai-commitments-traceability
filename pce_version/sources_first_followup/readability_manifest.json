@@ -1,0 +1,1218 @@
+{
+  "NL_213800DIFN7NR7B97A50_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_213800DIFN7NR7B97A50_2022__blocks.txt",
+    "text_sha256": "1ce1d85ecaa854860ad7357171f8503c00516400d3f8f0692017297dcc221c6a",
+    "source_sha256": "9ef1e3e2b1949bc8b2b519fc6d44fcae88fd80b4a1650a0b90ef37363341aa17",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1048002
+  },
+  "NL_213800DIFN7NR7B97A50_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_213800DIFN7NR7B97A50_2023__blocks.txt",
+    "text_sha256": "5197e05b472f763781af018e011696859ca0b3e73fddda26ff3278166db2a2a4",
+    "source_sha256": "1ad7b99dd1738c68cb531564802981723397b7288e8a7ec084d562cc0ad7238f",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1080839
+  },
+  "NL_213800DIFN7NR7B97A50_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_213800DIFN7NR7B97A50_2024__blocks.txt",
+    "text_sha256": "b37a7b8fade7726a99faa16dd29b7d5e553c9815715357b909574190ec1e2871",
+    "source_sha256": "ad41ef41cf29f9c1bde6d11400139eeb36237e852ee57e96a20dfaec7fdf3019",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1206031
+  },
+  "NL_213800DIFN7NR7B97A50_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_213800DIFN7NR7B97A50_2025__blocks.txt",
+    "text_sha256": "b6a261546cbe6648cb4f14541651b6e79ef3ec7f980f996a374faa884647d728",
+    "source_sha256": "523e4d62f51d49c0d456d9823454f666daffb5721e3355dd96d0d9736bf903d4",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1267744
+  },
+  "NL_213800ED5AN2J56N6Z02_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_213800ED5AN2J56N6Z02_2021__blocks.txt",
+    "text_sha256": "5065e1b31bab29de764101ee63370fa6ddebeb3a8978c4f12552e7fb2b26ec86",
+    "source_sha256": "f6d250bd433685e43118414a73746935eff6af8286a87bedc1dd112cd7a470c1",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1343360
+  },
+  "NL_213800ED5AN2J56N6Z02_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_213800ED5AN2J56N6Z02_2022__blocks.txt",
+    "text_sha256": "0458c006e3619d97a60254e0db601962184b95bb1c38e0f1534c442cf06b911d",
+    "source_sha256": "da5411e925e32e366ea0063a5f17ea11219b0db9e110341611b70d39256af558",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1369195
+  },
+  "NL_213800ED5AN2J56N6Z02_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_213800ED5AN2J56N6Z02_2024__blocks.txt",
+    "text_sha256": "a0eede4abc2fff939ffb0b7330c54181a20c400ba68f2c1264a30d015a1d3f90",
+    "source_sha256": "899075cce2ee6d1fd8b7e1751dbcbe501c3b8f52a49c4f3d2d6a9ecbcb8c251c",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1704717
+  },
+  "NL_213800ED5AN2J56N6Z02_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_213800ED5AN2J56N6Z02_2025__blocks.txt",
+    "text_sha256": "819528fa2abb9794bc1152434323be789d424cd89a042f726818929cf7f9b821",
+    "source_sha256": "77f425bf122ed66d83e17e0b785e770d5431d35465d4fb8a7cbe7c44e6462109",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1753471
+  },
+  "NL_315700YHFON9RJOPCK19_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_315700YHFON9RJOPCK19_2022__blocks.txt",
+    "text_sha256": "d3428420c31abb5d338c697ed592908ceab0ac4fdc65e99354dddc4a8e1cf794",
+    "source_sha256": "b9d4857125750f2bdaa2d92eba8a1d1df0ae7b71e327be907dec0440c14c3b53",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 572357
+  },
+  "NL_315700YHFON9RJOPCK19_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_315700YHFON9RJOPCK19_2024__blocks.txt",
+    "text_sha256": "5cae74b8910de873280237252bbcde6dd9013fe954351ead5c01a6b6198dfe5c",
+    "source_sha256": "4f8dc5b518e33aa1e68dbdd601752c16290f88e38918fed887cf60073f20afbf",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 592410
+  },
+  "NL_3TK20IVIUJ8J3ZU0QE75_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_3TK20IVIUJ8J3ZU0QE75_2021__blocks.txt",
+    "text_sha256": "e0bb2ea2dd026dfa9120d771b54fc1a63d585834be24325f01a69914ebe7bb93",
+    "source_sha256": "aacac2bda4f6a8e24422c3909a1401b526436c44702eff845ae64d17f120c456",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1265872
+  },
+  "NL_3TK20IVIUJ8J3ZU0QE75_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_3TK20IVIUJ8J3ZU0QE75_2022__blocks.txt",
+    "text_sha256": "d60d226b919c897c95fc4347e934be8322ee0a58a0739f60f3bb7cc135ecb480",
+    "source_sha256": "09b7735616c6aa85861ae13ae5ccb047b8ee009b24aff55edeb7a48e8b759835",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1224595
+  },
+  "NL_3TK20IVIUJ8J3ZU0QE75_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_3TK20IVIUJ8J3ZU0QE75_2024__blocks.txt",
+    "text_sha256": "b472252245b6d15235f337d7091270a7c4e67e1433dc60eec159ccbc40ac2b39",
+    "source_sha256": "08ee6b78ed2566346c7ae40121045a3683c1afe313e8267b3c90d44d95d2e657",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1065314
+  },
+  "NL_3TK20IVIUJ8J3ZU0QE75_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_3TK20IVIUJ8J3ZU0QE75_2025__blocks.txt",
+    "text_sha256": "1dd9feda2f814900fc5c34d39b2e3f6e1b452b74974587ac93a7419002633af8",
+    "source_sha256": "4b6a633218a2ce6aa44a48a8360401ed17ed245e5c5ba3fb3fdefe9ad84e4b63",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1065841
+  },
+  "NL_506700G44V67MPM4BI12_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_506700G44V67MPM4BI12_2023__blocks.txt",
+    "text_sha256": "65e0e30f3b3c2bd9360a5488d2cb2108d88953c84a6238706bd9a6259583e09b",
+    "source_sha256": "2a60fc4ac4de70f2dd34308879fff0deb5b9a6a498c372683c9c5121a21be6ab",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 827357
+  },
+  "NL_52990050T51W55KK4X45_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_52990050T51W55KK4X45_2022__blocks.txt",
+    "text_sha256": "de41169d6b255f84465feccd8b9656b16a2cb39ceb2c4fc2457e074fffeaeb50",
+    "source_sha256": "8731e6f2dc15f125ddd01f196b29a438d8764ace9f84de474a8df4c8ec34cd10",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 345533
+  },
+  "NL_52990050T51W55KK4X45_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_52990050T51W55KK4X45_2023__blocks.txt",
+    "text_sha256": "cead1677e1d79991dda44a145975f3d77e57b4a6b53b59007f45ea269d92babf",
+    "source_sha256": "6f304437e88075936788750aa9c4ed0fb20ea36adac756d5a2ca26d15b1e0257",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 357657
+  },
+  "NL_5493006MN6OH67U2YI74_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_5493006MN6OH67U2YI74_2021__blocks.txt",
+    "text_sha256": "c2b871a83ce32e18105f9a75620348dc20a2ab414b59bc4eda3a561b901db8ef",
+    "source_sha256": "98cc98fbff4d6e6bf361af51d7942c04810e667b0b9dd7bb8aff4aa7b0873ca6",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 593129
+  },
+  "NL_5493006MN6OH67U2YI74_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_5493006MN6OH67U2YI74_2022__blocks.txt",
+    "text_sha256": "1e4d02e845c107217e31b8515a3914dcc93cf57fb53e67880f9f1220b3f2bbf6",
+    "source_sha256": "6c0fcc10891de3cdeba6beaedd05fa80a0f3538db678702e843e34d2f19ce85a",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 615364
+  },
+  "NL_549300EDRLDFOSBD1G50_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_549300EDRLDFOSBD1G50_2023__blocks.txt",
+    "text_sha256": "898c1c6615409d5761d221519de09a7a697a3db9da95526c4f08526257dff7a1",
+    "source_sha256": "fe7d1287b04dbe0e16671a5e6acb07aa5513fe36f9440c0ba966dc699962400b",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 605702
+  },
+  "NL_549300EDRLDFOSBD1G50_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_549300EDRLDFOSBD1G50_2024__blocks.txt",
+    "text_sha256": "295c09f17f701269d92a1aa034d8f2f9b277f0769556929f3b9ac76bd9b374e4",
+    "source_sha256": "ebf3b3d169db8ac5d2129cbc3585cdac133527dafbbbaa1cce33e9b82a0b3bc4",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 883682
+  },
+  "NL_549300FMWM53K9ULYT15_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_549300FMWM53K9ULYT15_2025__blocks.txt",
+    "text_sha256": "b865cf40bc26da9ba2bb00de1285e1f99005105799dc4af8a4aa8765e03c28bb",
+    "source_sha256": "0ee78cd390c3d874fb5f8277501f211d1434faf2596c4da94f893da750a18fa9",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1112869
+  },
+  "NL_549300LKT9PW7ZIBDF31_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_549300LKT9PW7ZIBDF31_2021__blocks.txt",
+    "text_sha256": "61179d8835344ca2549d4380e52922e28bcc253bef5311da6af50779dfc42d5a",
+    "source_sha256": "40dc88a5cc3b8c4c6de171bda83b685720332116dd8e674cb9f76ec6a90001a1",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1326990
+  },
+  "NL_549300LKT9PW7ZIBDF31_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_549300LKT9PW7ZIBDF31_2022__blocks.txt",
+    "text_sha256": "1437f9f69252b2cb7b260a94bf5b34ca5e47a8a35c8cdc8aff507c0e4e70396f",
+    "source_sha256": "339c7b174038961cab6b608d5a5dc57eb48a9553258fe9d7409e29d85503efb0",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1404019
+  },
+  "NL_549300LKT9PW7ZIBDF31_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_549300LKT9PW7ZIBDF31_2023__blocks.txt",
+    "text_sha256": "11fddc21631e65e8005d93f103cc7766c66df8ab8d3d6a33037448f476974a0f",
+    "source_sha256": "285b2d030608298f229cfa764fbeb94598893390b249f8efd466d1cd58227e0f",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1432349
+  },
+  "NL_549300LKT9PW7ZIBDF31_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_549300LKT9PW7ZIBDF31_2024__blocks.txt",
+    "text_sha256": "740daf17174c16d34522a55f3ac5643881b4a6100f57c02bbe1c5fe8457fc97f",
+    "source_sha256": "9b5f1e608a35a7519945a57d7985c5e6a0d9b2313f67750fdf964ac12be29319",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1532682
+  },
+  "NL_549300LKT9PW7ZIBDF31_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_549300LKT9PW7ZIBDF31_2025__blocks.txt",
+    "text_sha256": "35fcef4363c2140af64994454a6844648e79f8e80970791f1c20e7ebf2ea566a",
+    "source_sha256": "f2efada4c367dfc82d0af25a98e867c79c7a5f904a68bcb1cf880ee9c4825588",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1587645
+  },
+  "NL_549300NYKK9MWM7GGW15_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_549300NYKK9MWM7GGW15_2021__blocks.txt",
+    "text_sha256": "4761ac4a1b260fc03b91c6a9791806e729ff9e8551f486b7d2a77a9c14e1df04",
+    "source_sha256": "ee39ecfc56c1ff48903850f255a2a87decdb12fdf21f8c3e4a89e7f6e93d4b8c",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1708175
+  },
+  "NL_549300NYKK9MWM7GGW15_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_549300NYKK9MWM7GGW15_2022__blocks.txt",
+    "text_sha256": "379f5c5386a86368fb267d9c433ca23a6d5c21eb0bc9255aa5504844a6266582",
+    "source_sha256": "f0afda7f8a241bce45a6ec329258d8ad77d86cd375ef251b8b6b758c0643d184",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1443907
+  },
+  "NL_549300RDGCRYZ5QE6513_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_549300RDGCRYZ5QE6513_2021__blocks.txt",
+    "text_sha256": "275a0c335f049429073799ce98cfc62141ee7827761987101981e7700cfcc775",
+    "source_sha256": "77d0c31882b33dd46c47be079bacca2211b5dd72b0f9f2add458784fc39f3191",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 726432
+  },
+  "NL_549300RDGCRYZ5QE6513_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_549300RDGCRYZ5QE6513_2022__blocks.txt",
+    "text_sha256": "7942e66436ce6e8c6661f6f2ac07149c78851ba6430841dd551d4bd301874914",
+    "source_sha256": "7023b4d5d374ee9e5d4c8ed952a63a6bc3144a3323faefd9ff491c4a185904b9",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 766661
+  },
+  "NL_549300RDGCRYZ5QE6513_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_549300RDGCRYZ5QE6513_2023__blocks.txt",
+    "text_sha256": "6cb60417b40af6431819f9311ef3c10094183ea3151e6a949a5672a88e20c630",
+    "source_sha256": "23169f2d288d7c566819682889c3f3ef72b802b85edf3e696ddfe667594b0c15",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 857753
+  },
+  "NL_549300RDGCRYZ5QE6513_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_549300RDGCRYZ5QE6513_2024__blocks.txt",
+    "text_sha256": "47ff99b60a5679cfa8637d0643883e812f6d8c1bf2ea7e4c2d247a1226d62495",
+    "source_sha256": "65038e030697c27747c2521ec25de5b7d550ecba62dbd3a613a56b3bde83eca6",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 924470
+  },
+  "NL_549300RDGCRYZ5QE6513_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_549300RDGCRYZ5QE6513_2025__blocks.txt",
+    "text_sha256": "a1ad0d18864f920e38fe7e3a5e99aaf875417ff93bd6cc304752e8e055d6ec37",
+    "source_sha256": "5a0d0d5bdc2358a99a8fef21dc7156d1bf149d1f0420b9fcb01d9bee3602fce8",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 949188
+  },
+  "NL_549300RIVY5EX8RCON76_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_549300RIVY5EX8RCON76_2021__blocks.txt",
+    "text_sha256": "2f8f29fb87fb855aa4fb076f6121e8cb9b6d6a000c53029e41e0004125f68e37",
+    "source_sha256": "3fcc593a531dc03d2200de59f4a146f603700841c67c35a3d9def2b6ab9dcbc2",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1117590
+  },
+  "NL_549300RIVY5EX8RCON76_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_549300RIVY5EX8RCON76_2022__blocks.txt",
+    "text_sha256": "955b8367837ada7cd07806cd84c809deca951dcac7bc64759e2091f8fa2b2815",
+    "source_sha256": "6c532368ca322060547cc68c8869c1522cc0d4be6231a6d1fc19c9328683cc31",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1345996
+  },
+  "NL_549300YO0JZHAL7FVP81_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_549300YO0JZHAL7FVP81_2021__blocks.txt",
+    "text_sha256": "7389cb160250e38ce5735723a4be35f87e83657e96565b4aae11d70de7834e55",
+    "source_sha256": "db562944a0b0be193f83a5d6479f9143d740aa0feecc89555f9b6fcd6f1105bc",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 737751
+  },
+  "NL_549300YO0JZHAL7FVP81_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_549300YO0JZHAL7FVP81_2022__blocks.txt",
+    "text_sha256": "11a26a7a9e2c103eb3eff11c9720d69f6869f5f5214b3a63bf5a20e75ebb0cdf",
+    "source_sha256": "4bb5a3819dc7e9aef93bc23fd07586924ad01e4fad76ba8e8ab8990dd9314dbd",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 809253
+  },
+  "NL_549300YO0JZHAL7FVP81_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_549300YO0JZHAL7FVP81_2023__blocks.txt",
+    "text_sha256": "d1a8ec22ab7e3f74949467fa62c336cb75e0134008bec806bcc67cc73bc6e0a9",
+    "source_sha256": "a057dc2b03251123e1499020eec0e61a3d687443fb943ebd0153a25016187951",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 848064
+  },
+  "NL_549300YO0JZHAL7FVP81_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_549300YO0JZHAL7FVP81_2024__blocks.txt",
+    "text_sha256": "54bf963432531f03d6e170e42ed9badd1744a19195301af560371bf6c35971ea",
+    "source_sha256": "2704f321f75f54f50c4fd587ff553619ee98253c631ab192ee8bcac05298bc8f",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1076203
+  },
+  "NL_549300YO0JZHAL7FVP81_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_549300YO0JZHAL7FVP81_2025__blocks.txt",
+    "text_sha256": "c5a071bdd0fff30ed68b06070b8f10dca75db6b57a764833a936cd3f185b928d",
+    "source_sha256": "2d50cd4dd3e7726d4f7b925d39015505dcb208318f23fc878729d7bedb59c1ee",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1054172
+  },
+  "NL_635400Z5LQ5F9OLVT688_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_635400Z5LQ5F9OLVT688_2023__blocks.txt",
+    "text_sha256": "7af57b1013429db4e80a24751952a7f7f51ab5699f02b471bad6c9193800c928",
+    "source_sha256": "217a4aecfb2bbf5c7fa9258f619b9fec9ae3ff20efe795018c6745f28a6a54b6",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1168573
+  },
+  "NL_635400Z5LQ5F9OLVT688_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_635400Z5LQ5F9OLVT688_2024__blocks.txt",
+    "text_sha256": "fb065858a3e792c96b4c6268492ee3db8ad9e4b96d2a50d5ca44c7001a649126",
+    "source_sha256": "e280af23df89e5973e0072e32c6b7c7511867f2a7aa4b977bf2a6d11702e6a86",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1198253
+  },
+  "NL_7245000R8GNBSDTSZ396_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_7245000R8GNBSDTSZ396_2022__blocks.txt",
+    "text_sha256": "c44e58d8edbcfafad1debfdb194a23f56a694e40219c5d8ff7f4ddcf950f7e03",
+    "source_sha256": "160ecc26d46cfe25229828b05cdcc2b11078e2f61b57062e1588ec3472293553",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 661148
+  },
+  "NL_7245000R8GNBSDTSZ396_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_7245000R8GNBSDTSZ396_2023__blocks.txt",
+    "text_sha256": "aacea7230337f748f0e74bfa435d9db6d5b7c192a8cf6cff2b3aec5c243faf38",
+    "source_sha256": "854693d1bb82029e8df1bf5a74aceb0a1f1554a2182dcc0c0e055f5b01d4151d",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 672603
+  },
+  "NL_7245000R8GNBSDTSZ396_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_7245000R8GNBSDTSZ396_2024__blocks.txt",
+    "text_sha256": "c864eff3559f1ece7729957da36a936915069da4f48666edbf108bf75e7a2929",
+    "source_sha256": "0448b201f602ae66fa8c3e28397cb8450ea2ead9787fc7d8c47dd6dcec81f85d",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 809916
+  },
+  "NL_7245000UZH70GO047N03_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_7245000UZH70GO047N03_2023__blocks.txt",
+    "text_sha256": "64139393cc65699a6f48b62217dc1aec7de72c66b417c9d6d38c0f52dc5dcda7",
+    "source_sha256": "37893f2808a0681fccfbd1fe949db91d8418eb6cf79b6bd741c86e50a4cf03d9",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 872096
+  },
+  "NL_7245000UZH70GO047N03_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_7245000UZH70GO047N03_2025__blocks.txt",
+    "text_sha256": "feeab8dac53845796f7ffa490d44dba628b1ac0db9ca7d2b6e8aad8e3d164d55",
+    "source_sha256": "9fe2f56e3d41a135aff3865ad6688dbdf80042571b45b7217533d6b72b163cca",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 795940
+  },
+  "NL_7245001I22ND6ZFHX623_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_7245001I22ND6ZFHX623_2022__blocks.txt",
+    "text_sha256": "477027fbbebff458fc991f70c5fd75d5c5e796ab88bfd1646ee51b9bf5eaff68",
+    "source_sha256": "122b191b43a69d32527cc4e9ab8b9a001528ec7b5061cf27dd528ac6c19db7ac",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 699143
+  },
+  "NL_7245001I22ND6ZFHX623_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_7245001I22ND6ZFHX623_2023__blocks.txt",
+    "text_sha256": "1332cca901b00f868e76928756b278aa82f28755811b02376fa852c5fc4d3ccf",
+    "source_sha256": "96de50a832674cc9485f9a8ed2713e8d1eb564bdfb3d444e6984eec9b53b31ce",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 866159
+  },
+  "NL_72450022R2ZFL41Y6I04_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_72450022R2ZFL41Y6I04_2023__blocks.txt",
+    "text_sha256": "e5012de082aec92d76cb83f968db882820f0e18e6383dff8bede2bf59509f519",
+    "source_sha256": "e3a19376fdebc50f21d6c2b448a1747bed8428ecdf8d27733ff5dc6c7920c1e7",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1586710
+  },
+  "NL_72450022R2ZFL41Y6I04_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_72450022R2ZFL41Y6I04_2024__blocks.txt",
+    "text_sha256": "9236568e4334befbe25fc4dd62932fa3c9daab4133a8c40956bb00473b7e4381",
+    "source_sha256": "0e45514a3a9e3aef128360ca56ad684728f27ba8f51e902f99af8b3ca49b7ca8",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1987589
+  },
+  "NL_72450022R2ZFL41Y6I04_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_72450022R2ZFL41Y6I04_2025__blocks.txt",
+    "text_sha256": "d47d241d72e0d36f333011eb8a3b9095918f46ac636a91bf3798eb41fbc0afe5",
+    "source_sha256": "b29d73698178c6d28cf13e416ce5478c41c18a0c65f5bb16c6ab3423bd8883d2",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1816714
+  },
+  "NL_7245008G22FOV7TYYJ34_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_7245008G22FOV7TYYJ34_2024__blocks.txt",
+    "text_sha256": "61051f957502aca3793fe74526710b3f9478538247041ea7a7a461733908dbc1",
+    "source_sha256": "810a27fcacadb15a0d88f7b918780b6e791550a1ac26d00d8285226ab4298184",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 842767
+  },
+  "NL_7245008G22FOV7TYYJ34_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_7245008G22FOV7TYYJ34_2025__blocks.txt",
+    "text_sha256": "942c86cfa73135ee21a3f43330ad0f9b35198345ef9119a7b944bbc04601deba",
+    "source_sha256": "eb977c2a266181388765ff84a8743a9b624ec7a2bf74dad68b465617b1d4d230",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 798113
+  },
+  "NL_724500973ODKK3IFQ447_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_724500973ODKK3IFQ447_2021__blocks.txt",
+    "text_sha256": "05e6674e2883fb50e0b1c5b79417f97164ec89cea251dc1a34b9f3ecd7aad155",
+    "source_sha256": "2b1cc9b977ca708f6648f4c59d6a3565eca605bad93d9d46698e8386f5c72623",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 351369
+  },
+  "NL_724500973ODKK3IFQ447_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_724500973ODKK3IFQ447_2022__blocks.txt",
+    "text_sha256": "0b6e81c55d7bf5d3218ac177f7408871428fec7993ffa96c516064d89132fbb7",
+    "source_sha256": "cef2dce37e8dad887783cf7ca37af7fecb6007e73326e6e78d116397b2ab637c",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 398255
+  },
+  "NL_724500D8WOYCL1BUCB80_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_724500D8WOYCL1BUCB80_2024__blocks.txt",
+    "text_sha256": "43bfbacc97701554194b3a0d5207c3900cc49d5d5a4fdf89ed5ca23720e38674",
+    "source_sha256": "65032b34a40d3f424d09c56f18147657c717dbe0ceb8e07abe57f0e7242e3c16",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1120558
+  },
+  "NL_724500E5WW4731JJ4G46_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_724500E5WW4731JJ4G46_2024__blocks.txt",
+    "text_sha256": "2816995848fc625cd7d220f1b65c388f168c76d6393699e905692fc3dba334bc",
+    "source_sha256": "fd5ad41f1b4cbd514885b7907d590ed6bf58f545219620580f2a35162451b492",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 611631
+  },
+  "NL_724500E5WW4731JJ4G46_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_724500E5WW4731JJ4G46_2025__blocks.txt",
+    "text_sha256": "f295ac524927253c4644f536e08e1a7c841ab8ca21b27231985aca908ffcd6bc",
+    "source_sha256": "be86da206802f490b08cd42200011c2539b45845830fdf736967f87e8e29190e",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 703659
+  },
+  "NL_724500EHG519SE5ZRT89_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_724500EHG519SE5ZRT89_2025__blocks.txt",
+    "text_sha256": "638096babb702cbb130b56a4951cf91445854a54911cef24110ad3b7801ed1d6",
+    "source_sha256": "c14ea136f58c46795fa93874f6b326f0f3e94b9d803ddb92e70a676d34ca8d13",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 990786
+  },
+  "NL_724500FVZIBSSQ7SHI95_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_724500FVZIBSSQ7SHI95_2023__blocks.txt",
+    "text_sha256": "e8d8a9fb6368b8b1fb0e03f68b21ff266bd1e3064c25687d2fa0b44482b3e5d2",
+    "source_sha256": "1f0adf9a1ccb9c15043808adb5c517898ce19d39c926ea8dd59050e850a6e7d0",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 565203
+  },
+  "NL_724500FVZIBSSQ7SHI95_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_724500FVZIBSSQ7SHI95_2024__blocks.txt",
+    "text_sha256": "79a7a2136d3a065262b725218bfca9398c012a3b947c70633a3a2b9475157bcf",
+    "source_sha256": "1dbde9a4626ce72b5429919579b4d4864b37377a3fa39a88d0b92cc9bf20b47b",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 685484
+  },
+  "NL_724500GJBUL3D9TW9Y18_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_724500GJBUL3D9TW9Y18_2022__blocks.txt",
+    "text_sha256": "280405bd0ad849ff847beaff76a6ff5dd13fe8364ed2f810efca60740edb0862",
+    "source_sha256": "1c087f4df4fcd18a4b78c4ab7bb73de5fe5aa6b58e72e0d201fcd2a811af914a",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 793799
+  },
+  "NL_724500GJBUL3D9TW9Y18_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_724500GJBUL3D9TW9Y18_2023__blocks.txt",
+    "text_sha256": "331a8133d5d77456899b65fd107396c9c3abe011c6f8aa838b568a01992ddb3f",
+    "source_sha256": "7379b0e15dd9cd9a280f549dd13b35af1cae53767425d317cf0065e32dd06605",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 871032
+  },
+  "NL_724500GJBUL3D9TW9Y18_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_724500GJBUL3D9TW9Y18_2024__blocks.txt",
+    "text_sha256": "e25ebd678c7cf77ff837d533c87fcebb2f6ea7c03fa3e796ebd3bc297581cee4",
+    "source_sha256": "af57cb1e282c33cc6340a334bf046f326ebaacd2e1a3bba0ec9443d951d4c2ed",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 886538
+  },
+  "NL_724500GJBUL3D9TW9Y18_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_724500GJBUL3D9TW9Y18_2025__blocks.txt",
+    "text_sha256": "4c8191f7d2e743ea878f75f20e13eb55e59442823abe98beb7160ccbd5d2d44c",
+    "source_sha256": "04e82dec965551770fcf861e8284bf654c296dacf66da94a7ba117a81c179150",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 966551
+  },
+  "NL_724500HUXGTQC07CAZ61_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_724500HUXGTQC07CAZ61_2024__blocks.txt",
+    "text_sha256": "4cfb338a2d7a153845d697967823928c61e0682d4f7c5cb962e0c19eec6f6ad2",
+    "source_sha256": "089e228c59f37e417ecb02decfd0ce821f1dde1c504443acac34d66af386c1be",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 678783
+  },
+  "NL_724500HUXGTQC07CAZ61_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_724500HUXGTQC07CAZ61_2025__blocks.txt",
+    "text_sha256": "1cc990c0aa1c69cc981ad67d45fcfad92e17eeed17696c7bf4725906a1017943",
+    "source_sha256": "145fe709a8e1e96091f815318576c7f4dd820649a5801086ad33ca1ce171bfee",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 701238
+  },
+  "NL_724500IGR5FBK0RLZI29_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_724500IGR5FBK0RLZI29_2022__blocks.txt",
+    "text_sha256": "b4264c16fb5a9ccc0d384d8e7acb23670e934a26a28278443938becc35b96aa8",
+    "source_sha256": "7b0b6376a9541d691312c5d095fa3f699ae9c3c6d68a4459e6930223b4ae967b",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 669432
+  },
+  "NL_724500IGR5FBK0RLZI29_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_724500IGR5FBK0RLZI29_2023__blocks.txt",
+    "text_sha256": "cb9d5260308805752feff54ae6292ecf831289831c951f6356cfca8203684fd0",
+    "source_sha256": "a4ab453d46ed3fea210bd4421db4a27eca062c8ec3e1882dd7d9b6209165cd44",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 663123
+  },
+  "NL_724500K5PTPSST86UQ23_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_724500K5PTPSST86UQ23_2022__blocks.txt",
+    "text_sha256": "a793747e62f87fbc01491f12cdfd60b5efc64ff1a5dad2164447a79254ef649c",
+    "source_sha256": "2df98d0f531324545368313156543540aa20d27a07c0f27bf1453261cd825d13",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 829055
+  },
+  "NL_724500LTUWK3JQG63903_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_724500LTUWK3JQG63903_2021__blocks.txt",
+    "text_sha256": "251e7c5ba9412d1d87185bf335e9543c565281f2d9475af2bda516455f5dec47",
+    "source_sha256": "8f77ecaa58f49da0ac4175eb430da5cb4247bc65b0d4998c2b57cfe0ac15c87b",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 603734
+  },
+  "NL_724500LTUWK3JQG63903_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_724500LTUWK3JQG63903_2022__blocks.txt",
+    "text_sha256": "8ebfe629eb4e6e09904e3fac164dec6176efd5ff6aa732b153bdfd8900ea6bc0",
+    "source_sha256": "b60567d6b9be4762d8b81f691d29f939e6571da5e91df438308cd2f76595d3f0",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 700488
+  },
+  "NL_724500OHYNDT9OY6Q215_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_724500OHYNDT9OY6Q215_2021__blocks.txt",
+    "text_sha256": "80a80d4d7c6909240807a8b53f6d72be7ffc1f9d44ea493707d60f4dfa32eb26",
+    "source_sha256": "f7d25b39b6b88252cb076f2cfd5a1e39789e05025c17f25238661b535ec673b3",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1278016
+  },
+  "NL_724500OHYNDT9OY6Q215_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_724500OHYNDT9OY6Q215_2022__blocks.txt",
+    "text_sha256": "b77ae590eaf8785b360e1fb70c462687e537cc69680204477004dba60e3b5322",
+    "source_sha256": "3e90ee2dbab3c1b46fa4574025fc53d68782239472994fe0236814fef9ffeb50",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1328266
+  },
+  "NL_724500OHYNDT9OY6Q215_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_724500OHYNDT9OY6Q215_2024__blocks.txt",
+    "text_sha256": "7c0d8005a59804dfa6f73655d2a79b6aa4f3a4164da4d55b016032252a9f154b",
+    "source_sha256": "04456c58d318e043b06f9790ff3d8b69a4239c18f0b6dd9dece28f5196957b55",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1547107
+  },
+  "NL_724500OHYNDT9OY6Q215_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_724500OHYNDT9OY6Q215_2025__blocks.txt",
+    "text_sha256": "2bb383b9d09e05d454479020c591347e7fee1853c04e2772c9b8cd5f901ecce8",
+    "source_sha256": "07c489349441ce06dcb33790946181e78e2416165e1bdad5fe1aa13ded909321",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1121870
+  },
+  "NL_724500OUE3PCA809DZ79_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_724500OUE3PCA809DZ79_2022__blocks.txt",
+    "text_sha256": "ca57e66c3f06c6e16b24706462a47f33bbd80886936a0dfe4921cf013fea0fd0",
+    "source_sha256": "a764047cdd397d3bdb946cddabb8d5d8c36d91fcb19a11538325aad95b4152f7",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 754450
+  },
+  "NL_724500OUE3PCA809DZ79_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_724500OUE3PCA809DZ79_2023__blocks.txt",
+    "text_sha256": "6fc251b81e0e176c565f034f218d7caabc08b48956aae26474172217c980693b",
+    "source_sha256": "fa45d388394475cf0d69e4dd5fc743b2c457dc0cee65cd3eae13c4a6941a30f4",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 869276
+  },
+  "NL_724500Q41FHN0P1GPC53_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_724500Q41FHN0P1GPC53_2022__blocks.txt",
+    "text_sha256": "1eeb6a542531155a9e765b32ff78768832678bb3040718a8165208c1db0ec29d",
+    "source_sha256": "c8899a560b865502843e09e29298aaa0a3a4afec82053a935a191d6f3127ac00",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 822977
+  },
+  "NL_724500Q41FHN0P1GPC53_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_724500Q41FHN0P1GPC53_2023__blocks.txt",
+    "text_sha256": "3ab4a4893b4e9266c2623a31452b29365c2c0e3f678406f9fca3000fefd98d10",
+    "source_sha256": "9c77326447bfcaaea0b7fc846507aae37ff472b5e572dc8407ea33eef194c59e",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 907972
+  },
+  "NL_724500Q41FHN0P1GPC53_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_724500Q41FHN0P1GPC53_2024__blocks.txt",
+    "text_sha256": "209e955126309aa4a4b69a4fe5192c1f273b316e0276c344cf7a547e327b8b30",
+    "source_sha256": "b6c7479ccb3263beb805ad64017026a3850dccd7934854f6521f8a4d8de922a2",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1428885
+  },
+  "NL_724500Q41FHN0P1GPC53_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_724500Q41FHN0P1GPC53_2025__blocks.txt",
+    "text_sha256": "ac2c7855c0ac728a300b56f116d754a6b85b7a0c77727614ca96c70db023d03a",
+    "source_sha256": "2858cbe8a6943a2ae67cedb293f81d51548f4eddb04e4e0ab632cb0fb51129a9",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1109659
+  },
+  "NL_724500QDJRUMSPRDHW25_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_724500QDJRUMSPRDHW25_2021__blocks.txt",
+    "text_sha256": "7458e335a0d159811cd6f21f19b4e5447ec2490b662026de016dfa587dabff09",
+    "source_sha256": "d6fb39415703fb147df3c5601822bc01d37ed12c16dedafdac4343760743c26f",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 402155
+  },
+  "NL_724500QDJRUMSPRDHW25_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_724500QDJRUMSPRDHW25_2022__blocks.txt",
+    "text_sha256": "15ac3d87d384d0bcf97844a863ebb98585727ab00cb8617e835aafec5d112107",
+    "source_sha256": "e2db85364e895852d45d505d79b755e362b5ebe4eac8f7700f34c99ffb6c4209",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 420638
+  },
+  "NL_724500QDJRUMSPRDHW25_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_724500QDJRUMSPRDHW25_2024__blocks.txt",
+    "text_sha256": "9378e7baf2567ada250a239bf9cb74e51588fd7cf2bd2bfeaae5921cb6c21354",
+    "source_sha256": "632fa10aa2230a983ecb920a6c7f975f067380faf46dcb16a52b3b1d6a30c9fe",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 554536
+  },
+  "NL_724500QDJRUMSPRDHW25_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_724500QDJRUMSPRDHW25_2025__blocks.txt",
+    "text_sha256": "94654854ed3a496ac8bfec44d0f0d97fa9bcae4d99f171426a9322ff21811bb4",
+    "source_sha256": "9b6fa63a57ff890899c3d2931bb14eb0553b6c7e608062e2b6c112a1c32d39b2",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 466713
+  },
+  "NL_724500QJ4QSZ3H9QU415_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_724500QJ4QSZ3H9QU415_2021__blocks.txt",
+    "text_sha256": "f8c10c4d51b964c42db539585d05bde19c0ea6a89ab5a738fadc4c39fe8e119c",
+    "source_sha256": "407491dad00958dbe6ea6c4d4196a91b7c0b1b24272fca7609fdf48fae1dcf06",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1282130
+  },
+  "NL_724500QJ4QSZ3H9QU415_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_724500QJ4QSZ3H9QU415_2022__blocks.txt",
+    "text_sha256": "87106131a648194ac113dee892650c7b73955a5e28a0734a0258bc55e39d488b",
+    "source_sha256": "964a598b62282557283c7259d5761860c1a7eb736cdb1eed6a6229b9d982ce6d",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1299213
+  },
+  "NL_724500QJ4QSZ3H9QU415_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_724500QJ4QSZ3H9QU415_2023__blocks.txt",
+    "text_sha256": "9d0bd7d823fd5dc5749c9ac275ecc3b317652eb0a9345e8f6c9ddc9ca9053c12",
+    "source_sha256": "5d49775b48d770f2cdfc4c2b8db67ee4c232bb5804bc401bcb5b9aa6d32d7b8c",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1373208
+  },
+  "NL_724500SNT1MK246AHP04_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_724500SNT1MK246AHP04_2021__blocks.txt",
+    "text_sha256": "ebcfd6ba0e75fc96c7cdf98e094d00e7a67f0b7ad1a7e8a5b34afcd26767c745",
+    "source_sha256": "5ef064b4cdb5e50fc622d254a854095cee8a4f75b2fbf364a723d157b89d6f3b",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 947259
+  },
+  "NL_724500SNT1MK246AHP04_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_724500SNT1MK246AHP04_2022__blocks.txt",
+    "text_sha256": "df52323dd595f72fed84330749d88295220b70e5f95c126b5ed88683520a7ae0",
+    "source_sha256": "5b5a182ee9228d9a0d341c353e859ce35ff5051de66070f8854afae3b295d310",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 976640
+  },
+  "NL_724500TEM53I0U077B74_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_724500TEM53I0U077B74_2023__blocks.txt",
+    "text_sha256": "f8d2b2d9317399ed2dbdf605fa3d0d0baee544c1f85586262f60f269d17a1f71",
+    "source_sha256": "02e1f6034dbdf2f5e8dbe038aef1e591cb98c862005abf2f9a894394c6c8a2a1",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 777498
+  },
+  "NL_724500TEM53I0U077B74_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_724500TEM53I0U077B74_2024__blocks.txt",
+    "text_sha256": "0cb4e76aef3b22678ba195b8827a2723656848ff9c9c07721678998fdaed95c6",
+    "source_sha256": "c0f21eedd68c8aa2d46145501bd4a1447be5a272f90e297dd585c1cef0e6d60c",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 869572
+  },
+  "NL_724500TEM53I0U077B74_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_724500TEM53I0U077B74_2025__blocks.txt",
+    "text_sha256": "6473c3c61bb272b66e550dc655619605624d4b9c68b95b3efff1bc93515ae926",
+    "source_sha256": "794d0bf7513c2e7e79669bb7e9794b62c1f3cb7af19e17e73b34425cf09abe2c",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 854020
+  },
+  "NL_724500WAU923OTVC7M86_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_724500WAU923OTVC7M86_2023__blocks.txt",
+    "text_sha256": "0e430bd76ce80b79b3d9ab47a24282022f967404bc2f783f869f23bae521b244",
+    "source_sha256": "fe62805d821400bd9b4e7a581db7e4ed944d58fb8e176ac8b114bfeaea198daf",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 500126
+  },
+  "NL_724500X4WAS3V33MVX37_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_724500X4WAS3V33MVX37_2024__blocks.txt",
+    "text_sha256": "92a061a52879fc4e454d33ec3c30555051846caefcafcfc361d3748790dfdf9c",
+    "source_sha256": "55dc5a9199aeb912e80b199c00eabe1268e237078a010e55cc55170f589b1616",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 583664
+  },
+  "NL_724500X4WAS3V33MVX37_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_724500X4WAS3V33MVX37_2025__blocks.txt",
+    "text_sha256": "d3b44e4438c004176201097c458e275e5894f348e83bec31cd00c7efe0e449c4",
+    "source_sha256": "323ec689025aef843a6dbde0efbdcd415052e23c2d2851beee4f621be44509a7",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 558000
+  },
+  "NL_724500Y6DUVHQD6OXN27_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_724500Y6DUVHQD6OXN27_2025__blocks.txt",
+    "text_sha256": "b8099bb970216efc1ff93f7a9c30070879a005d848d89894ab01f35b96aa9a12",
+    "source_sha256": "5bbf0d792a951cfc14940a168c945e29d5e0e8c69fc8fe9702ca5d2347085d73",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1429990
+  },
+  "NL_8156008B101B97A43B02_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_8156008B101B97A43B02_2023__blocks.txt",
+    "text_sha256": "b7360fba1b043b51ad1c6640a03cef58189d4b7d0832cd29e70fc3f6fecdc38f",
+    "source_sha256": "817a62ae0697973f28d7edfb54a2d358db2923bec946f903d9b78a30981ef28d",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 749944
+  },
+  "NL_8156008B101B97A43B02_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_8156008B101B97A43B02_2024__blocks.txt",
+    "text_sha256": "af02de5de4cd4a5b3052419be378d64f19da2ee3f2a552d3fcfadd397019b65b",
+    "source_sha256": "66fe9932c67584e4c76ee146b76169283bf4e7d40ad911162585d8a5958c6a13",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1340304
+  },
+  "NL_8156008B101B97A43B02_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_8156008B101B97A43B02_2025__blocks.txt",
+    "text_sha256": "bdbb87bb7a2b5bd69d5e01776af7e5312c6027416be547712a38f05aa6a7d5b5",
+    "source_sha256": "edb87c5fd6686ae216635d5ba31502ac0d98404a7f28a38fdfdca2c034a2d1b5",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1274585
+  },
+  "NL_815600CC86D25A205563_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_815600CC86D25A205563_2024__blocks.txt",
+    "text_sha256": "2cbdd15ac373e6ed47e241aeed8f459500d048f6a163f764e1543a84dacc7fd9",
+    "source_sha256": "bc87b845427141b2d0bf40898f8d092e873e125fa41297626235b4a603eb967f",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1150601
+  },
+  "NL_815600CC86D25A205563_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_815600CC86D25A205563_2025__blocks.txt",
+    "text_sha256": "dab88f590a3c6b7c7c568577d06b1fa4cf4568556acd07c64dc34cf40a5111cc",
+    "source_sha256": "6ad7d0b70f67eca61b25e14991ebfc9a60d8b7da468c147b1bd9afa5c4019231",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1231287
+  },
+  "NL_894500G73K46H93RF180_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_894500G73K46H93RF180_2024__blocks.txt",
+    "text_sha256": "5acf18bc1d97e73df54b8cfdb63ea4a1db1626283aa2744c354132c8d55f789c",
+    "source_sha256": "b26e0637b082332c4a2d2e2ed8f0493df075c479070bfb40c3022e782734ee3e",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1501747
+  },
+  "NL_894500G73K46H93RF180_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_894500G73K46H93RF180_2025__blocks.txt",
+    "text_sha256": "934855d63c5d510018927a589c5a20a5868bf6072b70c8dcf44836ea17c11485",
+    "source_sha256": "288bc655994dee811caccc2cbb80ad88f4e72c8630e09634410b1c2ba5d96d82",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1692771
+  },
+  "NL_894500L53AVOFQK7T710_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_894500L53AVOFQK7T710_2024__blocks.txt",
+    "text_sha256": "0a7cc1170ac3ce7d8b89ac47cd531982e5b03be8eb189ec2d6145bea26e3c70b",
+    "source_sha256": "afda2a61885ab4555c742e615cc4e4f3243e20f98425c6d4bf513253f4c7b1f0",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 692506
+  },
+  "NL_894500L53AVOFQK7T710_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_894500L53AVOFQK7T710_2025__blocks.txt",
+    "text_sha256": "ac9d3e404ae7c8d0059ecf7475e2cb4f281ca728b89101e1cf6fdf8e3cedfe8c",
+    "source_sha256": "c114dd36404bf2bf17333ccc604967569cb77d467229372525703797f0332c02",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 937605
+  },
+  "NL_BFXS5XCH7N0Y05NIXW11_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_BFXS5XCH7N0Y05NIXW11_2023__blocks.txt",
+    "text_sha256": "e129ae90e4d90e5f021a6aafdea9fb37a78160e7cb65b6dcacb41a74366201de",
+    "source_sha256": "ecdf5873319e12c5c24d380306c2c5043eec9691d56173988de7afc1cbd7995f",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1512707
+  },
+  "NL_BFXS5XCH7N0Y05NIXW11_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_BFXS5XCH7N0Y05NIXW11_2024__blocks.txt",
+    "text_sha256": "ced2415ff07855dc280106b237fa29e2bccd74df952aa68225eb8849e61afe64",
+    "source_sha256": "906b510a15bd237f5731ca704d0bbc363722e2881ed3a9a8248619df340bd829",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1986580
+  },
+  "NL_BFXS5XCH7N0Y05NIXW11_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_BFXS5XCH7N0Y05NIXW11_2025__blocks.txt",
+    "text_sha256": "650e49ab187c36c3b5feb8947f827c28825fedd357d806ecc49e21b868c72393",
+    "source_sha256": "4e1e25e0705f41a55b61ec3c9822dba0ffe5534dcccbc1639e791e5a01e643a1",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1549853
+  },
+  "NL_H1FJE8H61JGM1JSGM897_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_H1FJE8H61JGM1JSGM897_2021__blocks.txt",
+    "text_sha256": "effcce50c3968c49e075d424bf92fa1c9e7ec6a7ab3f2f0e55a0fc39b3912fb1",
+    "source_sha256": "b0f43e4e81e18629bb69b15b670ae03a6e06cddb1f4e6b6b58c003e4899dda9f",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1108189
+  },
+  "NL_H1FJE8H61JGM1JSGM897_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_H1FJE8H61JGM1JSGM897_2022__blocks.txt",
+    "text_sha256": "7539cc602525e9fd197b4f78af32abb787858a5439259bcdd954e058e9f675a7",
+    "source_sha256": "1583c6f43cf69979b392a39d2e8c026db6731b1bd96874491201a44034df83d7",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1165651
+  },
+  "NL_H1FJE8H61JGM1JSGM897_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_H1FJE8H61JGM1JSGM897_2023__blocks.txt",
+    "text_sha256": "37a71257b24cb8cbb597c99b80637584cc2743bf206b33166269db182ce31f42",
+    "source_sha256": "ce1f6289060a86cc82690c131e9a0cd1d820ad0c7cc8aba7a21c5802b66d6856",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1201709
+  },
+  "NL_H1FJE8H61JGM1JSGM897_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_H1FJE8H61JGM1JSGM897_2024__blocks.txt",
+    "text_sha256": "0a70d7ec0543c08baf86a69a2c04d3b31665867000061ea0b1dc16ad1ef5219a",
+    "source_sha256": "e046f5343b6bc705e70c299de50da11e5b97bfce93a5e407060e7e51aed317ac",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1386690
+  },
+  "NL_H1FJE8H61JGM1JSGM897_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_H1FJE8H61JGM1JSGM897_2025__blocks.txt",
+    "text_sha256": "7c35f3004d734ee966911ad5385e5f86f4cf9c95ccce2e00a4163c9e9d6b11d5",
+    "source_sha256": "a39b3ae92c18c255b32ae34749bd97ff28eb9136db299111eb4773882bdff808",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1352657
+  },
+  "NL_MINO79WLOO247M1IL051_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_MINO79WLOO247M1IL051_2022__blocks.txt",
+    "text_sha256": "344b034981b20604c4206f974214923c1e4ac705daeaf809ceaf746fa6f72d9b",
+    "source_sha256": "87189cae45f973244d2cbbb7542c9b9aaebcf8e0fba5b84c0c7c56e51b930bea",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1035511
+  },
+  "NL_MINO79WLOO247M1IL051_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_MINO79WLOO247M1IL051_2023__blocks.txt",
+    "text_sha256": "c929f36908352b575416b07cd782a9ffae142f030d567e8164ad571e3611e994",
+    "source_sha256": "dc131eebc2b7155c525305a8de650f65da134630786e20de34e7f6272801c744",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1191241
+  },
+  "NL_MINO79WLOO247M1IL051_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_MINO79WLOO247M1IL051_2024__blocks.txt",
+    "text_sha256": "a0cc98c49a4ea0642904f6f5bfe9f968e70be4c9fec2f300acc05a81774dfb37",
+    "source_sha256": "cc83e919a29cd77787fdb567f5b1a5d03ea48287117248d312f7a8bed6db5efe",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1380703
+  },
+  "NL_MINO79WLOO247M1IL051_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_MINO79WLOO247M1IL051_2025__blocks.txt",
+    "text_sha256": "b81572caa184e4d873433375dacf1287ea1320292c300032068ea9d417f80810",
+    "source_sha256": "9a47af1db1e41cf41ce7f4b509aee62391ee3d52c4450464aad090eb76400d79",
+    "archive_member": null,
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1456801
+  },
+  "NL_213800DIFN7NR7B97A50_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_213800DIFN7NR7B97A50_2021__blocks.txt",
+    "text_sha256": "b7064449a995835c80e22f8537990df7d3585223f49edaad511cbd56b4764182",
+    "source_sha256": "13767739a2e32df7eb87ba5af04598bce31fd8f7f211a48b5e8517d24ee5f270",
+    "archive_member": "213800DIFN7NR7B97A50-2021-12-31/reports/213800DIFN7NR7B97A50-2021-12-31.html",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1227135
+  },
+  "NL_506700G44V67MPM4BI12_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_506700G44V67MPM4BI12_2024__blocks.txt",
+    "text_sha256": "71d57c45170082f199534dd69e1fc1f02262461a92a578a9b6141bf9b46ffc73",
+    "source_sha256": "509a172b7691ad748b66cd1a9db859bca2dd2493ce4a94b17bd3571cbdc26708",
+    "archive_member": "506700G44V67MPM4BI12-2024-12-31-0-en/reports/506700G44V67MPM4BI12-2024-12-31-0-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 976464
+  },
+  "NL_529900JK6UXHY1YKZ082_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_529900JK6UXHY1YKZ082_2024__blocks.txt",
+    "text_sha256": "49aac954525debc6fe819968ab998477ab8e9ff1b2565f04bbe53db3c863051f",
+    "source_sha256": "396ffc2fddcb06fcf250a148d4c32817167026fd180a578bbc5788895dcd2086",
+    "archive_member": "529900JK6UXHY1YKZ082-2024-12-31-en/reports/redcarepharmacynv-2024-12-31-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 728404
+  },
+  "NL_529900JK6UXHY1YKZ082_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_529900JK6UXHY1YKZ082_2025__blocks.txt",
+    "text_sha256": "34b4435cd1e017425ff854dccfbb887983540bb75bfe74d2ffb7190766e60ccf",
+    "source_sha256": "1daaf166e2a9fe19f107f792761cc2e025f17858fc84ae43e7875e5858e9b71e",
+    "archive_member": "redcarepharmacynv-2025-12-31-en/reports/redcarepharmacynv-2025-12-31-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 777050
+  },
+  "NL_549300BLWVJN2BAT0A44_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_549300BLWVJN2BAT0A44_2024__blocks.txt",
+    "text_sha256": "7f7a98d006ec10ff870b3cbd321686a421726c8bd002a171d98db0044381777b",
+    "source_sha256": "afa4d6d3e73920750e5e42134ef79d6074864fabfd0eebfecb06fb5e7b59c404",
+    "archive_member": "549300BLWVJN2BAT0A44-2024-12-31-en/reports/549300BLWVJN2BAT0A44-2024-12-31-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1285056
+  },
+  "NL_549300BLWVJN2BAT0A44_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_549300BLWVJN2BAT0A44_2025__blocks.txt",
+    "text_sha256": "c660d44b757f76949c66b93a76b327be62d4d1b6ae2165e259e42146ef211dc3",
+    "source_sha256": "b16bc868a37e9e3541441562621c6be7d880957564a3b8c84a46dc9c4eb216f0",
+    "archive_member": "549300BLWVJN2BAT0A44-2025-12-31-1-en/reports/549300BLWVJN2BAT0A44-2025-12-31-1-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1420057
+  },
+  "NL_549300FMWM53K9ULYT15_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_549300FMWM53K9ULYT15_2023__blocks.txt",
+    "text_sha256": "959c5503253a0b4ea9105f63ffb8385d76b5f2f105fc0673dbbee9cd405da040",
+    "source_sha256": "0d7c8a70a4f3dea502044db014e445682d073b2d2d2fd814f012b9065760607f",
+    "archive_member": "549300FMWM53K9ULYT15-2023-12-31-en/reports/549300FMWM53K9ULYT15-2023-12-31-en.html",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 878385
+  },
+  "NL_549300FMWM53K9ULYT15_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_549300FMWM53K9ULYT15_2024__blocks.txt",
+    "text_sha256": "12bf0ed2327d52987e8a92b54e9d3af981e0a3312e485518f06f3bd463da0669",
+    "source_sha256": "5b21f5ff37a37904c341403d497955d7f1d901d7d3d49682f65f1b6050ac79bd",
+    "archive_member": "549300FMWM53K9ULYT15-2024-12-31-en/reports/549300FMWM53K9ULYT15-2024-12-31.html",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1038045
+  },
+  "NL_549300NYKK9MWM7GGW15_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_549300NYKK9MWM7GGW15_2024__blocks.txt",
+    "text_sha256": "e657ac88beafeb9ceae9644b925292e66b438cc43fa38abd03bced861b87a188",
+    "source_sha256": "035cbd335f64b5b8f84ace016d7712fa3e1e559c70de05894d4e1c8eca31c872",
+    "archive_member": "ing-2024-12-31-en/reports/ing-2024-12-31-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1916063
+  },
+  "NL_549300NYKK9MWM7GGW15_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_549300NYKK9MWM7GGW15_2025__blocks.txt",
+    "text_sha256": "88d41d403f0c40ac2fbdf265672d6569d07d6a9df667e96658cf3e726193613d",
+    "source_sha256": "ea953da6aeb6881d8efc440fadbcd715942b5fd913022c95bfddf49c90595c42",
+    "archive_member": "ing-2025-12-31-en/reports/ing-2025-12-31-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1759505
+  },
+  "NL_7245000UZH70GO047N03_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_7245000UZH70GO047N03_2024__blocks.txt",
+    "text_sha256": "b2a32f38069d88634ac20c293753d18a978e0113a58317eb2a11aabcab1aab4f",
+    "source_sha256": "75b39de909a05c2d799522914c40e9cb4b232a1ddf6ba70441f26775e98a5266",
+    "archive_member": "Arcadis_NV-2024-12-31-en/reports/Arcadis_NV-2024-12-31-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 865775
+  },
+  "NL_7245001I22ND6ZFHX623_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_7245001I22ND6ZFHX623_2024__blocks.txt",
+    "text_sha256": "66cd75aadb5961bdea1a1cc58af128e8062c78ae72f6acd0005d61dc28294d51",
+    "source_sha256": "73e02ab6be92c2efa4e21243a5b7bc7396c1818a59674ee756929bbdf1c9250d",
+    "archive_member": "asm-2024-12-31-en/reports/asm-2024-12-31-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 868558
+  },
+  "NL_7245001I22ND6ZFHX623_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_7245001I22ND6ZFHX623_2025__blocks.txt",
+    "text_sha256": "4c21de657216a4c7a9619b0379058e2b9b67cb5e7ab8116bc0d50c644a81b69b",
+    "source_sha256": "96b5830489aa66bbc02a0d960b8ff20f0b0d8d78e59dc7e16ac088cbc18d3e45",
+    "archive_member": "asm-2025-12-31-1-en/reports/asm-2025-12-31-1-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1001835
+  },
+  "NL_724500D8WOYCL1BUCB80_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_724500D8WOYCL1BUCB80_2023__blocks.txt",
+    "text_sha256": "188abdc29d8b56b9066d40b4eb15cfd50b9fa02b001489086262c7796819e625",
+    "source_sha256": "b4ca333f91aac461462885813aa7975f09dd2aa3535f9f9e6371e4eed5e8d291",
+    "archive_member": "vlk-2023-12-31-en/reports/vlk-2023-12-31-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 863820
+  },
+  "NL_724500DP8SZN3NBQKC44_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_724500DP8SZN3NBQKC44_2021__blocks.txt",
+    "text_sha256": "8c9319c545cded313b7e10c1d766dbc29018ce1af00ca7861eaee4f93cf4be34",
+    "source_sha256": "5748308a3e9abb5cae70f55c729f9bd48ede50b77757083de3e196817e5a1bfd",
+    "archive_member": "724500DP8SZN3NBQKC44-2021-12-31-en/reports/724500DP8SZN3NBQKC44-2021-12-31-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 334623
+  },
+  "NL_724500DP8SZN3NBQKC44_2022.txt": {
+    "text_path": "sources_first_followup/text/NL_724500DP8SZN3NBQKC44_2022__blocks.txt",
+    "text_sha256": "d519c7502b3abbd1c0bef79dcddcad6c02075794adc01dbaafa14dde18f9e3ea",
+    "source_sha256": "ad365098eb4d780e59c75a9aa06040a852129bce138d6a35c5d44541de6520a3",
+    "archive_member": "724500DP8SZN3NBQKC44-2022-12-31-en/reports/724500DP8SZN3NBQKC44-2022-12-31-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 308256
+  },
+  "NL_724500EHG519SE5ZRT89_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_724500EHG519SE5ZRT89_2023__blocks.txt",
+    "text_sha256": "5842957e454b30941eb4329c36ad98deae3cf171c0cfe45ead08c15f0054df30",
+    "source_sha256": "1d98278200940286d0eb736b5bd675ef4993a506588db1312361af2cc9c6cb3b",
+    "archive_member": "jdep-2023-12-31-en/reports/jdep-2023-12-31-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 988139
+  },
+  "NL_724500FLODI49NSCIP70_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_724500FLODI49NSCIP70_2024__blocks.txt",
+    "text_sha256": "03583d001261ed845ac2d9d0149219df22fffc9e7816fd3cfc86ed6db17c821c",
+    "source_sha256": "99b80e39c47850cc3f600304ad557035697294cebadff1231debe9d6ffde99c6",
+    "archive_member": "ten-2024-12-31-0-en/reports/ten-2024-12-31-0-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1524550
+  },
+  "NL_724500FLODI49NSCIP70_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_724500FLODI49NSCIP70_2025__blocks.txt",
+    "text_sha256": "7f6e7674ad8dd2f85d3d2521399c59834802227b86de190dac5ed5127d41d49b",
+    "source_sha256": "7c3b5d4b431ee0c5909934175684eb4c1f8942ac2f8f9f7aefd925b55a3b2447",
+    "archive_member": "ten-2025-12-31-1-en/reports/ten-2025-12-31-1-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1598011
+  },
+  "NL_724500GJBUL3D9TW9Y18_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_724500GJBUL3D9TW9Y18_2021__blocks.txt",
+    "text_sha256": "10d9955c1f9a0d4b40ba4fa82d2a153b24424c6869ac827391304e6005e72e53",
+    "source_sha256": "059e1f8eb904d588c6fb1dbbc8521d6e3ef6c8fce96ce901840b3520814bd4c9",
+    "archive_member": "universalmusicgroup-2021-12-31-en/reports/universalmusicgroup-2021-12-31-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 770072
+  },
+  "NL_724500K5PTPSST86UQ23_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_724500K5PTPSST86UQ23_2021__blocks.txt",
+    "text_sha256": "bad275a9c4b2b2cc41697a3cfddaf098a614cec96afd0d9823aa93be9add2ae4",
+    "source_sha256": "f20fbdec57092e1d3e0dad8909fe646fa895df839474182ebaa8f62eb5813611",
+    "archive_member": "heia-2021-12-31-en/reports/heia-2021-12-31-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 741424
+  },
+  "NL_724500OUE3PCA809DZ79_2021.txt": {
+    "text_path": "sources_first_followup/text/NL_724500OUE3PCA809DZ79_2021__blocks.txt",
+    "text_sha256": "eede85951ae5082e199219888f30fa217b1b5fb04884cab5af369e03c5aa0a76",
+    "source_sha256": "0673a43aa216f03a3dacf67298c87aa99df4b573486fc1f1a3be625aac217055",
+    "archive_member": "724500OUE3PCA809DZ79-2021-12-31-nl/reports/724500OUE3PCA809DZ79-2021-12-31-nl.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 832343
+  },
+  "NL_724500OUE3PCA809DZ79_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_724500OUE3PCA809DZ79_2024__blocks.txt",
+    "text_sha256": "344f2f4942d558a481b7a4e1f9fe8138cc90d8989561a19efa40965754901176",
+    "source_sha256": "a6f5db4d377cf920ff351d9f289cd0384e3357111938a7e6651c58807b6f7c1b",
+    "archive_member": "Heijmans-2024-12-31-nl/reports/Heijmans-2024-12-31-nl.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1062749
+  },
+  "NL_724500OUE3PCA809DZ79_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_724500OUE3PCA809DZ79_2025__blocks.txt",
+    "text_sha256": "af1fc8f636857b366894916d41acd9f8db66a694b9533a9477ce1c4251c1e07f",
+    "source_sha256": "dbce3e1ff7ed71feb94f075f61e1bc5e30fdf75d9f12ea874beae24f438171d7",
+    "archive_member": "724500OUE3PCA809DZ79-2025-12-31-1-nl/reports/724500OUE3PCA809DZ79-2025-12-31-1-nl.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 962281
+  },
+  "NL_724500QDJRUMSPRDHW25_2023.txt": {
+    "text_path": "sources_first_followup/text/NL_724500QDJRUMSPRDHW25_2023__blocks.txt",
+    "text_sha256": "9eabb5274aff94c6dab108c8cfc52f7b7054dbf1e6ba9f7b1bc97f54244461f8",
+    "source_sha256": "1a504569f8056eef40f0b76289c35c17bfecc1a92a6e21f7b2ab873305f6dc02",
+    "archive_member": "724500QDJRUMSPRDHW25-2023-12-31/reports/724500QDJRUMSPRDHW25-2023-12-31.html",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 424405
+  },
+  "NL_724500QJ4QSZ3H9QU415_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_724500QJ4QSZ3H9QU415_2024__blocks.txt",
+    "text_sha256": "65843e01b753f9aaf0b3c352a25bb6db84c270c514d4b17ba5222b6528a48997",
+    "source_sha256": "7a03c8f2d92ac26bd339f8d63772e786c80617a6c6c766e953cbc636e8aebe7f",
+    "archive_member": "eur-2024-12-31-en/reports/eur-2024-12-31-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1434001
+  },
+  "NL_724500QJ4QSZ3H9QU415_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_724500QJ4QSZ3H9QU415_2025__blocks.txt",
+    "text_sha256": "ca1f2f732e9209569b272bf919ec512e19c39314378ee4a7fc96e659925f6305",
+    "source_sha256": "3215bc1fd228211636b7105124faba961dbb94eaa83fe2e1aa277656b3e99b3a",
+    "archive_member": "eur-2025-12-31-en/reports/eur-2025-12-31-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1450380
+  },
+  "NL_724500SFK53FPNM68L95_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_724500SFK53FPNM68L95_2024__blocks.txt",
+    "text_sha256": "932a20fabbb752aa23bb58cd8f1a68e4bea811dbd139bc3f7c19ad098c89de14",
+    "source_sha256": "45d05780cf7cd00932be4e11e7ba2f2dd1e6cf117859df5b1cc313e2f14b3bcd",
+    "archive_member": "724500SFK53FPNM68L95-2024-12-31-0-en/reports/724500SFK53FPNM68L95-2024-12-31-0-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 711877
+  },
+  "NL_724500SFK53FPNM68L95_2025.txt": {
+    "text_path": "sources_first_followup/text/NL_724500SFK53FPNM68L95_2025__blocks.txt",
+    "text_sha256": "7a05fdccb272d618ee0ce94f0b1b63ef79441dcb9f0cb6e05f6e0ce1f6b13edf",
+    "source_sha256": "8273d5cdb61e6b733d2ade1a2ea9df3ef76af4924c4a696d3325243f14adfe9d",
+    "archive_member": "724500SFK53FPNM68L95-2025-12-31-1-en/reports/724500SFK53FPNM68L95-2025-12-31-1-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 718934
+  },
+  "NL_724500WAU923OTVC7M86_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_724500WAU923OTVC7M86_2024__blocks.txt",
+    "text_sha256": "90aceeec8662177c05a17845f61a4d65c5ad40b91ca678c74e64425fb51343be",
+    "source_sha256": "84a1d74fbd76c88d76e70a7aabff4e30d057a60bc37682ff3999935259039aae",
+    "archive_member": "tom-2024-12-31-en/reports/tom-2024-12-31-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 554258
+  },
+  "NL_724500Y6DUVHQD6OXN27_2024.txt": {
+    "text_path": "sources_first_followup/text/NL_724500Y6DUVHQD6OXN27_2024__blocks.txt",
+    "text_sha256": "22041f051b464c227b51c6cb582ecebbb122392deb685270947e797ee348437b",
+    "source_sha256": "603b8f048e16c43d2973f4c4e509ce86e035ece4bbc64886a03388db2241e2a6",
+    "archive_member": "asml-2024-12-31-en/reports/asml-2024-12-31-en.xhtml",
+    "role": "Alternative full source extraction with block boundaries; inline spans concatenated. Original source and old extracted text retained. No semantic rewriting.",
+    "text_characters": 1550576
+  }
+}

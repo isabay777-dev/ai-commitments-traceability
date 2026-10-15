@@ -1,0 +1,28 @@
+{
+  "audit": "first_report_human_source_only_preflight_v1",
+  "passed": true,
+  "case_count": 183,
+  "country_counts": {
+    "KZ": 27,
+    "NL": 127,
+    "PL": 29
+  },
+  "cards_count": 183,
+  "sheets": {
+    "round_A_blank.csv": {
+      "rows": 183,
+      "filled_response_cells": 0
+    },
+    "round_B_blank.csv": {
+      "rows": 183,
+      "filled_response_cells": 0
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "limits": [
+    "URLs were checked for syntax and preservation in cards; remote availability was not tested.",
+    "Local source path existence was checked; report year, publication chronology, entity linkage and source adequacy remain for human review.",
+    "No human coding, model comparison, or outcome validation was performed."
+  ]
+}

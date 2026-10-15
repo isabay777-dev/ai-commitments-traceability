@@ -1,0 +1,465 @@
+[
+  {
+    "file": "PL_Bank_Millennium_2023.txt",
+    "status": "recovered",
+    "report_year": 2023,
+    "reporting_entity": "Bank Millennium S.A. and Capital Group of Bank Millennium S.A.",
+    "report_type": "Management Board Report on activity",
+    "archive_path": "sources_first_followup/raw/272336ce80737a24f4bd016f08a757e2dc32ee88370fd2a1c7e82b53fce9f9bb.zip",
+    "archive_sha256": "272336ce80737a24f4bd016f08a757e2dc32ee88370fd2a1c7e82b53fce9f9bb",
+    "archive_bytes": 9871146,
+    "archive_member_inventory": [
+      {
+        "path": "1_Management Board Report Millennium 2023_pdf.pdf",
+        "uncompressed_bytes": 3329606,
+        "crc32": "88e74374"
+      },
+      {
+        "path": "3_ESG Report ENG.pdf",
+        "uncompressed_bytes": 5043625,
+        "crc32": "ba5fa8bf"
+      },
+      {
+        "path": "4_Statement of the Supervisory Board of Bank Millennium S.A. pts 7 and 8.pdf",
+        "uncompressed_bytes": 140818,
+        "crc32": "9f1e4813"
+      },
+      {
+        "path": "5_Statement of the Supervisory Board of Bank Millennium S.A. pts 14 and 12.pdf",
+        "uncompressed_bytes": 65878,
+        "crc32": "f0a1decd"
+      },
+      {
+        "path": "2_MILLENNIUMGROUP_CFS_2023_EN_pdf.pdf",
+        "uncompressed_bytes": 2894433,
+        "crc32": "1ee94be8"
+      }
+    ],
+    "selected_member_path": "1_Management Board Report Millennium 2023_pdf.pdf",
+    "selected_member_sha256": "aebd254d25f53b8423b427920ecbc40922241b4710d127127a8052db1910ca8b",
+    "selected_member_bytes": 3329606,
+    "selected_member_crc32": "88e74374",
+    "selection_evidence": "PDF title page names the report, reporting entity, and year; management report chosen over separate consolidated financial statements and other attachments.",
+    "source_caveat": "English translation; PDF title page states that the Polish ESEF version is official.",
+    "source_policy_ambiguity": "Archive provides an English translation while naming the Polish ESEF version as official. Management reporting covers both the bank and its capital group.",
+    "extraction_method": "PyMuPDF 1.26.5: PDF opened from ZIP member bytes, page.get_text(sort=True), with page markers; no ZIP filesystem extraction",
+    "pdf_pages": 131,
+    "output_path": "sources_first_followup/text/PL_Bank_Millennium_2023.txt",
+    "output_bytes": 502639,
+    "output_sha256": "80aa868056875e6eda7dc5e5043e36f378fd5208d864b50a42e42e52af1a01f5"
+  },
+  {
+    "file": "PL_Bank_Millennium_2024.txt",
+    "status": "recovered",
+    "report_year": 2024,
+    "reporting_entity": "Bank Millennium S.A. and Capital Group of Bank Millennium S.A.",
+    "report_type": "Management Board Report on activity",
+    "archive_path": "sources_first_followup/raw/4abfae8b7a4e938c37575dfd551ea6ef5319f9d2f374275758d632cfb592899d.zip",
+    "archive_sha256": "4abfae8b7a4e938c37575dfd551ea6ef5319f9d2f374275758d632cfb592899d",
+    "archive_bytes": 7201374,
+    "archive_member_inventory": [
+      {
+        "path": "1_Management Report_Millennium_2024_pdf.pdf",
+        "uncompressed_bytes": 4751025,
+        "crc32": "98837ab4"
+      },
+      {
+        "path": "2_MILLENNIUMGROUP_CFS_2024_EN_pdf.pdf",
+        "uncompressed_bytes": 4100850,
+        "crc32": "79425ee1"
+      },
+      {
+        "path": "3_Statement of the Supervisory Board of Bank Millennium S.A. - Audit.pdf",
+        "uncompressed_bytes": 143569,
+        "crc32": "5eb31ff2"
+      },
+      {
+        "path": "4_Statement of the Supervisory Board of Bank Millennium S.A. - annual reports.pdf",
+        "uncompressed_bytes": 69161,
+        "crc32": "54dcfbbc"
+      }
+    ],
+    "selected_member_path": "1_Management Report_Millennium_2024_pdf.pdf",
+    "selected_member_sha256": "955c8b7986eec279b7f3d0810dfef1e776988f5a7d04ac3edb25054e43f2dc17",
+    "selected_member_bytes": 4751025,
+    "selected_member_crc32": "98837ab4",
+    "selection_evidence": "PDF title page names the report, reporting entity, and year; management report chosen over separate consolidated financial statements and other attachments.",
+    "source_caveat": "English translation; PDF title page states that the Polish ESEF version is official.",
+    "source_policy_ambiguity": "Archive provides an English translation while naming the Polish ESEF version as official. Management reporting covers both the bank and its capital group.",
+    "extraction_method": "PyMuPDF 1.26.5: PDF opened from ZIP member bytes, page.get_text(sort=True), with page markers; no ZIP filesystem extraction",
+    "pdf_pages": 319,
+    "output_path": "sources_first_followup/text/PL_Bank_Millennium_2024.txt",
+    "output_bytes": 1550005,
+    "output_sha256": "20da46f5d7ec48ad5ae8e8dbbcb557b75cdbb8f964540cd13cea0b23d3aaf669"
+  },
+  {
+    "file": "PL_mBank_2021.txt",
+    "status": "recovered",
+    "report_year": 2021,
+    "reporting_entity": "mBank S.A. Group (including Management Board Report on Performance of mBank S.A.)",
+    "report_type": "Management Board Report on Performance",
+    "archive_path": "sources_first_followup/raw/47959bb2492341d2740838597833d0912680ba54f059bd828ab88cf59d3a3f40.zip",
+    "archive_sha256": "47959bb2492341d2740838597833d0912680ba54f059bd828ab88cf59d3a3f40",
+    "archive_bytes": 6272580,
+    "archive_member_inventory": [
+      {
+        "path": "mBank Assessment of the Supervisory Board 2021.pdf",
+        "uncompressed_bytes": 85997,
+        "crc32": "b26f2dcd"
+      },
+      {
+        "path": "mBank Assessment of the Supervisory Board of the report 2021.pdf",
+        "uncompressed_bytes": 189683,
+        "crc32": "0edf3126"
+      },
+      {
+        "path": "mBank CEO Letter to the Shareholders 2021.pdf",
+        "uncompressed_bytes": 104836,
+        "crc32": "e4a1e0e7"
+      },
+      {
+        "path": "mBank Chairwoman Letter to the Shareholders 2021.pdf",
+        "uncompressed_bytes": 83423,
+        "crc32": "a8d4a872"
+      },
+      {
+        "path": "mBank Group Consolidated IFRS Financial Statements 2021.pdf",
+        "uncompressed_bytes": 3278326,
+        "crc32": "7089a045"
+      },
+      {
+        "path": "mBank Group Management Board Report on Performance in 2021.pdf",
+        "uncompressed_bytes": 3307526,
+        "crc32": "0bbfa371"
+      },
+      {
+        "path": "mBank Independent Auditor Report Consolidated 2021.pdf",
+        "uncompressed_bytes": 220976,
+        "crc32": "d4542587"
+      },
+      {
+        "path": "mBank Management Board information on the selection of an audit firm 2021.pdf",
+        "uncompressed_bytes": 224477,
+        "crc32": "30893167"
+      },
+      {
+        "path": "mBank Statement of the Supervisory Board on the Audit Committee 2021.pdf",
+        "uncompressed_bytes": 141423,
+        "crc32": "f2b0805d"
+      }
+    ],
+    "selected_member_path": "mBank Group Management Board Report on Performance in 2021.pdf",
+    "selected_member_sha256": "f0b2bc4ed0ad09dbcbf2d499f56452cd2217d03c477428357f8d7b2f7d15b711",
+    "selected_member_bytes": 3307526,
+    "selected_member_crc32": "0bbfa371",
+    "selection_evidence": "PDF title page names the report, reporting entity, and year; management report chosen over separate consolidated financial statements and other attachments.",
+    "source_caveat": "English translation and non-official PDF copy of the Polish ESEF management report; title page states that the Polish version prevails and this PDF copy was not subject to statutory-auditor attestation procedures.",
+    "source_policy_ambiguity": "Archive provides an English translation while naming the Polish ESEF version as official. The report explicitly combines group and bank management reporting; this one PDF is retained as published, with no merger of separate archive members.",
+    "extraction_method": "PyMuPDF 1.26.5: PDF opened from ZIP member bytes, page.get_text(sort=True), with page markers; no ZIP filesystem extraction",
+    "pdf_pages": 193,
+    "output_path": "sources_first_followup/text/PL_mBank_2021.txt",
+    "output_bytes": 809089,
+    "output_sha256": "654cab1fc7ac3a719676aeacacb29983da8f597df9fac252e22592753172d224"
+  },
+  {
+    "file": "PL_mBank_2022.txt",
+    "status": "recovered",
+    "report_year": 2022,
+    "reporting_entity": "mBank S.A. Group (including Management Board Report on Performance of mBank S.A.)",
+    "report_type": "Management Board Report on Performance",
+    "archive_path": "sources_first_followup/raw/74c52fdf81c05e10de149c9113f5b62751effdb1801aa6f16682cbf3d4c42b69.zip",
+    "archive_sha256": "74c52fdf81c05e10de149c9113f5b62751effdb1801aa6f16682cbf3d4c42b69",
+    "archive_bytes": 6247365,
+    "archive_member_inventory": [
+      {
+        "path": "mBank Assessment of the Supervisory Board 2022.pdf",
+        "uncompressed_bytes": 87401,
+        "crc32": "0e2e93c4"
+      },
+      {
+        "path": "mBank Assessment of the Supervisory Board of the report 2022.pdf",
+        "uncompressed_bytes": 188389,
+        "crc32": "9b72fb7a"
+      },
+      {
+        "path": "mBank CEO Letter to the Shareholders 2022.pdf",
+        "uncompressed_bytes": 79503,
+        "crc32": "3b7fdc53"
+      },
+      {
+        "path": "mBank Chairwoman Letter to the Shareholders 2022.pdf",
+        "uncompressed_bytes": 77975,
+        "crc32": "979b3c21"
+      },
+      {
+        "path": "mBank Group Consolidated IFRS Financial Statements 2022.pdf",
+        "uncompressed_bytes": 3454671,
+        "crc32": "50c61e9e"
+      },
+      {
+        "path": "mBank Group Management Board Report on Performance in 2022.pdf",
+        "uncompressed_bytes": 3133438,
+        "crc32": "e711dc4a"
+      },
+      {
+        "path": "mBank Independent Auditor Report Consolidated 2022.pdf",
+        "uncompressed_bytes": 309417,
+        "crc32": "c4d73858"
+      },
+      {
+        "path": "mBank Management Board information on the selection of an audit firm 2022.pdf",
+        "uncompressed_bytes": 207986,
+        "crc32": "94d9a8a4"
+      },
+      {
+        "path": "mBank Statement of the Supervisory Board on the Audit Committee 2022.pdf",
+        "uncompressed_bytes": 141425,
+        "crc32": "5a23eece"
+      }
+    ],
+    "selected_member_path": "mBank Group Management Board Report on Performance in 2022.pdf",
+    "selected_member_sha256": "8d9c3c2f2256fc6c57b56a680ff743302ac8b2a711bdf9c778d4a15fabdd640a",
+    "selected_member_bytes": 3133438,
+    "selected_member_crc32": "e711dc4a",
+    "selection_evidence": "PDF title page names the report, reporting entity, and year; management report chosen over separate consolidated financial statements and other attachments.",
+    "source_caveat": "English translation and non-official PDF copy of the Polish ESEF management report; title page states that the Polish version prevails and this PDF copy was not subject to statutory-auditor attestation procedures.",
+    "source_policy_ambiguity": "Archive provides an English translation while naming the Polish ESEF version as official. The report explicitly combines group and bank management reporting; this one PDF is retained as published, with no merger of separate archive members.",
+    "extraction_method": "PyMuPDF 1.26.5: PDF opened from ZIP member bytes, page.get_text(sort=True), with page markers; no ZIP filesystem extraction",
+    "pdf_pages": 199,
+    "output_path": "sources_first_followup/text/PL_mBank_2022.txt",
+    "output_bytes": 880359,
+    "output_sha256": "e5e3388b82aa45f1014e4a16279d7748d95c80e874c3f96daba6ea522f899d39"
+  },
+  {
+    "file": "PL_mBank_2023.txt",
+    "status": "recovered",
+    "report_year": 2023,
+    "reporting_entity": "mBank S.A. Group (including Management Board Report on Performance of mBank S.A.)",
+    "report_type": "Management Board Report on Performance",
+    "archive_path": "sources_first_followup/raw/c986ab31fb52bb545c95f6b1874cb634dca024580dadac87937e14a0df92ec70.zip",
+    "archive_sha256": "c986ab31fb52bb545c95f6b1874cb634dca024580dadac87937e14a0df92ec70",
+    "archive_bytes": 7810681,
+    "archive_member_inventory": [
+      {
+        "path": "mBank Assessment of the Supervisory Board 2023.pdf",
+        "uncompressed_bytes": 94955,
+        "crc32": "ea061675"
+      },
+      {
+        "path": "mBank Assessment of the Supervisory Board of the report 2023.pdf",
+        "uncompressed_bytes": 190730,
+        "crc32": "f6e9f92a"
+      },
+      {
+        "path": "mBank CEO Letter to the Shareholders 2023.pdf",
+        "uncompressed_bytes": 67850,
+        "crc32": "f594696a"
+      },
+      {
+        "path": "mBank Chairwoman Letter to the Shareholders 2023.pdf",
+        "uncompressed_bytes": 85708,
+        "crc32": "bbcc95b6"
+      },
+      {
+        "path": "mBank Group Consolidated IFRS Financial Statements 2023.pdf",
+        "uncompressed_bytes": 3257376,
+        "crc32": "235bd7c0"
+      },
+      {
+        "path": "mBank Independent Auditor Report Consolidated 2023.pdf",
+        "uncompressed_bytes": 285280,
+        "crc32": "38c449a1"
+      },
+      {
+        "path": "mBank Management Board information on the selection of an audit firm 2023.pdf",
+        "uncompressed_bytes": 218473,
+        "crc32": "158eb606"
+      },
+      {
+        "path": "mBank Management Board Report on Performance in 2023.pdf",
+        "uncompressed_bytes": 5263856,
+        "crc32": "7d490733"
+      },
+      {
+        "path": "mBank Statement of the Supervisory Board on the Audit Committee 2023.pdf",
+        "uncompressed_bytes": 144901,
+        "crc32": "5c6d6d73"
+      },
+      {
+        "path": "Report independent assurance non-financial statements mBank 2023.pdf",
+        "uncompressed_bytes": 209684,
+        "crc32": "a0d53cfc"
+      }
+    ],
+    "selected_member_path": "mBank Management Board Report on Performance in 2023.pdf",
+    "selected_member_sha256": "68a281b8df5125f96ec4748ec5fb8cb5612c459d3004a07eb3329010d489a221",
+    "selected_member_bytes": 5263856,
+    "selected_member_crc32": "7d490733",
+    "selection_evidence": "PDF title page names the report, reporting entity, and year; management report chosen over separate consolidated financial statements and other attachments.",
+    "source_caveat": "English translation and non-official PDF copy of the Polish ESEF management report; title page states that the Polish version prevails and this PDF copy was not subject to statutory-auditor attestation procedures.",
+    "source_policy_ambiguity": "Archive provides an English translation while naming the Polish ESEF version as official. The report explicitly combines group and bank management reporting; this one PDF is retained as published, with no merger of separate archive members.",
+    "extraction_method": "PyMuPDF 1.26.5: PDF opened from ZIP member bytes, page.get_text(sort=True), with page markers; no ZIP filesystem extraction",
+    "pdf_pages": 263,
+    "output_path": "sources_first_followup/text/PL_mBank_2023.txt",
+    "output_bytes": 1438581,
+    "output_sha256": "aedc6527aa5d4eeaed4dac8ff67ff753df627927ccedf9bbd1e0091191fb6c6e"
+  },
+  {
+    "file": "PL_mBank_2024.txt",
+    "status": "recovered",
+    "report_year": 2024,
+    "reporting_entity": "mBank S.A. Group (including Management Board Report on Performance of mBank S.A.)",
+    "report_type": "Management Board Report on Performance",
+    "archive_path": "sources_first_followup/raw/fe8e1cf2fa9f9a64d87b1c444260f1c4b1da091c188f72d1b6ccf487ff745de2.zip",
+    "archive_sha256": "fe8e1cf2fa9f9a64d87b1c444260f1c4b1da091c188f72d1b6ccf487ff745de2",
+    "archive_bytes": 12987556,
+    "archive_member_inventory": [
+      {
+        "path": "mBank Statement of the Supervisory Board on the Audit Committee 2024.pdf",
+        "uncompressed_bytes": 149210,
+        "crc32": "888109aa"
+      },
+      {
+        "path": "mBank Management Board Report on Performance in 2024.pdf",
+        "uncompressed_bytes": 11225540,
+        "crc32": "3fc45903"
+      },
+      {
+        "path": "mBank Management Board information on the selection of an audit firm 2024.pdf",
+        "uncompressed_bytes": 148345,
+        "crc32": "62dc4bb9"
+      },
+      {
+        "path": "mBank Limited Assurance Report on the Sustainability Statement 2024.pdf",
+        "uncompressed_bytes": 205120,
+        "crc32": "b54bcc2a"
+      },
+      {
+        "path": "mBank Independent Auditor Report Consolidated 2024.pdf",
+        "uncompressed_bytes": 256746,
+        "crc32": "ef1de8db"
+      },
+      {
+        "path": "mBank Group Consolidated IFRS Financial Statements 2024.pdf",
+        "uncompressed_bytes": 5149737,
+        "crc32": "e98de72b"
+      },
+      {
+        "path": "mBank Chairwoman Letter to the Shareholders 2024.pdf",
+        "uncompressed_bytes": 121843,
+        "crc32": "3d99cb63"
+      },
+      {
+        "path": "mBank CEO Letter to the Shareholders 2024.pdf",
+        "uncompressed_bytes": 72788,
+        "crc32": "4d669d95"
+      },
+      {
+        "path": "mBank Assessment of the Supervisory Board of the report 2024.pdf",
+        "uncompressed_bytes": 209267,
+        "crc32": "2f087806"
+      },
+      {
+        "path": "mBank Assessment of the Supervisory Board 2024.pdf",
+        "uncompressed_bytes": 148837,
+        "crc32": "b351788e"
+      }
+    ],
+    "selected_member_path": "mBank Management Board Report on Performance in 2024.pdf",
+    "selected_member_sha256": "b49302df5a4f0b1b7665b05cce1d749c25a0730851cb2a09701bc2243b3300be",
+    "selected_member_bytes": 11225540,
+    "selected_member_crc32": "3fc45903",
+    "selection_evidence": "PDF title page names the report, reporting entity, and year; management report chosen over separate consolidated financial statements and other attachments.",
+    "source_caveat": "English translation and non-official PDF copy of the Polish ESEF management report; title page states that the Polish version prevails and this PDF copy was not subject to statutory-auditor attestation procedures.",
+    "source_policy_ambiguity": "Archive provides an English translation while naming the Polish ESEF version as official. The report explicitly combines group and bank management reporting; this one PDF is retained as published, with no merger of separate archive members.",
+    "extraction_method": "PyMuPDF 1.26.5: PDF opened from ZIP member bytes, page.get_text(sort=True), with page markers; no ZIP filesystem extraction",
+    "pdf_pages": 364,
+    "output_path": "sources_first_followup/text/PL_mBank_2024.txt",
+    "output_bytes": 2254971,
+    "output_sha256": "f98ace810ead1096448ce53f5bfe7dd6b48c0bc5f3f56b08a92a0bfb501f0582"
+  },
+  {
+    "file": "PL_mBank_2025.txt",
+    "status": "recovered",
+    "report_year": 2025,
+    "reporting_entity": "mBank S.A. Group (including Management Board Report on Performance of mBank S.A.)",
+    "report_type": "Management Board Report on Performance",
+    "archive_path": "sources_first_followup/raw/5630a4b9862453d5a28ce44ef969e215d78b9e6114b09b56f74c06e1cfaa77ce.zip",
+    "archive_sha256": "5630a4b9862453d5a28ce44ef969e215d78b9e6114b09b56f74c06e1cfaa77ce",
+    "archive_bytes": 12925405,
+    "archive_member_inventory": [
+      {
+        "path": "Skonsolidowany EN/",
+        "uncompressed_bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "Skonsolidowany EN/Independent Auditor's Report Consolidated Financial Statements 2025.pdf",
+        "uncompressed_bytes": 284894,
+        "crc32": "002591a0"
+      },
+      {
+        "path": "Skonsolidowany EN/mBank Assessment of the Supervisory Board 2025.pdf",
+        "uncompressed_bytes": 172366,
+        "crc32": "9caf558b"
+      },
+      {
+        "path": "Skonsolidowany EN/mBank Assessment of the Supervisory Board of the report 2025.pdf",
+        "uncompressed_bytes": 151259,
+        "crc32": "ca99c862"
+      },
+      {
+        "path": "Skonsolidowany EN/mBank CEO Letter to the Shareholders 2025.pdf",
+        "uncompressed_bytes": 130508,
+        "crc32": "b3e68152"
+      },
+      {
+        "path": "Skonsolidowany EN/mBank Chairwoman Letter to the Shareholders 2025.pdf",
+        "uncompressed_bytes": 133137,
+        "crc32": "2b1c7618"
+      },
+      {
+        "path": "Skonsolidowany EN/mBank Group Consolidated IFRS Financial Statements 2025.pdf",
+        "uncompressed_bytes": 5583724,
+        "crc32": "69da6c3c"
+      },
+      {
+        "path": "Skonsolidowany EN/mBank Limited Assurance Report on the Sustainability Statement 2025.pdf",
+        "uncompressed_bytes": 206558,
+        "crc32": "f80f0523"
+      },
+      {
+        "path": "Skonsolidowany EN/mBank Management Board information on the selection of an audit firm for financial reports audit 2025.pdf",
+        "uncompressed_bytes": 96108,
+        "crc32": "a19dea39"
+      },
+      {
+        "path": "Skonsolidowany EN/mBank Management Board information on the selection of an audit firm for sustainability reporting attestation 2025.pdf",
+        "uncompressed_bytes": 95961,
+        "crc32": "bb9a471f"
+      },
+      {
+        "path": "Skonsolidowany EN/mBank Management Board Report on Performance in 2025.pdf",
+        "uncompressed_bytes": 8192302,
+        "crc32": "b9423d27"
+      },
+      {
+        "path": "Skonsolidowany EN/mBank Statement of the Supervisory Board on the Audit Committee 2025.pdf",
+        "uncompressed_bytes": 102000,
+        "crc32": "2d1ac6b4"
+      }
+    ],
+    "selected_member_path": "Skonsolidowany EN/mBank Management Board Report on Performance in 2025.pdf",
+    "selected_member_sha256": "e8d0fefafcc0fc9cc87574a6e871183c502a9d86efd0349bc6e5e6cc11f49996",
+    "selected_member_bytes": 8192302,
+    "selected_member_crc32": "b9423d27",
+    "selection_evidence": "PDF title page names the report, reporting entity, and year; management report chosen over separate consolidated financial statements and other attachments.",
+    "source_caveat": "English translation and non-official PDF copy of the Polish ESEF management report; title page states that the Polish version prevails and this PDF copy was not subject to statutory-auditor attestation procedures.",
+    "source_policy_ambiguity": "Archive provides an English translation while naming the Polish ESEF version as official. The report explicitly combines group and bank management reporting; this one PDF is retained as published, with no merger of separate archive members.",
+    "extraction_method": "PyMuPDF 1.26.5: PDF opened from ZIP member bytes, page.get_text(sort=True), with page markers; no ZIP filesystem extraction",
+    "pdf_pages": 333,
+    "output_path": "sources_first_followup/text/PL_mBank_2025.txt",
+    "output_bytes": 1527477,
+    "output_sha256": "521f63da2423d1e8638ba29f9303c2b47e3ee819bba7a6c20b2c23356609b1bf"
+  }
+]

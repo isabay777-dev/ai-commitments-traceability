@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "created_date": "2026-10-15",
+  "stage": "source_checks_only_before_independent_rounds_closed",
+  "scope": [
+    "FF0033",
+    "FF0081",
+    "FF0040"
+  ],
+  "access_statement": "Read only frozen protocol, the three source packets, source_inventory_flags and those packets original/follow-up text and raw sources. No coder rounds, crosswalk, hidden key, historical outcomes, manuscript or analysis outputs were read. No outcome assigned. No external API/model/agent called. ZIP report members were read in memory without filesystem extraction.",
+  "checks": [
+    {
+      "case_id": "FF0033",
+      "check_type": "reporting_period",
+      "status": "resolved_period_confirmed",
+      "packet_commitment_year": 2021,
+      "packet_followup_year": 2022,
+      "verified_original_period": {
+        "start": "2021-01-01",
+        "end": "2021-12-31"
+      },
+      "verified_followup_period": {
+        "start": "2022-01-01",
+        "end": "2022-12-31"
+      },
+      "source_year_conclusion": "The cover footer saying 2019 is inconsistent with the principal cover title, repeated annual-report headings, financial-statement headings and CYTD XBRL contexts. Both original 2021 and selected 2022 sources have the same stale 2019 footer; the selected report is substantively the 2022 annual report.",
+      "source_evidence": [
+        {
+          "source_role": "original_source",
+          "path": "sources_first_followup/text/NL_213800ED5AN2J56N6Z02_2021__blocks.txt",
+          "line_start": 3,
+          "line_end": 19,
+          "quote_exact": "Campari Group-Annual report at 31 December 2019\n\n1\n\nCAMPARI GROUP\n\nANNUAL REPORT FOR THE YEAR ENDED\n\n31 DECEMBER 2021\n\nCampari Group-Annual report at 31 December 2019\n\n1\n\nIntentionally blank page\n\nCampari Group-Annual report for the year ended 31 December 2021",
+          "quote_whitespace_normalized": "Campari Group-Annual report at 31 December 2019 1 CAMPARI GROUP ANNUAL REPORT FOR THE YEAR ENDED 31 DECEMBER 2021 Campari Group-Annual report at 31 December 2019 1 Intentionally blank page Campari Group-Annual report for the year ended 31 December 2021"
+        },
+        {
+          "source_role": "original_source",
+          "path": "sources_first_followup/raw/f6d250bd433685e43118414a73746935eff6af8286a87bedc1dd112cd7a470c1.html",
+          "archive_member": null,
+          "locator": "xbrli:context[@id=\"CYTD\"]",
+          "raw_character_start_0_based": 674483,
+          "quote_exact": "<xbrli:context id=\"CYTD\"><xbrli:entity><xbrli:identifier scheme=\"http://standards.iso.org/iso/17442\">213800ED5AN2J56N6Z02</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2021-01-01</xbrli:startDate><xbrli:endDate>2021-12-31</xbrli:endDate></xbrli:period></xbrli:context>"
+        },
+        {
+          "source_role": "followup_source",
+          "path": "sources_first_followup/text/NL_213800ED5AN2J56N6Z02_2022__blocks.txt",
+          "line_start": 3,
+          "line_end": 19,
+          "quote_exact": "Campari Group-Annual report at 31 December 2019\n\n1\n\nCAMPARI GROUP\n\nANNUAL REPORT FOR THE YEAR ENDED\n\n31 DECEMBER 2022\n\nCampari Group-Annual report at 31 December 2019\n\n1\n\nIntentionally blank page\n\nCampari Group-Annual report for the year ended 31 December 2022",
+          "quote_whitespace_normalized": "Campari Group-Annual report at 31 December 2019 1 CAMPARI GROUP ANNUAL REPORT FOR THE YEAR ENDED 31 DECEMBER 2022 Campari Group-Annual report at 31 December 2019 1 Intentionally blank page Campari Group-Annual report for the year ended 31 December 2022"
+        },
+        {
+          "source_role": "followup_source",
+          "path": "sources_first_followup/text/NL_213800ED5AN2J56N6Z02_2022__blocks.txt",
+          "line_start": 19339,
+          "line_end": 19345,
+          "quote_exact": "Campari Group-Consolidated financial statements at 31 December 2022\n.........................................................\n149\n\nConsolidated primary statements\n.......................................................................................................................\n151",
+          "quote_whitespace_normalized": "Campari Group-Consolidated financial statements at 31 December 2022 ......................................................... 149 Consolidated primary statements ....................................................................................................................... 151"
+        },
+        {
+          "source_role": "followup_source",
+          "path": "sources_first_followup/raw/da5411e925e32e366ea0063a5f17ea11219b0db9e110341611b70d39256af558.html",
+          "archive_member": null,
+          "locator": "xbrli:context[@id=\"CYTD\"]",
+          "raw_character_start_0_based": 677176,
+          "quote_exact": "<xbrli:context id=\"CYTD\"><xbrli:entity><xbrli:identifier scheme=\"http://standards.iso.org/iso/17442\">213800ED5AN2J56N6Z02</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2022-01-01</xbrli:startDate><xbrli:endDate>2022-12-31</xbrli:endDate></xbrli:period></xbrli:context>"
+        },
+        {
+          "source_role": "original_source",
+          "path": "sources_first_followup/text/NL_213800ED5AN2J56N6Z02_2021__blocks.txt",
+          "line_start": 9004,
+          "line_end": 9072,
+          "quote_exact": "During\n\n2021\n\nCampari\n\nGroup\n\nhas\n\nstarted\n\nto\n\ndeploy\n\nan\n\nupgrade\n\nof\n\nthe\n\nGroup’s\n\nIT \ninfrastructure\n\nto\n\nSAP\n\nS/4HANA,\n\na\n\ncomplete\n\nenterprise\n\nresource\n\nplanning\n\n(ERP)\n\nsystem\n\nwith\n\nbuilt-in\n\nintelligent \ntechnologies,\n\nincluding\n\nAI,\n\nmachine\n\nlearning,\n\nand\n\nadvanced\n\nanalytics.",
+          "quote_whitespace_normalized": "During 2021 Campari Group has started to deploy an upgrade of the Group’s IT infrastructure to SAP S/4HANA, a complete enterprise resource planning (ERP) system with built-in intelligent technologies, including AI, machine learning, and advanced analytics."
+        },
+        {
+          "source_role": "followup_source",
+          "path": "sources_first_followup/text/NL_213800ED5AN2J56N6Z02_2022__blocks.txt",
+          "line_start": 7707,
+          "line_end": 7748,
+          "quote_exact": "During\n\nMay\n\n2022,\n\nSAP\n\nS/4HANA,\n\nthe\n\nlatest\n\nSAP\n\ntechnology,\n\nwas\n\nsuccessfully\n\nimplemented\n\ninto\n\nthe\n\nCampari \nGroup\n\nIT\n\ninfrastructure\n\nto\n\nsupport\n\nbusiness\n\nprocesses.",
+          "quote_whitespace_normalized": "During May 2022, SAP S/4HANA, the latest SAP technology, was successfully implemented into the Campari Group IT infrastructure to support business processes."
+        }
+      ],
+      "unknowns": [
+        "Publication dates were not established by this limited source check.",
+        "Outcome, operating AI function and scope remain for the post-round adjudication."
+      ],
+      "selected_report_replaced": false,
+      "outcome": null,
+      "sources": {
+        "original_source": {
+          "url": "https://filings.xbrl.org/213800ED5AN2J56N6Z02/2021-12-31/ESEF/NL/0/davidecamparimilano/reports/davidecamparimilano-2021-12-31.xhtml",
+          "raw_path": "sources_first_followup/raw/f6d250bd433685e43118414a73746935eff6af8286a87bedc1dd112cd7a470c1.html",
+          "archive_member_path": null,
+          "source_sha256": "f6d250bd433685e43118414a73746935eff6af8286a87bedc1dd112cd7a470c1",
+          "text_path": "sources_first_followup/text/NL_213800ED5AN2J56N6Z02_2021.txt",
+          "raw_hash_verified": true
+        },
+        "followup_source": {
+          "url": "https://filings.xbrl.org/213800ED5AN2J56N6Z02/2022-12-31/ESEF/NL/0/davidecamparimilano/reports/davidecamparimilano-2022-12-31.xhtml",
+          "raw_path": "sources_first_followup/raw/da5411e925e32e366ea0063a5f17ea11219b0db9e110341611b70d39256af558.html",
+          "archive_member_path": null,
+          "source_sha256": "da5411e925e32e366ea0063a5f17ea11219b0db9e110341611b70d39256af558",
+          "text_path": "sources_first_followup/text/NL_213800ED5AN2J56N6Z02_2022.txt",
+          "raw_hash_verified": true
+        }
+      }
+    },
+    {
+      "case_id": "FF0081",
+      "check_type": "reporting_period",
+      "status": "unresolved_selected_period_content_mismatch",
+      "packet_commitment_year": 2021,
+      "packet_followup_year": 2022,
+      "verified_original_period": {
+        "start": "2021-01-01",
+        "end": "2021-12-31"
+      },
+      "visible_followup_narrative_year": 2023,
+      "visible_followup_financial_statement_end": "2023-12-31",
+      "embedded_followup_xbrl_period": {
+        "start": "2022-01-01",
+        "end": "2022-12-31"
+      },
+      "verified_selected_followup_period": null,
+      "source_year_conclusion": "The exact report member frozen in the 2022 ESEF revision-1 package visibly contains the DGB 2023 annual report, 2023 financial statements and a Board declaration dated 29 February 2024. Its embedded XBRL entity contexts still encode 2022 and the archive/report basename says 2022. Thus this is a genuine within-file narrative/tagging mismatch, not merely a cover typo or extraction-spacing defect. The selected 2022-period source cannot be established as readable 2022 narrative evidence from these bytes. Keep primary assessment unresolved; do not recode the selected year to 2023 or use this later narrative as 2022 follow-up.",
+      "source_evidence": [
+        {
+          "source_role": "original_source",
+          "path": "sources_first_followup/text/NL_724500DP8SZN3NBQKC44_2021__blocks.txt",
+          "line_start": 1,
+          "line_end": 7,
+          "quote_exact": "\n\n1\n\nDutch Green Business\n\n2021 Annual report",
+          "quote_whitespace_normalized": "1 Dutch Green Business 2021 Annual report"
+        },
+        {
+          "source_role": "original_source",
+          "path": "sources_first_followup/raw/5748308a3e9abb5cae70f55c729f9bd48ede50b77757083de3e196817e5a1bfd.zip",
+          "archive_member": "724500DP8SZN3NBQKC44-2021-12-31-en/reports/724500DP8SZN3NBQKC44-2021-12-31-en.xhtml",
+          "locator": "xbrli:context[@id=\"ctx-3\"]",
+          "raw_character_start_0_based": 84096834,
+          "quote_exact": "<xbrli:context id=\"ctx-3\"><xbrli:entity><xbrli:identifier scheme=\"http://standards.iso.org/iso/17442\">724500DP8SZN3NBQKC44</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2021-01-01</xbrli:startDate><xbrli:endDate>2021-12-31</xbrli:endDate></xbrli:period></xbrli:context>"
+        },
+        {
+          "source_role": "followup_source",
+          "path": "sources_first_followup/text/NL_724500DP8SZN3NBQKC44_2022__blocks.txt",
+          "line_start": 1,
+          "line_end": 5,
+          "quote_exact": "\n\nDGB Group\n\nANNUAL REPORT 2023",
+          "quote_whitespace_normalized": "DGB Group ANNUAL REPORT 2023"
+        },
+        {
+          "source_role": "followup_source",
+          "path": "sources_first_followup/text/NL_724500DP8SZN3NBQKC44_2022__blocks.txt",
+          "line_start": 4019,
+          "line_end": 4037,
+          "quote_exact": "However, the risk management and internal control systems cannot guarantee that missing \n\nobjectives, misstatements, fraud, or non-compliance with laws and regulations will not occur.\n\nIn accordance with Article 5:25c of the Financial Supervision Act, the Board of Directors conrms that \n\nto the best of its knowledge and belief:\n\n•  The nancial statements of 2023 give a true and fair view of the assets, liabilities, nancial position \n\nand prot or loss of DGB; and\n\n•  The Annual Report 2023 gives a true and fair view of the position as at December 31, 2023, the \n\ndevelopment and performance during 2023 of DGB, together with a description of the principal \n\nrisks that DGB faces.\n\nLelystad, the Netherlands, February 29, 2024,",
+          "quote_whitespace_normalized": "However, the risk management and internal control systems cannot guarantee that missing objectives, misstatements, fraud, or non-compliance with laws and regulations will not occur. In accordance with Article 5:25c of the Financial Supervision Act, the Board of Directors conrms that to the best of its knowledge and belief: • The nancial statements of 2023 give a true and fair view of the assets, liabilities, nancial position and prot or loss of DGB; and • The Annual Report 2023 gives a true and fair view of the position as at December 31, 2023, the development and performance during 2023 of DGB, together with a description of the principal risks that DGB faces. Lelystad, the Netherlands, February 29, 2024,"
+        },
+        {
+          "source_role": "followup_source",
+          "path": "sources_first_followup/text/NL_724500DP8SZN3NBQKC44_2022__blocks.txt",
+          "line_start": 7443,
+          "line_end": 7457,
+          "quote_exact": "FINANCIAL STATEMENTS - COMPANY ONLY \n\nCompany-only financial statements as at 31 December 2023 \n\nStatement of financial position (before Appropriation of Result) \n\nAssets\n\nProperty, plant and equipment 31 111 238\n\nIntangible assets and goodwill 32 52 96\n\nEquity accounted investees 33 261 497\n\nNon-current assets 424 831",
+          "quote_whitespace_normalized": "FINANCIAL STATEMENTS - COMPANY ONLY Company-only financial statements as at 31 December 2023 Statement of financial position (before Appropriation of Result) Assets Property, plant and equipment 31 111 238 Intangible assets and goodwill 32 52 96 Equity accounted investees 33 261 497 Non-current assets 424 831"
+        },
+        {
+          "source_role": "followup_source",
+          "path": "sources_first_followup/text/NL_724500DP8SZN3NBQKC44_2022__blocks.txt",
+          "line_start": 7549,
+          "line_end": 7557,
+          "quote_exact": "Profit from continuing operations (2,224) (1,051)\n\nFor the year ended 31 December 2023 \n\n130\n\nFINANCIAL STATEMENTS - COMPANY ONLY \n\n131",
+          "quote_whitespace_normalized": "Profit from continuing operations (2,224) (1,051) For the year ended 31 December 2023 130 FINANCIAL STATEMENTS - COMPANY ONLY 131"
+        },
+        {
+          "source_role": "followup_source",
+          "path": "sources_first_followup/raw/ad365098eb4d780e59c75a9aa06040a852129bce138d6a35c5d44541de6520a3.zip",
+          "archive_member": "724500DP8SZN3NBQKC44-2022-12-31-en/reports/724500DP8SZN3NBQKC44-2022-12-31-en.xhtml",
+          "locator": "xbrli:context[@id=\"ctx-3\"]",
+          "raw_character_start_0_based": 146677181,
+          "quote_exact": "<xbrli:context id=\"ctx-3\"><xbrli:entity><xbrli:identifier scheme=\"http://standards.iso.org/iso/17442\">724500DP8SZN3NBQKC44</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2022-01-01</xbrli:startDate><xbrli:endDate>2022-12-31</xbrli:endDate></xbrli:period></xbrli:context>"
+        },
+        {
+          "source_role": "followup_source",
+          "path": "sources_first_followup/raw/ad365098eb4d780e59c75a9aa06040a852129bce138d6a35c5d44541de6520a3.zip",
+          "archive_member": "724500DP8SZN3NBQKC44-2022-12-31-en/reports/724500DP8SZN3NBQKC44-2022-12-31-en.xhtml",
+          "locator": "xbrli:context[@id=\"ctx-1\"]",
+          "raw_character_start_0_based": 146676697,
+          "quote_exact": "<xbrli:context id=\"ctx-1\"><xbrli:entity><xbrli:identifier scheme=\"http://standards.iso.org/iso/17442\">724500DP8SZN3NBQKC44</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:instant>2022-12-31</xbrli:instant></xbrli:period></xbrli:context>"
+        },
+        {
+          "source_role": "original_source",
+          "path": "sources_first_followup/text/NL_724500DP8SZN3NBQKC44_2021__blocks.txt",
+          "line_start": 1059,
+          "line_end": 1075,
+          "quote_exact": "ecosystem restoration. \n\nStatix has operations in The Netherlands and India and will operate \n\nunder the DGB Group umbrella of companies. It will focus on building the \n\nmost advanced, powerful technological tools for ecosystem restoration \n\nand smart reforestation by using advanced data science, blockchain, \n\nmachine learning, satellite imagery and drone technology to assist in the \n\nrehabilitation of land and restore biodiverse ecosystems at scale. \n\nThis acquisition is a key part of DGB’s strategy to oer world-leading \n\nverication, certication and trading of carbon osets – alongside an ability ",
+          "quote_whitespace_normalized": "ecosystem restoration. Statix has operations in The Netherlands and India and will operate under the DGB Group umbrella of companies. It will focus on building the most advanced, powerful technological tools for ecosystem restoration and smart reforestation by using advanced data science, blockchain, machine learning, satellite imagery and drone technology to assist in the rehabilitation of land and restore biodiverse ecosystems at scale. This acquisition is a key part of DGB’s strategy to oer world-leading verication, certication and trading of carbon osets – alongside an ability"
+        }
+      ],
+      "unknowns": [
+        "Whether a correct 2022 narrative is available elsewhere is outside this check; no other package or later report was substituted.",
+        "The reason for the narrative/XBRL discrepancy is not established.",
+        "The dated Board declaration is not independently established as the publication date.",
+        "Outcome remains missing while selected-period source ambiguity is unresolved."
+      ],
+      "selected_report_replaced": false,
+      "outcome": null,
+      "sources": {
+        "original_source": {
+          "url": "https://filings.xbrl.org/724500DP8SZN3NBQKC44/2021-12-31/ESEF/NL/0/724500DP8SZN3NBQKC44-2021-12-31-en.zip",
+          "raw_path": "sources_first_followup/raw/5748308a3e9abb5cae70f55c729f9bd48ede50b77757083de3e196817e5a1bfd.zip",
+          "archive_member_path": "724500DP8SZN3NBQKC44-2021-12-31-en/reports/724500DP8SZN3NBQKC44-2021-12-31-en.xhtml",
+          "source_sha256": "5748308a3e9abb5cae70f55c729f9bd48ede50b77757083de3e196817e5a1bfd",
+          "text_path": "sources_first_followup/text/NL_724500DP8SZN3NBQKC44_2021.txt",
+          "raw_hash_verified": true
+        },
+        "followup_source": {
+          "url": "https://filings.xbrl.org/724500DP8SZN3NBQKC44/2022-12-31/ESEF/NL/1/724500DP8SZN3NBQKC44-2022-12-31-en.zip",
+          "raw_path": "sources_first_followup/raw/ad365098eb4d780e59c75a9aa06040a852129bce138d6a35c5d44541de6520a3.zip",
+          "archive_member_path": "724500DP8SZN3NBQKC44-2022-12-31-en/reports/724500DP8SZN3NBQKC44-2022-12-31-en.xhtml",
+          "source_sha256": "ad365098eb4d780e59c75a9aa06040a852129bce138d6a35c5d44541de6520a3",
+          "text_path": "sources_first_followup/text/NL_724500DP8SZN3NBQKC44_2022.txt",
+          "raw_hash_verified": true
+        }
+      }
+    },
+    {
+      "case_id": "FF0040",
+      "check_type": "column_order",
+      "status": "resolved_local_column_reconstruction",
+      "packet_commitment_year": 2022,
+      "packet_followup_year": 2023,
+      "source_year_conclusion": "2022 original and 2023 follow-up periods are supported by XBRL period contexts and financial-statement headings in source. This check addresses mixed reading order in the selected 2023 HTML.",
+      "column_conclusion": "Both extracted text versions retain physical-row interleaving across columns/spread pages. The block-aware extraction fixes inline-word spacing but not column order. CSS coordinates establish separate column continuations. On printed page 59 the AI sentence is an industry/competitive-risk statement ending that online networks such as ad pepper may in future lose further relevance or their business basis. Interleaved fraud, ESG and personnel lines must not be attached to it. On printed page 46, the Webgains paragraph is separate from the neighbouring iLead/ad pepper paragraph. Its claim about the optimum blend of human and artificial intelligence is already present on original-report printed page 46; its coexistence with Affiliate Discovery and The Tag does not itself explicitly identify those named tools as AI functions.",
+      "source_evidence": [
+        {
+          "source_role": "original_source",
+          "path": "sources_first_followup/raw/8731e6f2dc15f125ddd01f196b29a438d8764ace9f84de474a8df4c8ec34cd10.html",
+          "archive_member": null,
+          "locator": "xbrli:context[@id=\"D-2022\"]",
+          "raw_character_start_0_based": 632589,
+          "quote_exact": "<xbrli:context id=\"D-2022\">\n      <xbrli:entity>\n         <xbrli:identifier scheme=\"http://standards.iso.org/iso/17442\">52990050T51W55KK4X45</xbrli:identifier>\n      </xbrli:entity>\n      <xbrli:period>\n         <xbrli:startDate>2022-01-01</xbrli:startDate>\n         <xbrli:endDate>2022-12-31</xbrli:endDate>\n      </xbrli:period>\n   </xbrli:context>"
+        },
+        {
+          "source_role": "followup_source",
+          "path": "sources_first_followup/raw/6f304437e88075936788750aa9c4ed0fb20ea36adac756d5a2ca26d15b1e0257.html",
+          "archive_member": null,
+          "locator": "xbrli:context[@id=\"D-2023\"]",
+          "raw_character_start_0_based": 654134,
+          "quote_exact": "<xbrli:context id=\"D-2023\">\n      <xbrli:entity>\n         <xbrli:identifier scheme=\"http://standards.iso.org/iso/17442\">52990050T51W55KK4X45</xbrli:identifier>\n      </xbrli:entity>\n      <xbrli:period>\n         <xbrli:startDate>2023-01-01</xbrli:startDate>\n         <xbrli:endDate>2023-12-31</xbrli:endDate>\n      </xbrli:period>\n   </xbrli:context>"
+        },
+        {
+          "source_role": "original_source",
+          "path": "sources_first_followup/text/NL_52990050T51W55KK4X45_2022__blocks.txt",
+          "line_start": 5875,
+          "line_end": 5887,
+          "quote_exact": "For our organic growth  \n\nstrategy, no additional ﬁnancing is needed given the strong balance  \n\nsheet. We will continue to hire new staff, invest in new products and  \n\ntechnology (especially in connection with our AI strategy), services and  \n\nmarkets. We will concentrate on lucrative customer groups, as well as  \n\non broadening and diversifying these customer groups, which was key  \n\nalso in the past ﬁnancial year.",
+          "quote_whitespace_normalized": "For our organic growth strategy, no additional ﬁnancing is needed given the strong balance sheet. We will continue to hire new staff, invest in new products and technology (especially in connection with our AI strategy), services and markets. We will concentrate on lucrative customer groups, as well as on broadening and diversifying these customer groups, which was key also in the past ﬁnancial year."
+        }
+      ],
+      "column_evidence": [
+        {
+          "source_role": "followup_source",
+          "path": "sources_first_followup/raw/6f304437e88075936788750aa9c4ed0fb20ea36adac756d5a2ca26d15b1e0257.html",
+          "printed_page": 59,
+          "section": "Risk report",
+          "method": "Read static HTML and embedded CSS only; join direct div children within the same left-position band in ascending top-position order. No execution or network.",
+          "fragments": [
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_985"
+              ],
+              "left_em": 4.7244,
+              "top_em": 9.2183,
+              "quote_exact": "\nIt is also possible that the trend towards marketing online advertising  \n",
+              "quote_whitespace_normalized": "It is also possible that the trend towards marketing online advertising"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_2068"
+              ],
+              "left_em": 4.7244,
+              "top_em": 10.335,
+              "quote_exact": "\nspace via automated so-called ad exchanges will intensify further.  \n",
+              "quote_whitespace_normalized": "space via automated so-called ad exchanges will intensify further."
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_364"
+              ],
+              "left_em": 4.7244,
+              "top_em": 11.4518,
+              "quote_exact": "\nBy establishing and optimising artiﬁcial intelligence (AI) solution in  \n",
+              "quote_whitespace_normalized": "By establishing and optimising artiﬁcial intelligence (AI) solution in"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_366"
+              ],
+              "left_em": 4.7244,
+              "top_em": 12.5685,
+              "quote_exact": "\ncombination with demand- side platforms (DSPs) and/or supply-side  \n",
+              "quote_whitespace_normalized": "combination with demand- side platforms (DSPs) and/or supply-side"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_2075"
+              ],
+              "left_em": 4.7252,
+              "top_em": 13.6853,
+              "quote_exact": "\nplatforms (SSPs), online networks such as the ad pepper Group may  \n",
+              "quote_whitespace_normalized": "platforms (SSPs), online networks such as the ad pepper Group may"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_2078"
+              ],
+              "left_em": 4.7252,
+              "top_em": 14.802,
+              "quote_exact": "\nin future lose further relevance or even lose the basis of their business  \n",
+              "quote_whitespace_normalized": "in future lose further relevance or even lose the basis of their business"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_2081"
+              ],
+              "left_em": 4.7252,
+              "top_em": 15.9188,
+              "quote_exact": "\noperations. We may also encounter problems which delay or prevent  \n",
+              "quote_whitespace_normalized": "operations. We may also encounter problems which delay or prevent"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_2083"
+              ],
+              "left_em": 4.7252,
+              "top_em": 17.0355,
+              "quote_exact": "\nthe successful design, development, introduction, or marketing of  \n",
+              "quote_whitespace_normalized": "the successful design, development, introduction, or marketing of"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_2085"
+              ],
+              "left_em": 4.7252,
+              "top_em": 18.1523,
+              "quote_exact": "\nnew solutions. Any solutions or improvements newly developed by  \n",
+              "quote_whitespace_normalized": "new solutions. Any solutions or improvements newly developed by"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_2088"
+              ],
+              "left_em": 4.7252,
+              "top_em": 19.269,
+              "quote_exact": "\nus will have to fulﬁl the requirements of our present customers and  \n",
+              "quote_whitespace_normalized": "us will have to fulﬁl the requirements of our present customers and"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_2090"
+              ],
+              "left_em": 4.7252,
+              "top_em": 20.3858,
+              "quote_exact": "\nprospective clients, and there is a risk that these will not meet with  \n",
+              "quote_whitespace_normalized": "prospective clients, and there is a risk that these will not meet with"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_2092"
+              ],
+              "left_em": 4.7252,
+              "top_em": 21.5025,
+              "quote_exact": "\nthe desired acceptance on the market. If we fail to keep pace with  \n",
+              "quote_whitespace_normalized": "the desired acceptance on the market. If we fail to keep pace with"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_2095"
+              ],
+              "left_em": 4.7252,
+              "top_em": 22.6193,
+              "quote_exact": "\ntechnological developments and the launch of new industry standards  \n",
+              "quote_whitespace_normalized": "technological developments and the launch of new industry standards"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_2097"
+              ],
+              "left_em": 4.7252,
+              "top_em": 23.736,
+              "quote_exact": "\nat a reasonable cost, there is a risk that our expenditure will increase  \n",
+              "quote_whitespace_normalized": "at a reasonable cost, there is a risk that our expenditure will increase"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_2100"
+              ],
+              "left_em": 4.7252,
+              "top_em": 24.8528,
+              "quote_exact": "\nand that we will lose customers and advertising space.  \n",
+              "quote_whitespace_normalized": "and that we will lose customers and advertising space."
+            }
+          ],
+          "reconstructed_quote": "It is also possible that the trend towards marketing online advertising space via automated so-called ad exchanges will intensify further. By establishing and optimising artiﬁcial intelligence (AI) solution in combination with demand- side platforms (DSPs) and/or supply-side platforms (SSPs), online networks such as the ad pepper Group may in future lose further relevance or even lose the basis of their business operations. We may also encounter problems which delay or prevent the successful design, development, introduction, or marketing of new solutions. Any solutions or improvements newly developed by us will have to fulﬁl the requirements of our present customers and prospective clients, and there is a risk that these will not meet with the desired acceptance on the market. If we fail to keep pace with technological developments and the launch of new industry standards at a reasonable cost, there is a risk that our expenditure will increase and that we will lose customers and advertising space."
+        },
+        {
+          "source_role": "followup_source",
+          "path": "sources_first_followup/raw/6f304437e88075936788750aa9c4ed0fb20ea36adac756d5a2ca26d15b1e0257.html",
+          "printed_page": 46,
+          "section": "Business activity / Webgains",
+          "method": "Read static HTML and embedded CSS only; join direct div children within the same left-position band in ascending top-position order. No execution or network.",
+          "fragments": [
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_1616"
+              ],
+              "left_em": 75.2362,
+              "top_em": 9.2196,
+              "quote_exact": "\nFurthermore, Webgains has recently launched the Afﬁliate Discovery  \n",
+              "quote_whitespace_normalized": "Furthermore, Webgains has recently launched the Afﬁliate Discovery"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_1618"
+              ],
+              "left_em": 75.2362,
+              "top_em": 10.3363,
+              "quote_exact": "\nproduct to create smarter connections, as well as The Tag for seamless  \n",
+              "quote_whitespace_normalized": "product to create smarter connections, as well as The Tag for seamless"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_1620"
+              ],
+              "left_em": 75.2362,
+              "top_em": 11.4531,
+              "quote_exact": "\nintegration of technology partners.  \n",
+              "quote_whitespace_normalized": "integration of technology partners."
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_1623"
+              ],
+              "left_em": 75.2362,
+              "top_em": 13.6866,
+              "quote_exact": "\nThe current strategy focuses on a service-oriented and performance-  \n",
+              "quote_whitespace_normalized": "The current strategy focuses on a service-oriented and performance-"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_1625"
+              ],
+              "left_em": 75.2362,
+              "top_em": 14.8033,
+              "quote_exact": "\ndifferentiated approach. By investing in talent and technology,  \n",
+              "quote_whitespace_normalized": "differentiated approach. By investing in talent and technology,"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_1629"
+              ],
+              "left_em": 75.2362,
+              "top_em": 15.9201,
+              "quote_exact": "\nWebgains has created the optimum blend of human and artiﬁcial  \n",
+              "quote_whitespace_normalized": "Webgains has created the optimum blend of human and artiﬁcial"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_1631"
+              ],
+              "left_em": 75.2362,
+              "top_em": 17.0368,
+              "quote_exact": "\nintelligence. High-tech advances make it easy to quickly roll out  \n",
+              "quote_whitespace_normalized": "intelligence. High-tech advances make it easy to quickly roll out"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_1633"
+              ],
+              "left_em": 75.2362,
+              "top_em": 18.1536,
+              "quote_exact": "\nscalable, international campaigns. Meanwhile, customers can count on  \n",
+              "quote_whitespace_normalized": "scalable, international campaigns. Meanwhile, customers can count on"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_1636"
+              ],
+              "left_em": 75.2362,
+              "top_em": 19.2703,
+              "quote_exact": "\noutstanding data security at all times and beneﬁt from near real-time  \n",
+              "quote_whitespace_normalized": "outstanding data security at all times and beneﬁt from near real-time"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_1637"
+              ],
+              "left_em": 75.2362,
+              "top_em": 20.3871,
+              "quote_exact": "\nperformance reporting.  \n",
+              "quote_whitespace_normalized": "performance reporting."
+            }
+          ],
+          "reconstructed_quote": "Furthermore, Webgains has recently launched the Afﬁliate Discovery product to create smarter connections, as well as The Tag for seamless integration of technology partners. The current strategy focuses on a service-oriented and performance- differentiated approach. By investing in talent and technology, Webgains has created the optimum blend of human and artiﬁcial intelligence. High-tech advances make it easy to quickly roll out scalable, international campaigns. Meanwhile, customers can count on outstanding data security at all times and beneﬁt from near real-time performance reporting."
+        },
+        {
+          "source_role": "original_source",
+          "path": "sources_first_followup/raw/8731e6f2dc15f125ddd01f196b29a438d8764ace9f84de474a8df4c8ec34cd10.html",
+          "printed_page": 46,
+          "section": "Business activity / Webgains",
+          "method": "Read static HTML and embedded CSS only; join direct div children within the same left-position band in ascending top-position order. No execution or network.",
+          "fragments": [
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_1337"
+              ],
+              "left_em": 25.6296,
+              "top_em": 9.2658,
+              "quote_exact": "\nThe current strategy focuses on a service-oriented and performance-  \n",
+              "quote_whitespace_normalized": "The current strategy focuses on a service-oriented and performance-"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_1338"
+              ],
+              "left_em": 25.6296,
+              "top_em": 10.3825,
+              "quote_exact": "\ndifferentiated approach. By investing in talent and technology,  \n",
+              "quote_whitespace_normalized": "differentiated approach. By investing in talent and technology,"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_1341"
+              ],
+              "left_em": 25.6296,
+              "top_em": 11.4995,
+              "quote_exact": "\nWebgains has created the optimum blend of human and artiﬁcial  \n",
+              "quote_whitespace_normalized": "Webgains has created the optimum blend of human and artiﬁcial"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_1342"
+              ],
+              "left_em": 25.6296,
+              "top_em": 12.6162,
+              "quote_exact": "\nintelligence. High-tech advances make it easy to quickly roll out  \n",
+              "quote_whitespace_normalized": "intelligence. High-tech advances make it easy to quickly roll out"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_1343"
+              ],
+              "left_em": 25.6296,
+              "top_em": 13.7329,
+              "quote_exact": "\nscalable, international campaigns. Meanwhile, customers can count on  \n",
+              "quote_whitespace_normalized": "scalable, international campaigns. Meanwhile, customers can count on"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_1344"
+              ],
+              "left_em": 25.6296,
+              "top_em": 14.8496,
+              "quote_exact": "\noutstanding data security at all times and beneﬁt from near real-time  \n",
+              "quote_whitespace_normalized": "outstanding data security at all times and beneﬁt from near real-time"
+            },
+            {
+              "css_classes": [
+                "stl_01",
+                "fs_1345"
+              ],
+              "left_em": 25.6296,
+              "top_em": 15.9663,
+              "quote_exact": "\nperformance reporting.  \n",
+              "quote_whitespace_normalized": "performance reporting."
+            }
+          ],
+          "reconstructed_quote": "The current strategy focuses on a service-oriented and performance- differentiated approach. By investing in talent and technology, Webgains has created the optimum blend of human and artiﬁcial intelligence. High-tech advances make it easy to quickly roll out scalable, international campaigns. Meanwhile, customers can count on outstanding data security at all times and beneﬁt from near real-time performance reporting."
+        }
+      ],
+      "unknowns": [
+        "Only the identified passages were geometrically reconstructed; this is not a full-report reading-order repair.",
+        "Outcome and adequacy of named operating AI-function linkage are reserved for post-round adjudication."
+      ],
+      "selected_report_replaced": false,
+      "outcome": null,
+      "sources": {
+        "original_source": {
+          "url": "https://filings.xbrl.org/52990050T51W55KK4X45/2022-12-31/ESEF/NL/0/adpepper/reports/52990050T51W55KK4X45-2022-12-31-en.xhtml",
+          "raw_path": "sources_first_followup/raw/8731e6f2dc15f125ddd01f196b29a438d8764ace9f84de474a8df4c8ec34cd10.html",
+          "archive_member_path": null,
+          "source_sha256": "8731e6f2dc15f125ddd01f196b29a438d8764ace9f84de474a8df4c8ec34cd10",
+          "text_path": "sources_first_followup/text/NL_52990050T51W55KK4X45_2022.txt",
+          "raw_hash_verified": true
+        },
+        "followup_source": {
+          "url": "https://filings.xbrl.org/52990050T51W55KK4X45/2023-12-31/ESEF/NL/0/52990050T51W55KK4X45-2023-12-31-en/reports/52990050T51W55KK4X45-2023-12-31-en.xhtml",
+          "raw_path": "sources_first_followup/raw/6f304437e88075936788750aa9c4ed0fb20ea36adac756d5a2ca26d15b1e0257.html",
+          "archive_member_path": null,
+          "source_sha256": "6f304437e88075936788750aa9c4ed0fb20ea36adac756d5a2ca26d15b1e0257",
+          "text_path": "sources_first_followup/text/NL_52990050T51W55KK4X45_2023.txt",
+          "raw_hash_verified": true
+        }
+      }
+    }
+  ]
+}
